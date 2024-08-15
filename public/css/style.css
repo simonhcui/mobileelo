@@ -2,12 +2,21 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
   background-color: #333;
   color: white;
   padding: 10px;
+  box-sizing: border-box;
+  z-index: 1000;
 }
 
 .hamburger {
@@ -38,6 +47,9 @@ header {
 }
 
 main {
+  padding-top: 60px; /* Adjust this value based on your header height */
+  box-sizing: border-box;
+  width: 100%;
   padding: 20px;
 }
 
@@ -47,6 +59,7 @@ main {
 
 table {
   width: 100%;
+  max-width: 100%;
   border-collapse: collapse;
 }
 
@@ -59,4 +72,10 @@ td {
 
 th {
   background-color: #f2f2f2;
+}
+
+.content,
+.data-table {
+  max-width: 100%;
+  overflow-x: auto;
 }

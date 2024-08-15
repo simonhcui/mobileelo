@@ -5,4 +5,14 @@ document.addEventListener("DOMContentLoaded", () => {
   hamburger.addEventListener("click", () => {
     menu.classList.toggle("active");
   });
+
+  // Prevent horizontal scroll
+  document.body.addEventListener(
+    "touchmove",
+    function (e) {
+      if (e.touches.length > 1) return; // Allow pinch/zoom
+      e.preventDefault();
+    },
+    { passive: false }
+  );
 });
