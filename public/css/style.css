@@ -48,9 +48,11 @@ header {
 }
 
 main {
-  padding-top: 60px; /* Adjust this value based on your header height */
+  padding-top: 60px; /* Adjust based on your header height */
   box-sizing: border-box;
   width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .data-table {

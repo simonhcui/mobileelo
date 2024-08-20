@@ -12,11 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const windowWidth = window.innerWidth;
     const contentWidth = mainContent.scrollWidth;
 
-    if (contentWidth > windowWidth) {
-      header.style.width = `${contentWidth}px`;
-    } else {
-      header.style.width = "100%";
-    }
+    header.style.width = `${Math.max(windowWidth, contentWidth)}px`;
   }
 
   // Call on load and on resize
