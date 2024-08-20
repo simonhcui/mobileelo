@@ -1,3 +1,4 @@
+html,
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -50,17 +51,19 @@ main {
   padding-top: 60px; /* Adjust this value based on your header height */
   box-sizing: border-box;
   width: 100%;
-  padding: 20px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .data-table {
-  margin-top: 20px;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 table {
   width: 100%;
-  max-width: 100%;
-  border-collapse: collapse;
+  min-width: 600px; /* Adjust this value based on your table's minimum width */
 }
 
 th,
