@@ -6,16 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
     menu.classList.toggle("active");
   });
 
-  // Prevent horizontal scroll
-  document.body.addEventListener(
-    "touchmove",
-    function (e) {
-      if (e.touches.length > 1) return; // Allow pinch/zoom
-      e.preventDefault();
-    },
-    { passive: false }
-  );
-
   function updateHeaderWidth() {
     const header = document.querySelector("header");
     const mainContent = document.querySelector("main");
