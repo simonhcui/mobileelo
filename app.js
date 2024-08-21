@@ -31,7 +31,7 @@ app.get("/", (req, res) => {
 
 app.get("/season/1", (req, res) => {
   res.render("seasonone", {
-    title: `Page ${req.params.id}`,
+    title: "Season One",
     id: req.params.id,
     tableData: jsonData1.tableData, // Pass the data to the template
   });
@@ -39,7 +39,7 @@ app.get("/season/1", (req, res) => {
 
 app.get("/season/2", (req, res) => {
   res.render("seasontwo", {
-    title: `Page ${req.params.id}`,
+    title: "Season Two",
     id: req.params.id,
     tableData: jsonData2.tableData, // Pass the data to the template
   });
