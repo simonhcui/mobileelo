@@ -1,9 +1,26 @@
 document.addEventListener("DOMContentLoaded", () => {
   const hamburger = document.querySelector(".hamburger");
   const menu = document.querySelector(".menu");
+  const submenuToggles = document.querySelectorAll(".submenu-toggle");
 
   hamburger.addEventListener("click", () => {
     menu.classList.toggle("active");
+  });
+
+  submenuToggles.forEach((toggle) => {
+    toggle.addEventListener("click", (e) => {
+      e.preventDefault();
+      const submenu = toggle.nextElementSibling;
+      submenu.classList.toggle("active");
+      toggle.classList.toggle("active");
+    });
+  });
+
+  // Close menu when clicking outside
+  document.addEventListener("click", (e) => {
+    if (!menu.contains(e.target) && !hamburger.contains(e.target)) {
+      menu.classList.remove("active");
+    }
   });
 
   function updateHeaderWidth() {

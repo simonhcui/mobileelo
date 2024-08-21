@@ -27,6 +27,13 @@ header {
 
 .menu {
   display: none;
+  position: fixed;
+  top: 60px; /* Adjust based on your header height */
+  left: 0;
+  width: 250px;
+  height: calc(100% - 60px);
+  background-color: #333;
+  overflow-y: auto;
 }
 
 .menu.active {
@@ -36,15 +43,41 @@ header {
 .menu ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 .menu li {
-  padding: 10px 0;
+  position: relative;
 }
 
 .menu a {
+  display: block;
+  padding: 15px;
   color: white;
   text-decoration: none;
+  border-bottom: 1px solid #444;
+}
+
+.submenu {
+  display: none;
+  background-color: #444;
+}
+
+.submenu.active {
+  display: block;
+}
+
+.submenu-toggle::after {
+  content: "\25BC";
+  float: right;
+}
+
+.submenu-toggle.active::after {
+  content: "\25B2";
+}
+
+.submenu a {
+  padding-left: 30px;
 }
 
 main {
