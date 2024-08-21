@@ -2,44 +2,30 @@
 <main>
   <h1>SLGS Stats</h1>
   <div class="content">
-    <!-- <p>Season 8</p> -->
+    <!-- <p>Season 8 (7/2/24 - 9/26/24)</p> -->
   </div>
   <div class="data-table-container">
     <div class="data-table">
-      <h2>Season 8</h2>
+      <h2>Season 8 (7/2/24 - 9/26/24)</h2>
       <div class="data-table"></div>
       <table>
-        <tr>
-          <th>Player</th>
-          <th>Win Percentage</th>
-          <th>Wins - Losses</th>
-          <th>Points</th>
-          <th>Total Drafts</th>
-          <th>Glicko</th>
-          <th>Last Set</th>
-          <th>Last Date</th>
-        </tr>
-        <tr>
-          <td data-label="Player">Nick D</td>
-          <td data-label="Win Percentage">78.57%</td>
-          <td data-label="Wins - Losses">11-3</td>
-          <td data-label="Points">37</td>
-          <td data-label="Total Drafts">8</td>
-          <td data-label="Glicko">1861 ± 117</td>
-          <td data-label="Last Set">MH3</td>
-          <td data-label="Last Date">8-8-24</td>
-        </tr>
-        <!-- <tr>
-            <td data-label="Player">Nick D</td>
-            <td data-label="Win Percentage">78.57%</td>
-            <td data-label="Wins - Losses">11-3</td>
-            <td data-label="Points">37</td>
-            <td data-label="Total Drafts">8</td>
-            <td data-label="Glicko">1861 ± 117</td>
-            <td data-label="Last Set">MH3</td>
-            <td data-label="Last Date">8-8-24</td>
-          </tr> -->
-        <!-- Add more rows as needed -->
+        <thead>
+          <tr>
+            <% if(tableData.length > 0) { %> <%
+            Object.keys(tableData[0]).forEach(function(key) { %>
+            <th><%= key %></th>
+            <% }); %> <% } %>
+          </tr>
+        </thead>
+        <tbody>
+          <% tableData.forEach(function(row) { %>
+          <tr>
+            <% Object.values(row).forEach(function(value) { %>
+            <td><%= value %></td>
+            <% }); %>
+          </tr>
+          <% }); %>
+        </tbody>
       </table>
       <div class="data-table"></div>
     </div>

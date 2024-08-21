@@ -1,20 +1,33 @@
 <%- include('partials/header') %>
-<h1>Page <%= id %></h1>
-<div class="content">
-  <p>This is the top section for text content on Page <%= id %>.</p>
-</div>
-<div class="data-table">
-  <h2>Data Table for Page <%= id %></h2>
-  <table>
-    <tr>
-      <th>Column 1</th>
-      <th>Column 2</th>
-    </tr>
-    <tr>
-      <td>Data 1</td>
-      <td>Data 2</td>
-    </tr>
-    <!-- Add more rows as needed -->
-  </table>
-</div>
+<main>
+  <h1>Season 1 Stats (5/6/2022 - 12/9/22)</h1>
+  <div class="content"></div>
+  <div class="data-table-container">
+    <div class="data-table">
+      <h2></h2>
+      <div class="data-table"></div>
+      <table>
+        <thead>
+          <tr>
+            <% if(tableData.length > 0) { %> <%
+            Object.keys(tableData[0]).forEach(function(key) { %>
+            <th><%= key %></th>
+            <% }); %> <% } %>
+          </tr>
+        </thead>
+        <tbody>
+          <% tableData.forEach(function(row) { %>
+          <tr>
+            <% Object.values(row).forEach(function(value) { %>
+            <td><%= value %></td>
+            <% }); %>
+          </tr>
+          <% }); %>
+        </tbody>
+      </table>
+      <div class="data-table"></div>
+    </div>
+  </div>
+</main>
+
 <%- include('partials/footer') %>
