@@ -11,6 +11,16 @@ document.addEventListener("DOMContentLoaded", () => {
     toggle.addEventListener("click", (e) => {
       e.preventDefault();
       const submenu = toggle.nextElementSibling;
+
+      // Close all other open submenus at the same level
+      const siblings = toggle.closest("ul").querySelectorAll(".submenu");
+      siblings.forEach((sibling) => {
+        if (sibling !== submenu) {
+          sibling.classList.remove("active");
+          sibling.previousElementSibling.classList.remove("active");
+        }
+      });
+
       submenu.classList.toggle("active");
       toggle.classList.toggle("active");
     });
@@ -20,6 +30,13 @@ document.addEventListener("DOMContentLoaded", () => {
   document.addEventListener("click", (e) => {
     if (!menu.contains(e.target) && !hamburger.contains(e.target)) {
       menu.classList.remove("active");
+      // Close all submenus
+      document.querySelectorAll(".submenu").forEach((submenu) => {
+        submenu.classList.remove("active");
+      });
+      document.querySelectorAll(".submenu-toggle").forEach((toggle) => {
+        toggle.classList.remove("active");
+      });
     }
   });
 
