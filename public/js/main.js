@@ -3,7 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const menu = document.querySelector(".menu");
   const submenuToggles = document.querySelectorAll(".submenu-toggle");
 
-  hamburger.addEventListener("click", () => {
+  hamburger.addEventListener("click", (e) => {
+    e.stopPropagation(); // Prevent this click from closing the menu immediately
     menu.classList.toggle("active");
   });
 

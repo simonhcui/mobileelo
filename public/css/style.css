@@ -12,12 +12,10 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  width: 100%;
   background-color: #333;
   color: white;
   padding: 10px;
-  box-sizing: border-box;
-  z-index: 1000;
+  z-index: 1001;
 }
 
 .hamburger {
@@ -26,19 +24,24 @@ header {
 }
 
 .menu {
-  display: none;
   position: fixed;
-  top: 60px; /* Adjust based on your header height */
+  top: 0;
   left: 0;
   width: 250px;
-  height: calc(100% - 60px);
+  height: 100%;
   background-color: #333;
   overflow-y: auto;
   z-index: 1000;
+  transform: translateX(-100%); /* Hide menu off-screen */
+  transition: transform 0.3s ease-in-out;
 }
 
 .menu.active {
-  display: block;
+  transform: translateX(0); /* Show menu */
+}
+
+.menu > ul {
+  padding-top: 60px; /* Adjust this value to match your header height */
 }
 
 .menu ul {
@@ -106,6 +109,9 @@ header {
 /* Mobile-specific styles */
 @media screen and (max-width: 768px) {
   /* Existing mobile-specific styles */
+  .menu {
+    width: 100%;
+  }
 
   .menu li.has-submenu {
     position: static;
