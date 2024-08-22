@@ -77,39 +77,47 @@ header {
   content: "\25B2";
 }
 
+.menu li.has-submenu {
+  position: relative;
+}
+
+.menu .submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #444;
+  width: 200px;
+  z-index: 1;
+}
+
+.menu li.has-submenu:hover > .submenu {
+  display: block;
+}
+
+.menu .submenu li {
+  width: 100%;
+}
+
+.menu .submenu a {
+  padding-left: 20px;
+}
+
 /* Mobile-specific styles */
 @media screen and (max-width: 768px) {
-  .menu {
+  /* Existing mobile-specific styles */
+
+  .menu li.has-submenu {
+    position: static;
+  }
+
+  .menu .submenu {
+    position: static;
     width: 100%;
   }
 
-  .menu ul {
-    width: 100%;
-  }
-
-  .menu li {
-    width: 100%;
-  }
-
-  .submenu {
-    width: 100%;
-    position: relative;
-    left: 0;
-  }
-
-  .submenu a {
-    padding-left: 30px;
-  }
-
-  .submenu .submenu a {
-    padding-left: 45px;
-  }
-
-  .submenu-toggle::after {
-    position: absolute;
-    right: 15px;
-    top: 50%;
-    transform: translateY(-50%);
+  .menu li.has-submenu:hover > .submenu {
+    display: block;
   }
 }
 
