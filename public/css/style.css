@@ -85,13 +85,13 @@ header {
 }
 
 .menu .submenu {
-  display: none;
-  position: absolute;
+  /* display: none; */
+  /* position: absolute;
   top: 100%;
-  left: 0;
-  background-color: #444;
-  width: 200px;
-  z-index: 1;
+  left: 0; */
+  /* background-color: #444; */
+  width: 100%;
+  /* z-index: 1; */
 }
 
 /* .menu li.has-submenu:hover > .submenu {
@@ -103,18 +103,18 @@ header {
 }
 
 .menu .submenu a {
-  padding-left: 20px;
+  padding-left: 30px; /* Increase indent for submenu items */
+  background-color: #555; /* Slightly lighter background for submenu */
 }
 
 /* Mobile-specific styles */
 @media screen and (max-width: 768px) {
-  /* Existing mobile-specific styles */
-  .menu {
+  /* .menu {
     width: 100%;
-  }
+  } */
 
   .menu li.has-submenu {
-    position: static;
+    position: relative;
   }
 
   .menu .submenu {
@@ -129,6 +129,10 @@ header {
 
 /* Desktop-specific styles */
 @media screen and (min-width: 769px) {
+  .menu li.has-submenu {
+    position: relative;
+  }
+
   .submenu {
     position: absolute;
     left: 100%;
