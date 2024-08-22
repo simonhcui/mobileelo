@@ -91,6 +91,7 @@ header {
   left: 0; */
   /* background-color: #444; */
   width: 100%;
+  position: static;
   /* z-index: 1; */
 }
 
@@ -128,7 +129,7 @@ header {
 }
 
 /* Desktop-specific styles */
-@media screen and (min-width: 769px) {
+/* @media screen and (min-width: 769px) {
   .menu li.has-submenu {
     position: relative;
   }
@@ -138,17 +139,17 @@ header {
     left: 100%;
     top: 0;
     width: 200px;
-  }
+  } */
 
-  /* .menu > ul > li:hover > .submenu {
+/* .menu > ul > li:hover > .submenu {
     display: block;
   } */
 
-  .submenu .submenu {
+/* .submenu .submenu {
     left: 100%;
     top: 0;
   }
-}
+} */
 
 main {
   padding-top: 60px; /* Adjust based on your header height */
