@@ -8,22 +8,51 @@ document.addEventListener("DOMContentLoaded", () => {
     menu.classList.toggle("active");
   });
 
+  let activeSubmenu = null;
+
   submenuToggles.forEach((toggle) => {
     toggle.addEventListener("click", (e) => {
       e.preventDefault();
       const submenu = toggle.nextElementSibling;
 
-      // Close all other open submenus at the same level
-      const siblings = toggle.closest("ul").querySelectorAll(".submenu");
-      siblings.forEach((sibling) => {
-        if (sibling !== submenu) {
-          sibling.classList.remove("active");
-          sibling.previousElementSibling.classList.remove("active");
+      if (submenu === activeSubmenu) {
+        // If clicking on the same toggle, close the submenu
+        submenu.classList.remove("active");
+        toggle.classList.remove("active");
+        activeSubmenu = null;
+      } else {
+        // Close all other open submenus
+        if (activeSubmenu) {
+          activeSubmenu.classList.remove("active");
+          activeSubmenu.previousElementSibling.classList.remove("active");
         }
-      });
 
-      submenu.classList.toggle("active");
-      toggle.classList.toggle("active");
+        // Open the clicked submenu
+        submenu.classList.add("active");
+        toggle.classList.add("active");
+        activeSubmenu = submenu;
+        // Close all other open submenus at the same level
+        // const siblings = toggle.closest("ul").querySelectorAll(".submenu");
+        // siblings.forEach((sibling) => {
+        //   sibling.classList.remove("active");
+        //   sibling.previousElementSibling.classList.remove("active");
+        // });
+      }
+
+      // // Close all other open submenus at the same level
+      // const siblings = toggle.closest("ul").querySelectorAll(".submenu");
+      // siblings.forEach((sibling) => {
+      //   if (sibling !== submenu) {
+      //     sibling.classList.remove("active");
+      //     sibling.previousElementSibling.classList.remove("active");
+      //   }
+      // });
+
+      // submenu.classList.toggle("active");
+      // toggle.classList.toggle("active");
+      // submenu.classList.add("active");
+      // toggle.classList.add("active");
+      // activeSubmenu = submenu;
     });
   });
 

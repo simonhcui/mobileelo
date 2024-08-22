@@ -94,9 +94,9 @@ header {
   z-index: 1;
 }
 
-.menu li.has-submenu:hover > .submenu {
+/* .menu li.has-submenu:hover > .submenu {
   display: block;
-}
+} */
 
 .menu .submenu li {
   width: 100%;
@@ -122,9 +122,9 @@ header {
     width: 100%;
   }
 
-  .menu li.has-submenu:hover > .submenu {
+  /* .menu li.has-submenu:hover > .submenu {
     display: block;
-  }
+  } */
 }
 
 /* Desktop-specific styles */
@@ -136,9 +136,9 @@ header {
     width: 200px;
   }
 
-  .menu > ul > li:hover > .submenu {
+  /* .menu > ul > li:hover > .submenu {
     display: block;
-  }
+  } */
 
   .submenu .submenu {
     left: 100%;
