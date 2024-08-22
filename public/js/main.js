@@ -31,28 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
         submenu.classList.add("active");
         toggle.classList.add("active");
         activeSubmenu = submenu;
-        // Close all other open submenus at the same level
-        // const siblings = toggle.closest("ul").querySelectorAll(".submenu");
-        // siblings.forEach((sibling) => {
-        //   sibling.classList.remove("active");
-        //   sibling.previousElementSibling.classList.remove("active");
-        // });
       }
-
-      // // Close all other open submenus at the same level
-      // const siblings = toggle.closest("ul").querySelectorAll(".submenu");
-      // siblings.forEach((sibling) => {
-      //   if (sibling !== submenu) {
-      //     sibling.classList.remove("active");
-      //     sibling.previousElementSibling.classList.remove("active");
-      //   }
-      // });
-
-      // submenu.classList.toggle("active");
-      // toggle.classList.toggle("active");
-      // submenu.classList.add("active");
-      // toggle.classList.add("active");
-      // activeSubmenu = submenu;
     });
   });
 
