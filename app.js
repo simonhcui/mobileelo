@@ -21,6 +21,11 @@ const rawDataDmrColor = fs.readFileSync(
 );
 const jsonDataDmrColor = JSON.parse(rawDataDmrColor);
 
+const rawDataDmrArchetype = fs.readFileSync(
+  path.join(__dirname, "data/dmr/dmrarchetypedata.json")
+);
+const jsonDataDmrArchetype = JSON.parse(rawDataDmrArchetype);
+
 const rawData1 = fs.readFileSync(
   path.join(__dirname, "data/past_seasons/season1data.json")
 );
@@ -84,6 +89,57 @@ app.get("/dmr", (req, res) => {
     id: req.params.id,
     tableData: jsonDataDmr.tableData,
     colorData: jsonDataDmrColor.tableData,
+    archetypeData: jsonDataDmrArchetype.tableData,
+  });
+});
+
+app.get("/2X2", (req, res) => {
+  res.render("2x2", {
+    title: "2X2",
+    id: req.params.id,
+    tableData: jsonDataDmr.tableData,
+    colorData: jsonDataDmrColor.tableData,
+    archetypeData: jsonDataDmrArchetype.tableData,
+  });
+});
+
+app.get("/mh1", (req, res) => {
+  res.render("mh1", {
+    title: "MH1",
+    id: req.params.id,
+    tableData: jsonDataDmr.tableData,
+    colorData: jsonDataDmrColor.tableData,
+    archetypeData: jsonDataDmrArchetype.tableData,
+  });
+});
+
+app.get("/mh2", (req, res) => {
+  res.render("mh2", {
+    title: "MH2",
+    id: req.params.id,
+    tableData: jsonDataDmr.tableData,
+    colorData: jsonDataDmrColor.tableData,
+    archetypeData: jsonDataDmrArchetype.tableData,
+  });
+});
+
+app.get("/adamcube", (req, res) => {
+  res.render("adamcube", {
+    title: "Adam Cube",
+    id: req.params.id,
+    tableData: jsonDataDmr.tableData,
+    colorData: jsonDataDmrColor.tableData,
+    archetypeData: jsonDataDmrArchetype.tableData,
+  });
+});
+
+app.get("/chaos", (req, res) => {
+  res.render("chaos", {
+    title: "Chaos",
+    id: req.params.id,
+    tableData: jsonDataDmr.tableData,
+    colorData: jsonDataDmrColor.tableData,
+    archetypeData: jsonDataDmrArchetype.tableData,
   });
 });
 
