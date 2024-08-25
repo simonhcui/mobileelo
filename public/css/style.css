@@ -195,24 +195,42 @@ th {
   overflow-x: auto;
 }
 
-.sort-btn {
-  background: none;
-  border: none;
+.sortable {
   cursor: pointer;
-  padding: 0 5px;
+  position: relative;
+  padding-right: 20px; /* Make room for the indicator */
 }
 
-.sort-btn::after {
-  content: "▼"; /* Default to down arrow */
-  opacity: 0.3; /* Make it less prominent when not sorted */
+.sort-indicator {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.sort-btn.asc::after {
+.sort-indicator::after {
+  content: "▼";
+  opacity: 0.3;
+}
+
+.sortable.asc .sort-indicator::after {
   content: "▲";
   opacity: 1;
 }
 
-.sort-btn.desc::after {
+.sortable.desc .sort-indicator::after {
   content: "▼";
   opacity: 1;
+}
+
+/* Increase tap target size for mobile */
+@media (max-width: 768px) {
+  .sortable {
+    padding: 10px;
+    padding-right: 30px;
+  }
+
+  .sort-indicator {
+    right: 10px;
+  }
 }

@@ -89,52 +89,46 @@ document.addEventListener("DOMContentLoaded", () => {
 
 document.addEventListener("DOMContentLoaded", function () {
   const table = document.getElementById("sortableTable");
-  const headers = table.querySelectorAll("th");
+  const headers = table.querySelectorAll("th.sortable");
   const tableBody = table.querySelector("tbody");
   const rows = tableBody.querySelectorAll("tr");
 
-  // Convert NodeList to Array for easier manipulation
   const rowsArray = Array.from(rows);
 
   headers.forEach((header) => {
-    const sortBtn = header.querySelector(".sort-btn");
-    if (sortBtn) {
-      sortBtn.addEventListener("click", () => {
-        const key = sortBtn.getAttribute("data-key");
-        const isAscending = sortBtn.classList.contains("asc");
+    header.addEventListener("click", () => {
+      const key = header.getAttribute("data-key");
+      const isAscending = header.classList.contains("asc");
 
-        // Sort the rows
-        rowsArray.sort((rowA, rowB) => {
-          const cellA = rowA
-            .querySelector(
-              `td:nth-child(${Array.from(headers).indexOf(header) + 1})`
-            )
-            .textContent.trim();
-          const cellB = rowB
-            .querySelector(
-              `td:nth-child(${Array.from(headers).indexOf(header) + 1})`
-            )
-            .textContent.trim();
+      // Sort the rows
+      rowsArray.sort((rowA, rowB) => {
+        const cellA = rowA
+          .querySelector(
+            `td:nth-child(${Array.from(headers).indexOf(header) + 1})`
+          )
+          .textContent.trim();
+        const cellB = rowB
+          .querySelector(
+            `td:nth-child(${Array.from(headers).indexOf(header) + 1})`
+          )
+          .textContent.trim();
 
-          if (!isNaN(cellA) && !isNaN(cellB)) {
-            return isAscending ? cellA - cellB : cellB - cellA;
-          } else {
-            return isAscending
-              ? cellA.localeCompare(cellB)
-              : cellB.localeCompare(cellA);
-          }
-        });
-
-        // Update sort button state
-        headers.forEach((h) =>
-          h.querySelector(".sort-btn").classList.remove("asc", "desc")
-        );
-        sortBtn.classList.toggle("asc", !isAscending);
-        sortBtn.classList.toggle("desc", isAscending);
-
-        // Reorder the rows in the table
-        rowsArray.forEach((row) => tableBody.appendChild(row));
+        if (!isNaN(cellA) && !isNaN(cellB)) {
+          return isAscending ? cellB - cellA : cellA - cellB;
+        } else {
+          return isAscending
+            ? cellB.localeCompare(cellA)
+            : cellA.localeCompare(cellB);
+        }
       });
-    }
+
+      // Update sort state
+      headers.forEach((h) => h.classList.remove("asc", "desc"));
+      header.classList.toggle("desc", isAscending);
+      header.classList.toggle("asc", !isAscending);
+
+      // Reorder the rows in the table
+      rowsArray.forEach((row) => tableBody.appendChild(row));
+    });
   });
 });

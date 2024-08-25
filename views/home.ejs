@@ -12,9 +12,9 @@
           <tr>
             <% if(tableData.length > 0) { %> <%
             Object.keys(tableData[0]).forEach(function(key) { %>
-            <th>
+            <th class="sortable" data-key="<%= key %>">
               <%= key %>
-              <button class="sort-btn" data-key="<%= key %>"></button>
+              <span class="sort-indicator"></span>
             </th>
             <% }); %> <% } %>
           </tr>
