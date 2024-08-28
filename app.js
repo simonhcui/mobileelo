@@ -11,6 +11,11 @@ const rawDataLifetime = fs.readFileSync(
 );
 const jsonDataLifetime = JSON.parse(rawDataLifetime);
 
+const rawDataChaos = fs.readFileSync(
+  path.join(__dirname, "data/dmr/chaosdata.json")
+);
+const jsonDataChaos = JSON.parse(rawDataChaos);
+
 const rawDataDmr = fs.readFileSync(
   path.join(__dirname, "data/dmr/dmrdata.json")
 );
@@ -137,9 +142,7 @@ app.get("/chaos", (req, res) => {
   res.render("chaos", {
     title: "Chaos",
     id: req.params.id,
-    tableData: jsonDataDmr.tableData,
-    colorData: jsonDataDmrColor.tableData,
-    archetypeData: jsonDataDmrArchetype.tableData,
+    tableData: jsonDataChaos.tableData,
   });
 });
 
