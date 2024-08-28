@@ -1,0 +1,203 @@
+{
+    "tableData": [
+        {
+          "rank": "1",
+          "name": "Nick D",
+          "win_percentage": "75.00%",
+          "wins_losses": "42-14",
+          "total_drafts": "23",
+          "glicko": "1674 ± 79",
+          "gxe": "65.95%",
+          "last_date": "8-8-24",
+          "trophies": "🏆🏆🏆🏆"
+        },
+        {
+          "rank": "2",
+          "name": "Clayton",
+          "win_percentage": "75.00%",
+          "wins_losses": "9-3",
+          "total_drafts": "5",
+          "glicko": "1934 ± 159",
+          "gxe": "82.98%",
+          "last_date": "8-8-24",
+          "trophies": "🏆🏆"
+        },
+        {
+          "rank": "3",
+          "name": "Matt",
+          "win_percentage": "71.93%",
+          "wins_losses": "41-16",
+          "total_drafts": "26",
+          "glicko": "1661 ± 79",
+          "gxe": "64.85%",
+          "last_date": "8-8-24",
+          "trophies": "🏆🏆"
+        },
+        {
+          "rank": "4",
+          "name": "Adam",
+          "win_percentage": "56.82%",
+          "wins_losses": "25-19",
+          "total_drafts": "16",
+          "glicko": "1601 ± 74",
+          "gxe": "59.52%",
+          "last_date": "12-14-23",
+          "trophies": "🏆🏆"
+        },
+        {
+          "rank": "5",
+          "name": "Ana",
+          "win_percentage": "56.25%",
+          "wins_losses": "9-7",
+          "total_drafts": "7",
+          "glicko": "1596 ± 101",
+          "gxe": "58.90%",
+          "last_date": "4-27-24"
+        },
+        {
+          "rank": "6",
+          "name": "Brian H",
+          "win_percentage": "55.56%",
+          "wins_losses": "5-4",
+          "total_drafts": "4",
+          "glicko": "1525 ± 133",
+          "gxe": "52.33%",
+          "last_date": "4-27-24"
+        },
+        {
+          "rank": "7",
+          "name": "David",
+          "win_percentage": "53.85%",
+          "wins_losses": "7-6",
+          "total_drafts": "4",
+          "glicko": "1545 ± 112",
+          "gxe": "54.21%",
+          "last_date": "12-14-23"
+        },
+        {
+          "rank": "8",
+          "name": "Juwan",
+          "win_percentage": "51.92%",
+          "wins_losses": "27-25",
+          "total_drafts": "22",
+          "glicko": "1503 ± 76",
+          "gxe": "50.31%",
+          "last_date": "8-8-24",
+          "trophies": "🏆🏆"
+        },
+        {
+          "rank": "9",
+          "name": "Todd",
+          "win_percentage": "51.61%",
+          "wins_losses": "16-15",
+          "total_drafts": "13",
+          "glicko": "1584 ± 88",
+          "gxe": "57.87%",
+          "last_date": "10-28-23",
+          "trophies": "🏆"
+        },
+        {
+          "rank": "10",
+          "name": "Chris A",
+          "win_percentage": "51.06%",
+          "wins_losses": "24-23",
+          "total_drafts": "20",
+          "glicko": "1571 ± 83",
+          "gxe": "56.69%",
+          "last_date": "8-8-24",
+          "trophies": "🏆🏆🏆"
+        },
+        {
+          "rank": "11",
+          "name": "Simon",
+          "win_percentage": "48.89%",
+          "wins_losses": "22-23",
+          "total_drafts": "17",
+          "glicko": "1553 ± 85",
+          "gxe": "54.98%",
+          "last_date": "12-14-23",
+          "trophies": "🏆"
+        },
+        {
+          "rank": "12",
+          "name": "Zane",
+          "win_percentage": "48.28%",
+          "wins_losses": "14-15",
+          "total_drafts": "11",
+          "glicko": "1586 ± 88",
+          "gxe": "58.11%",
+          "last_date": "8-31-23"
+        },
+        {
+          "rank": "13",
+          "name": "Evan S",
+          "win_percentage": "38.89%",
+          "wins_losses": "7-11",
+          "total_drafts": "8",
+          "glicko": "1469 ± 113",
+          "gxe": "47.13%",
+          "last_date": "10-7-23"
+        },
+        {
+          "rank": "14",
+          "name": "Tony",
+          "win_percentage": "36.36%",
+          "wins_losses": "4-7",
+          "total_drafts": "5",
+          "glicko": "1507 ± 129",
+          "gxe": "50.66%",
+          "last_date": "4-5-24"
+        },
+        {
+          "rank": "15",
+          "name": "Sonny",
+          "win_percentage": "33.33%",
+          "wins_losses": "5-10",
+          "total_drafts": "7",
+          "glicko": "1357 ± 126",
+          "gxe": "36.96%",
+          "last_date": "8-31-23"
+        },
+        {
+          "rank": "16",
+          "name": "John K",
+          "win_percentage": "25.00%",
+          "wins_losses": "4-12",
+          "total_drafts": "8",
+          "glicko": "1348 ± 109",
+          "gxe": "36.12%",
+          "last_date": "8-8-24"
+        },
+        {
+          "rank": "17",
+          "name": "Jacob",
+          "win_percentage": "12.50%",
+          "wins_losses": "1-7",
+          "total_drafts": "5",
+          "glicko": "1226 ± 158",
+          "gxe": "26.90%",
+          "last_date": "8-8-24"
+        },
+        {
+          "rank": "18",
+          "name": "Evan K",
+          "win_percentage": "10.00%",
+          "wins_losses": "1-9",
+          "total_drafts": "4",
+          "glicko": "1250 ± 194",
+          "gxe": "29.08%",
+          "last_date": "11-18-23"
+        },
+        {
+          "rank": "19",
+          "name": "Nick C",
+          "win_percentage": "10.00%",
+          "wins_losses": "1-9",
+          "total_drafts": "5",
+          "glicko": "1193 ± 152",
+          "gxe": "24.52%",
+          "last_date": "4-27-24"
+        }
+      ]
+  }
+  
