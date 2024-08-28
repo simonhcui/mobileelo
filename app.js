@@ -12,7 +12,7 @@ const rawDataLifetime = fs.readFileSync(
 const jsonDataLifetime = JSON.parse(rawDataLifetime);
 
 const rawDataChaos = fs.readFileSync(
-  path.join(__dirname, "data/dmr/chaosdata.json")
+  path.join(__dirname, "data/chaos/chaosdata.json")
 );
 const jsonDataChaos = JSON.parse(rawDataChaos);
 
