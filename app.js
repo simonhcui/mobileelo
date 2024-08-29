@@ -31,6 +31,11 @@ const rawDataDmrArchetype = fs.readFileSync(
 );
 const jsonDataDmrArchetype = JSON.parse(rawDataDmrArchetype);
 
+const rawDataMH1 = fs.readFileSync(
+  path.join(__dirname, "data/mh1/mh1data.json")
+);
+const jsonDataMH1 = JSON.parse(rawDataMH1);
+
 const rawData1 = fs.readFileSync(
   path.join(__dirname, "data/past_seasons/season1data.json")
 );
@@ -112,9 +117,9 @@ app.get("/mh1", (req, res) => {
   res.render("mh1", {
     title: "MH1",
     id: req.params.id,
-    tableData: jsonDataDmr.tableData,
-    colorData: jsonDataDmrColor.tableData,
-    archetypeData: jsonDataDmrArchetype.tableData,
+    tableData: jsonDataMH1.tableData,
+    // colorData: jsonDataDmrColor.tableData,
+    // archetypeData: jsonDataDmrArchetype.tableData,
   });
 });
 
