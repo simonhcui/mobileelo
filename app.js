@@ -41,6 +41,11 @@ const rawDataMH1 = fs.readFileSync(
 );
 const jsonDataMH1 = JSON.parse(rawDataMH1);
 
+const rawDataMH2 = fs.readFileSync(
+  path.join(__dirname, "data/mh2/mh2data.json")
+);
+const jsonDataMH2 = JSON.parse(rawDataMH2);
+
 const rawData1 = fs.readFileSync(
   path.join(__dirname, "data/past_seasons/season1data.json")
 );
@@ -132,9 +137,9 @@ app.get("/mh2", (req, res) => {
   res.render("mh2", {
     title: "MH2",
     id: req.params.id,
-    tableData: jsonDataDmr.tableData,
-    colorData: jsonDataDmrColor.tableData,
-    archetypeData: jsonDataDmrArchetype.tableData,
+    tableData: jsonDataMH2.tableData,
+    // colorData: jsonDataDmrColor.tableData,
+    // archetypeData: jsonDataDmrArchetype.tableData,
   });
 });
 
