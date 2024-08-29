@@ -11,6 +11,11 @@ const rawDataLifetime = fs.readFileSync(
 );
 const jsonDataLifetime = JSON.parse(rawDataLifetime);
 
+const rawDataAdam = fs.readFileSync(
+  path.join(__dirname, "data/adamcube/adamdata.json")
+);
+const jsonDataAdam = JSON.parse(rawDataAdam);
+
 const rawDataChaos = fs.readFileSync(
   path.join(__dirname, "data/chaos/chaosdata.json")
 );
@@ -137,9 +142,9 @@ app.get("/adamcube", (req, res) => {
   res.render("adamcube", {
     title: "Adam Cube",
     id: req.params.id,
-    tableData: jsonDataDmr.tableData,
-    colorData: jsonDataDmrColor.tableData,
-    archetypeData: jsonDataDmrArchetype.tableData,
+    tableData: jsonDataAdam.tableData,
+    // colorData: jsonDataDmrColor.tableData,
+    // archetypeData: jsonDataDmrArchetype.tableData,
   });
 });
 
