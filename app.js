@@ -16,10 +16,30 @@ const rawData2X2 = fs.readFileSync(
 );
 const jsonData2X2 = JSON.parse(rawData2X2);
 
+const rawData2X2Color = fs.readFileSync(
+  path.join(__dirname, "data/2x2/2x2colordata.json")
+);
+const jsonData2X2Color = JSON.parse(rawData2X2Color);
+
+const rawData2X2Archetype = fs.readFileSync(
+  path.join(__dirname, "data/2x2/2x2archetypedata.json")
+);
+const jsonData2X2Archetype = JSON.parse(rawData2X2Archetype);
+
 const rawDataAdam = fs.readFileSync(
   path.join(__dirname, "data/adamcube/adamdata.json")
 );
 const jsonDataAdam = JSON.parse(rawDataAdam);
+
+const rawDataAdamColor = fs.readFileSync(
+  path.join(__dirname, "data/adamcube/adamcolordata.json")
+);
+const jsonDataAdamColor = JSON.parse(rawDataAdamColor);
+
+const rawDataAdamArchetype = fs.readFileSync(
+  path.join(__dirname, "data/adamcube/adamarchetypedata.json")
+);
+const jsonDataAdamArchetype = JSON.parse(rawDataAdamArchetype);
 
 const rawDataChaos = fs.readFileSync(
   path.join(__dirname, "data/chaos/chaosdata.json")
@@ -123,8 +143,8 @@ app.get("/2X2", (req, res) => {
     title: "2X2",
     id: req.params.id,
     tableData: jsonData2X2.tableData,
-    // colorData: jsonDataDmrColor.tableData,
-    // archetypeData: jsonDataDmrArchetype.tableData,
+    colorData: jsonData2X2Color.tableData,
+    archetypeData: jsonData2X2Archetype.tableData,
   });
 });
 
@@ -153,8 +173,8 @@ app.get("/adamcube", (req, res) => {
     title: "Adam Cube",
     id: req.params.id,
     tableData: jsonDataAdam.tableData,
-    // colorData: jsonDataDmrColor.tableData,
-    // archetypeData: jsonDataDmrArchetype.tableData,
+    colorData: jsonDataAdamColor.tableData,
+    archetypeData: jsonDataAdamArchetype.tableData,
   });
 });
 
