@@ -188,6 +188,16 @@ app.get("/mh2", (req, res) => {
   });
 });
 
+app.get("/mh3", (req, res) => {
+  res.render("mh3", {
+    title: "MH3",
+    id: req.params.id,
+    // tableData: jsonDataMH2.tableData,
+    // colorData: jsonDataMH2Color.tableData,
+    // archetypeData: jsonDataMH2Archetype.tableData,
+  });
+});
+
 app.get("/adamcube", (req, res) => {
   res.render("adamcube", {
     title: "Adam Cube",
@@ -203,6 +213,14 @@ app.get("/chaos", (req, res) => {
     title: "Chaos",
     id: req.params.id,
     tableData: jsonDataChaos.tableData,
+  });
+});
+
+app.get("/mb1", (req, res) => {
+  res.render("mb1", {
+    title: "Mystery Booster 1",
+    id: req.params.id,
+    // tableData: jsonDataChaos.tableData,
   });
 });
 
