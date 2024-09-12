@@ -66,10 +66,30 @@ const rawDataMH1 = fs.readFileSync(
 );
 const jsonDataMH1 = JSON.parse(rawDataMH1);
 
+const rawDataMH1Color = fs.readFileSync(
+  path.join(__dirname, "data/mh1/mh1colordata.json")
+);
+const jsonDataMH1Color = JSON.parse(rawDataMH1Color);
+
+const rawDataMH1Archetype = fs.readFileSync(
+  path.join(__dirname, "data/mh1/mh1archetypedata.json")
+);
+const jsonDataMH1Archetype = JSON.parse(rawDataMH1Archetype);
+
 const rawDataMH2 = fs.readFileSync(
   path.join(__dirname, "data/mh2/mh2data.json")
 );
 const jsonDataMH2 = JSON.parse(rawDataMH2);
+
+const rawDataMH2Color = fs.readFileSync(
+  path.join(__dirname, "data/mh2/mh2colordata.json")
+);
+const jsonDataMH2Color = JSON.parse(rawDataMH2Color);
+
+const rawDataMH2Archetype = fs.readFileSync(
+  path.join(__dirname, "data/mh2/mh2archetypedata.json")
+);
+const jsonDataMH2Archetype = JSON.parse(rawDataMH2Archetype);
 
 const rawData1 = fs.readFileSync(
   path.join(__dirname, "data/past_seasons/season1data.json")
@@ -153,8 +173,8 @@ app.get("/mh1", (req, res) => {
     title: "MH1",
     id: req.params.id,
     tableData: jsonDataMH1.tableData,
-    // colorData: jsonDataDmrColor.tableData,
-    // archetypeData: jsonDataDmrArchetype.tableData,
+    colorData: jsonDataMH1Color.tableData,
+    archetypeData: jsonDataMH1Archetype.tableData,
   });
 });
 
@@ -163,8 +183,8 @@ app.get("/mh2", (req, res) => {
     title: "MH2",
     id: req.params.id,
     tableData: jsonDataMH2.tableData,
-    // colorData: jsonDataDmrColor.tableData,
-    // archetypeData: jsonDataDmrArchetype.tableData,
+    colorData: jsonDataMH2Color.tableData,
+    archetypeData: jsonDataMH2Archetype.tableData,
   });
 });
 
