@@ -61,6 +61,11 @@ const rawDataDmrArchetype = fs.readFileSync(
 );
 const jsonDataDmrArchetype = JSON.parse(rawDataDmrArchetype);
 
+const rawDataMB1 = fs.readFileSync(
+  path.join(__dirname, "data/mb1/mb1data.json")
+);
+const jsonDataMB1 = JSON.parse(rawDataMB1);
+
 const rawDataMH1 = fs.readFileSync(
   path.join(__dirname, "data/mh1/mh1data.json")
 );
@@ -90,6 +95,11 @@ const rawDataMH2Archetype = fs.readFileSync(
   path.join(__dirname, "data/mh2/mh2archetypedata.json")
 );
 const jsonDataMH2Archetype = JSON.parse(rawDataMH2Archetype);
+
+const rawDataMH3 = fs.readFileSync(
+  path.join(__dirname, "data/mh3/mh3data.json")
+);
+const jsonDataMH3 = JSON.parse(rawDataMH3);
 
 const rawData1 = fs.readFileSync(
   path.join(__dirname, "data/past_seasons/season1data.json")
@@ -192,7 +202,7 @@ app.get("/mh3", (req, res) => {
   res.render("mh3", {
     title: "MH3",
     id: req.params.id,
-    // tableData: jsonDataMH2.tableData,
+    tableData: jsonDataMH3.tableData,
     // colorData: jsonDataMH2Color.tableData,
     // archetypeData: jsonDataMH2Archetype.tableData,
   });
@@ -220,7 +230,7 @@ app.get("/mb1", (req, res) => {
   res.render("mb1", {
     title: "Mystery Booster 1",
     id: req.params.id,
-    // tableData: jsonDataChaos.tableData,
+    tableData: jsonDataMB1.tableData,
   });
 });
 

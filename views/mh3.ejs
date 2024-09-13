@@ -1,9 +1,36 @@
 <%- include('partials/header') %>
 <main>
-  <h1>WIP</h1>
+  <h1>Modern Horizons 3 Stats</h1>
   <div class="content">
     <!-- <p>Season 8 (7/2/24 - 9/26/24)</p> -->
   </div>
+  <div class="data-table-container">
+    <div class="data-table">
+      <h2>
+        ELO and Winrates (Min 5 drafts). Last Updated 9/7/24. 13 Total Drafts
+        Recorded
+      </h2>
+      <table>
+        <thead>
+          <tr>
+            <% if(tableData.length > 0) { %> <%
+            Object.keys(tableData[0]).forEach(function(key) { %>
+            <th><%= key %></th>
+            <% }); %> <% } %>
+          </tr>
+        </thead>
+        <tbody>
+          <% tableData.forEach(function(row) { %>
+          <tr>
+            <% Object.values(row).forEach(function(value) { %>
+            <td><%= value %></td>
+            <% }); %>
+          </tr>
+          <% }); %>
+        </tbody>
+      </table>
+    </div>
+  </div>
 
-
-<%- include('partials/footer') %>
+  <%- include('partials/footer') %>
+</main>
