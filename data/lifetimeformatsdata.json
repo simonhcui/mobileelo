@@ -1,0 +1,22 @@
+{
+  "tableData": [
+    {
+      "Season": "5",
+      "num_drafts": "45",
+      "days": "85",
+      "drafts/day": ".529"
+    },
+    {
+      "Season": "6",
+      "num_drafts": "34",
+      "days": "85",
+      "drafts/day": ".400"
+    },
+    {
+      "Season": "7",
+      "num_drafts": "38",
+      "days": "85",
+      "drafts/day": ".447"
+    }
+  ]
+}
