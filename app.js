@@ -136,6 +136,11 @@ const rawData7 = fs.readFileSync(
 );
 const jsonData7 = JSON.parse(rawData7);
 
+const rawData8 = fs.readFileSync(
+  path.join(__dirname, "data/past_seasons/season8data.json")
+);
+const jsonData8 = JSON.parse(rawData8);
+
 const rawData = fs.readFileSync(path.join(__dirname, "data/data.json"));
 const jsonData = JSON.parse(rawData);
 
@@ -287,6 +292,14 @@ app.get("/season/7", (req, res) => {
     title: "Season Seven",
     id: req.params.id,
     tableData: jsonData7.tableData,
+  });
+});
+
+app.get("/season/8", (req, res) => {
+  res.render("seasonsight", {
+    title: "Season Eight",
+    id: req.params.id,
+    tableData: jsonData8.tableData,
   });
 });
 
