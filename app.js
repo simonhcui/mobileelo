@@ -296,7 +296,7 @@ app.get("/season/7", (req, res) => {
 });
 
 app.get("/season/8", (req, res) => {
-  res.render("seasonsight", {
+  res.render("seasoneight", {
     title: "Season Eight",
     id: req.params.id,
     tableData: jsonData8.tableData,
