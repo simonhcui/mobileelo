@@ -66,6 +66,21 @@ const rawDataMB1 = fs.readFileSync(
 );
 const jsonDataMB1 = JSON.parse(rawDataMB1);
 
+const rawDataMB2 = fs.readFileSync(
+  path.join(__dirname, "data/mb2/mb2data.json")
+);
+const jsonDataMB2 = JSON.parse(rawDataMB2);
+
+const rawDataMB2Color = fs.readFileSync(
+  path.join(__dirname, "data/mb2/mb2colordata.json")
+);
+const jsonDataMB2Color = JSON.parse(rawDataMB2Color);
+
+const rawDataMB2Archetype = fs.readFileSync(
+  path.join(__dirname, "data/mb2/mhb2archetypedata.json")
+);
+const jsonDataMB2Archetype = JSON.parse(rawDataMB2Archetype);
+
 const rawDataMH1 = fs.readFileSync(
   path.join(__dirname, "data/mh1/mh1data.json")
 );
@@ -246,6 +261,16 @@ app.get("/mb1", (req, res) => {
     title: "Mystery Booster 1",
     id: req.params.id,
     tableData: jsonDataMB1.tableData,
+  });
+});
+
+app.get("/mb2", (req, res) => {
+  res.render("mb2", {
+    title: "MB2",
+    id: req.params.id,
+    tableData: jsonDataMB2.tableData,
+    colorData: jsonDataMB2Color.tableData,
+    archetypeData: jsonDataMB2Archetype.tableData,
   });
 });
 
