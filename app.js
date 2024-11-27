@@ -77,7 +77,7 @@ const rawDataMB2Color = fs.readFileSync(
 const jsonDataMB2Color = JSON.parse(rawDataMB2Color);
 
 const rawDataMB2Archetype = fs.readFileSync(
-  path.join(__dirname, "data/mb2/mhb2archetypedata.json")
+  path.join(__dirname, "data/mb2/mb2archetypedata.json")
 );
 const jsonDataMB2Archetype = JSON.parse(rawDataMB2Archetype);
 
@@ -266,7 +266,7 @@ app.get("/mb1", (req, res) => {
 
 app.get("/mb2", (req, res) => {
   res.render("mb2", {
-    title: "MB2",
+    title: "Mystery Booster 2",
     id: req.params.id,
     tableData: jsonDataMB2.tableData,
     colorData: jsonDataMB2Color.tableData,
