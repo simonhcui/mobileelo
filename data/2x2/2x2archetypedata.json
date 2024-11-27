@@ -3,9 +3,8 @@
     {
       "rank": "1",
       "archetype": "Rakdos",
-      "winrate": "66.67%",
-      "num_drafts": 5,
-      "num_trophies": ""
+      "winrate": "64.29%",
+      "num_drafts": 6
     },
     {
       "rank": "2",
@@ -17,23 +16,22 @@
     {
       "rank": "3",
       "archetype": "4c no Red",
-      "winrate": "62.79%",
-      "num_drafts": 16,
+      "winrate": "63.04%",
+      "num_drafts": 18,
       "num_trophies": "🏆🏆🏆"
     },
-
     {
       "rank": "4",
       "archetype": "Grixis",
-      "winrate": "61.54%",
-      "num_drafts": 20,
+      "winrate": "62.50%",
+      "num_drafts": 22,
       "num_trophies": "🏆🏆🏆🏆"
     },
     {
       "rank": "5",
       "archetype": "Boros",
-      "winrate": "59.09%",
-      "num_drafts": 16,
+      "winrate": "56.52%",
+      "num_drafts": 17,
       "num_trophies": "🏆🏆🏆"
     },
     {
@@ -59,73 +57,67 @@
     },
     {
       "rank": "9",
+      "archetype": "Abzan",
+      "winrate": "50.00%",
+      "num_drafts": 18,
+      "num_trophies": "🏆🏆"
+    },
+    {
+      "rank": "10",
       "archetype": "Mardu",
       "winrate": "48.89%",
       "num_drafts": 17,
       "num_trophies": "🏆"
     },
     {
-      "rank": "10",
-      "archetype": "Jeskai",
-      "winrate": "48.15%",
-      "num_drafts": 11,
-      "num_trophies": "🏆"
-    },
-    {
       "rank": "11",
-      "archetype": "Abzan",
-      "winrate": "47.73%",
-      "num_drafts": 17,
-      "num_trophies": "🏆🏆"
+      "archetype": "Jeskai",
+      "winrate": "46.67%",
+      "num_drafts": 13,
+      "num_trophies": "🏆"
     },
     {
       "rank": "12",
       "archetype": "4c no green",
       "winrate": "46.15%",
-      "num_drafts": 5,
-      "num_trophies": ""
+      "num_drafts": 5
     },
     {
       "rank": "13",
       "archetype": "Naya",
       "winrate": "42.86%",
-      "num_drafts": 8,
-      "num_trophies": ""
+      "num_drafts": 8
     },
     {
       "rank": "14",
       "archetype": "Golgari",
       "winrate": "42.86%",
-      "num_drafts": 5,
-      "num_trophies": ""
+      "num_drafts": 5
     },
     {
       "rank": "15",
       "archetype": "5c",
-      "winrate": "42.00%",
-      "num_drafts": 20,
+      "winrate": "42.31%",
+      "num_drafts": 21,
       "num_trophies": "🏆"
     },
     {
       "rank": "16",
       "archetype": "Sultai",
-      "winrate": "40.00%",
-      "num_drafts": 18,
-      "num_trophies": ""
+      "winrate": "38.78%",
+      "num_drafts": 20
     },
     {
       "rank": "17",
       "archetype": "Temur",
       "winrate": "36.36%",
-      "num_drafts": 5,
-      "num_trophies": ""
+      "num_drafts": 5
     },
     {
       "rank": "18",
       "archetype": "Bant",
-      "winrate": "26.09%",
-      "num_drafts": 10,
-      "num_trophies": ""
+      "winrate": "32.00%",
+      "num_drafts": 11
     }
   ]
 }

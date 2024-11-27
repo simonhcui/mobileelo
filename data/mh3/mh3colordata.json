@@ -1,0 +1,29 @@
+{
+  "tableData": [
+    {
+      "rank": "1",
+      "color": "Green",
+      "win_percentage": "52.54%"
+    },
+    {
+      "rank": "2",
+      "color": "Black",
+      "win_percentage": "50.35%"
+    },
+    {
+      "rank": "3",
+      "color": "Blue",
+      "win_percentage": "50.30%"
+    },
+    {
+      "rank": "4",
+      "color": "Red",
+      "win_percentage": "48.97%"
+    },
+    {
+      "rank": "5",
+      "color": "White",
+      "win_percentage": "48.18%"
+    }
+  ]
+}

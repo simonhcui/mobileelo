@@ -101,6 +101,16 @@ const rawDataMH3 = fs.readFileSync(
 );
 const jsonDataMH3 = JSON.parse(rawDataMH3);
 
+const rawDataMH3Color = fs.readFileSync(
+  path.join(__dirname, "data/mh3/mh3colordata.json")
+);
+const jsonDataMH3Color = JSON.parse(rawDataMH3Color);
+
+const rawDataMH3Archetype = fs.readFileSync(
+  path.join(__dirname, "data/mh3/mh3archetypedata.json")
+);
+const jsonDataMH3Archetype = JSON.parse(rawDataMH3Archetype);
+
 const rawData1 = fs.readFileSync(
   path.join(__dirname, "data/past_seasons/season1data.json")
 );
@@ -208,8 +218,8 @@ app.get("/mh3", (req, res) => {
     title: "MH3",
     id: req.params.id,
     tableData: jsonDataMH3.tableData,
-    // colorData: jsonDataMH2Color.tableData,
-    // archetypeData: jsonDataMH2Archetype.tableData,
+    colorData: jsonDataMH3Color.tableData,
+    archetypeData: jsonDataMH3Archetype.tableData,
   });
 });
 
