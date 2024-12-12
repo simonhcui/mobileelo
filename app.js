@@ -169,6 +169,9 @@ const jsonData8 = JSON.parse(rawData8);
 const rawData = fs.readFileSync(path.join(__dirname, "data/data.json"));
 const jsonData = JSON.parse(rawData);
 
+const rawGauntlet = fs.readFileSync(path.join(__dirname, "data/gauntlet.json"));
+const jsonGauntlet = JSON.parse(rawGauntlet);
+
 app.set("view engine", "ejs");
 app.use(express.static(path.join(__dirname, "public")));
 
@@ -177,6 +180,7 @@ app.get("/", (req, res) => {
   res.render("home", {
     title: "Home",
     tableData: jsonData.tableData,
+    gauntletData: jsonGauntlet.tableData,
   });
 });
 

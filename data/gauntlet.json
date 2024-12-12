@@ -1,0 +1,40 @@
+{
+  "tableData": [
+    {
+      "rank": "1",
+      "name": "Eric",
+      "gauntlet_percentage": "83.33%",
+      "gauntlet_record": "20-4",
+      "retail_record": "12-6",
+      "retail_drafts": "10",
+      "cube_record": "0-0",
+      "cube_drafts": "0",
+      "chaos_record": "4-0",
+      "chaos_drafts": "2"
+    },
+    {
+      "rank": "2",
+      "name": "Alan",
+      "gauntlet_percentage": "73.91%",
+      "gauntlet_record": "17-6",
+      "retail_record": "10-5",
+      "retail_drafts": "8",
+      "cube_record": "4-0",
+      "cube_drafts": "2",
+      "chaos_record": "3-1",
+      "chaos_drafts": "2"
+    },
+    {
+      "rank": "3",
+      "name": "Noah",
+      "gauntlet_percentage": "65,38%",
+      "gauntlet_record": "17-9",
+      "retail_record": "14-6",
+      "retail_drafts": "10",
+      "cube_record": "1-1",
+      "cube_drafts": "1",
+      "chaos_record": "2-2",
+      "chaos_drafts": "2"
+    }
+  ]
+}
