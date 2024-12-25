@@ -1,0 +1,18 @@
+const express = require("express");
+const router = express.Router();
+
+const jsonData2X2 = require("../data/2x2/2x2data.json");
+const jsonData2X2Color = require("../data/2x2/2x2colordata.json");
+const jsonData2X2Archetype = require("../data/2x2/2x2archetypedata.json");
+
+router.get("/2x2", (req, res) => {
+  res.render("formats/2x2", {
+    title: "2X2",
+    id: req.params.id,
+    tableData: jsonData2X2.tableData,
+    colorData: jsonData2X2Color.tableData,
+    archetypeData: jsonData2X2Archetype.tableData,
+  });
+});
+
+module.exports = router;

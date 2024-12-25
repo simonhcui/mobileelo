@@ -3,7 +3,17 @@ const path = require("path");
 const fs = require("fs");
 const app = express();
 const port = process.env.PORT || 3000;
+
+// Import routes
+const formatRoutes = require("./routes/formatRoutes.ejs");
+
 app.set("views", path.join(__dirname, "views"));
+app.set("view engine", "ejs");
+
+// Static files
+app.use(express.static(path.join(__dirname, "public")));
+
+app.use("/", formatRoutes);
 
 // Read JSON file
 const rawDataLifetime = fs.readFileSync(
@@ -206,7 +216,7 @@ app.get("/lifetime20", (req, res) => {
 });
 
 app.get("/dmr", (req, res) => {
-  res.render("dmr", {
+  res.render("formats/dmr", {
     title: "DMR",
     id: req.params.id,
     tableData: jsonDataDmr.tableData,
@@ -215,18 +225,18 @@ app.get("/dmr", (req, res) => {
   });
 });
 
-app.get("/2X2", (req, res) => {
-  res.render("2x2", {
-    title: "2X2",
-    id: req.params.id,
-    tableData: jsonData2X2.tableData,
-    colorData: jsonData2X2Color.tableData,
-    archetypeData: jsonData2X2Archetype.tableData,
-  });
-});
+// app.get("/2x2", (req, res) => {
+//   res.render("formats/2x2", {
+//     title: "2X2",
+//     id: req.params.id,
+//     tableData: jsonData2X2.tableData,
+//     colorData: jsonData2X2Color.tableData,
+//     archetypeData: jsonData2X2Archetype.tableData,
+//   });
+// });
 
 app.get("/mh1", (req, res) => {
-  res.render("mh1", {
+  res.render("formats/mh1", {
     title: "MH1",
     id: req.params.id,
     tableData: jsonDataMH1.tableData,
@@ -236,7 +246,7 @@ app.get("/mh1", (req, res) => {
 });
 
 app.get("/mh2", (req, res) => {
-  res.render("mh2", {
+  res.render("formats/mh2", {
     title: "MH2",
     id: req.params.id,
     tableData: jsonDataMH2.tableData,
@@ -246,7 +256,7 @@ app.get("/mh2", (req, res) => {
 });
 
 app.get("/mh3", (req, res) => {
-  res.render("mh3", {
+  res.render("formats/mh3", {
     title: "MH3",
     id: req.params.id,
     tableData: jsonDataMH3.tableData,
@@ -256,7 +266,7 @@ app.get("/mh3", (req, res) => {
 });
 
 app.get("/adamcube", (req, res) => {
-  res.render("adamcube", {
+  res.render("formats/adamcube", {
     title: "Adam Cube",
     id: req.params.id,
     tableData: jsonDataAdam.tableData,
@@ -266,7 +276,7 @@ app.get("/adamcube", (req, res) => {
 });
 
 app.get("/chaos", (req, res) => {
-  res.render("chaos", {
+  res.render("formats/chaos", {
     title: "Chaos",
     id: req.params.id,
     tableData: jsonDataChaos.tableData,
@@ -274,7 +284,7 @@ app.get("/chaos", (req, res) => {
 });
 
 app.get("/mb1", (req, res) => {
-  res.render("mb1", {
+  res.render("formats/mb1", {
     title: "Mystery Booster 1",
     id: req.params.id,
     tableData: jsonDataMB1.tableData,
@@ -282,7 +292,7 @@ app.get("/mb1", (req, res) => {
 });
 
 app.get("/mb2", (req, res) => {
-  res.render("mb2", {
+  res.render("formats/mb2", {
     title: "Mystery Booster 2",
     id: req.params.id,
     tableData: jsonDataMB2.tableData,
@@ -292,7 +302,7 @@ app.get("/mb2", (req, res) => {
 });
 
 app.get("/season/1", (req, res) => {
-  res.render("seasonone", {
+  res.render("seasons/seasonone", {
     title: "Season One",
     id: req.params.id,
     tableData: jsonData1.tableData,
@@ -300,7 +310,7 @@ app.get("/season/1", (req, res) => {
 });
 
 app.get("/season/2", (req, res) => {
-  res.render("seasontwo", {
+  res.render("seasons/seasontwo", {
     title: "Season Two",
     id: req.params.id,
     tableData: jsonData2.tableData,
@@ -308,7 +318,7 @@ app.get("/season/2", (req, res) => {
 });
 
 app.get("/season/3", (req, res) => {
-  res.render("seasonthree", {
+  res.render("seasons/seasonthree", {
     title: "Season Three",
     id: req.params.id,
     tableData: jsonData3.tableData,
@@ -316,7 +326,7 @@ app.get("/season/3", (req, res) => {
 });
 
 app.get("/season/4", (req, res) => {
-  res.render("seasonfour", {
+  res.render("seasons/seasonfour", {
     title: "Season Four",
     id: req.params.id,
     tableData: jsonData4.tableData,
@@ -324,7 +334,7 @@ app.get("/season/4", (req, res) => {
 });
 
 app.get("/season/5", (req, res) => {
-  res.render("seasonfive", {
+  res.render("seasons/seasonfive", {
     title: "Season Five",
     id: req.params.id,
     tableData: jsonData5.tableData,
@@ -332,7 +342,7 @@ app.get("/season/5", (req, res) => {
 });
 
 app.get("/season/6", (req, res) => {
-  res.render("seasonsix", {
+  res.render("seasons/seasonsix", {
     title: "Season Six",
     id: req.params.id,
     tableData: jsonData6.tableData,
@@ -340,7 +350,7 @@ app.get("/season/6", (req, res) => {
 });
 
 app.get("/season/7", (req, res) => {
-  res.render("seasonseven", {
+  res.render("seasons/seasonseven", {
     title: "Season Seven",
     id: req.params.id,
     tableData: jsonData7.tableData,
@@ -348,7 +358,7 @@ app.get("/season/7", (req, res) => {
 });
 
 app.get("/season/8", (req, res) => {
-  res.render("seasoneight", {
+  res.render("seasons/seasoneight", {
     title: "Season Eight",
     id: req.params.id,
     tableData: jsonData8.tableData,
