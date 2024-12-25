@@ -1,9 +1,37 @@
 const express = require("express");
 const router = express.Router();
 
-const jsonData2X2 = require("../data/2x2/2x2data.json");
-const jsonData2X2Color = require("../data/2x2/2x2colordata.json");
-const jsonData2X2Archetype = require("../data/2x2/2x2archetypedata.json");
+const jsonData2X2 = require("../data/formats/2x2/2x2data.json");
+const jsonData2X2Color = require("../data/formats/2x2/2x2colordata.json");
+const jsonData2X2Archetype = require("../data/formats/2x2/2x2archetypedata.json");
+
+const jsonDataAdam = require("../data/formats/adamcube/adamdata.json");
+const jsonDataAdamColor = require("../data/formats/adamcube/adamcolordata.json");
+const jsonDataAdamArchetype = require("../data/formats/adamcube/adamarchetypedata.json");
+
+const jsonDataChaos = require("../data/formats/chaos/chaosdata.json");
+
+const jsonDataDmr = require("../data/formats/dmr/dmrdata.json");
+const jsonDataDmrColor = require("../data/formats/dmr/dmrcolordata.json");
+const jsonDataDmrArchetype = require("../data/formats/dmr/dmrarchetypedata.json");
+
+const jsonDataMb1 = require("../data/formats/mb1/mb1data.json");
+
+const jsonDataMb2 = require("../data/formats/mb2/mb2data.json");
+const jsonDataMb2Color = require("../data/formats/mb2/mb2colordata.json");
+const jsonDataMb2Archetype = require("../data/formats/mb2/mb2archetypedata.json");
+
+const jsonDataMh1 = require("../data/formats/mh1/mh1data.json");
+const jsonDataMh1Color = require("../data/formats/mh1/mh1colordata.json");
+const jsonDataMh1Archetype = require("../data/formats/mh1/mh1archetypedata.json");
+
+const jsonDataMh2 = require("../data/formats/mh2/mh2data.json");
+const jsonDataMh2Color = require("../data/formats/mh2/mh2colordata.json");
+const jsonDataMh2Archetype = require("../data/formats/mh2/mh2archetypedata.json");
+
+const jsonDataMh3 = require("../data/formats/mh3/mh3data.json");
+const jsonDataMh3Color = require("../data/formats/mh3/mh3colordata.json");
+const jsonDataMh3Archetype = require("../data/formats/mh3/mh3archetypedata.json");
 
 router.get("/2x2", (req, res) => {
   res.render("formats/2x2", {
@@ -12,6 +40,82 @@ router.get("/2x2", (req, res) => {
     tableData: jsonData2X2.tableData,
     colorData: jsonData2X2Color.tableData,
     archetypeData: jsonData2X2Archetype.tableData,
+  });
+});
+
+router.get("/adamcube", (req, res) => {
+  res.render("formats/adamcube", {
+    title: "Adam Cube",
+    id: req.params.id,
+    tableData: jsonDataAdam.tableData,
+    colorData: jsonDataAdamColor.tableData,
+    archetypeData: jsonDataAdamArchetype.tableData,
+  });
+});
+
+router.get("/chaos", (req, res) => {
+  res.render("formats/chaos", {
+    title: "Chaos",
+    id: req.params.id,
+    tableData: jsonDataChaos.tableData,
+  });
+});
+
+router.get("/dmr", (req, res) => {
+  res.render("formats/dmr", {
+    title: "DMR",
+    id: req.params.id,
+    tableData: jsonDataDmr.tableData,
+    colorData: jsonDataDmrColor.tableData,
+    archetypeData: jsonDataDmrArchetype.tableData,
+  });
+});
+
+router.get("/mb1", (req, res) => {
+  res.render("formats/mb1", {
+    title: "MB1",
+    id: req.params.id,
+    tableData: jsonDataMb1.tableData,
+  });
+});
+
+router.get("/mb2", (req, res) => {
+  res.render("formats/mb2", {
+    title: "MB2",
+    id: req.params.id,
+    tableData: jsonDataMb2.tableData,
+    colorData: jsonDataMb2Color.tableData,
+    archetypeData: jsonDataMb2Archetype.tableData,
+  });
+});
+
+router.get("/mh1", (req, res) => {
+  res.render("formats/mh1", {
+    title: "MH1",
+    id: req.params.id,
+    tableData: jsonDataMh1.tableData,
+    colorData: jsonDataMh1Color.tableData,
+    archetypeData: jsonDataMh1Archetype.tableData,
+  });
+});
+
+router.get("/mh2", (req, res) => {
+  res.render("formats/mh2", {
+    title: "MH2",
+    id: req.params.id,
+    tableData: jsonDataMh2.tableData,
+    colorData: jsonDataMh2Color.tableData,
+    archetypeData: jsonDataMh2Archetype.tableData,
+  });
+});
+
+router.get("/mh3", (req, res) => {
+  res.render("formats/mh3", {
+    title: "MH3",
+    id: req.params.id,
+    tableData: jsonDataMh3.tableData,
+    colorData: jsonDataMh3Color.tableData,
+    archetypeData: jsonDataMh3Archetype.tableData,
   });
 });
 
