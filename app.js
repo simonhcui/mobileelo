@@ -11,6 +11,11 @@ const rawDataLifetime = fs.readFileSync(
 );
 const jsonDataLifetime = JSON.parse(rawDataLifetime);
 
+const rawDataLifetime20 = fs.readFileSync(
+  path.join(__dirname, "data/lifetimedata20.json")
+);
+const jsonDataLifetime20 = JSON.parse(rawDataLifetime20);
+
 const rawData2X2 = fs.readFileSync(
   path.join(__dirname, "data/2x2/2x2data.json")
 );
@@ -189,6 +194,14 @@ app.get("/lifetime", (req, res) => {
     title: "Lifetime",
     id: req.params.id,
     tableData: jsonDataLifetime.tableData,
+  });
+});
+
+app.get("/lifetime20", (req, res) => {
+  res.render("lifetime20", {
+    title: "Lifetime Min 20",
+    id: req.params.id,
+    tableData: jsonDataLifetime20.tableData,
   });
 });
 
