@@ -1,0 +1,77 @@
+const express = require("express");
+const router = express.Router();
+
+const jsonData1 = require("../data/past_seasons/season1data.json");
+const jsonData2 = require("../data/past_seasons/season2data.json");
+const jsonData3 = require("../data/past_seasons/season3data.json");
+const jsonData4 = require("../data/past_seasons/season4data.json");
+const jsonData5 = require("../data/past_seasons/season5data.json");
+const jsonData6 = require("../data/past_seasons/season6data.json");
+const jsonData7 = require("../data/past_seasons/season7data.json");
+const jsonData8 = require("../data/past_seasons/season8data.json");
+
+router.get("/1", (req, res) => {
+  res.render("seasons/seasonone", {
+    title: "Season One",
+    id: req.params.id,
+    tableData: jsonData1.tableData,
+  });
+});
+
+router.get("/2", (req, res) => {
+  res.render("seasons/seasontwo", {
+    title: "Season Two",
+    id: req.params.id,
+    tableData: jsonData2.tableData,
+  });
+});
+
+router.get("/3", (req, res) => {
+  res.render("seasons/seasonthree", {
+    title: "Season Three",
+    id: req.params.id,
+    tableData: jsonData3.tableData,
+  });
+});
+
+router.get("/4", (req, res) => {
+  res.render("seasons/seasonfour", {
+    title: "Season Four",
+    id: req.params.id,
+    tableData: jsonData4.tableData,
+  });
+});
+
+router.get("/5", (req, res) => {
+  res.render("seasons/seasonfive", {
+    title: "Season Five",
+    id: req.params.id,
+    tableData: jsonData5.tableData,
+  });
+});
+
+router.get("/6", (req, res) => {
+  res.render("seasons/seasonsix", {
+    title: "Season Six",
+    id: req.params.id,
+    tableData: jsonData6.tableData,
+  });
+});
+
+router.get("/7", (req, res) => {
+  res.render("seasons/seasonseven", {
+    title: "Season Seven",
+    id: req.params.id,
+    tableData: jsonData7.tableData,
+  });
+});
+
+router.get("/8", (req, res) => {
+  res.render("seasons/seasoneight", {
+    title: "Season Eight",
+    id: req.params.id,
+    tableData: jsonData8.tableData,
+  });
+});
+
+module.exports = router;
