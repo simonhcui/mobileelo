@@ -7,6 +7,7 @@ const port = process.env.PORT || 3000;
 // Import routes
 const formatRoutes = require("./routes/formatRoutes.ejs");
 const seasonRoutes = require("./routes/seasonRoutes.ejs");
+const playerRoutes = require("./routes/playerRoutes.ejs");
 
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
@@ -16,6 +17,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/", formatRoutes);
 app.use("/season", seasonRoutes);
+app.use("/player", playerRoutes);
 
 // Read JSON file
 const rawDataLifetime = fs.readFileSync(

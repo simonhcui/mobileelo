@@ -1,0 +1,17 @@
+const express = require("express");
+const router = express.Router();
+
+const claytonData = require("../data/players/clayton.json");
+
+router.get("/testplayer", (req, res) => {
+  res.render("players/testplayer", {
+    title: "Test Player",
+    id: req.params.id,
+    imagePath: "/images/claytonprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/invoker.jpg",
+    tableData: claytonData.tableData,
+    formatData: claytonData.formatData,
+  });
+});
+
+module.exports = router;
