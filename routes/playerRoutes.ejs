@@ -2,15 +2,57 @@ const express = require("express");
 const router = express.Router();
 
 const claytonData = require("../data/players/clayton.json");
+const ericData = require("../data/players/eric.json");
+const luisData = require("../data/players/luis.json");
 
-router.get("/testplayer", (req, res) => {
-  res.render("players/testplayer", {
-    title: "Test Player",
+router.get("/clayton", (req, res) => {
+  res.render("players/clayton", {
+    title: "Clayton",
     id: req.params.id,
-    imagePath: "/images/claytonprofile.jpg",
+    imagePath: "/images/profile/claytonprofile.jpg",
     planeswalkerPath: "/images/planeswalker/invoker.jpg",
     tableData: claytonData.tableData,
     formatData: claytonData.formatData,
+  });
+});
+
+router.get("/eric", (req, res) => {
+  res.render("players/eric", {
+    title: "Eric",
+    id: req.params.id,
+    imagePath: "/images/profile/ericprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/apprentice.jpg",
+    tableData: ericData.tableData,
+    formatData: ericData.formatData,
+  });
+});
+
+router.get("/luis", (req, res) => {
+  res.render("players/luis", {
+    title: "Luis",
+    id: req.params.id,
+    imagePath: "/images/profile/luisprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/apprentice.jpg",
+    tableData: luisData.tableData,
+    formatData: luisData.formatData,
+  });
+});
+
+router.get("/alberto", (req, res) => {
+  res.render("players/alberto", {
+    title: "Alberto",
+    id: req.params.id,
+    imagePath: "/images/profile/albertoprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/guildmage.jpg",
+    tableData: luisData.tableData,
+    formatData: luisData.formatData,
+  });
+});
+
+router.get("/invalidplayer", (req, res) => {
+  res.render("players/invalidplayer", {
+    title: "Invalid Player",
+    id: req.params.id,
   });
 });
 

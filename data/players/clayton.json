@@ -4,37 +4,43 @@
       "Season": "1",
       "Ranking": "NR",
       "Win %": "60.00%",
-      "Record": "6-4"
+      "Record": "6-4",
+      "Glicko": "N/A"
     },
     {
       "Season": "2",
       "Ranking": "NR",
       "Win %": "50.00%",
-      "Record": "5-5"
+      "Record": "5-5",
+      "Glicko": "N/A"
     },
     {
       "Season": "4",
       "Ranking": "2",
       "Win %": "70.73%",
-      "Record": "29-12"
+      "Record": "29-12",
+      "Glicko": "1731 ± 79"
     },
     {
       "Season": "6",
       "Ranking": "NR",
       "Win %": "87.50%",
-      "Record": "7-1"
+      "Record": "7-1",
+      "Glicko": "1851 ± 156"
     },
     {
       "Season": "8",
       "Ranking": "2",
       "Win %": "71.74%",
-      "Record": "33-13"
+      "Record": "33-13",
+      "Glicko": "1748 ± 72"
     },
     {
       "Season": "9",
       "Ranking": "NR",
       "Win %": "80.00%",
-      "Record": "8-2"
+      "Record": "8-2",
+      "Glicko": "1789 ± 123"
     }
   ],
 

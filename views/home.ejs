@@ -1,6 +1,18 @@
 <%- include('partials/header') %>
 <main>
   <h1>SLGS Stats</h1>
+
+  <h3>Lookup Drafter Profile (Just first name or first name first initial)</h3>
+  <form action="/search" method="GET">
+    <input
+      type="text"
+      name="query"
+      placeholder="Search for a drafter"
+      required
+    />
+    <button type="submit">Search</button>
+  </form>
+
   <div class="content">
     <h2>Season 9 (10/3/24 - 12/19/24)</h2>
   </div>

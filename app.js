@@ -64,6 +64,21 @@ app.get("/lifetime20", (req, res) => {
   });
 });
 
+app.get("/search", (req, res) => {
+  const searchQuery = req.query.query;
+  const profiles = ["clayton", "eric", "luis", "alberto"];
+
+  if (searchQuery) {
+    if (profiles.includes(searchQuery.toLowerCase())) {
+      res.redirect("/player/" + searchQuery);
+    } else {
+      res.redirect("/player/invalidplayer");
+    }
+  } else {
+    res.send("No search query provided");
+  }
+});
+
 // Start server
 app.listen(port, () => {
   console.log(`Server running on http://localhost:${port}`);
