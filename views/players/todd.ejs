@@ -7,45 +7,29 @@
       style="width: 350px; height: 350px; border-radius: 50%; object-fit: cover"
     />
 
-    <h1>Clayton</h1>
-    <h2 style="color: gold;"">
-      🥈🥈🎖️🎖️<br />
-      Season IV Trophies Champion<br />
-      Season VIII Points Champion
-    </h2>
-    <h2 style="color: silver;"">
-      Season IV Winrate Runnerup<br />
-      Season VIII Winrate Runnerup
-    </h2>
-    <h2 style="color: gold;"">
-      Lifetime Winrate: 74.56% 85-29 out of 55 drafts<br />
-      First All Time
-    </h2>
+    <h1>Todd</h1>
+    <h2>Lifetime Winrate: 46.71% 71-81 out of 64 drafts</h2>
 
     <br />
 
-    <h2>Planeswalker Level V: Spellshaper</h2>
+    <h2>Planeswalker Level II: Apprentice</h2>
     <img
       src="<%= planeswalkerPath %>"
       alt="Planeswalker Image"
       style="width: 250px; height: 250px; border-radius: 50%; object-fit: cover"
     />
     <div class="progress-container">
-        <div class="progress-text">
-            70/180
-        </div>
-        <div id="my-progress-bar" class="progress-bar"></div>
+      <div class="progress-text">57/80</div>
+      <div id="my-progress-bar" class="progress-bar"></div>
     </div>
-      
-      
+
     <script>
-        function updateProgress(percent) {
-          const progressBar = document.getElementById("my-progress-bar");
-          progressBar.style.width = percent + "%";
-        }
-      
-        
-        updateProgress(38.89);
+      function updateProgress(percent) {
+        const progressBar = document.getElementById("my-progress-bar");
+        progressBar.style.width = percent + "%";
+      }
+
+      updateProgress(71.25);
     </script>
   </div>
 

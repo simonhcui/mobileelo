@@ -66,7 +66,28 @@ app.get("/lifetime20", (req, res) => {
 
 app.get("/search", (req, res) => {
   const searchQuery = req.query.query;
-  const profiles = ["clayton", "eric", "luis", "alberto"];
+  const profiles = [
+    "adam",
+    "alan",
+    "alberto",
+    "andrewd",
+    "chrisa",
+    "clayton",
+    "evans",
+    "jacob",
+    "johnk",
+    "juwan",
+    "luca",
+    "matt",
+    "nickd",
+    "simon",
+    "sonny",
+    "stephen",
+    "todd",
+    "tony",
+    "walski",
+    "zane",
+  ];
 
   if (searchQuery) {
     if (profiles.includes(searchQuery.toLowerCase())) {

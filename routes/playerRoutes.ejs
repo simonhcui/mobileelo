@@ -1,40 +1,48 @@
 const express = require("express");
 const router = express.Router();
 
+const adamData = require("../data/players/adam.json");
+const alanData = require("../data/players/alan.json");
+const albertoData = require("../data/players/alberto.json");
+const andrewdData = require("../data/players/andrewd.json");
+const chrisaData = require("../data/players/chrisa.json");
 const claytonData = require("../data/players/clayton.json");
-const ericData = require("../data/players/eric.json");
-const luisData = require("../data/players/luis.json");
+const evansData = require("../data/players/evans.json");
+const jacobData = require("../data/players/jacob.json");
+const johnData = require("../data/players/johnk.json");
+const juwanData = require("../data/players/juwan.json");
+const lucaData = require("../data/players/luca.json");
+const mattData = require("../data/players/matt.json");
+const nickdData = require("../data/players/nickd.json");
+const simonData = require("../data/players/simon.json");
+const sonnyData = require("../data/players/sonny.json");
+const stephenData = require("../data/players/stephen.json");
+const toddData = require("../data/players/todd.json");
+const tonyData = require("../data/players/tony.json");
+const walskiData = require("../data/players/walski.json");
+const zaneData = require("../data/players/zane.json");
+// const ericData = require("../data/players/eric.json");
+// const luisData = require("../data/players/luis.json");
 
-router.get("/clayton", (req, res) => {
-  res.render("players/clayton", {
-    title: "Clayton",
+router.get("/adam", (req, res) => {
+  res.render("players/adam", {
+    title: "Adam",
     id: req.params.id,
-    imagePath: "/images/profile/claytonprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/invoker.jpg",
-    tableData: claytonData.tableData,
-    formatData: claytonData.formatData,
+    imagePath: "/images/profile/adamprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/spellshaper.jpg",
+    tableData: adamData.tableData,
+    formatData: adamData.formatData,
   });
 });
 
-router.get("/eric", (req, res) => {
-  res.render("players/eric", {
-    title: "Eric",
+router.get("/alan", (req, res) => {
+  res.render("players/alan", {
+    title: "Alan",
     id: req.params.id,
-    imagePath: "/images/profile/ericprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/apprentice.jpg",
-    tableData: ericData.tableData,
-    formatData: ericData.formatData,
-  });
-});
-
-router.get("/luis", (req, res) => {
-  res.render("players/luis", {
-    title: "Luis",
-    id: req.params.id,
-    imagePath: "/images/profile/luisprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/apprentice.jpg",
-    tableData: luisData.tableData,
-    formatData: luisData.formatData,
+    imagePath: "/images/profile/alanprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/adept.jpg",
+    tableData: alanData.tableData,
+    formatData: alanData.formatData,
   });
 });
 
@@ -43,11 +51,219 @@ router.get("/alberto", (req, res) => {
     title: "Alberto",
     id: req.params.id,
     imagePath: "/images/profile/albertoprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/guildmage.jpg",
-    tableData: luisData.tableData,
-    formatData: luisData.formatData,
+    planeswalkerPath: "/images/planeswalker/adept.jpg",
+    tableData: albertoData.tableData,
+    formatData: albertoData.formatData,
   });
 });
+
+router.get("/andrewd", (req, res) => {
+  res.render("players/andrewd", {
+    title: "Andrew D",
+    id: req.params.id,
+    imagePath: "/images/profile/andrewdprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/apprentice.jpg",
+    tableData: andrewdData.tableData,
+    formatData: andrewdData.formatData,
+  });
+});
+
+router.get("/chrisa", (req, res) => {
+  res.render("players/chrisa", {
+    title: "Chris A",
+    id: req.params.id,
+    imagePath: "/images/profile/chrisaprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/invoker.jpg",
+    tableData: chrisaData.tableData,
+    formatData: chrisaData.formatData,
+  });
+});
+
+router.get("/clayton", (req, res) => {
+  res.render("players/clayton", {
+    title: "Clayton",
+    id: req.params.id,
+    imagePath: "/images/profile/claytonprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/spellshaper.jpg",
+    tableData: claytonData.tableData,
+    formatData: claytonData.formatData,
+  });
+});
+
+router.get("/evans", (req, res) => {
+  res.render("players/evans", {
+    title: "Evan S",
+    id: req.params.id,
+    imagePath: "/images/profile/evansprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/spellshaper.jpg",
+    tableData: evansData.tableData,
+    formatData: evansData.formatData,
+  });
+});
+
+router.get("/jacob", (req, res) => {
+  res.render("players/jacob", {
+    title: "Jacob",
+    id: req.params.id,
+    imagePath: "/images/profile/jacobprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/adept.jpg",
+    tableData: jacobData.tableData,
+    formatData: jacobData.formatData,
+  });
+});
+
+router.get("/johnk", (req, res) => {
+  res.render("players/johnk", {
+    title: "John K",
+    id: req.params.id,
+    imagePath: "/images/profile/johnkprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/spellshaper.jpg",
+    tableData: johnData.tableData,
+    formatData: johnData.formatData,
+  });
+});
+
+router.get("/juwan", (req, res) => {
+  res.render("players/juwan", {
+    title: "Juwan",
+    id: req.params.id,
+    imagePath: "/images/profile/juwanprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/spellshaper.jpg",
+    tableData: juwanData.tableData,
+    formatData: juwanData.formatData,
+  });
+});
+
+router.get("/luca", (req, res) => {
+  res.render("players/luca", {
+    title: "Luca",
+    id: req.params.id,
+    imagePath: "/images/profile/lucaprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/prodigy.jpg",
+    tableData: lucaData.tableData,
+    formatData: lucaData.formatData,
+  });
+});
+
+router.get("/matt", (req, res) => {
+  res.render("players/matt", {
+    title: "Matt",
+    id: req.params.id,
+    imagePath: "/images/profile/mattprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/invoker.jpg",
+    tableData: mattData.tableData,
+    formatData: mattData.formatData,
+  });
+});
+
+router.get("/nickd", (req, res) => {
+  res.render("players/nickd", {
+    title: "Nick D",
+    id: req.params.id,
+    imagePath: "/images/profile/nickdprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/guildmage.jpg",
+    tableData: nickdData.tableData,
+    formatData: nickdData.formatData,
+  });
+});
+
+router.get("/simon", (req, res) => {
+  res.render("players/simon", {
+    title: "Gremlin",
+    id: req.params.id,
+    imagePath: "/images/profile/simonprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/guildmage.jpg",
+    tableData: simonData.tableData,
+    formatData: simonData.formatData,
+  });
+});
+
+router.get("/sonny", (req, res) => {
+  res.render("players/sonny", {
+    title: "Sonny",
+    id: req.params.id,
+    imagePath: "/images/profile/sonnyprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/spellshaper.jpg",
+    tableData: sonnyData.tableData,
+    formatData: sonnyData.formatData,
+  });
+});
+
+router.get("/stephen", (req, res) => {
+  res.render("players/stephen", {
+    title: "Stephen",
+    id: req.params.id,
+    imagePath: "/images/profile/stephenprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/apprentice.jpg",
+    tableData: stephenData.tableData,
+    formatData: stephenData.formatData,
+  });
+});
+
+router.get("/todd", (req, res) => {
+  res.render("players/todd", {
+    title: "Todd",
+    id: req.params.id,
+    imagePath: "/images/profile/toddprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/apprentice.jpg",
+    tableData: toddData.tableData,
+    formatData: toddData.formatData,
+  });
+});
+
+router.get("/tony", (req, res) => {
+  res.render("players/tony", {
+    title: "Tony",
+    id: req.params.id,
+    imagePath: "/images/profile/tonyprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/invoker.jpg",
+    tableData: tonyData.tableData,
+    formatData: tonyData.formatData,
+  });
+});
+
+router.get("/walski", (req, res) => {
+  res.render("players/walski", {
+    title: "Walski",
+    id: req.params.id,
+    imagePath: "/images/profile/walskiprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/adept.jpg",
+    tableData: walskiData.tableData,
+    formatData: walskiData.formatData,
+  });
+});
+
+router.get("/zane", (req, res) => {
+  res.render("players/zane", {
+    title: "Zane",
+    id: req.params.id,
+    imagePath: "/images/profile/zaneprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/adept.jpg",
+    tableData: zaneData.tableData,
+    formatData: zaneData.formatData,
+  });
+});
+// router.get("/eric", (req, res) => {
+//   res.render("players/eric", {
+//     title: "Eric",
+//     id: req.params.id,
+//     imagePath: "/images/profile/ericprofile.jpg",
+//     planeswalkerPath: "/images/planeswalker/adept.jpg",
+//     tableData: ericData.tableData,
+//     formatData: ericData.formatData,
+//   });
+// });
+
+// router.get("/luis", (req, res) => {
+//   res.render("players/luis", {
+//     title: "Luis",
+//     id: req.params.id,
+//     imagePath: "/images/profile/luisprofile.jpg",
+//     planeswalkerPath: "/images/planeswalker/apprentice.jpg",
+//     tableData: luisData.tableData,
+//     formatData: luisData.formatData,
+//   });
+// });
 
 router.get("/invalidplayer", (req, res) => {
   res.render("players/invalidplayer", {

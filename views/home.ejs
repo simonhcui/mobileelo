@@ -2,7 +2,10 @@
 <main>
   <h1>SLGS Stats</h1>
 
-  <h3>Lookup Drafter Profile (Just first name or first name first initial)</h3>
+  <h3>
+    Lookup Drafter Profile (Just first name or first name first initial with no
+    space in between)
+  </h3>
   <form action="/search" method="GET">
     <input
       type="text"
@@ -14,13 +17,11 @@
   </form>
 
   <div class="content">
-    <h2>Season 9 (10/3/24 - 12/19/24)</h2>
+    <h2>Season 9 (1/2/25 - 3/20/25)</h2>
   </div>
   <div class="data-table-container">
     <div class="data-table">
-      <p>53 Drafts, last updated 12/19/24</p>
-      <p>Alan is our Winrate and Gauntlet Champion!</p>
-      <p>Season X will last from 1/2/25 to 3/20/25</p>
+      <p>16 Drafts in, last updated 1/16/24</p>
       <table id="sortableTable">
         <thead>
           <tr>
@@ -35,31 +36,6 @@
         </thead>
         <tbody>
           <% tableData.forEach(function(row) { %>
-          <tr>
-            <% Object.values(row).forEach(function(value) { %>
-            <td><%= value %></td>
-            <% }); %>
-          </tr>
-          <% }); %>
-        </tbody>
-      </table>
-    </div>
-  </div>
-
-  <div class="data-table-container">
-    <div class="data-table">
-      <h2>Gauntlet Rankings</h2>
-      <table>
-        <thead>
-          <tr>
-            <% if(gauntletData.length > 0) { %> <%
-            Object.keys(gauntletData[0]).forEach(function(key) { %>
-            <th><%= key %></th>
-            <% }); %> <% } %>
-          </tr>
-        </thead>
-        <tbody>
-          <% gauntletData.forEach(function(row) { %>
           <tr>
             <% Object.values(row).forEach(function(value) { %>
             <td><%= value %></td>

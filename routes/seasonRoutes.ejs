@@ -9,6 +9,7 @@ const jsonData5 = require("../data/past_seasons/season5data.json");
 const jsonData6 = require("../data/past_seasons/season6data.json");
 const jsonData7 = require("../data/past_seasons/season7data.json");
 const jsonData8 = require("../data/past_seasons/season8data.json");
+const jsonData9 = require("../data/past_seasons/season9data.json");
 
 router.get("/1", (req, res) => {
   res.render("seasons/seasonone", {
@@ -71,6 +72,14 @@ router.get("/8", (req, res) => {
     title: "Season Eight",
     id: req.params.id,
     tableData: jsonData8.tableData,
+  });
+});
+
+router.get("/9", (req, res) => {
+  res.render("seasons/seasonnine", {
+    title: "Season Nine",
+    id: req.params.id,
+    tableData: jsonData9.tableData,
   });
 });
 
