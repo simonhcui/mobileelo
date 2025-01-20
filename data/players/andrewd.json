@@ -53,8 +53,38 @@
   "formatData": [
     {
       "Format": "Adam Cube",
-      "Win %": "57.14%",
-      "Record": "4-3"
+      "Win %": "28.57%",
+      "Record": "2-5",
+      "Drafts": "2",
+      "Glicko": "1332 ± 161"
+    },
+    {
+      "Format": "Chaos",
+      "Win %": "50.00%",
+      "Record": "28-28",
+      "Drafts": "27",
+      "Glicko": "1620 ± 67"
+    },
+    {
+      "Format": "Double Masters 2022",
+      "Win %": "26.67%",
+      "Record": "4-11",
+      "Drafts": "7",
+      "Glicko": "1385 ± 133"
+    },
+    {
+      "Format": "Mystery Booster 1",
+      "Win %": "44.44%",
+      "Record": "4-5",
+      "Drafts": "5",
+      "Glicko": "1498 ± 137"
+    },
+    {
+      "Format": "Mystery Booster 2",
+      "Win %": "50.00%",
+      "Record": "5-5",
+      "Drafts": "5",
+      "Glicko": "1553 ± 123"
     }
   ]
 }

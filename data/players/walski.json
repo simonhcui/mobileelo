@@ -52,9 +52,11 @@
 
   "formatData": [
     {
-      "Format": "Adam Cube",
-      "Win %": "57.14%",
-      "Record": "4-3"
+      "Format": "Chaos",
+      "Win %": "60.18%",
+      "Record": "68-45",
+      "Drafts": "53",
+      "Glicko": "1756 ± 64"
     }
   ]
 }

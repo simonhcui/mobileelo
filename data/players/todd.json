@@ -60,9 +60,46 @@
 
   "formatData": [
     {
-      "Format": "Adam Cube",
-      "Win %": "57.14%",
-      "Record": "4-3"
+      "Format": "Chaos",
+      "Win %": "28.95%",
+      "Record": "11-27",
+      "Drafts": "17",
+      "Glicko": "1435 ± 81"
+    },
+    {
+      "Format": "Double Masters 2022",
+      "Win %": "39.02%",
+      "Record": "16-25",
+      "Drafts": "15",
+      "Glicko": "1459 ± 87"
+    },
+    {
+      "Format": "Modern Horizons 1",
+      "Win %": "30.00%",
+      "Record": "3-10",
+      "Drafts": "5",
+      "Glicko": "1299 ± 201"
+    },
+    {
+      "Format": "Modern Horizons 2",
+      "Win %": "51.61%",
+      "Record": "16-15",
+      "Drafts": "13",
+      "Glicko": "1584 ± 88"
+    },
+    {
+      "Format": "Modern Horizons 3",
+      "Win %": "55.56%",
+      "Record": "5-4",
+      "Drafts": "4",
+      "Glicko": "1580 ± 142"
+    },
+    {
+      "Format": "Mystery Booster 2",
+      "Win %": "50.00%",
+      "Record": "4-4",
+      "Drafts": "4",
+      "Glicko": "1438 ± 155"
     }
   ]
 }

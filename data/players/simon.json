@@ -77,8 +77,66 @@
   "formatData": [
     {
       "Format": "Adam Cube",
+      "Win %": "51.72%",
+      "Record": "15-14",
+      "Drafts": "11",
+      "Glicko": "1564 ± 90"
+    },
+    {
+      "Format": "Chaos",
+      "Win %": "42.20%",
+      "Record": "46-63",
+      "Drafts": "53",
+      "Glicko": "1597 ± 65"
+    },
+    {
+      "Format": "Dominaria Remastered",
       "Win %": "57.14%",
-      "Record": "4-3"
+      "Record": "12-9",
+      "Drafts": "8",
+      "Glicko": "1568 ± 102"
+    },
+    {
+      "Format": "Double Masters 2022",
+      "Win %": "51.90%",
+      "Record": "41-38",
+      "Drafts": "31",
+      "Glicko": "1548 ± 67"
+    },
+    {
+      "Format": "Modern Horizons 1",
+      "Win %": "46.67%",
+      "Record": "14-16",
+      "Drafts": "13",
+      "Glicko": "1515 ± 110"
+    },
+    {
+      "Format": "Modern Horizons 2",
+      "Win %": "48.94%",
+      "Record": "23-24",
+      "Drafts": "18",
+      "Glicko": "1548 ± 83"
+    },
+    {
+      "Format": "Modern Horizons 3",
+      "Win %": "58.33%",
+      "Record": "7-5",
+      "Drafts": "6",
+      "Glicko": "1479 ± 142"
+    },
+    {
+      "Format": "Mystery Booster 1",
+      "Win %": "63.64%",
+      "Record": "7-4",
+      "Drafts": "6",
+      "Glicko": "1596 ± 151"
+    },
+    {
+      "Format": "Mystery Booster 2",
+      "Win %": "40.00%",
+      "Record": "6-9",
+      "Drafts": "7",
+      "Glicko": "1435 ± 114"
     }
   ]
 }
