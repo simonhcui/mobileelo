@@ -1,0 +1,20 @@
+{
+  "tableData": [
+    {
+      "Season": "8",
+      "Ranking": "NR",
+      "Win %": "75.00%",
+      "Record": "9-3",
+      "Glicko": "1808 ± 116"
+    },
+    {
+      "Season": "9",
+      "Ranking": "5",
+      "Win %": "80.00%",
+      "Record": "8-2",
+      "Glicko": "1706 ± 76"
+    }
+  ],
+
+  "formatData": [{}]
+}

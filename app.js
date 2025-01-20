@@ -7,6 +7,7 @@ const port = process.env.PORT || 3000;
 // Import routes
 const formatRoutes = require("./routes/formatRoutes.ejs");
 const seasonRoutes = require("./routes/seasonRoutes.ejs");
+const playerRoutes = require("./routes/playerRoutes.ejs");
 
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
@@ -16,6 +17,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/", formatRoutes);
 app.use("/season", seasonRoutes);
+app.use("/player", playerRoutes);
 
 // Read JSON file
 const rawDataLifetime = fs.readFileSync(
@@ -60,6 +62,42 @@ app.get("/lifetime20", (req, res) => {
     id: req.params.id,
     tableData: jsonDataLifetime20.tableData,
   });
+});
+
+app.get("/search", (req, res) => {
+  const searchQuery = req.query.query;
+  const profiles = [
+    "adam",
+    "alan",
+    "alberto",
+    "andrewd",
+    "chrisa",
+    "clayton",
+    "evans",
+    "jacob",
+    "johnk",
+    "juwan",
+    "luca",
+    "matt",
+    "nickd",
+    "simon",
+    "sonny",
+    "stephen",
+    "todd",
+    "tony",
+    "walski",
+    "zane",
+  ];
+
+  if (searchQuery) {
+    if (profiles.includes(searchQuery.toLowerCase())) {
+      res.redirect("/player/" + searchQuery);
+    } else {
+      res.redirect("/player/invalidplayer");
+    }
+  } else {
+    res.send("No search query provided");
+  }
 });
 
 // Start server

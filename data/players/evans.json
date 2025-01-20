@@ -1,0 +1,81 @@
+{
+  "tableData": [
+    {
+      "Season": "3",
+      "Ranking": "3",
+      "Win %": "66.67%",
+      "Record": "36-18",
+      "Drafts": "23",
+      "Glicko": "N/A"
+    },
+    {
+      "Season": "5",
+      "Ranking": "NR",
+      "Win %": "75.00%",
+      "Record": "18-6",
+      "Drafts": "9",
+      "Glicko": "1758 ± 92"
+    },
+    {
+      "Season": "6",
+      "Ranking": "5",
+      "Win %": "59.09%",
+      "Record": "13-9",
+      "Drafts": "10",
+      "Glicko": "1534 ± 90"
+    },
+    {
+      "Season": "7",
+      "Ranking": "NR",
+      "Win %": "56.25%",
+      "Record": "9-7",
+      "Drafts": "7",
+      "Glicko": "1678 ± 98"
+    }
+  ],
+
+  "formatData": [
+    {
+      "Format": "Adam Cube",
+      "Win %": "63.64%",
+      "Record": "7-4",
+      "Drafts": "4",
+      "Glicko": "1713 ± 138"
+    },
+    {
+      "Format": "Chaos",
+      "Win %": "74.19%",
+      "Record": "23-8",
+      "Drafts": "14",
+      "Glicko": "1815 ± 90"
+    },
+    {
+      "Format": "Dominaria Remastered",
+      "Win %": "42.86%",
+      "Record": "6-8",
+      "Drafts": "5",
+      "Glicko": "1515 ± 122"
+    },
+    {
+      "Format": "Double Masters 2022",
+      "Win %": "61.54%",
+      "Record": "16-10",
+      "Drafts": "10",
+      "Glicko": "1637 ± 87"
+    },
+    {
+      "Format": "Modern Horizons 1",
+      "Win %": "71.43%",
+      "Record": "5-2",
+      "Drafts": "3",
+      "Glicko": "1842 ± 195"
+    },
+    {
+      "Format": "Modern Horizons 2",
+      "Win %": "38.89%",
+      "Record": "7-11",
+      "Drafts": "8",
+      "Glicko": "1469 ± 113"
+    }
+  ]
+}

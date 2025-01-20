@@ -1,0 +1,120 @@
+{
+  "tableData": [
+    {
+      "Season": "2",
+      "Ranking": "NR",
+      "Win %": "50.00%",
+      "Record": "10-10",
+      "Drafts": "8",
+      "Glicko": "N/A"
+    },
+    {
+      "Season": "3",
+      "Ranking": "2",
+      "Win %": "67.86%",
+      "Record": "19-9",
+      "Drafts": "13",
+      "Glicko": "N/A"
+    },
+    {
+      "Season": "4",
+      "Ranking": "1",
+      "Win %": "72.73%",
+      "Record": "24-9",
+      "Drafts": "16",
+      "Glicko": "1768 ± 85"
+    },
+    {
+      "Season": "5",
+      "Ranking": "6",
+      "Win %": "58.06%",
+      "Record": "18-13",
+      "Drafts": "12",
+      "Glicko": "1607 ± 78"
+    },
+    {
+      "Season": "6",
+      "Ranking": "3",
+      "Win %": "61.54%",
+      "Record": "24-15",
+      "Drafts": "20",
+      "Glicko": "1598 ± 76"
+    },
+    {
+      "Season": "7",
+      "Ranking": "NR",
+      "Win %": "68.75%",
+      "Record": "11-5",
+      "Drafts": "7",
+      "Glicko": "1730 ± 104"
+    },
+    {
+      "Season": "8",
+      "Ranking": "3",
+      "Win %": "68.42%",
+      "Record": "26-12",
+      "Drafts": "18",
+      "Glicko": "1695 ± 78"
+    },
+    {
+      "Season": "9",
+      "Ranking": "6",
+      "Win %": "58.54%",
+      "Record": "24-17",
+      "Drafts": "20",
+      "Glicko": "1649 ± 74"
+    }
+  ],
+
+  "formatData": [
+    {
+      "Format": "Adam Cube",
+      "Win %": "100.00%",
+      "Record": "6-0",
+      "Drafts": "2",
+      "Glicko": "2049 ± 176"
+    },
+    {
+      "Format": "Chaos",
+      "Win %": "68.97%",
+      "Record": "60-27",
+      "Drafts": "43",
+      "Glicko": "1753 ± 66"
+    },
+    {
+      "Format": "Double Masters 2022",
+      "Win %": "35.71%",
+      "Record": "5-9",
+      "Drafts": "6",
+      "Glicko": "1521 ± 103"
+    },
+    {
+      "Format": "Modern Horizons 2",
+      "Win %": "36.36%",
+      "Record": "4-7",
+      "Drafts": "5",
+      "Glicko": "1507 ± 129"
+    },
+    {
+      "Format": "Modern Horizons 3",
+      "Win %": "56.25%",
+      "Record": "9-7",
+      "Drafts": "7",
+      "Glicko": "1517 ± 113"
+    },
+    {
+      "Format": "Mystery Booster 1",
+      "Win %": "57.14%",
+      "Record": "4-3",
+      "Drafts": "3",
+      "Glicko": "1552 ± 153"
+    },
+    {
+      "Format": "Mystery Booster 2",
+      "Win %": "41.67%",
+      "Record": "5-7",
+      "Drafts": "6",
+      "Glicko": "1464 ± 135"
+    }
+  ]
+}

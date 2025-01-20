@@ -1,0 +1,59 @@
+{
+  "tableData": [
+    {
+      "Season": "7",
+      "Ranking": "2",
+      "Win %": "66.67%",
+      "Record": "22-11",
+      "Drafts": "14",
+      "Glicko": "1728 ± 77"
+    },
+    {
+      "Season": "8",
+      "Ranking": "7",
+      "Win %": "53.85%",
+      "Record": "21-18",
+      "Drafts": "20",
+      "Glicko": "1602 ± 75"
+    },
+    {
+      "Season": "9",
+      "Ranking": "1",
+      "Win %": "75.68%",
+      "Record": "28-9",
+      "Drafts": "19",
+      "Glicko": "1809 ± 77"
+    }
+  ],
+
+  "formatData": [
+    {
+      "Format": "Adam Cube",
+      "Win %": "85.71%",
+      "Record": "6-1",
+      "Drafts": "3",
+      "Glicko": "1816 ± 155"
+    },
+    {
+      "Format": "Modern Horizons 2",
+      "Win %": "71.43%",
+      "Record": "5-2",
+      "Drafts": "4",
+      "Glicko": "1714 ± 143"
+    },
+    {
+      "Format": "Modern Horizons 3",
+      "Win %": "60.87%",
+      "Record": "14-9",
+      "Drafts": "10",
+      "Glicko": "1655 ± 94"
+    },
+    {
+      "Format": "Mystery Booster 2",
+      "Win %": "85.71%",
+      "Record": "8-3",
+      "Drafts": "6",
+      "Glicko": "1699 ± 128"
+    }
+  ]
+}

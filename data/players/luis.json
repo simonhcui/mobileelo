@@ -1,0 +1,34 @@
+{
+  "tableData": [
+    {
+      "Season": "5",
+      "Ranking": "NR",
+      "Win %": "64.29%",
+      "Record": "9-5",
+      "Glicko": "1582 ± 116"
+    },
+    {
+      "Season": "7",
+      "Ranking": "NR",
+      "Win %": "62.50%",
+      "Record": "5-3",
+      "Glicko": "1676 ± 143"
+    },
+    {
+      "Season": "8",
+      "Ranking": "NR",
+      "Win %": "83.33%",
+      "Record": "10-2",
+      "Glicko": "1807 ± 123"
+    },
+    {
+      "Season": "9",
+      "Ranking": "NR",
+      "Win %": "60.00%",
+      "Record": "6-4",
+      "Glicko": "1628 ± 130"
+    }
+  ],
+
+  "formatData": [{}]
+}

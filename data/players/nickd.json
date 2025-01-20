@@ -1,0 +1,127 @@
+{
+  "tableData": [
+    {
+      "Season": "1",
+      "Ranking": "1",
+      "Win %": "67.74%",
+      "Record": "63-30",
+      "Drafts": "35",
+      "Glicko": "N/A"
+    },
+    {
+      "Season": "2",
+      "Ranking": "1",
+      "Win %": "70.27%",
+      "Record": "26-11",
+      "Drafts": "14",
+      "Glicko": "N/A"
+    },
+    {
+      "Season": "3",
+      "Ranking": "NR",
+      "Win %": "50.00%",
+      "Record": "9-9",
+      "Drafts": "6",
+      "Glicko": "N/A"
+    },
+    {
+      "Season": "4",
+      "Ranking": "NR",
+      "Win %": "61.54%",
+      "Record": "8-5",
+      "Drafts": "5",
+      "Glicko": "1701 ± 115"
+    },
+    {
+      "Season": "5",
+      "Ranking": "3",
+      "Win %": "64.29%",
+      "Record": "18-10",
+      "Drafts": "11",
+      "Glicko": "1627 ± 84"
+    },
+    {
+      "Season": "6",
+      "Ranking": "NR",
+      "Win %": "66.67%",
+      "Record": "6-3",
+      "Drafts": "4",
+      "Glicko": "1685 ± 139"
+    },
+    {
+      "Season": "7",
+      "Ranking": "NR",
+      "Win %": "63.16%",
+      "Record": "12-7",
+      "Drafts": "9",
+      "Glicko": "1668 ± 99"
+    },
+    {
+      "Season": "8",
+      "Ranking": "1",
+      "Win %": "77.78%",
+      "Record": "14-4",
+      "Drafts": "10",
+      "Glicko": "1845 ± 108"
+    }
+  ],
+
+  "formatData": [
+    {
+      "Format": "Chaos",
+      "Win %": "55.56%",
+      "Record": "5-4",
+      "Drafts": "4",
+      "Glicko": "1586 ± 121"
+    },
+    {
+      "Format": "Dominaria Remastered",
+      "Win %": "61.29%",
+      "Record": "19-12",
+      "Drafts": "12",
+      "Glicko": "1602 ± 86"
+    },
+    {
+      "Format": "Double Masters 2022",
+      "Win %": "66.67%",
+      "Record": "28-14",
+      "Drafts": "16",
+      "Glicko": "1725 ± 94"
+    },
+    {
+      "Format": "Modern Horizons 1",
+      "Win %": "71.43%",
+      "Record": "30-12",
+      "Drafts": "17",
+      "Glicko": "1623 ± 90"
+    },
+    {
+      "Format": "Modern Horizons 2",
+      "Win %": "75.81%",
+      "Record": "47-15",
+      "Drafts": "26",
+      "Glicko": "1708 ± 75"
+    },
+    {
+      "Format": "Modern Horizons 3",
+      "Win %": "77.27%",
+      "Record": "17-5",
+      "Drafts": "11",
+      "Glicko": "1787 ± 95"
+    },
+    {
+      "Format": "Mystery Booster 1",
+      "Win %": "60.00%",
+      "Record": "3-2",
+      "Drafts": "3",
+      "Glicko": "1607 ± 175"
+    },
+    {
+      "Format": "Mystery Booster 2",
+      "Win %": "60.00%",
+      "Record": "6-4",
+      "Drafts": "5",
+      "Glicko": "1580 ± 128"
+    }
+  ]
+}
