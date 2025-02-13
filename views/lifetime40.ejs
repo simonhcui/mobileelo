@@ -25,7 +25,11 @@
           <tr>
             <% Object.values(row).forEach(function(value, index) { %> <%
             if(index === 1) { %>
-            <td><a href="player/<%= value %>"><%= value %></a></td>
+            <td>
+              <a href="player/<%= value.toString().replace(/\s+/g, '') %>"
+                ><%= value %></a
+              >
+            </td>
             <% } else { %>
             <td><%= value %></td>
             <% } %> <% }); %>
