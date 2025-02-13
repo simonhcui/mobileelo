@@ -30,6 +30,11 @@ const rawDataLifetime20 = fs.readFileSync(
 );
 const jsonDataLifetime20 = JSON.parse(rawDataLifetime20);
 
+const rawDataLifetime40 = fs.readFileSync(
+  path.join(__dirname, "data/lifetimedata40.json")
+);
+const jsonDataLifetime40 = JSON.parse(rawDataLifetime40);
+
 const rawData = fs.readFileSync(path.join(__dirname, "data/data.json"));
 const jsonData = JSON.parse(rawData);
 
@@ -61,6 +66,14 @@ app.get("/lifetime20", (req, res) => {
     title: "Lifetime Min 20",
     id: req.params.id,
     tableData: jsonDataLifetime20.tableData,
+  });
+});
+
+app.get("/lifetime40", (req, res) => {
+  res.render("lifetime40", {
+    title: "Lifetime Min 40",
+    id: req.params.id,
+    tableData: jsonDataLifetime40.tableData,
   });
 });
 
