@@ -69,24 +69,24 @@
     {
       "rank": "7",
       "name": "Matt Y",
-      "win_percentage": "63.16%",
-      "wins_losses": "12-7",
-      "total_drafts": "10",
-      "glicko": "1680 ± 108",
-      "gxe": "66.24%",
+      "win_percentage": "66.67%",
+      "wins_losses": "14-7",
+      "total_drafts": "11",
+      "glicko": "1710 ± 103",
+      "gxe": "68.77%",
       "last_set": "MB2",
-      "last_date": "2-6-25"
+      "last_date": "2-20-25"
     },
     {
       "rank": "8",
       "name": "Chris A",
-      "win_percentage": "60.71%",
-      "wins_losses": "17-11",
-      "total_drafts": "13",
-      "glicko": "1623 ± 83",
-      "gxe": "61..44%",
+      "win_percentage": "60.00%",
+      "wins_losses": "18-12",
+      "total_drafts": "14",
+      "glicko": "1620 ± 82",
+      "gxe": "61.15%",
       "last_set": "MB2",
-      "last_date": "2-6-25"
+      "last_date": "2-20-25"
     },
     {
       "rank": "9",
@@ -134,17 +134,6 @@
     },
     {
       "rank": "13",
-      "name": "Tony",
-      "win_percentage": "55.00%",
-      "wins_losses": "11-9",
-      "total_drafts": "10",
-      "glicko": "1573 ± 101",
-      "gxe": "56.81%",
-      "last_set": "Alan Cube",
-      "last_date": "2-13-25"
-    },
-    {
-      "rank": "14",
       "name": "Eric",
       "win_percentage": "53.57%",
       "wins_losses": "15-13",
@@ -155,18 +144,18 @@
       "last_date": "2-13-25"
     },
     {
-      "rank": "15",
+      "rank": "14",
       "name": "Stephen",
-      "win_percentage": "52.94%",
-      "wins_losses": "9-8",
-      "total_drafts": "9",
-      "glicko": "1573 ± 104",
-      "gxe": "56.84%",
+      "win_percentage": "52.63%",
+      "wins_losses": "10-9",
+      "total_drafts": "10",
+      "glicko": "1582 ± 98",
+      "gxe": "57.69%",
       "last_set": "MB2",
-      "last_date": "2-6-25"
+      "last_date": "2-20-25"
     },
     {
-      "rank": "16",
+      "rank": "15",
       "name": "Simon",
       "win_percentage": "52.63%",
       "wins_losses": "10-9",
@@ -177,18 +166,18 @@
       "last_date": "1-30-25"
     },
     {
-      "rank": "17",
-      "name": "Luke",
-      "win_percentage": "45.45%",
-      "wins_losses": "10-12",
+      "rank": "16",
+      "name": "Tony",
+      "win_percentage": "52.38%",
+      "wins_losses": "11-10",
       "total_drafts": "11",
-      "glicko": "1497 ± 96",
-      "gxe": "49.76%",
-      "last_set": "Alan Cube",
-      "last_date": "2-13-25"
+      "glicko": "1549 ± 98",
+      "gxe": "54.56%",
+      "last_set": "MB2",
+      "last_date": "2-20-25"
     },
     {
-      "rank": "18",
+      "rank": "17",
       "name": "John K",
       "win_percentage": "43.75%",
       "wins_losses": "7-9",
@@ -199,7 +188,7 @@
       "last_date": "2-13-25"
     },
     {
-      "rank": "19",
+      "rank": "18",
       "name": "Walski",
       "win_percentage": "43.48%",
       "wins_losses": "10-13",
@@ -210,26 +199,37 @@
       "last_date": "2-1-25"
     },
     {
+      "rank": "19",
+      "name": "Luke",
+      "win_percentage": "41.67%",
+      "wins_losses": "10-14",
+      "total_drafts": "12",
+      "glicko": "1450 ± 92",
+      "gxe": "45.27%",
+      "last_set": "MB2",
+      "last_date": "2-20-25"
+    },
+    {
       "rank": "20",
       "name": "Jacob",
-      "win_percentage": "30.43%",
-      "wins_losses": "7-16",
-      "total_drafts": "11",
-      "glicko": "1333 ± 95",
-      "gxe": "34.72%",
-      "last_set": "Vintage Cube",
-      "last_date": "2-13-25"
+      "win_percentage": "29.17%",
+      "wins_losses": "7-17",
+      "total_drafts": "12",
+      "glicko": "1327 ± 94",
+      "gxe": "34.19%",
+      "last_set": "MB2",
+      "last_date": "2-20-25"
     },
     {
       "rank": "21",
       "name": "Collin",
-      "win_percentage": "25.00%",
-      "wins_losses": "4-12",
-      "total_drafts": "8",
-      "glicko": "1290 ± 110",
-      "gxe": "31.30%",
-      "last_set": "Alan Cube",
-      "last_date": "2-13-25"
+      "win_percentage": "27.78%",
+      "wins_losses": "5-13",
+      "total_drafts": "9",
+      "glicko": "1323 ± 106",
+      "gxe": "33.96%",
+      "last_set": "MB2",
+      "last_date": "2-20-25"
     },
     {
       "rank": "22",
