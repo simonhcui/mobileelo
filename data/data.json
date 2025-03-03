@@ -36,13 +36,13 @@
     {
       "rank": "4",
       "name": "Noah",
-      "win_percentage": "75.00%",
-      "wins_losses": "12-4",
-      "total_drafts": "8",
-      "glicko": "1758 ± 114",
-      "gxe": "72.46%",
-      "last_set": "Chaos",
-      "last_date": "2-1-25"
+      "win_percentage": "72.73%",
+      "wins_losses": "16-6",
+      "total_drafts": "11",
+      "glicko": "1706 ± 105",
+      "gxe": "68.42%",
+      "last_set": "MB2",
+      "last_date": "2-28-25"
     },
     {
       "rank": "5",
@@ -58,38 +58,49 @@
     {
       "rank": "6",
       "name": "Adam",
-      "win_percentage": "66.67%",
-      "wins_losses": "18-9",
-      "total_drafts": "13",
-      "glicko": "1688 ± 85",
-      "gxe": "67.10%",
-      "last_set": "Alan Cube",
-      "last_date": "2-13-25"
+      "win_percentage": "67.74%",
+      "wins_losses": "21-10",
+      "total_drafts": "15",
+      "glicko": "1700 ± 81",
+      "gxe": "68.10%",
+      "last_set": "MH3",
+      "last_date": "2-27-25"
     },
     {
       "rank": "7",
       "name": "Matt Y",
-      "win_percentage": "66.67%",
-      "wins_losses": "14-7",
-      "total_drafts": "11",
-      "glicko": "1710 ± 103",
-      "gxe": "68.77%",
-      "last_set": "MB2",
-      "last_date": "2-20-25"
+      "win_percentage": "64.00%",
+      "wins_losses": "16-9",
+      "total_drafts": "13",
+      "glicko": "1714 ± 93",
+      "gxe": "69.17%",
+      "last_set": "MH3",
+      "last_date": "2-27-25"
     },
     {
       "rank": "8",
       "name": "Chris A",
-      "win_percentage": "60.00%",
-      "wins_losses": "18-12",
-      "total_drafts": "14",
-      "glicko": "1620 ± 82",
-      "gxe": "61.15%",
-      "last_set": "MB2",
-      "last_date": "2-20-25"
+      "win_percentage": "59.38%",
+      "wins_losses": "19-13",
+      "total_drafts": "15",
+      "glicko": "1619 ± 79",
+      "gxe": "61.07%",
+      "last_set": "TBD",
+      "last_date": "2-207-25"
     },
     {
       "rank": "9",
+      "name": "Eric",
+      "win_percentage": "58.06%",
+      "wins_losses": "18-13",
+      "total_drafts": "16",
+      "glicko": "1633 ± 83",
+      "gxe": "62.32%",
+      "last_set": "MB2",
+      "last_date": "2-28-25"
+    },
+    {
+      "rank": "10",
       "name": "Kevin",
       "win_percentage": "56.00%",
       "wins_losses": "14-11",
@@ -100,7 +111,7 @@
       "last_date": "2-1-25"
     },
     {
-      "rank": "10",
+      "rank": "11",
       "name": "David O",
       "win_percentage": "55.56%",
       "wins_losses": "10-8",
@@ -111,7 +122,7 @@
       "last_date": "2-13-25"
     },
     {
-      "rank": "11",
+      "rank": "12",
       "name": "Nick D",
       "win_percentage": "55.56%",
       "wins_losses": "5-4",
@@ -122,7 +133,7 @@
       "last_date": "2-1-25"
     },
     {
-      "rank": "12",
+      "rank": "13",
       "name": "John C",
       "win_percentage": "55.56%",
       "wins_losses": "5-4",
@@ -133,51 +144,51 @@
       "last_date": "1-16-25"
     },
     {
-      "rank": "13",
-      "name": "Eric",
-      "win_percentage": "53.57%",
-      "wins_losses": "15-13",
-      "total_drafts": "14",
-      "glicko": "1594 ± 85",
-      "gxe": "58.83%",
-      "last_set": "Alan Cube",
-      "last_date": "2-13-25"
-    },
-    {
       "rank": "14",
-      "name": "Stephen",
-      "win_percentage": "52.63%",
-      "wins_losses": "10-9",
-      "total_drafts": "10",
-      "glicko": "1582 ± 98",
-      "gxe": "57.69%",
-      "last_set": "MB2",
-      "last_date": "2-20-25"
+      "name": "Tony",
+      "win_percentage": "52.17%",
+      "wins_losses": "12-11",
+      "total_drafts": "12",
+      "glicko": "1555 ± 93",
+      "gxe": "55.13%",
+      "last_set": "TBD",
+      "last_date": "2-27-25"
     },
     {
       "rank": "15",
       "name": "Simon",
-      "win_percentage": "52.63%",
-      "wins_losses": "10-9",
-      "total_drafts": "9",
-      "glicko": "1525 ± 100",
-      "gxe": "52.31%",
-      "last_set": "INR",
-      "last_date": "1-30-25"
+      "win_percentage": "52.00%",
+      "wins_losses": "13-12",
+      "total_drafts": "12",
+      "glicko": "1500 ± 88",
+      "gxe": "49.98%",
+      "last_set": "MB2",
+      "last_date": "2-28-25"
     },
     {
       "rank": "16",
-      "name": "Tony",
-      "win_percentage": "52.38%",
-      "wins_losses": "11-10",
-      "total_drafts": "11",
-      "glicko": "1549 ± 98",
-      "gxe": "54.56%",
+      "name": "Luke",
+      "win_percentage": "50.00%",
+      "wins_losses": "14-14",
+      "total_drafts": "14",
+      "glicko": "1516 ± 86",
+      "gxe": "51.51%",
       "last_set": "MB2",
-      "last_date": "2-20-25"
+      "last_date": "2-28-25"
     },
     {
       "rank": "17",
+      "name": "Stephen",
+      "win_percentage": "47.83%",
+      "wins_losses": "11-12",
+      "total_drafts": "12",
+      "glicko": "1512 ± 90",
+      "gxe": "51.14%",
+      "last_set": "MH3",
+      "last_date": "2-27-25"
+    },
+    {
+      "rank": "18",
       "name": "John K",
       "win_percentage": "43.75%",
       "wins_losses": "7-9",
@@ -188,7 +199,7 @@
       "last_date": "2-13-25"
     },
     {
-      "rank": "18",
+      "rank": "19",
       "name": "Walski",
       "win_percentage": "43.48%",
       "wins_losses": "10-13",
@@ -199,51 +210,51 @@
       "last_date": "2-1-25"
     },
     {
-      "rank": "19",
-      "name": "Luke",
-      "win_percentage": "41.67%",
-      "wins_losses": "10-14",
-      "total_drafts": "12",
-      "glicko": "1450 ± 92",
-      "gxe": "45.27%",
-      "last_set": "MB2",
-      "last_date": "2-20-25"
-    },
-    {
       "rank": "20",
-      "name": "Jacob",
-      "win_percentage": "29.17%",
-      "wins_losses": "7-17",
-      "total_drafts": "12",
-      "glicko": "1327 ± 94",
-      "gxe": "34.19%",
+      "name": "Travis",
+      "win_percentage": "35.71%",
+      "wins_losses": "5-9",
+      "total_drafts": "7",
+      "glicko": "1420 ± 115",
+      "gxe": "42.55%",
       "last_set": "MB2",
-      "last_date": "2-20-25"
+      "last_date": "2-28-25"
     },
     {
       "rank": "21",
-      "name": "Collin",
-      "win_percentage": "27.78%",
-      "wins_losses": "5-13",
-      "total_drafts": "9",
-      "glicko": "1323 ± 106",
-      "gxe": "33.96%",
+      "name": "Jacob",
+      "win_percentage": "32.00%",
+      "wins_losses": "8-17",
+      "total_drafts": "13",
+      "glicko": "1349 ± 93",
+      "gxe": "36.10%",
       "last_set": "MB2",
-      "last_date": "2-20-25"
+      "last_date": "2-28-25"
     },
     {
       "rank": "22",
-      "name": "Travis",
-      "win_percentage": "20.00%",
-      "wins_losses": "2-8",
-      "total_drafts": "5",
-      "glicko": "1339 ± 134",
-      "gxe": "35.55%",
-      "last_set": "OTJ",
-      "last_date": "2-1-25"
+      "name": "Collin",
+      "win_percentage": "27.27%",
+      "wins_losses": "6-16",
+      "total_drafts": "11",
+      "glicko": "1333 ± 98",
+      "gxe": "34.72%",
+      "last_set": "MH3",
+      "last_date": "2-27-25"
     },
     {
       "rank": "23",
+      "name": "Juwan",
+      "win_percentage": "20.00%",
+      "wins_losses": "2-8",
+      "total_drafts": "5",
+      "glicko": "1334 ± 137",
+      "gxe": "35.11%",
+      "last_set": "MH3",
+      "last_date": "2-27-25"
+    },
+    {
+      "rank": "24",
       "name": "Marco",
       "win_percentage": "0.00%",
       "wins_losses": "0-12",
