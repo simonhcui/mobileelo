@@ -1,0 +1,290 @@
+{
+    "tableData": [
+        {
+            "Season": "I",
+            "Title": "Winrate",
+            "Player": "Nick D",
+            "Num Drafts": "35",
+            "Glicko": "N/A"
+        },
+        {
+            "Season": "I",
+            "Title": "Trophies",
+            "Player": "Nick D",
+            "Num Drafts": "35",
+            "Glicko": "N/A"
+        },
+        {
+            "Season": "II",
+            "Title": "Winrate",
+            "Player": "Nick D",
+            "Num Drafts": "14",
+            "Glicko": "N/A"
+        },
+        {
+            "Season": "II",
+            "Title": "Trophies",
+            "Player": "Juwan",
+            "Num Drafts": "19",
+            "Glicko": "N/A"
+        },
+        {
+            "Season": "III",
+            "Title": "Winrate",
+            "Player": "Matt Y",
+            "Num Drafts": "12",
+            "Glicko": "N/A"
+        },
+        {
+            "Season": "III",
+            "Title": "Trophies",
+            "Player": "Evan S",
+            "Num Drafts": "23",
+            "Glicko": "N/A"
+        },
+        {
+            "Season": "IV",
+            "Title": "Winrate",
+            "Player": "Tony",
+            "Num Drafts": "16",
+            "Glicko": "1768 ± 85"
+        },
+        {
+            "Season": "IV",
+            "Title": "Trophies",
+            "Player": "Clayton",
+            "Num Drafts": "18",
+            "Glicko": "1731 ± 79"
+        },
+        {
+            "Season": "V",
+            "Title": "Winrate",
+            "Player": "Chris A",
+            "Num Drafts": "22",
+            "Glicko": "1669 ± 74"
+        },
+        {
+            "Season": "V",
+            "Title": "Trophies",
+            "Player": "Chris A",
+            "Num Drafts": "22",
+            "Glicko": "1669 ± 74"
+        },
+        {
+            "Season": "VI",
+            "Title": "Winrate",
+            "Player": "Alberto",
+            "Num Drafts": "22",
+            "Glicko": "1629 ± 74"
+        },
+        {
+            "Season": "VI",
+            "Title": "Winstreak",
+            "Player": "Alberto",
+            "Num Drafts": "22",
+            "Glicko": "1629 ± 74"
+        },
+        {
+            "Season": "VII",
+            "Title": "Winrate",
+            "Player": "Matt Y",
+            "Num Drafts": "16",
+            "Glicko": "1753 ± 84"
+        },
+        {
+            "Season": "VII",
+            "Title": "Winstreak",
+            "Player": "Matt Y",
+            "Num Drafts": "16",
+            "Glicko": "1753 ± 84"
+        },
+        {
+            "Season": "VIII",
+            "Title": "Winrate",
+            "Player": "Nick D",
+            "Num Drafts": "10",
+            "Glicko": "1845 ± 108"
+        },
+        {
+            "Season": "VIII",
+            "Title": "Points",
+            "Player": "Clayton",
+            "Num Drafts": "23",
+            "Glicko": "1748 ± 72"
+        },
+        {
+            "Season": "IX",
+            "Title": "Winrate",
+            "Player": "Alan",
+            "Num Drafts": "19",
+            "Glicko": "1809 ± 77"
+        },
+        {
+            "Season": "IX",
+            "Title": "Points",
+            "Player": "Alan",
+            "Num Drafts": "19",
+            "Glicko": "1809 ± 77"
+        }
+    ],
+    "moneyData": [
+        {
+            "Season": "VI",
+            "Rank": "1",
+            "Player": "John K",
+            "Best Pull": "Green Neon Ink Cavern of Souls",
+            "Value":  "$152"
+        },
+        {
+            "Season": "VI",
+            "Rank": "2",
+            "Player": "Jacob",
+            "Best Pull": "Foil Retro Vampiric Tutor",
+            "Value":  "$69"
+        },
+        {
+            "Season": "VI",
+            "Rank": "3",
+            "Player": "Sonny",
+            "Best Pull": "Foil Borderless Deflecting Swat",
+            "Value":  "$78"
+        },
+        {
+            "Season": "VII",
+            "Rank": "1",
+            "Player": "Evan S",
+            "Best Pull": "Serialized 211/250 Ulamog, the Defiler",
+            "Value":  "$5000"
+        },
+        {
+            "Season": "VII",
+            "Rank": "2",
+            "Player": "Jacob",
+            "Best Pull": "Serialized 057/500 Yorion, Sky Nomad",
+            "Value":  "$302"
+        },
+        {
+            "Season": "VII",
+            "Rank": "3",
+            "Player": "Walski",
+            "Best Pull": "Raised Foil Vaultborn Tyrant",
+            "Value":  "$184"
+        },
+        {
+            "Season": "VIII",
+            "Rank": "1",
+            "Player": "Chris A",
+            "Best Pull": "Foil Scroll Orcish Bowmasters",
+            "Value":  "$81"
+        },
+        {
+            "Season": "VIII",
+            "Rank": "2",
+            "Player": "Jacob",
+            "Best Pull": "Retro Ocelot Pride",
+            "Value":  "$70"
+        },
+        {
+            "Season": "VIII",
+            "Rank": "3",
+            "Player": "Stephen",
+            "Best Pull": "Mana Crypt",
+            "Value":  "$193"
+        },
+        {
+            "Season": "IX",
+            "Rank": "1",
+            "Player": "Tony",
+            "Best Pull": "Foil Future Sight Titania, Protector of Argoth",
+            "Value":  "$250"
+        },
+        {
+            "Season": "IX",
+            "Rank": "2",
+            "Player": "Jacob",
+            "Best Pull": "151 SIR Charizard ex",
+            "Value":  "$219"
+        },
+        {
+            "Season": "IX",
+            "Rank": "3",
+            "Player": "Kevin",
+            "Best Pull": "Foil Future Sight Doomsday",
+            "Value":  "$170"
+        }
+    ],
+    "top_10_money": [
+        {
+            "Rank": "1",
+            "Card": "Serialized 211/250 Ulamog, the Defiler",
+            "Value": "$5000",
+            "Player": "Evan S",
+            "Season": "VII"
+        },
+        {
+            "Rank": "2",
+            "Card": "Fracture Foil Doubling Season",
+            "Value": "$497",
+            "Player": "Walski",
+            "Season": "X"
+        },
+        {
+            "Rank": "3",
+            "Card": "Serialized 057/500 Yorion, Sky Nomad",
+            "Value": "$302",
+            "Player": "Jacob",
+            "Season": "VII"
+        },
+        {
+            "Rank": "4",
+            "Card": "Foil Special Guest Mana Crypt",
+            "Value": "$270",
+            "Player": "Alberto",
+            "Season": "VII"
+        },
+        {
+            "Rank": "5",
+            "Card": "Foil Future Sight Titania, Protector of Argoth",
+            "Value": "$250",
+            "Player": "Tony",
+            "Season": "IX"
+        },
+        {
+            "Rank": "6",
+            "Card": "151 SIR Charizard ex",
+            "Value": "$219",
+            "Player": "Jacob",
+            "Season": "IX"
+        },
+        {
+            "Rank": "7",
+            "Card": "Foil Future Sight Sol Ring",
+            "Value": "$211",
+            "Player": "Chris A",
+            "Season": "X"
+        },
+        {
+            "Rank": "8",
+            "Card": "Serialized 098/500 Niv-Mizzet Reborn",
+            "Value": "$205",
+            "Player": "Walski",
+            "Season": "VIII"
+        },
+        {
+            "Rank": "9",
+            "Card": "Foil Scroll The One Ring",
+            "Value": "$198",
+            "Player": "Chris A",
+            "Season": "VII"
+        },
+        {
+            "Rank": "10",
+            "Card": "Mana Crypt",
+            "Value": "$193",
+            "Player": "Stephen",
+            "Season": "VIII"
+        }
+    ]
+
+
+}

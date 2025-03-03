@@ -1,0 +1,99 @@
+<%- include('partials/header') %>
+<main>
+  <h1>Lifetime Champions</h1>
+  <div class="content">
+    <!-- <p>Season 8 (7/2/24 - 9/26/24)</p> -->
+  </div>
+  <div class="data-table-container">
+    <div class="data-table">
+      <h2>Past Champions</h2>
+      <div class="data-table"></div>
+      <table>
+        <thead>
+          <tr>
+            <% if(tableData.length > 0) { %> <%
+            Object.keys(tableData[0]).forEach(function(key) { %>
+            <th><%= key %></th>
+            <% }); %> <% } %>
+          </tr>
+        </thead>
+        <tbody>
+          <% tableData.forEach(function(row) { %>
+          <tr>
+            <% Object.values(row).forEach(function(value, index) { %> <%
+            if(index === 2) { %>
+            <td>
+              <a href="player/<%= value.toString().replace(/\s+/g, '') %>"
+                ><%= value %></a
+              >
+            </td>
+            <% } else { %>
+            <td><%= value %></td>
+            <% } %> <% }); %>
+          </tr>
+          <% }); %>
+        </tbody>
+    </div>
+    </table>
+      <div class="data-table"></div>
+      <h2>Past Money Champions</h2>
+      <h4>Seasons VI - VIII were based off cumulative money pulled not simply best pull</h4>
+      <table>
+        <thead>
+          <tr>
+            <% if(moneyData.length > 0) { %> <%
+            Object.keys(moneyData[0]).forEach(function(key) { %>
+            <th><%= key %></th>
+            <% }); %> <% } %>
+          </tr>
+        </thead>
+        <tbody>
+          <% moneyData.forEach(function(row) { %>
+          <tr>
+            <% Object.values(row).forEach(function(value, index) { %> <%
+            if(index === 2) { %>
+            <td>
+              <a href="player/<%= value.toString().replace(/\s+/g, '') %>"
+                ><%= value %></a
+              >
+            </td>
+            <% } else { %>
+            <td><%= value %></td>
+            <% } %> <% }); %>
+          </tr>
+          <% }); %>
+        </tbody>
+      </table>
+    </table>
+      <div class="data-table"></div>
+      <h2>Best Money Pulls</h2>
+      <table>
+        <thead>
+          <tr>
+            <% if(top_10_money.length > 0) { %> <%
+            Object.keys(top_10_money[0]).forEach(function(key) { %>
+            <th><%= key %></th>
+            <% }); %> <% } %>
+          </tr>
+        </thead>
+        <tbody>
+          <% top_10_money.forEach(function(row) { %>
+          <tr>
+            <% Object.values(row).forEach(function(value, index) { %> <%
+            if(index === 3) { %>
+            <td>
+              <a href="player/<%= value.toString().replace(/\s+/g, '') %>"
+                ><%= value %></a
+              >
+            </td>
+            <% } else { %>
+            <td><%= value %></td>
+            <% } %> <% }); %>
+          </tr>
+          <% }); %>
+        </tbody>
+      </table>
+  </div>
+</main>
+
+<%- include('partials/footer') %>
