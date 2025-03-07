@@ -94,5 +94,45 @@
       </table>
     </div>
   </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <div class="chart-container">
+    <h2>Winrate History (Past 40 Drafts)</h2>
+    <canvas id="line-chart"></canvas>
+  </div>
+
+  <script>
+    const historyDataX = <%= JSON.stringify(historyDataX) %>;
+    const historyDataY = <%= JSON.stringify(historyDataY) %>;
+
+    function renderLineChart(labels, data) {
+      const ctx = document.getElementById('line-chart').getContext('2d');
+      new Chart(ctx, {
+          type: 'line', // Specify the chart type
+          data: {
+            labels: labels, // X-axis labels (from JSON)
+              datasets: [{
+                label: 'Win Percentage', // Label for the data
+                data: data, // Y-axis data points (from JSON)
+                borderColor: 'rgba(75, 192, 192, 1)', // Line color
+                backgroundColor: 'rgba(75, 192, 192, 0.2)', // Fill color under the line
+                borderWidth: 2,
+                fill: true, // Fills area under the line
+            }]
+          },
+          options: {
+            responsive: true,
+            scales: {
+              y: {
+                  beginAtZero: true // Ensure the y-axis starts at zero
+              }
+            }
+          }
+      });
+    }
+
+    renderLineChart(historyDataX, historyDataY);
+  </script>
+  
 </main>
 <%- include('../partials/footer') %>
