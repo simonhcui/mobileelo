@@ -46,6 +46,32 @@
       </table>
     </div>
   </div>
+
+  <div class="data-table-container">
+    <div class="data-table">
+      <h2>Gauntlet Rankings</h2>
+      <p>Those in contention. 8 Retail, 2 Chaos, 2 Cube Drafts</p>
+      <table>
+        <thead>
+          <tr>
+            <% if(gauntletData.length > 0) { %> <%
+            Object.keys(gauntletData[0]).forEach(function(key) { %>
+            <th><%= key %></th>
+            <% }); %> <% } %>
+          </tr>
+        </thead>
+        <tbody>
+          <% gauntletData.forEach(function(row) { %>
+          <tr>
+            <% Object.values(row).forEach(function(value) { %>
+            <td><%= value %></td>
+            <% }); %>
+          </tr>
+          <% }); %>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </main>
 
 <%- include('partials/footer') %>
