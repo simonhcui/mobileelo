@@ -15,7 +15,10 @@
           <tr>
             <% if(tableData.length > 0) { %> <%
             Object.keys(tableData[0]).forEach(function(key) { %>
-            <th><%= key %></th>
+            <th class="sortable" data-key="<%= key %>">
+              <%= key %>
+              <span class="sort-indicator"></span>
+            </th>
             <% }); %> <% } %>
           </tr>
         </thead>
