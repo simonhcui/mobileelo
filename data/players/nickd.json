@@ -71,16 +71,24 @@
       "Record": "17-8",
       "Drafts": "12",
       "Glicko": "1647 ± 87"
+    },
+    {
+      "Season": "10",
+      "Ranking": "NR",
+      "Win %": "54.55%",
+      "Record": "6-5",
+      "Drafts": "6",
+      "Glicko": "1648 ± 124"
     }
   ],
 
   "formatData": [
     {
       "Format": "Chaos",
-      "Win %": "55.56%",
-      "Record": "5-4",
-      "Drafts": "4",
-      "Glicko": "1586 ± 121"
+      "Win %": "56.25%",
+      "Record": "9-7",
+      "Drafts": "8",
+      "Glicko": "1620 ± 98"
     },
     {
       "Format": "Dominaria Remastered",

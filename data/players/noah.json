@@ -1,0 +1,53 @@
+{
+    "tableData": [
+      {
+        "Season": "8",
+        "Ranking": "NR",
+        "Win %": "60.00%",
+        "Record": "6-4",
+        "Drafts": "5",
+        "Glicko": "1627 ± 126"
+      },
+      {
+        "Season": "9",
+        "Ranking": "6",
+        "Win %": "57.50%",
+        "Record": "23-17",
+        "Drafts": "20",
+        "Glicko": "1653 ± 74"
+      },
+      {
+        "Season": "10",
+        "Ranking": "5",
+        "Win %": "58.82%",
+        "Record": "20-14",
+        "Drafts": "17",
+        "Glicko": "1554 ± 83"
+      }
+    ],
+  
+    "formatData": [
+      {
+        "Format": "Adam Cube",
+        "Win %": "33.33%",
+        "Record": "2-4",
+        "Drafts": "3",
+        "Glicko": "1443 ± 151"
+      },
+      {
+        "Format": "Chaos",
+        "Win %": "50.00%",
+        "Record": "11-11",
+        "Drafts": "11",
+        "Glicko": "1608 ± 86"
+      },
+      {
+        "Format": "Mystery Booster 2",
+        "Win %": "75.00%",
+        "Record": "15-5",
+        "Drafts": "10",
+        "Glicko": "1712 ± 113"
+      }
+    ]
+  }
+  

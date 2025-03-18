@@ -63,6 +63,14 @@
       "Record": "4-12",
       "Drafts": "8",
       "Glicko": "1319 ± 106"
+    },
+    {
+      "Season": "10",
+      "Ranking": "NR",
+      "Win %": "32.00%",
+      "Record": "8-17",
+      "Drafts": "13",
+      "Glicko": "1349 ± 93"
     }
   ],
 
@@ -76,10 +84,10 @@
     },
     {
       "Format": "Chaos",
-      "Win %": "25.49%",
-      "Record": "13-38",
-      "Drafts": "28",
-      "Glicko": "1445 ± 78"
+      "Win %": "25.81%",
+      "Record": "16-46",
+      "Drafts": "33",
+      "Glicko": "1433 ± 74"
     },
     {
       "Format": "Dominaria Remastered",
@@ -115,6 +123,13 @@
       "Record": "4-9",
       "Drafts": "6",
       "Glicko": "1347 ± 136"
+    },
+    {
+      "Format": "Mystery Booster 2",
+      "Win %": "37.50%",
+      "Record": "3-5",
+      "Drafts": "5",
+      "Glicko": "1423 ± 141"
     }
   ]
 }

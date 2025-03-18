@@ -47,16 +47,24 @@
       "Record": "24-8",
       "Drafts": "15",
       "Glicko": "1779 ± 84"
+    },
+    {
+      "Season": "10",
+      "Ranking": "9",
+      "Win %": "54.55%",
+      "Record": "18-15",
+      "Drafts": "16",
+      "Glicko": "1574 ± 78"
     }
   ],
 
   "formatData": [
     {
       "Format": "Chaos",
-      "Win %": "60.18%",
-      "Record": "68-45",
-      "Drafts": "53",
-      "Glicko": "1756 ± 64"
+      "Win %": "59.86%",
+      "Record": "85-57",
+      "Drafts": "67",
+      "Glicko": "1720 ± 64"
     }
   ]
 }
