@@ -1,0 +1,69 @@
+{
+  "tableData": [
+    {
+      "Season": "5",
+      "Ranking": "NR",
+      "Win %": "36.36%",
+      "Record": "4-7",
+      "Drafts": "5",
+      "Glicko": "1417 ± 115"
+    },
+    {
+      "Season": "6",
+      "Ranking": "NR",
+      "Win %": "38.89%",
+      "Record": "7-11",
+      "Drafts": "9",
+      "Glicko": "1482 ± 97"
+    },
+    {
+      "Season": "7",
+      "Ranking": "NR",
+      "Win %": "50.00%",
+      "Record": "4-4",
+      "Drafts": "4",
+      "Glicko": "1568 ± 130"
+    },
+    {
+      "Season": "8",
+      "Ranking": "NR",
+      "Win %": "50.00%",
+      "Record": "5-5",
+      "Drafts": "7",
+      "Glicko": "1524 ± 116"
+    },
+    {
+      "Season": "9",
+      "Ranking": "NR",
+      "Win %": "44.44%",
+      "Record": "8-10",
+      "Drafts": "8",
+      "Glicko": "1505 ± 106"
+    },
+    {
+      "Season": "10",
+      "Ranking": "10",
+      "Win %": "52.94%",
+      "Record": "18-16",
+      "Drafts": "17",
+      "Glicko": "1567 ± 77"
+    }
+  ],
+
+  "formatData": [
+    {
+      "Format": "Chaos",
+      "Win %": "53.09%",
+      "Record": "43-38",
+      "Drafts": "41",
+      "Glicko": "1679 ± 63"
+    },
+    {
+      "Format": "Mystery Booster 2",
+      "Win %": "25.00%",
+      "Record": "2-6",
+      "Drafts": "4",
+      "Glicko": "1248 ± 152"
+    }
+  ]
+}
