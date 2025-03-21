@@ -32,8 +32,7 @@ router.get("/adam", (req, res) => {
     planeswalkerPath: "/images/planeswalker/spellshaper.jpg",
     tableData: adamData.tableData,
     formatData: adamData.formatData,
-    historyDataX: adamData.draft,
-    historyDataY: adamData.win_percentage,
+    seasons: adamData.seasons,
   });
 });
 
@@ -44,7 +43,8 @@ router.get("/alan", (req, res) => {
     imagePath: "/images/profile/alanprofile.jpg",
     planeswalkerPath: "/images/planeswalker/adept.jpg",
     tableData: alanData.tableData,
-    formatData: alanData.win_percentage,
+    formatData: alanData.formatData,
+    seasons: alanData.seasons,
   });
 });
 
