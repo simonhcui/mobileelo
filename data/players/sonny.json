@@ -117,5 +117,12 @@
       "Drafts": "6",
       "Glicko": "1720 ± 121"
     }
+  ],
+  "seasons": [
+    {
+      "seasonName": "Season 1",
+      "date": [],
+      "win_percentage": []
+    }
   ]
 }
