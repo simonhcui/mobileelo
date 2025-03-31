@@ -31,23 +31,31 @@
       "Record": "18-18",
       "Drafts": "18",
       "Glicko": "1574 ± 74"
+    },
+    {
+      "Season": "10",
+      "Ranking": "12",
+      "Win %": "48.39%",
+      "Record": "15-16",
+      "Drafts": "16",
+      "Glicko": "1497 ± 82"
     }
   ],
 
   "formatData": [
     {
       "Format": "Adam Cube",
-      "Win %": "62.50%",
-      "Record": "5-3",
-      "Drafts": "4",
-      "Glicko": "1608 ± 155"
+      "Win %": "60.00%",
+      "Record": "6-4",
+      "Drafts": "5",
+      "Glicko": "1596 ± 141"
     },
     {
       "Format": "Chaos",
-      "Win %": "47.62%",
-      "Record": "20-22",
-      "Drafts": "20",
-      "Glicko": "1569 ± 72"
+      "Win %": "47.46%",
+      "Record": "28-31",
+      "Drafts": "29",
+      "Glicko": "1574 ± 68"
     },
     {
       "Format": "Mystery Booster 1",
@@ -59,16 +67,16 @@
     {
       "Format": "Modern Horizons 3",
       "Win %": "50.00%",
-      "Record": "12-12",
-      "Drafts": "11",
-      "Glicko": "1479 ± 92"
+      "Record": "13-13",
+      "Drafts": "12",
+      "Glicko": "1474 ± 90"
     },
     {
       "Format": "Mystery Booster 2",
-      "Win %": "14.29%",
-      "Record": "1-6",
-      "Drafts": "4",
-      "Glicko": "1209 ± 174"
+      "Win %": "40.00%",
+      "Record": "6-9",
+      "Drafts": "8",
+      "Glicko": "1506 ± 117"
     }
   ],
   "seasons": [

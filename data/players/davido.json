@@ -1,0 +1,77 @@
+{
+    "tableData": [
+      {
+        "Season": "1",
+        "Ranking": "NR",
+        "Win %": "28.57%",
+        "Record": "4-10",
+        "Drafts": "5",
+        "Glicko": "N/A"
+      },
+      {
+        "Season": "2",
+        "Ranking": "9",
+        "Win %": "45.45%",
+        "Record": "10-12",
+        "Drafts": "10",
+        "Glicko": "N/A"
+      },
+      {
+        "Season": "3",
+        "Ranking": "NR",
+        "Win %": "65.00%",
+        "Record": "13-7",
+        "Drafts": "7",
+        "Glicko": "N/A"
+      },
+      {
+        "Season": "4",
+        "Ranking": "NR",
+        "Win %": "50.00%",
+        "Record": "5-5",
+        "Drafts": "4",
+        "Glicko": "1525 ± 126"
+      },
+      {
+        "Season": "5",
+        "Ranking": "NR",
+        "Win %": "62.50%",
+        "Record": "10-6",
+        "Drafts": "6",
+        "Glicko": "1665 ± 103"
+      },
+      {
+        "Season": "10",
+        "Ranking": "NR",
+        "Win %": "57.69%",
+        "Record": "15-11",
+        "Drafts": "13",
+        "Glicko": "1680 ± 86"
+      }
+    ],
+  
+    "formatData": [
+      {
+        "Format": "Adam Cube",
+        "Win %": "66.67%",
+        "Record": "14-7",
+        "Drafts": "8",
+        "Glicko": "1672 ± 95"
+      },
+      {
+        "Format": "Chaos",
+        "Win %": "47.62%",
+        "Record": "10-11",
+        "Drafts": "8",
+        "Glicko": "1642 ± 88"
+      },
+      {
+        "Format": "Modern Horizons 2",
+        "Win %": "53.85%",
+        "Record": "7-6",
+        "Drafts": "4",
+        "Glicko": "1545 ± 112"
+      }
+    ]
+  }
+  

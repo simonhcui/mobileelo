@@ -7,15 +7,18 @@
   <div class="data-table-container">
     <div class="data-table">
       <h2>
-        ELO and Winrates (Min 5 drafts). Last Updated 12/12/24. 17 Total Drafts
+        ELO and Winrates (Min 5 drafts). Last Updated 3/8/25. 25 Total Drafts
         Recorded
       </h2>
-      <table>
+      <table id="sortableTable">
         <thead>
           <tr>
             <% if(tableData.length > 0) { %> <%
             Object.keys(tableData[0]).forEach(function(key) { %>
-            <th><%= key %></th>
+            <th class="sortable" data-key="<%= key %>">
+              <%= key %>
+              <span class="sort-indicator"></span>
+            </th>
             <% }); %> <% } %>
           </tr>
         </thead>

@@ -63,23 +63,31 @@
       "Record": "37-28",
       "Drafts": "32",
       "Glicko": "1641 ± 69"
+    },
+    {
+      "Season": "10",
+      "Ranking": "4",
+      "Win %": "61.76%",
+      "Record": "21-13",
+      "Drafts": "16",
+      "Glicko": "1649 ± 77"
     }
   ],
 
   "formatData": [
     {
       "Format": "Adam Cube",
-      "Win %": "33.33%",
-      "Record": "2-4",
-      "Drafts": "3",
-      "Glicko": "1503 ± 160"
+      "Win %": "37.50%",
+      "Record": "3-5",
+      "Drafts": "4",
+      "Glicko": "1536 ± 143"
     },
     {
       "Format": "Chaos",
-      "Win %": "67.92%",
-      "Record": "72-34",
-      "Drafts": "52",
-      "Glicko": "1765 ± 66"
+      "Win %": "67.19%",
+      "Record": "86-42",
+      "Drafts": "62",
+      "Glicko": "1763 ± 64"
     },
     {
       "Format": "Dominaria Remastered",
@@ -118,10 +126,10 @@
     },
     {
       "Format": "Mystery Booster 2",
-      "Win %": "45.00%",
-      "Record": "9-11",
-      "Drafts": "10",
-      "Glicko": "1554 ± 96"
+      "Win %": "50.00%",
+      "Record": "14-14",
+      "Drafts": "14",
+      "Glicko": "1541 ± 86"
     }
   ],
   "seasons": [

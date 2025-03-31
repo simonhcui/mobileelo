@@ -71,6 +71,14 @@
       "Record": "23-17",
       "Drafts": "20",
       "Glicko": "1622 ± 74"
+    },
+    {
+      "Season": "10",
+      "Ranking": "3",
+      "Win %": "65.00%",
+      "Record": "26-14",
+      "Drafts": "20",
+      "Glicko": "1660 ± 76"
     }
   ],
 
@@ -84,17 +92,17 @@
     },
     {
       "Format": "Chaos",
-      "Win %": "43.10%",
-      "Record": "25-33",
-      "Drafts": "26",
-      "Glicko": "1552 ± 67"
+      "Win %": "50.00%",
+      "Record": "43-43",
+      "Drafts": "40",
+      "Glicko": "1645 ± 65"
     },
     {
       "Format": "Double Masters 2022",
-      "Win %": "65.62%",
-      "Record": "21-11",
-      "Drafts": "12",
-      "Glicko": "1732 ± 76"
+      "Win %": "61.76%",
+      "Record": "21-13",
+      "Drafts": "13",
+      "Glicko": "1688 ± 76"
     },
     {
       "Format": "Modern Horizons 1",
