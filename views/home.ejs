@@ -17,19 +17,11 @@
   </form>
 
   <div class="content">
-    <h2>Season 10 (1/2/25 - 3/13/25)</h2>
+    <h2>Season XI (3/20/25 - 6/26/25)</h2>
   </div>
   <div class="data-table-container">
     <div class="data-table">
-      <p>49 Drafts in, last updated 3/13/25</p>
-      <p>
-        Congrats Alan our defending Winrate Champion and Noah our Season
-        Gauntlet Champion!!
-      </p>
-      <p>
-        Season XI will run from 3/20/25 to 6/26/25 with quite the degenerate
-        Season Finale draft planned...
-      </p>
+      <p>8 Drafts in, last updated 4/3/25</p>
       <table id="sortableTable">
         <thead>
           <tr>
@@ -44,32 +36,6 @@
         </thead>
         <tbody>
           <% tableData.forEach(function(row) { %>
-          <tr>
-            <% Object.values(row).forEach(function(value) { %>
-            <td><%= value %></td>
-            <% }); %>
-          </tr>
-          <% }); %>
-        </tbody>
-      </table>
-    </div>
-  </div>
-
-  <div class="data-table-container">
-    <div class="data-table">
-      <h2>Gauntlet Rankings</h2>
-      <p>Those in contention. 8 Retail, 2 Chaos, 2 Cube Drafts</p>
-      <table>
-        <thead>
-          <tr>
-            <% if(gauntletData.length > 0) { %> <%
-            Object.keys(gauntletData[0]).forEach(function(key) { %>
-            <th><%= key %></th>
-            <% }); %> <% } %>
-          </tr>
-        </thead>
-        <tbody>
-          <% gauntletData.forEach(function(row) { %>
           <tr>
             <% Object.values(row).forEach(function(value) { %>
             <td><%= value %></td>
