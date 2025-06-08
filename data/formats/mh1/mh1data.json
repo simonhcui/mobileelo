@@ -25,12 +25,12 @@
     {
       "rank": "3",
       "name": "Matt",
-      "win_percentage": "68.57%",
-      "wins_losses": "24-11",
-      "total_drafts": "16",
-      "glicko": "1641 ± 93",
-      "gxe": "63.05%",
-      "last_date": "8-8-24",
+      "win_percentage": "67.57%",
+      "wins_losses": "25-12",
+      "total_drafts": "17",
+      "glicko": "1632 ± 91",
+      "gxe": "62.20%",
+      "last_date": "5-22-25",
       "trophies": "🏆"
     },
     {
@@ -145,7 +145,7 @@
     },
     {
       "rank": "14",
-      "name": "John K",
+      "name": "John",
       "win_percentage": "28.57%",
       "wins_losses": "2-5",
       "total_drafts": "3",
