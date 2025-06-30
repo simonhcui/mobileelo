@@ -94,6 +94,36 @@
           <% }); %>
         </tbody>
       </table>
+      </table>
+      <div class="data-table"></div>
+      <h2>Most Drafts in a Season</h2>
+      <h4>Excluding Season 1 since that season was longer than 3 months</h4>
+      <table>
+        <thead>
+          <tr>
+            <% if(most_drafts.length > 0) { %> <%
+            Object.keys(most_drafts[0]).forEach(function(key) { %>
+            <th><%= key %></th>
+            <% }); %> <% } %>
+          </tr>
+        </thead>
+        <tbody>
+          <% most_drafts.forEach(function(row) { %>
+          <tr>
+            <% Object.values(row).forEach(function(value, index) { %> <%
+            if(index === 1) { %>
+            <td>
+              <a href="player/<%= value.toString().replace(/\s+/g, '') %>"
+                ><%= value %></a
+              >
+            </td>
+            <% } else { %>
+            <td><%= value %></td>
+            <% } %> <% }); %>
+          </tr>
+          <% }); %>
+        </tbody>
+      </table>
   </div>
 </main>
 

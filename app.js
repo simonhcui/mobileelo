@@ -89,6 +89,7 @@ app.get("/lifetimechamps", (req, res) => {
     tableData: jsonDataLifetimeChamps.tableData,
     moneyData: jsonDataLifetimeChamps.moneyData,
     top_10_money: jsonDataLifetimeChamps.top_10_money,
+    most_drafts: jsonDataLifetimeChamps.most_drafts,
   });
 });
 

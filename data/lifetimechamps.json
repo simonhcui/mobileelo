@@ -5,7 +5,8 @@
       "Title": "Winrate",
       "Player": "Nick D",
       "Num Drafts": "35",
-      "Glicko": "N/A"
+      "Glicko": "N/A",
+      "Winrate": "67.74%"
     },
     {
       "Season": "I",
@@ -19,7 +20,8 @@
       "Title": "Winrate",
       "Player": "Nick D",
       "Num Drafts": "14",
-      "Glicko": "N/A"
+      "Glicko": "N/A",
+      "Winrate": "70.27%"
     },
     {
       "Season": "II",
@@ -33,7 +35,8 @@
       "Title": "Winrate",
       "Player": "Matt Y",
       "Num Drafts": "12",
-      "Glicko": "N/A"
+      "Glicko": "N/A",
+      "Winrate": "70.97%"
     },
     {
       "Season": "III",
@@ -47,7 +50,8 @@
       "Title": "Winrate",
       "Player": "Tony",
       "Num Drafts": "16",
-      "Glicko": "1768 ± 85"
+      "Glicko": "1768 ± 85",
+      "Winrate": "72.73%"
     },
     {
       "Season": "IV",
@@ -61,7 +65,8 @@
       "Title": "Winrate",
       "Player": "Chris A",
       "Num Drafts": "22",
-      "Glicko": "1669 ± 74"
+      "Glicko": "1669 ± 74",
+      "Winrate": "71.74%"
     },
     {
       "Season": "V",
@@ -75,7 +80,8 @@
       "Title": "Winrate",
       "Player": "Alberto",
       "Num Drafts": "22",
-      "Glicko": "1629 ± 74"
+      "Glicko": "1629 ± 74",
+      "Winrate": "63.83%"
     },
     {
       "Season": "VI",
@@ -89,7 +95,8 @@
       "Title": "Winrate",
       "Player": "Matt Y",
       "Num Drafts": "16",
-      "Glicko": "1753 ± 84"
+      "Glicko": "1753 ± 84",
+      "Winrate": "71.88%"
     },
     {
       "Season": "VII",
@@ -103,7 +110,8 @@
       "Title": "Winrate",
       "Player": "Nick D",
       "Num Drafts": "10",
-      "Glicko": "1845 ± 108"
+      "Glicko": "1845 ± 108",
+      "Winrate": "77.78%"
     },
     {
       "Season": "VIII",
@@ -117,7 +125,8 @@
       "Title": "Winrate",
       "Player": "Alan",
       "Num Drafts": "19",
-      "Glicko": "1809 ± 77"
+      "Glicko": "1809 ± 77",
+      "Winrate": "75.68%"
     },
     {
       "Season": "IX",
@@ -131,7 +140,8 @@
       "Title": "Winrate",
       "Player": "Alan",
       "Num Drafts": "14",
-      "Glicko": "1753 ± 93"
+      "Glicko": "1753 ± 93",
+      "Winrate": "75.00%"
     },
     {
       "Season": "X",
@@ -139,6 +149,21 @@
       "Player": "Noah",
       "Num Drafts": "17",
       "Glicko": "1554 ± 83"
+    },
+    {
+      "Season": "XI",
+      "Title": "Winrate",
+      "Player": "Tony",
+      "Num Drafts": "18",
+      "Glicko": "1627 ± 85",
+      "Winrate": "70.59%"
+    },
+    {
+      "Season": "XI",
+      "Title": "Gauntlet",
+      "Player": "Eric",
+      "Num Drafts": "30",
+      "Glicko": "1628 ± 68"
     }
   ],
   "moneyData": [
@@ -246,6 +271,27 @@
       "Player": "Jacob",
       "Best Pull": "Charizard ex - 199/165 - SV: Scarlet & Violet 151",
       "Value": "$280"
+    },
+    {
+      "Season": "XI",
+      "Rank": "1",
+      "Player": "Walski",
+      "Best Pull": "Foil Stay with Me (FIN Rhystic Study)",
+      "Value": "$580"
+    },
+    {
+      "Season": "XI",
+      "Rank": "2",
+      "Player": "Chris A",
+      "Best Pull": "Sylveon ex - 156/131 - SV: Prismatic Evolutions",
+      "Value": "$561"
+    },
+    {
+      "Season": "XI",
+      "Rank": "3",
+      "Player": "Chris A",
+      "Best Pull": "Surgefoil Cloud, Ex-SOLDIER",
+      "Value": "$426"
     }
   ],
   "top_10_money": [
@@ -258,66 +304,78 @@
     },
     {
       "Rank": "2",
-      "Card": "Fracture Foil Doubling Season",
+      "Card": "Foil Stay with Me (FIN Rhystic Study)",
+      "Value": "$580",
+      "Player": "Walski",
+      "Season": "XI"
+    },
+    {
+      "Rank": "3",
+      "Card": "Sylveon ex - 156/131 - SV: Prismatic Evolutions",
+      "Value": "$561",
+      "Player": "Walski",
+      "Season": "XI"
+    },
+    {
+      "Rank": "4",
+      "Card": "Fracturefoil Doubling Season",
       "Value": "$497",
       "Player": "Walski",
       "Season": "X"
     },
     {
-      "Rank": "3",
+      "Rank": "5",
+      "Card": "Surgefoil Cloud, Ex-SOLDIER",
+      "Value": "$426",
+      "Player": "Chris A",
+      "Season": "XI"
+    },
+    {
+      "Rank": "6",
+      "Card": "Fracturefoil Bloodthirsty Conquerer",
+      "Value": "$420",
+      "Player": "Stephen",
+      "Season": "XI"
+    },
+    {
+      "Rank": "7",
       "Card": "Flareon ex - 146/131 - SV: Prismatic Evolutions",
       "Value": "$389",
       "Player": "Jacob",
       "Season": "X"
     },
     {
-      "Rank": "4",
+      "Rank": "8",
+      "Card": "Foil Amano Sephiroth, the Savior (FIN Atraxa, Grand Unifier)",
+      "Value": "$364",
+      "Player": "Zane",
+      "Season": "XI"
+    },
+    {
+      "Rank": "9",
+      "Card": "Surgefoil Cloud, Midgard Mercenary",
+      "Value": "$350",
+      "Player": "Andre",
+      "Season": "XI"
+    },
+    {
+      "Rank": "10",
       "Card": "Serialized 057/500 Yorion, Sky Nomad",
       "Value": "$302",
       "Player": "Jacob",
       "Season": "VII"
-    },
-    {
-      "Rank": "5",
-      "Card": "Charizard ex - 199/165 - SV: Scarlet & Violet 151",
-      "Value": "$280",
-      "Player": "Jacob",
-      "Season": "X"
-    },
-    {
-      "Rank": "6",
-      "Card": "Foil Special Guest Mana Crypt",
-      "Value": "$270",
-      "Player": "Alberto",
-      "Season": "VII"
-    },
-    {
-      "Rank": "7",
-      "Card": "Foil Future Sight Titania, Protector of Argoth",
-      "Value": "$250",
-      "Player": "Tony",
-      "Season": "IX"
-    },
-    {
-      "Rank": "8",
-      "Card": "Charizard ex - 199/165 - SV: Scarlet & Violet 151",
-      "Value": "$219",
-      "Player": "Jacob",
-      "Season": "IX"
-    },
-    {
-      "Rank": "9",
-      "Card": "Foil Future Sight Sol Ring",
-      "Value": "$211",
-      "Player": "Chris A",
-      "Season": "X"
-    },
-    {
-      "Rank": "10",
-      "Card": "Serialized 098/500 Niv-Mizzet Reborn",
-      "Value": "$205",
-      "Player": "Walski",
-      "Season": "VIII"
     }
+  ],
+  "most_drafts": [
+    { "Rank": "1", "Player": "Chris A", "Num Drafts": "32", "Season": "IX" },
+    { "Rank": "2", "Player": "Eric K", "Num Drafts": "30", "Season": "XI" },
+    { "Rank": "3", "Player": "Stephen", "Num Drafts": "29", "Season": "XI" },
+    { "Rank": "4", "Player": "John K", "Num Drafts": "28", "Season": "VIII" },
+    { "Rank": "5", "Player": "Chris A", "Num Drafts": "28", "Season": "XI" },
+    { "Rank": "6", "Player": "Chris A", "Num Drafts": "27", "Season": "VIII" },
+    { "Rank": "7", "Player": "Matt", "Num Drafts": "27", "Season": "VIII" },
+    { "Rank": "8", "Player": "Chris A", "Num Drafts": "26", "Season": "III" },
+    { "Rank": "9", "Player": "John K", "Num Drafts": "25", "Season": "V" },
+    { "Rank": "10", "Player": "Jacob", "Num Drafts": "25", "Season": "VI" }
   ]
 }

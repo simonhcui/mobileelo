@@ -167,6 +167,17 @@
     },
     {
       "rank": "16",
+      "name": "Matt Y",
+      "win_percentage": "53.84%",
+      "wins_losses": "7-6",
+      "total_drafts": "6",
+      "glicko": "1496 ± 123",
+      "gxe": "49.65%",
+      "last_set": "MH1",
+      "last_date": "5-22-25"
+    },
+    {
+      "rank": "17",
       "name": "Oscar",
       "win_percentage": "50.00%",
       "wins_losses": "4-4",
@@ -177,7 +188,7 @@
       "last_date": "4-19-25"
     },
     {
-      "rank": "17",
+      "rank": "18",
       "name": "John C",
       "win_percentage": "50.00%",
       "wins_losses": "6-6",
@@ -188,7 +199,7 @@
       "last_date": "6-12-25"
     },
     {
-      "rank": "18",
+      "rank": "19",
       "name": "Nick D",
       "win_percentage": "50.00%",
       "wins_losses": "6-6",
@@ -197,17 +208,6 @@
       "gxe": "50.77%",
       "last_set": "Chaos",
       "last_date": "5-17-25"
-    },
-    {
-      "rank": "19",
-      "name": "Matt Y",
-      "win_percentage": "50.00%",
-      "wins_losses": "6-6",
-      "total_drafts": "6",
-      "glicko": "1483 ± 125",
-      "gxe": "48.44%",
-      "last_set": "MH1",
-      "last_date": "5-22-25"
     },
     {
       "rank": "20",
