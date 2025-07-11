@@ -79,6 +79,14 @@
       "Record": "17-12",
       "Drafts": "15",
       "Glicko": "1634 ± 87"
+    },
+    {
+      "Season": "11",
+      "Ranking": "NR",
+      "Win %": "50.00%",
+      "Record": "6-6",
+      "Drafts": "6",
+      "Glicko": "1483 ± 125"
     }
   ],
 
@@ -99,10 +107,10 @@
     },
     {
       "Format": "Modern Horizons 1",
-      "Win %": "68.57%",
-      "Record": "24-11",
-      "Drafts": "16",
-      "Glicko": "1641 ± 93"
+      "Win %": "67.57%",
+      "Record": "25-12",
+      "Drafts": "17",
+      "Glicko": "1632 ± 91"
     },
     {
       "Format": "Modern Horizons 2",
@@ -120,10 +128,10 @@
     },
     {
       "Format": "Mystery Booster 2",
-      "Win %": "62.50%",
-      "Record": "20-12",
-      "Drafts": "17",
-      "Glicko": "1658 ± 83"
+      "Win %": "62.86%",
+      "Record": "22-13",
+      "Drafts": "19",
+      "Glicko": "1653 ± 82"
     }
   ],
   "seasons": [

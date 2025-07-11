@@ -26,14 +26,17 @@ const ericData = require("../data/players/eric.json");
 const kevinData = require("../data/players/kevins.json");
 const noahData = require("../data/players/noah.json");
 const travisData = require("../data/players/travis.json");
-//const luisData = require("../data/players/luis.json");
+const luisData = require("../data/players/luis.json");
+const marcoData = require("../data/players/marco.json");
+const collinData = require("../data/players/collin.json");
+const lukeData = require("../data/players/luke.json");
 
 router.get("/adam", (req, res) => {
   res.render("players/adam", {
     title: "Adam",
     id: req.params.id,
     imagePath: "/images/profile/adamprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/spellshaper.jpg",
+    planeswalkerPath: "/images/planeswalker/guildmage.jpg",
     tableData: adamData.tableData,
     formatData: adamData.formatData,
     seasons: adamData.seasons,
@@ -45,7 +48,7 @@ router.get("/alan", (req, res) => {
     title: "Alan",
     id: req.params.id,
     imagePath: "/images/profile/alanprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/spellshaper.jpg",
+    planeswalkerPath: "/images/planeswalker/guildmage.jpg",
     tableData: alanData.tableData,
     formatData: alanData.formatData,
     seasons: alanData.seasons,
@@ -69,7 +72,7 @@ router.get("/andrewd", (req, res) => {
     title: "Andrew D",
     id: req.params.id,
     imagePath: "/images/profile/andrewdprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/apprentice.jpg",
+    planeswalkerPath: "/images/planeswalker/taskmage.jpg",
     tableData: andrewdData.tableData,
     formatData: andrewdData.formatData,
     seasons: andrewdData.seasons,
@@ -177,7 +180,7 @@ router.get("/nickd", (req, res) => {
     title: "Nick D",
     id: req.params.id,
     imagePath: "/images/profile/nickdprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/guildmage.jpg",
+    planeswalkerPath: "/images/planeswalker/invoker.jpg",
     tableData: nickdData.tableData,
     formatData: nickdData.formatData,
     seasons: nickdData.seasons,
@@ -213,7 +216,7 @@ router.get("/stephen", (req, res) => {
     title: "Stephen",
     id: req.params.id,
     imagePath: "/images/profile/stephenprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/taskmage.jpg",
+    planeswalkerPath: "/images/planeswalker/adept.jpg",
     tableData: stephenData.tableData,
     formatData: stephenData.formatData,
     seasons: stephenData.seasons,
@@ -249,7 +252,7 @@ router.get("/walski", (req, res) => {
     title: "Walski",
     id: req.params.id,
     imagePath: "/images/profile/walskiprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/spellshaper.jpg",
+    planeswalkerPath: "/images/planeswalker/guildmage.jpg",
     tableData: walskiData.tableData,
     formatData: walskiData.formatData,
     seasons: walskiData.seasons,
@@ -273,7 +276,7 @@ router.get("/davido", (req, res) => {
     title: "David O",
     id: req.params.id,
     imagePath: "/images/profile/davidprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/apprentice.jpg",
+    planeswalkerPath: "/images/planeswalker/taskmage.jpg",
     tableData: davidoData.tableData,
     formatData: davidoData.formatData,
     seasons: davidoData.seasons,
@@ -285,7 +288,7 @@ router.get("/erick", (req, res) => {
     title: "Eric K",
     id: req.params.id,
     imagePath: "/images/profile/ericprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/apprentice.jpg",
+    planeswalkerPath: "/images/planeswalker/adept.jpg",
     tableData: ericData.tableData,
     formatData: ericData.formatData,
     seasons: ericData.seasons,
@@ -309,7 +312,7 @@ router.get("/noah", (req, res) => {
     title: "Noah",
     id: req.params.id,
     imagePath: "/images/profile/noahprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/apprentice.jpg",
+    planeswalkerPath: "/images/planeswalker/adept.jpg",
     tableData: noahData.tableData,
     formatData: noahData.formatData,
     seasons: noahData.seasons,
@@ -328,16 +331,54 @@ router.get("/travis", (req, res) => {
   });
 });
 
-// router.get("/luis", (req, res) => {
-//   res.render("players/luis", {
-//     title: "Luis",
-//     id: req.params.id,
-//     imagePath: "/images/profile/luisprofile.jpg",
-//     planeswalkerPath: "/images/planeswalker/apprentice.jpg",
-//     tableData: luisData.tableData,
-//     formatData: luisData.formatData,
-//   });
-// });
+router.get("/luis", (req, res) => {
+  res.render("players/luis", {
+    title: "Luis",
+    id: req.params.id,
+    imagePath: "/images/profile/luisprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/apprentice.jpg",
+    tableData: luisData.tableData,
+    formatData: luisData.formatData,
+    seasons: luisData.seasons,
+  });
+});
+
+router.get("/marco", (req, res) => {
+  res.render("players/marco", {
+    title: "Marco",
+    id: req.params.id,
+    imagePath: "/images/profile/marcoprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/novice.jpg",
+    tableData: marcoData.tableData,
+    formatData: marcoData.formatData,
+    seasons: marcoData.seasons,
+  });
+});
+
+router.get("/collin", (req, res) => {
+  res.render("players/collin", {
+    title: "Collin",
+    id: req.params.id,
+    imagePath: "/images/profile/collinprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/prodigy.jpg",
+    tableData: collinData.tableData,
+    formatData: collinData.formatData,
+    seasons: collinData.seasons,
+  });
+});
+
+router.get("/luke", (req, res) => {
+  res.render("players/luke", {
+    title: "Luke",
+    id: req.params.id,
+    imagePath: "/images/profile/lukeprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/novice.jpg",
+    tableData: lukeData.tableData,
+    formatData: lukeData.formatData,
+    seasons: lukeData.seasons,
+  });
+});
+
 
 router.get("/invalidplayer", (req, res) => {
   res.render("players/invalidplayer", {

@@ -18,8 +18,8 @@
       Season VIII Winrate Runnerup
     </h2>
     <h2 style="color: gold;"">
-      Lifetime Winrate: 74.56% 85-29 out of 55 drafts<br />
-      First All Time
+      Lifetime Winrate: 74.58% 91-31 out of 59 drafts<br />
+      First All Time (Min 40 drafts)
     </h2>
 
     <br />
@@ -32,7 +32,7 @@
     />
     <div class="progress-container">
         <div class="progress-text">
-            70/180
+            92/180
         </div>
         <div id="my-progress-bar" class="progress-bar"></div>
     </div>
@@ -45,7 +45,7 @@
         }
       
         
-        updateProgress(38.89);
+        updateProgress(51.11);
     </script>
   </div>
 
@@ -101,8 +101,8 @@
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <div class="chart-container">
-    <h2>Winrate History (Post 20 Draft Calibration)</h2>
-    <canvas id="line-chart"></canvas>
+  <h2>Winrate History (Post 20 Draft Calibration)</h2>
+  <canvas id="line-chart"></canvas>
   </div>
 
   <script>
@@ -128,7 +128,8 @@
           'rgba(99, 255, 132, 1)',
           'rgba(233, 30, 99, 1)',
           'rgba(139, 195, 74, 1)',
-          'rgba(244, 67, 54, 1)'
+          'rgba(244, 67, 54, 1)',
+          'rgba(255, 87, 34, 1)'
         ];
 
         const backgroundColors = [
@@ -141,7 +142,8 @@
           'rgba(99, 255, 132, 0.2)',
           'rgba(233, 30, 99, 0.2)',
           'rgba(139, 195, 74, 0.2)',
-          'rgba(244, 67, 54, 0.2)'
+          'rgba(244, 67, 54, 0.2)',
+          'rgba(255, 87, 34, 1)'
         ]
 
         const data = uniqueDates.map(date => {

@@ -8,28 +8,41 @@
     />
 
     <h1>Eric K</h1>
-    <h2>Lifetime Winrate: 63.16% 60-35 out of 47 drafts</h2>
+    <h2 style="color: gold;"">
+      🥉🎖️<br />
+      Season XI Gauntlet Champion
+    </h2>
+    <h2 style="color: #CE8946;"">
+      Season XI Winrate 3rd Place
+    </h2>
+    <h2>
+      Lifetime Winrate: 62.42% 98-59 out of 77 drafts
+    </h2>
 
     <br />
 
-    <h2>Planeswalker Level II: Apprentice</h2>
+    <h2>Planeswalker Level IV: Adept</h2>
     <img
       src="<%= planeswalkerPath %>"
       alt="Planeswalker Image"
       style="width: 250px; height: 250px; border-radius: 50%; object-fit: cover"
     />
     <div class="progress-container">
-      <div class="progress-text">7/80</div>
-      <div id="my-progress-bar" class="progress-bar"></div>
+        <div class="progress-text">
+            96/140
+        </div>
+        <div id="my-progress-bar" class="progress-bar"></div>
     </div>
-
+      
+      
     <script>
-      function updateProgress(percent) {
-        const progressBar = document.getElementById("my-progress-bar");
-        progressBar.style.width = percent + "%";
-      }
-
-      updateProgress(8.75);
+        function updateProgress(percent) {
+          const progressBar = document.getElementById("my-progress-bar");
+          progressBar.style.width = percent + "%";
+        }
+      
+        
+        updateProgress(68.57);
     </script>
   </div>
 
@@ -85,8 +98,8 @@
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <div class="chart-container">
-    <h2>Winrate History (Post 20 Draft Calibration)</h2>
-    <canvas id="line-chart"></canvas>
+  <h2>Winrate History (Post 20 Draft Calibration)</h2>
+  <canvas id="line-chart"></canvas>
   </div>
 
   <script>
@@ -112,7 +125,8 @@
           'rgba(99, 255, 132, 1)',
           'rgba(233, 30, 99, 1)',
           'rgba(139, 195, 74, 1)',
-          'rgba(244, 67, 54, 1)'
+          'rgba(244, 67, 54, 1)',
+          'rgba(255, 87, 34, 1)'
         ];
 
         const backgroundColors = [
@@ -125,7 +139,8 @@
           'rgba(99, 255, 132, 0.2)',
           'rgba(233, 30, 99, 0.2)',
           'rgba(139, 195, 74, 0.2)',
-          'rgba(244, 67, 54, 0.2)'
+          'rgba(244, 67, 54, 0.2)',
+          'rgba(255, 87, 34, 1)'
         ]
 
         const data = uniqueDates.map(date => {

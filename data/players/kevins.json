@@ -47,16 +47,24 @@
       "Record": "18-16",
       "Drafts": "17",
       "Glicko": "1567 ± 77"
+    },
+    {
+      "Season": "11",
+      "Ranking": "NR",
+      "Win %": "54.55%",
+      "Record": "12-10",
+      "Drafts": "11",
+      "Glicko": "1503 ± 92"
     }
   ],
 
   "formatData": [
     {
       "Format": "Chaos",
-      "Win %": "53.09%",
-      "Record": "43-38",
-      "Drafts": "41",
-      "Glicko": "1679 ± 63"
+      "Win %": "52.53%",
+      "Record": "52-47",
+      "Drafts": "50",
+      "Glicko": "1676 ± 64"
     },
     {
       "Format": "Mystery Booster 2",
@@ -179,6 +187,11 @@
         0.47619047619047616, 0.4716981132075472, 0.4672897196261682,
         0.46296296296296297
       ]
+    },
+    {
+      "seasonName": "Season 11",
+      "date": [],
+      "win_percentage": []
     }
   ]
 }

@@ -9,16 +9,19 @@
 
     <h1>Noah</h1>
     <h2 style="color: gold;"">
-      🎖️<br />
+      🥈🎖️<br />
       Season X Gauntlet Champion
     </h2>
+    <h2 style="color: silver;"">
+      Season XI Winrate Runnerup
+    </h2>
     <h2>
-      Lifetime Winrate: 58.33% 49-35 out of 42 drafts
+      Lifetime Winrate: 60.00% 75-50 out of 62 drafts
     </h2>
 
     <br />
 
-    <h2>Planeswalker Level II: Apprentice</h2>
+    <h2>Planeswalker Level IV: Apprentice</h2>
     <img
       src="<%= planeswalkerPath %>"
       alt="Planeswalker Image"
@@ -26,7 +29,7 @@
     />
     <div class="progress-container">
         <div class="progress-text">
-            69/80
+            37/140
         </div>
         <div id="my-progress-bar" class="progress-bar"></div>
     </div>
@@ -39,7 +42,7 @@
         }
       
         
-        updateProgress(86.25);
+        updateProgress(26.43);
     </script>
   </div>
 
@@ -95,8 +98,8 @@
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <div class="chart-container">
-    <h2>Winrate History (Post 20 Draft Calibration)</h2>
-    <canvas id="line-chart"></canvas>
+  <h2>Winrate History (Post 20 Draft Calibration)</h2>
+  <canvas id="line-chart"></canvas>
   </div>
 
   <script>
@@ -122,7 +125,8 @@
           'rgba(99, 255, 132, 1)',
           'rgba(233, 30, 99, 1)',
           'rgba(139, 195, 74, 1)',
-          'rgba(244, 67, 54, 1)'
+          'rgba(244, 67, 54, 1)',
+          'rgba(255, 87, 34, 1)'
         ];
 
         const backgroundColors = [
@@ -135,7 +139,8 @@
           'rgba(99, 255, 132, 0.2)',
           'rgba(233, 30, 99, 0.2)',
           'rgba(139, 195, 74, 0.2)',
-          'rgba(244, 67, 54, 0.2)'
+          'rgba(244, 67, 54, 0.2)',
+          'rgba(255, 87, 34, 1)'
         ]
 
         const data = uniqueDates.map(date => {
