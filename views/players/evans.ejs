@@ -161,6 +161,14 @@
 
       const labels = seasons.reduce((allLabels, season) => allLabels.concat(season.date), []);
 
+      const allValues = seasons.flatMap(s => s.win_percentage);
+
+      const minValue = Math.min(...allValues);
+      const maxValue = Math.max(...allValues);
+
+      const yAxisMin = Math.max(0, Math.floor((minValue - 0.05) * 10) / 10); 
+      const yAxisMax = Math.min(1, Math.ceil((maxValue + 0.01) * 20) / 20);
+
       new Chart(ctx, {
         type: 'line',
         data: {
@@ -171,7 +179,13 @@
           responsive: true,
           scales: {
             y: {
-              beginAtZero: true
+              min: yAxisMin,
+              max: yAxisMax,
+              ticks: {
+              callback: function(value) {
+                  return (value * 100).toFixed(0) + '%';
+                }
+              }
             }
           }
         }
