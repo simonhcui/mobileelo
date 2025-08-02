@@ -2,56 +2,56 @@
   "tableData": [
     {
       "rank": "1",
-      "name": "Eric",
-      "gauntlet_percentage": "62.50%",
-      "gauntlet_record": "10-6",
-      "retail/chaos_record": "6-4",
-      "retail/chaos_drafts": "5",
+      "name": "Collin",
+      "gauntlet_percentage": "63.64%",
+      "gauntlet_record": "14-8",
+      "retail/chaos_record": "10-6",
+      "retail/chaos_drafts": "8",
       "cube_record": "4-2",
       "cube_drafts": "3"
     },
     {
       "rank": "2",
-      "name": "Collin",
-      "gauntlet_percentage": "55.00%",
-      "gauntlet_record": "11-9",
-      "retail/chaos_record": "8-6",
-      "retail/chaos_drafts": "7",
-      "cube_record": "3-3",
+      "name": "Eric",
+      "gauntlet_percentage": "61.11%",
+      "gauntlet_record": "11-7",
+      "retail/chaos_record": "7-5",
+      "retail/chaos_drafts": "6",
+      "cube_record": "4-2",
       "cube_drafts": "3"
     },
     {
       "rank": "3",
       "name": "Thana",
-      "gauntlet_percentage": "50.00%",
-      "gauntlet_record": "7-7",
+      "gauntlet_percentage": "56.25%",
+      "gauntlet_record": "9-7",
       "retail/chaos_record": "5-5",
       "retail/chaos_drafts": "5",
-      "cube_record": "2-2",
-      "cube_drafts": "2"
-    },
-    {
-      "rank": "3",
-      "name": "David O",
-      "gauntlet_percentage": "50.00%",
-      "gauntlet_record": "4-4",
-      "retail/chaos_record": "2-2",
-      "retail/chaos_drafts": "2",
-      "cube_record": "2-2",
-      "cube_drafts": "2"
-    },
-    {
-      "rank": "3",
-      "name": "Noah",
-      "gauntlet_percentage": "50.00%",
-      "gauntlet_record": "5-5",
-      "retail/chaos_record": "4-2",
-      "retail/chaos_drafts": "3",
-      "cube_record": "1-3",
-      "cube_drafts": "2"
+      "cube_record": "4-2",
+      "cube_drafts": "3"
     },
     {
       "rank": "4",
+      "name": "David O",
+      "gauntlet_percentage": "50.00%",
+      "gauntlet_record": "5-5",
+      "retail/chaos_record": "2-2",
+      "retail/chaos_drafts": "2",
+      "cube_record": "3-3",
+      "cube_drafts": "3"
+    },
+    {
+      "rank": "4",
+      "name": "Clayton",
+      "gauntlet_percentage": "50.00%",
+      "gauntlet_record": "4-4",
+      "retail/chaos_record": "1-1",
+      "retail/chaos_drafts": "1",
+      "cube_record": "3-3",
+      "cube_drafts": "3"
+    },
+    {
+      "rank": "5",
       "name": "Adam",
       "gauntlet_percentage": "42.86%",
       "gauntlet_record": "6-8",
@@ -61,14 +61,24 @@
       "cube_drafts": "1"
     },
     {
-      "rank": "5",
+      "rank": "6",
+      "name": "Noah",
+      "gauntlet_percentage": "41.67%",
+      "gauntlet_record": "5-7",
+      "retail/chaos_record": "4-2",
+      "retail/chaos_drafts": "3",
+      "cube_record": "1-5",
+      "cube_drafts": "3"
+    },
+    {
+      "rank": "7",
       "name": "Luke",
-      "gauntlet_percentage": "40.00%",
-      "gauntlet_record": "4-6",
-      "retail/chaos_record": "4-4",
-      "retail/chaos_drafts": "4",
-      "cube_record": "0-2",
-      "cube_drafts": "1"
+      "gauntlet_percentage": "28.57%",
+      "gauntlet_record": "4-10",
+      "retail/chaos_record": "4-6",
+      "retail/chaos_drafts": "5",
+      "cube_record": "0-4",
+      "cube_drafts": "2"
     }
   ]
 }
