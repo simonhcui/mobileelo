@@ -66,10 +66,16 @@
           </tr>
         </thead>
         <tbody>
-          <% gauntletData.forEach(function(row) { %>
+          <% const keys = Object.keys(gauntletData[0]); const cubeDraftsIndex =
+          keys.indexOf("cube_drafts"); gauntletData.forEach(function(row) {
+          const values = Object.values(row); %>
           <tr>
-            <% Object.values(row).forEach(function(value) { %>
-            <td><%= value %></td>
+            <% values.forEach(function(value, i) { %>
+            <td>
+              <% if (i === cubeDraftsIndex && value === '3') { %>
+              <strong><%= value %></strong>
+              <% } else { %> <%= value %> <% } %>
+            </td>
             <% }); %>
           </tr>
           <% }); %>
