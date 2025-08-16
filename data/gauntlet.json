@@ -2,6 +2,16 @@
   "tableData": [
     {
       "rank": "1",
+      "name": "Clayton",
+      "gauntlet_percentage": "83.33%",
+      "gauntlet_record": "10-2",
+      "retail/chaos_record": "6-0",
+      "retail/chaos_drafts": "3",
+      "cube_record": "4-2",
+      "cube_drafts": "3"
+    },
+    {
+      "rank": "2",
       "name": "Eric",
       "gauntlet_percentage": "61.11%",
       "gauntlet_record": "11-7",
@@ -11,17 +21,17 @@
       "cube_drafts": "3"
     },
     {
-      "rank": "2",
-      "name": "Clayton",
-      "gauntlet_percentage": "58.33%",
-      "gauntlet_record": "4-4",
-      "retail/chaos_record": "1-1",
-      "retail/chaos_drafts": "1",
+      "rank": "3",
+      "name": "Noah",
+      "gauntlet_percentage": "57.14%",
+      "gauntlet_record": "8-6",
+      "retail/chaos_record": "5-3",
+      "retail/chaos_drafts": "4",
       "cube_record": "3-3",
       "cube_drafts": "3"
     },
     {
-      "rank": "3",
+      "rank": "4",
       "name": "Thana",
       "gauntlet_percentage": "55.56%",
       "gauntlet_record": "10-8",
@@ -31,7 +41,17 @@
       "cube_drafts": "3"
     },
     {
-      "rank": "4",
+      "rank": "5",
+      "name": "Adam",
+      "gauntlet_percentage": "54.55%",
+      "gauntlet_record": "12-10",
+      "retail/chaos_record": "9-7",
+      "retail/chaos_drafts": "8",
+      "cube_record": "3-3",
+      "cube_drafts": "3"
+    },
+    {
+      "rank": "6",
       "name": "Collin",
       "gauntlet_percentage": "53.85%",
       "gauntlet_record": "14-12",
@@ -41,7 +61,7 @@
       "cube_drafts": "3"
     },
     {
-      "rank": "5",
+      "rank": "7",
       "name": "David O",
       "gauntlet_percentage": "50.00%",
       "gauntlet_record": "7-7",
@@ -51,27 +71,7 @@
       "cube_drafts": "3"
     },
     {
-      "rank": "5",
-      "name": "Adam",
-      "gauntlet_percentage": "50.00%",
-      "gauntlet_record": "9-9",
-      "retail/chaos_record": "9-7",
-      "retail/chaos_drafts": "8",
-      "cube_record": "0-2",
-      "cube_drafts": "1"
-    },
-    {
-      "rank": "6",
-      "name": "Noah",
-      "gauntlet_percentage": "42.86%",
-      "gauntlet_record": "6-8",
-      "retail/chaos_record": "5-3",
-      "retail/chaos_drafts": "4",
-      "cube_record": "1-5",
-      "cube_drafts": "3"
-    },
-    {
-      "rank": "7",
+      "rank": "8",
       "name": "Luke",
       "gauntlet_percentage": "28.57%",
       "gauntlet_record": "4-10",
