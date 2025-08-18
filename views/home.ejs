@@ -22,7 +22,7 @@
   <div class="data-table-container">
     <div class="data-table">
       <p>
-        28 Drafts in, last updated 8/14/25<br />
+        39 Drafts in, last updated 8/16/25<br />
         <!-- Congrats to our Winrate Champion Tony and our Gauntlet Champion
         Eric!!<br />
         Season XII will last from 7/3/25 to 9/25/25. Stats will be updated once
@@ -67,14 +67,18 @@
         </thead>
         <tbody>
           <% const keys = Object.keys(gauntletData[0]); const cubeDraftsIndex =
-          keys.indexOf("cube_drafts"); gauntletData.forEach(function(row) {
-          const values = Object.values(row); %>
+          keys.indexOf("cube_drafts"); const retailDraftsIndex =
+          keys.indexOf("retail/chaos_drafts");
+          gauntletData.forEach(function(row) { const values =
+          Object.values(row); %>
           <tr>
             <% values.forEach(function(value, i) { %>
             <td>
               <% if (i === cubeDraftsIndex && value === '3') { %>
               <strong><%= value %></strong>
-              <% } else { %> <%= value %> <% } %>
+              <% } else if (i === retailDraftsIndex && value === '12') { %>
+              <strong><%= value %></strong>
+              <% }else { %> <%= value %> <% } %>
             </td>
             <% }); %>
           </tr>
