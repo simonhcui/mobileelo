@@ -111,6 +111,130 @@
       "Glicko": "1306 ± 110"
     }
   ],
+
+  "matchups": [
+    {
+      "Player": "Adam",
+      "Record": "3-2",
+      "Win %": "60.0%",
+      "Total Matches": "5"
+    },
+    {
+      "Player": "Alan",
+      "Record": "0-2",
+      "Win %": "0.0%",
+      "Total Matches": "2"
+    },
+    {
+      "Player": "Alberto",
+      "Record": "0-2",
+      "Win %": "0.0%",
+      "Total Matches": "2"
+    },
+    {
+      "Player": "Chris A",
+      "Record": "0-7",
+      "Win %": "0.0%",
+      "Total Matches": "7"
+    },
+    {
+      "Player": "Clayton",
+      "Record": "1-1",
+      "Win %": "50.0%",
+      "Total Matches": "2"
+    },
+    {
+      "Player": "David O",
+      "Record": "1-1",
+      "Win %": "50.0%",
+      "Total Matches": "2"
+    },
+    {
+      "Player": "Jacob",
+      "Record": "4-6",
+      "Win %": "40.0%",
+      "Total Matches": "10"
+    },
+    {
+      "Player": "John K",
+      "Record": "1-3",
+      "Win %": "25.0%",
+      "Total Matches": "4"
+    },
+    {
+      "Player": "Juwan",
+      "Record": "1-3",
+      "Win %": "25.0%",
+      "Total Matches": "4"
+    },
+    {
+      "Player": "Luke",
+      "Record": "1-1",
+      "Win %": "50.0%",
+      "Total Matches": "2"
+    },
+    {
+      "Player": "Marco",
+      "Record": "0-2",
+      "Win %": "0.0%",
+      "Total Matches": "2"
+    },
+    {
+      "Player": "Matt Y",
+      "Record": "1-4",
+      "Win %": "20.0%",
+      "Total Matches": "5"
+    },
+    {
+      "Player": "Nick D",
+      "Record": "0-4",
+      "Win %": "0.0%",
+      "Total Matches": "4"
+    },
+    {
+      "Player": "Simon",
+      "Record": "3-7",
+      "Win %": "30.0%",
+      "Total Matches": "10"
+    },
+    {
+      "Player": "Sonny",
+      "Record": "0-1",
+      "Win %": "0.0%",
+      "Total Matches": "1"
+    },
+    {
+      "Player": "Stephen",
+      "Record": "1-2",
+      "Win %": "33.33%",
+      "Total Matches": "3"
+    },
+    {
+      "Player": "Todd",
+      "Record": "0-6",
+      "Win %": "0.0%",
+      "Total Matches": "6"
+    },
+    {
+      "Player": "Tony",
+      "Record": "0-2",
+      "Win %": "0.0%",
+      "Total Matches": "2"
+    },
+    {
+      "Player": "Walski",
+      "Record": "1-0",
+      "Win %": "100.0%",
+      "Total Matches": "1"
+    },
+    {
+      "Player": "Zane",
+      "Record": "0-1",
+      "Win %": "0.0%",
+      "Total Matches": "1"
+    }
+  ],
+
   "seasons": [
     {
       "seasonName": "Season 6",

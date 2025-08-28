@@ -80,6 +80,165 @@
     }
   ],
 
+  "matchups": [
+    {
+      "Player": "Adam",
+      "Record": "9-6",
+      "Win %": "60.0%",
+      "Total Matches": "15"
+    },
+    {
+      "Player": "Alberto",
+      "Record": "1-4",
+      "Win %": "20.0%",
+      "Total Matches": "5"
+    },
+    {
+      "Player": "Andrew D",
+      "Record": "1-1",
+      "Win %": "50.0%",
+      "Total Matches": "2"
+    },
+    {
+      "Player": "Chris A",
+      "Record": "5-4",
+      "Win %": "55.56%",
+      "Total Matches": "9"
+    },
+    {
+      "Player": "Clayton",
+      "Record": "1-4",
+      "Win %": "20.0%",
+      "Total Matches": "5"
+    },
+    {
+      "Player": "Collin",
+      "Record": "3-2",
+      "Win %": "60.0%",
+      "Total Matches": "5"
+    },
+    {
+      "Player": "David O",
+      "Record": "5-3",
+      "Win %": "62.5%",
+      "Total Matches": "8"
+    },
+    {
+      "Player": "Evan S",
+      "Record": "3-2",
+      "Win %": "60.0%",
+      "Total Matches": "5"
+    },
+    {
+      "Player": "Jacob",
+      "Record": "8-0",
+      "Win %": "100.0%",
+      "Total Matches": "8"
+    },
+    {
+      "Player": "John K",
+      "Record": "6-1",
+      "Win %": "85.71%",
+      "Total Matches": "7"
+    },
+    {
+      "Player": "Juwan",
+      "Record": "1-2",
+      "Win %": "33.33%",
+      "Total Matches": "3"
+    },
+    {
+      "Player": "Kevin",
+      "Record": "1-0",
+      "Win %": "100.0%",
+      "Total Matches": "1"
+    },
+    {
+      "Player": "Luca",
+      "Record": "3-1",
+      "Win %": "75.0%",
+      "Total Matches": "4"
+    },
+    {
+      "Player": "Luis",
+      "Record": "3-0",
+      "Win %": "100.0%",
+      "Total Matches": "3"
+    },
+    {
+      "Player": "Luke",
+      "Record": "3-1",
+      "Win %": "75.0%",
+      "Total Matches": "4"
+    },
+    {
+      "Player": "Marco",
+      "Record": "4-0",
+      "Win %": "100.0%",
+      "Total Matches": "4"
+    },
+    {
+      "Player": "Matt Y",
+      "Record": "4-9",
+      "Win %": "30.77%",
+      "Total Matches": "13"
+    },
+    {
+      "Player": "Nick D",
+      "Record": "4-3",
+      "Win %": "57.14%",
+      "Total Matches": "7"
+    },
+    {
+      "Player": "Noah",
+      "Record": "10-3",
+      "Win %": "76.92%",
+      "Total Matches": "13"
+    },
+    {
+      "Player": "Simon",
+      "Record": "5-0",
+      "Win %": "100.0%",
+      "Total Matches": "5"
+    },
+    {
+      "Player": "Sonny",
+      "Record": "5-1",
+      "Win %": "83.33%",
+      "Total Matches": "6"
+    },
+    {
+      "Player": "Stephen",
+      "Record": "10-2",
+      "Win %": "83.33%",
+      "Total Matches": "12"
+    },
+    {
+      "Player": "Todd",
+      "Record": "1-2",
+      "Win %": "33.33%",
+      "Total Matches": "3"
+    },
+    {
+      "Player": "Tony",
+      "Record": "3-7",
+      "Win %": "30.0%",
+      "Total Matches": "10"
+    },
+    {
+      "Player": "Travis",
+      "Record": "2-0",
+      "Win %": "100.0%",
+      "Total Matches": "2"
+    },
+    {
+      "Player": "Walski",
+      "Record": "1-2",
+      "Win %": "33.33%",
+      "Total Matches": "3"
+    }
+  ],
+
   "seasons": [
     {
       "seasonName": "Season 8",
