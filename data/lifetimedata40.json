@@ -2,6 +2,7 @@
   "tableData": [
     {
       "rank": "1",
+      "level": "/images/planeswalker/spellshaper.jpg",
       "name": "Clayton",
       "win_percentage": "74.58%",
       "wins_losses": "91-31",
@@ -14,6 +15,7 @@
     },
     {
       "rank": "2",
+      "level": "/images/planeswalker/apprentice.jpg",
       "name": "Luis",
       "win_percentage": "66.67%",
       "wins_losses": "64-32",
@@ -25,6 +27,7 @@
     },
     {
       "rank": "3",
+      "level": "/images/planeswalker/adept.jpg",
       "name": "Alberto",
       "win_percentage": "65.05%",
       "wins_losses": "67-36",
@@ -37,6 +40,7 @@
     },
     {
       "rank": "4",
+      "level": "/images/planeswalker/guildmage.jpg",
       "name": "Alan",
       "win_percentage": "64.92%",
       "wins_losses": "124-67",
@@ -49,6 +53,7 @@
     },
     {
       "rank": "5",
+      "level": "/images/planeswalker/invoker.jpg",
       "name": "Tony",
       "win_percentage": "63.93%",
       "wins_losses": "195-110",
@@ -61,6 +66,7 @@
     },
     {
       "rank": "6",
+      "level": "/images/planeswalker/invoker.jpg",
       "name": "Nick D",
       "win_percentage": "63.48%",
       "wins_losses": "146-84",
@@ -73,6 +79,7 @@
     },
     {
       "rank": "7",
+      "level": "/images/planeswalker/adept.jpg",
       "name": "Eric K",
       "win_percentage": "62.42%",
       "wins_losses": "98-59",
@@ -84,6 +91,7 @@
     },
     {
       "rank": "8",
+      "level": "/images/planeswalker/invoker.jpg",
       "name": "Matt Y",
       "win_percentage": "61.52%",
       "wins_losses": "219-137",
@@ -96,6 +104,7 @@
     },
     {
       "rank": "9",
+      "level": "/images/planeswalker/sorcerer.jpg",
       "name": "Chris A",
       "win_percentage": "61.00%",
       "wins_losses": "294-188",
@@ -108,6 +117,7 @@
     },
     {
       "rank": "10",
+      "level": "/images/planeswalker/guildmage.jpg",
       "name": "Walski",
       "win_percentage": "60.52%",
       "wins_losses": "141-92",
@@ -120,6 +130,7 @@
     },
     {
       "rank": "11",
+      "level": "/images/planeswalker/spellshaper.jpg",
       "name": "Evan S",
       "win_percentage": "60.51%",
       "wins_losses": "95-62",
@@ -132,6 +143,7 @@
     },
     {
       "rank": "12",
+      "level": "/images/planeswalker/adept.jpg",
       "name": "Noah",
       "win_percentage": "60.00%",
       "wins_losses": "75-50",
@@ -144,6 +156,7 @@
     },
     {
       "rank": "13",
+      "level": "/images/planeswalker/prodigy.jpg",
       "name": "Collin",
       "win_percentage": "55.68%",
       "wins_losses": "49-39",
@@ -155,6 +168,7 @@
     },
     {
       "rank": "14",
+      "level": "/images/planeswalker/taskmage.jpg",
       "name": "David O",
       "win_percentage": "55.56%",
       "wins_losses": "80-64",
@@ -167,6 +181,7 @@
     },
     {
       "rank": "15",
+      "level": "/images/planeswalker/guildmage.jpg",
       "name": "Adam",
       "win_percentage": "55.20%",
       "wins_losses": "191-155",
@@ -179,6 +194,7 @@
     },
     {
       "rank": "16",
+      "level": "/images/planeswalker/spellshaper.jpg",
       "name": "Juwan",
       "win_percentage": "53.01%",
       "wins_losses": "141-125",
@@ -191,6 +207,7 @@
     },
     {
       "rank": "17",
+      "level": "/images/planeswalker/spellshaper.jpg",
       "name": "Sonny",
       "win_percentage": "51.22%",
       "wins_losses": "147-140",
@@ -203,6 +220,7 @@
     },
     {
       "rank": "18",
+      "level": "/images/planeswalker/taskmage.jpg",
       "name": "Andrew D",
       "win_percentage": "48.28%",
       "wins_losses": "84-90",
@@ -215,6 +233,7 @@
     },
     {
       "rank": "19",
+      "level": "/images/planeswalker/apprentice.jpg",
       "name": "Kevin",
       "win_percentage": "47.69%",
       "wins_losses": "62-68",
@@ -226,6 +245,7 @@
     },
     {
       "rank": "20",
+      "level": "/images/planeswalker/apprentice.jpg",
       "name": "Todd",
       "win_percentage": "46.88%",
       "wins_losses": "75-85",
@@ -238,6 +258,7 @@
     },
     {
       "rank": "21",
+      "level": "/images/planeswalker/prodigy.jpg",
       "name": "Luca",
       "win_percentage": "46.55%",
       "wins_losses": "54-62",
@@ -250,6 +271,7 @@
     },
     {
       "rank": "22",
+      "level": "/images/planeswalker/guildmage.jpg",
       "name": "Simon",
       "win_percentage": "46.17%",
       "wins_losses": "217-253",
@@ -262,6 +284,7 @@
     },
     {
       "rank": "23",
+      "level": "/images/planeswalker/taskmage.jpg",
       "name": "Zane",
       "win_percentage": "45.66%",
       "wins_losses": "100-119",
@@ -274,6 +297,7 @@
     },
     {
       "rank": "24",
+      "level": "/images/planeswalker/adept.jpg",
       "name": "Stephen",
       "win_percentage": "42.47%",
       "wins_losses": "93-126",
@@ -286,6 +310,7 @@
     },
     {
       "rank": "25",
+      "level": "/images/planeswalker/novice.jpg",
       "name": "Luke",
       "win_percentage": "41.86%",
       "wins_losses": "36-50",
@@ -297,6 +322,7 @@
     },
     {
       "rank": "26",
+      "level": "/images/planeswalker/spellshaper.jpg",
       "name": "John K",
       "win_percentage": "30.34%",
       "wins_losses": "98-225",
@@ -309,6 +335,7 @@
     },
     {
       "rank": "27",
+      "level": "/images/planeswalker/spellshaper.jpg",
       "name": "Jacob",
       "win_percentage": "28.28%",
       "wins_losses": "82-208",
@@ -320,6 +347,7 @@
     },
     {
       "rank": "28",
+      "level": "/images/planeswalker/novice.jpg",
       "name": "Travis",
       "win_percentage": "28.13%",
       "wins_losses": "27-69",
@@ -331,6 +359,7 @@
     },
     {
       "rank": "29",
+      "level": "/images/planeswalker/novice.jpg",
       "name": "Marco",
       "win_percentage": "17.76%",
       "wins_losses": "19-88",

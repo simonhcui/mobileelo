@@ -26,15 +26,28 @@
         <tbody>
           <% tableData.forEach(function(row) { %>
           <tr>
-            <% Object.values(row).forEach(function(value, index) { %> <%
-            if(index === 1) { %>
+            <% Object.keys(row).forEach(function(key, index) { %> <% if (key ===
+            "name") { %>
             <td>
-              <a href="player/<%= value.toString().replace(/\s+/g, '') %>"
-                ><%= value %></a
-              >
+              <a href="player/<%= row[key].toString().replace(/\s+/g, '') %>">
+                <%= row[key] %>
+              </a>
+            </td>
+            <% } else if (key === "level") { %>
+            <td>
+              <img
+                src="<%= row[key] %>"
+                alt="avatar"
+                style="
+                  width: 40px;
+                  height: 40px;
+                  border-radius: 50%;
+                  object-fit: cover;
+                "
+              />
             </td>
             <% } else { %>
-            <td><%= value %></td>
+            <td><%= row[key] %></td>
             <% } %> <% }); %>
           </tr>
           <% }); %>
