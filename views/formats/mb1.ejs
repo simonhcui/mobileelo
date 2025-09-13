@@ -7,7 +7,7 @@
   <div class="data-table-container">
     <div class="data-table">
       <h2>
-        ELO and Winrates (Min 5 drafts). Last Updated 4/17/25. 12 Total Drafts
+        ELO and Winrates (Min 5 drafts). Last Updated 9/11/25. 13 Total Drafts
         Recorded
       </h2>
       <table>
@@ -21,6 +21,31 @@
         </thead>
         <tbody>
           <% tableData.forEach(function(row) { %>
+          <tr>
+            <% Object.values(row).forEach(function(value) { %>
+            <td><%= value %></td>
+            <% }); %>
+          </tr>
+          <% }); %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="data-table-container">
+    <div class="data-table">
+      <h2>Color Rankings</h2>
+      <table>
+        <thead>
+          <tr>
+            <% if(colorData.length > 0) { %> <%
+            Object.keys(colorData[0]).forEach(function(key) { %>
+            <th><%= key %></th>
+            <% }); %> <% } %>
+          </tr>
+        </thead>
+        <tbody>
+          <% colorData.forEach(function(row) { %>
           <tr>
             <% Object.values(row).forEach(function(value) { %>
             <td><%= value %></td>

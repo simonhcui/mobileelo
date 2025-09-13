@@ -20,6 +20,7 @@ const jsonDataDmrColor = require("../data/formats/dmr/dmrcolordata.json");
 const jsonDataDmrArchetype = require("../data/formats/dmr/dmrarchetypedata.json");
 
 const jsonDataMb1 = require("../data/formats/mb1/mb1data.json");
+const jsonDataMb1Color = require("../data/formats/mb1/mb1colordata.json");
 
 const jsonDataMb2 = require("../data/formats/mb2/mb2data.json");
 const jsonDataMb2Color = require("../data/formats/mb2/mb2colordata.json");
@@ -90,6 +91,7 @@ router.get("/mb1", (req, res) => {
     title: "MB1",
     id: req.params.id,
     tableData: jsonDataMb1.tableData,
+    colorData: jsonDataMb1Color.tableData,
   });
 });
 
