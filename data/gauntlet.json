@@ -33,11 +33,11 @@
     {
       "rank": "4",
       "name": "Adam",
-      "gauntlet_percentage": "70.00%",
-      "gauntlet_record": "21-9",
+      "gauntlet_percentage": "73.33%",
+      "gauntlet_record": "22-8",
       "retail/chaos_record": "17-7",
       "retail/chaos_drafts": "12",
-      "cube_record": "4-2",
+      "cube_record": "5-1",
       "cube_drafts": "3"
     },
     {
@@ -62,22 +62,22 @@
     },
     {
       "rank": "7",
-      "name": "Luke",
-      "gauntlet_percentage": "57.14%",
-      "gauntlet_record": "16-12",
-      "retail/chaos_record": "16-8",
-      "retail/chaos_drafts": "12",
-      "cube_record": "0-4",
-      "cube_drafts": "2"
-    },
-    {
-      "rank": "8",
       "name": "David O",
       "gauntlet_percentage": "55.00%",
       "gauntlet_record": "11-9",
       "retail/chaos_record": "8-6",
       "retail/chaos_drafts": "7",
       "cube_record": "3-3",
+      "cube_drafts": "3"
+    },
+    {
+      "rank": "8",
+      "name": "Luke",
+      "gauntlet_percentage": "53.33%",
+      "gauntlet_record": "16-14",
+      "retail/chaos_record": "16-8",
+      "retail/chaos_drafts": "12",
+      "cube_record": "0-6",
       "cube_drafts": "3"
     }
   ]
