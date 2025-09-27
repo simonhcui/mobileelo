@@ -57,6 +57,10 @@
                 ><%= value %></a
               >
             </td>
+            <% } else if (index === 3 && typeof value === 'object' && value.url) { %>
+            <td>
+              <a href="<%= value.url %>" target="_blank"><%= value.text %></a>
+            </td>
             <% } else { %>
             <td><%= value %></td>
             <% } %> <% }); %>
@@ -81,7 +85,11 @@
           <% top_10_money.forEach(function(row) { %>
           <tr>
             <% Object.values(row).forEach(function(value, index) { %> <%
-            if(index === 3) { %>
+            if(index === 1 && typeof value === 'object' && value.url) { %>
+            <td>
+              <a href="<%= value.url %>" target="_blank"><%= value.text %></a>
+            </td>
+            <% } else if(index === 3) { %>
             <td>
               <a href="player/<%= value.toString().replace(/\s+/g, '') %>"
                 ><%= value %></a

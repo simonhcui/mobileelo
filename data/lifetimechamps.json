@@ -164,6 +164,21 @@
       "Player": "Eric K",
       "Num Drafts": "30",
       "Glicko": "1628 ± 68"
+    },
+    {
+      "Season": "XII",
+      "Title": "Winrate",
+      "Player": "Tony",
+      "Num Drafts": "19",
+      "Glicko": "1780 ± 89",
+      "Winrate": "80.00%"
+    },
+    {
+      "Season": "XII",
+      "Title": "Gauntlet",
+      "Player": "Clayton",
+      "Num Drafts": "26",
+      "Glicko": "1628 ± 68"
     }
   ],
   "moneyData": [
@@ -292,90 +307,141 @@
       "Player": "Chris A",
       "Best Pull": "Surgefoil Cloud, Ex-SOLDIER",
       "Value": "$426"
+    },
+    {
+      "Season": "XII",
+      "Rank": "1",
+      "Player": "Kevin",
+      "Best Pull": "Neonblack Traveling Chocobo",
+      "Value": "$6,200"
+    },
+    {
+      "Season": "XII",
+      "Rank": "2",
+      "Player": "Kevin",
+      "Best Pull": "Neonblue Traveling Chocobo",
+      "Value": "$2,800"
+    },
+    {
+      "Season": "XII",
+      "Rank": "3",
+      "Player": "Sonny",
+      "Best Pull": "Neonpink Traveling Chocobo",
+      "Value": "$2,500"
     }
   ],
   "top_10_money": [
     {
       "Rank": "1",
-      "Card": "Serialized 211/250 Ulamog, the Defiler",
+      "Card": {
+        "text": "Neonblack Traveling Chocobo",
+        "url": "https://www.tcgplayer.com/product/630951?Printing=Foil&page=1&irclickid=VeF28VSYGxyKWCA21R0GuUq8Ukp1fAUpUVSCVc0&sharedid=&irpid=4931599&irgwc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Scryfall,+LLC&Language=English"
+      },
+      "Value": "$6,200",
+      "Player": "Kevin",
+      "Season": "XII"
+    },
+    {
+      "Rank": "2",
+      "Card": {
+        "text": "Serialized 211/250 Ulamog, the Defiler",
+        "url": "https://www.tcgplayer.com/product/555059?Printing=Foil&page=1&irclickid=VeF28VSYGxyKWCA21R0GuUq8Ukp1fASNUVSCVc0&sharedid=&irpid=4931599&irgwc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Scryfall,+LLC&Language=English"
+      },
       "Value": "$5000",
       "Player": "Evan S",
       "Season": "VII"
     },
     {
-      "Rank": "2",
-      "Card": "Foil Stay with Me (FIN Rhystic Study)",
+      "Rank": "3",
+      "Card": {
+        "text": "Neonblue Traveling Chocobo",
+        "url": "https://www.tcgplayer.com/product/630948?Printing=Foil&page=1&irclickid=VeF28VSYGxyKWCA21R0GuUq8Ukp1fFVVUVSCVc0&sharedid=&irpid=4931599&irgwc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Scryfall%2C%20LLC"
+      },
+      "Value": "$2,800",
+      "Player": "Kevin",
+      "Season": "XII"
+    },
+    {
+      "Rank": "4",
+      "Card": {
+        "text": "Neonpink Traveling Chocobo",
+        "url": "https://www.tcgplayer.com/product/630947?Printing=Foil&page=1&irclickid=VeF28VSYGxyKWCA21R0GuUq8Ukp1fHxpUVSCVc0&sharedid=&irpid=4931599&irgwc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Scryfall,+LLC&Language=English"
+      },
+      "Value": "$2,500",
+      "Player": "Sonny",
+      "Season": "XII"
+    },
+    {
+      "Rank": "5",
+      "Card": {
+        "text": "Foil Stay with Me (FIN Rhystic Study)",
+        "url": "https://www.tcgplayer.com/product/632052?Printing=Foil&page=1&irclickid=VeF28VSYGxyKWCA21R0GuUq8Ukp1fH3JUVSCVc0&sharedid=&irpid=4931599&irgwc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Scryfall,+LLC&Language=English"
+      },
       "Value": "$580",
       "Player": "Walski",
       "Season": "XI"
     },
     {
-      "Rank": "3",
-      "Card": "Sylveon ex - 156/131 - SV: Prismatic Evolutions",
+      "Rank": "6",
+      "Card": {
+        "text": "Sylveon ex - 156/131 - SV: Prismatic Evolutions",
+        "url": "https://www.tcgplayer.com/product/610511/Pokemon-SV%20Prismatic%20Evolutions-Sylveon%20ex%20156%20131?xid=af1ec3bef-6792-46b1-b60d-4ff231ef13fd&Language=English"
+      },
       "Value": "$561",
-      "Player": "Walski",
+      "Player": "Chris A",
       "Season": "XI"
     },
     {
-      "Rank": "4",
-      "Card": "Fracturefoil Doubling Season",
+      "Rank": "7",
+      "Card": {
+        "text": "Fracturefoil Doubling Season",
+        "url": "https://www.tcgplayer.com/product/591766?Printing=Foil&page=1&irclickid=VeF28VSYGxyKWCA21R0GuUq8Ukp1fC0FUVSCVc0&sharedid=&irpid=4931599&irgwc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Scryfall,+LLC&Language=English"
+      },
       "Value": "$497",
       "Player": "Walski",
       "Season": "X"
     },
     {
-      "Rank": "5",
-      "Card": "Surgefoil Cloud, Ex-SOLDIER",
+      "Rank": "8",
+      "Card": {
+        "text": "Surgefoil Cloud, Midgard Mercenary",
+        "url": "https://www.tcgplayer.com/product/630884?Printing=Foil&page=1&irclickid=VeF28VSYGxyKWCA21R0GuUq8Ukp1fC35UVSCVc0&sharedid=&irpid=4931599&irgwc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Scryfall,+LLC&Language=English"
+      },
+      "Value": "$471",
+      "Player": "Luis",
+      "Season": "XII"
+    },
+    {
+      "Rank": "9",
+      "Card": {
+        "text": "Surgefoil Cloud, Ex-SOLDIER",
+        "url": "https://www.tcgplayer.com/product/631062?Printing=Foil&page=1&irclickid=VeF28VSYGxyKWCA21R0GuUq8Ukp1fCWlUVSCVc0&sharedid=&irpid=4931599&irgwc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Scryfall,+LLC&Language=English"
+      },
       "Value": "$426",
       "Player": "Chris A",
       "Season": "XI"
     },
     {
-      "Rank": "6",
-      "Card": "Fracturefoil Bloodthirsty Conquerer",
+      "Rank": "10",
+      "Card": {
+        "text": "Fracturefoil Bloodthirsty Conquerer",
+        "url": "https://www.tcgplayer.com/product/591788?Printing=Foil&page=1&irclickid=VeF28VSYGxyKWCA21R0GuUq8Ukp1fCQJUVSCVc0&sharedid=&irpid=4931599&irgwc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Scryfall,+LLC&Language=English"
+      },
       "Value": "$420",
       "Player": "Stephen",
       "Season": "XI"
-    },
-    {
-      "Rank": "7",
-      "Card": "Flareon ex - 146/131 - SV: Prismatic Evolutions",
-      "Value": "$389",
-      "Player": "Jacob",
-      "Season": "X"
-    },
-    {
-      "Rank": "8",
-      "Card": "Foil Amano Sephiroth, the Savior (FIN Atraxa, Grand Unifier)",
-      "Value": "$364",
-      "Player": "Zane",
-      "Season": "XI"
-    },
-    {
-      "Rank": "9",
-      "Card": "Surgefoil Cloud, Midgard Mercenary",
-      "Value": "$350",
-      "Player": "Andre",
-      "Season": "XI"
-    },
-    {
-      "Rank": "10",
-      "Card": "Serialized 057/500 Yorion, Sky Nomad",
-      "Value": "$302",
-      "Player": "Jacob",
-      "Season": "VII"
     }
   ],
   "most_drafts": [
     { "Rank": "1", "Player": "Chris A", "Num Drafts": "32", "Season": "IX" },
-    { "Rank": "2", "Player": "Eric K", "Num Drafts": "30", "Season": "XI" },
-    { "Rank": "3", "Player": "Stephen", "Num Drafts": "29", "Season": "XI" },
-    { "Rank": "4", "Player": "John K", "Num Drafts": "28", "Season": "VIII" },
-    { "Rank": "5", "Player": "Chris A", "Num Drafts": "28", "Season": "XI" },
-    { "Rank": "6", "Player": "Chris A", "Num Drafts": "27", "Season": "VIII" },
-    { "Rank": "7", "Player": "Matt", "Num Drafts": "27", "Season": "VIII" },
-    { "Rank": "8", "Player": "Chris A", "Num Drafts": "26", "Season": "III" },
-    { "Rank": "9", "Player": "John K", "Num Drafts": "25", "Season": "V" },
-    { "Rank": "10", "Player": "Jacob", "Num Drafts": "25", "Season": "VI" }
+    { "Rank": "2", "Player": "Collin", "Num Drafts": "31", "Season": "XII" },
+    { "Rank": "3", "Player": "Eric K", "Num Drafts": "30", "Season": "XI" },
+    { "Rank": "4", "Player": "Eric K", "Num Drafts": "30", "Season": "XII" },
+    { "Rank": "5", "Player": "Stephen", "Num Drafts": "29", "Season": "XI" },
+    { "Rank": "6", "Player": "Chris A", "Num Drafts": "29", "Season": "XII" },
+    { "Rank": "7", "Player": "John K", "Num Drafts": "28", "Season": "VIII" },
+    { "Rank": "8", "Player": "Chris A", "Num Drafts": "28", "Season": "XI" },
+    { "Rank": "9", "Player": "Chris A", "Num Drafts": "27", "Season": "VIII" },
+    { "Rank": "10", "Player": "Matt Y", "Num Drafts": "27", "Season": "VIII" }
   ]
 }
