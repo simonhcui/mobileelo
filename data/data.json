@@ -36,13 +36,13 @@
     {
       "rank": "4",
       "name": "Tony",
-      "win_percentage": "81.25%",
-      "wins_losses": "26-6",
-      "total_drafts": "17",
-      "glicko": "1794 ± 93",
-      "gxe": "75.23%",
-      "last_set": "Chaos",
-      "last_date": "9-13-25"
+      "win_percentage": "80.00%",
+      "wins_losses": "28-7",
+      "total_drafts": "19",
+      "glicko": "1780 ± 89",
+      "gxe": "74.27%",
+      "last_set": "FUNNY RACE CAR SET",
+      "last_date": "9-25-25"
     },
     {
       "rank": "5",
@@ -68,6 +68,17 @@
     },
     {
       "rank": "7",
+      "name": "Clayton",
+      "win_percentage": "71.70%",
+      "wins_losses": "38-15",
+      "total_drafts": "26",
+      "glicko": "1706 ± 68",
+      "gxe": "68.66%",
+      "last_set": "FUNNY RACE CAR SET",
+      "last_date": "9-25-25"
+    },
+    {
+      "rank": "8",
       "name": "Nick D",
       "win_percentage": "71.43%",
       "wins_losses": "15-6",
@@ -78,7 +89,7 @@
       "last_date": "9-13-25"
     },
     {
-      "rank": "8",
+      "rank": "9",
       "name": "Alberto",
       "win_percentage": "71.43%",
       "wins_losses": "10-4",
@@ -88,17 +99,7 @@
       "last_set": "Chaos",
       "last_date": "8-28-25"
     },
-    {
-      "rank": "9",
-      "name": "Clayton",
-      "win_percentage": "70.83%",
-      "wins_losses": "34-14",
-      "total_drafts": "24",
-      "glicko": "1682 ± 70",
-      "gxe": "66.65%",
-      "last_set": "Noah Cube",
-      "last_date": "9-13-25"
-    },
+
     {
       "rank": "10",
       "name": "Patrick H",
@@ -123,14 +124,14 @@
     },
     {
       "rank": "12",
-      "name": "Brian H",
-      "win_percentage": "60.00%",
-      "wins_losses": "6-4",
-      "total_drafts": "5",
-      "glicko": "1590 ± 120",
-      "gxe": "58.34%",
-      "last_set": "Noah Cube",
-      "last_date": "9-13-25"
+      "name": "Eric K",
+      "win_percentage": "56.45%",
+      "wins_losses": "35-27",
+      "total_drafts": "30",
+      "glicko": "1572 ± 66",
+      "gxe": "56.85%",
+      "last_set": "FUNNY RACE CAR SET",
+      "last_date": "9-25-25"
     },
     {
       "rank": "13",
@@ -145,17 +146,6 @@
     },
     {
       "rank": "14",
-      "name": "Eric K",
-      "win_percentage": "56.14%",
-      "wins_losses": "32-25",
-      "total_drafts": "28",
-      "glicko": "1566 ± 68",
-      "gxe": "56.24%",
-      "last_set": "Noah Cube",
-      "last_date": "9-13-25"
-    },
-    {
-      "rank": "15",
       "name": "Noah",
       "win_percentage": "56.10%",
       "wins_losses": "23-18",
@@ -164,6 +154,17 @@
       "gxe": "59.39%",
       "last_set": "Noah Cube",
       "last_date": "9-13-25"
+    },
+    {
+      "rank": "15",
+      "name": "Thana",
+      "win_percentage": "55.10%",
+      "wins_losses": "27-22",
+      "total_drafts": "24",
+      "glicko": "1564 ± 68",
+      "gxe": "56.10%",
+      "last_set": "FUNNY RACE CAR SET",
+      "last_date": "9-25-25"
     },
     {
       "rank": "16",
@@ -179,27 +180,16 @@
     {
       "rank": "17",
       "name": "Collin",
-      "win_percentage": "53.33%",
-      "wins_losses": "32-28",
-      "total_drafts": "30",
-      "glicko": "1563 ± 65",
-      "gxe": "56.03%",
-      "last_set": "Noah Cube",
-      "last_date": "9-13-25"
+      "win_percentage": "51.61%",
+      "wins_losses": "32-30",
+      "total_drafts": "31",
+      "glicko": "1538 ± 65",
+      "gxe": "53.65%",
+      "last_set": "WOE",
+      "last_date": "9-25-25"
     },
     {
       "rank": "18",
-      "name": "Thana",
-      "win_percentage": "52.17%",
-      "wins_losses": "24-22",
-      "total_drafts": "23",
-      "glicko": "1520 ± 69",
-      "gxe": "51.87%",
-      "last_set": "Noah Cube",
-      "last_date": "9-13-25"
-    },
-    {
-      "rank": "19",
       "name": "David O",
       "win_percentage": "50.00%",
       "wins_losses": "14-14",
@@ -207,7 +197,18 @@
       "glicko": "1571 ± 79",
       "gxe": "56.67%",
       "last_set": "Noah Cube",
-      "last_date": "9-13-25"
+      "last_date": "9-18-25"
+    },
+    {
+      "rank": "19",
+      "name": "Brian H",
+      "win_percentage": "50.00%",
+      "wins_losses": "7-7",
+      "total_drafts": "7",
+      "glicko": "1504 ± 103",
+      "gxe": "50.40%",
+      "last_set": "FUNNY RACE CAR SET",
+      "last_date": "9-25-25"
     },
     {
       "rank": "20",
@@ -222,28 +223,6 @@
     },
     {
       "rank": "21",
-      "name": "Chris A",
-      "win_percentage": "48.00%",
-      "wins_losses": "24-26",
-      "total_drafts": "27",
-      "glicko": "1502 ± 70",
-      "gxe": "50.21%",
-      "last_set": "Chaos",
-      "last_date": "9-13-25"
-    },
-    {
-      "rank": "22",
-      "name": "Simon",
-      "win_percentage": "46.34%",
-      "wins_losses": "19-22",
-      "total_drafts": "21",
-      "glicko": "1475 ± 73",
-      "gxe": "47.59%",
-      "last_set": "Chaos",
-      "last_date": "9-13-25"
-    },
-    {
-      "rank": "23",
       "name": "Walski",
       "win_percentage": "46.15%",
       "wins_losses": "18-21",
@@ -251,10 +230,10 @@
       "glicko": "1478 ± 74",
       "gxe": "47.87%",
       "last_set": "Chaos",
-      "last_date": "9-13-25"
+      "last_date": "9-18-25"
     },
     {
-      "rank": "24",
+      "rank": "22",
       "name": "Aaron",
       "win_percentage": "46.15%",
       "wins_losses": "6-7",
@@ -265,6 +244,28 @@
       "last_date": "9-13-25"
     },
     {
+      "rank": "23",
+      "name": "Simon",
+      "win_percentage": "45.65%",
+      "wins_losses": "21-25",
+      "total_drafts": "23",
+      "glicko": "1475 ± 70",
+      "gxe": "47.66%",
+      "last_set": "FUNNY RACE CAR SET",
+      "last_date": "9-25-25"
+    },
+    {
+      "rank": "24",
+      "name": "Chris A",
+      "win_percentage": "45.28%",
+      "wins_losses": "24-29",
+      "total_drafts": "29",
+      "glicko": "1476 ± 69",
+      "gxe": "47.74%",
+      "last_set": "FUNNY RACE CAR SET",
+      "last_date": "9-25-25"
+    },
+    {
       "rank": "25",
       "name": "Sonny",
       "win_percentage": "44.44%",
@@ -273,7 +274,7 @@
       "glicko": "1422 ± 98",
       "gxe": "42.66%",
       "last_set": "Chaos",
-      "last_date": "9-13-25"
+      "last_date": "9-18-25"
     },
     {
       "rank": "26",
@@ -284,7 +285,7 @@
       "glicko": "1450 ± 76",
       "gxe": "45.30%",
       "last_set": "Chaos",
-      "last_date": "9-13-25"
+      "last_date": "9-18-25"
     },
     {
       "rank": "27",
@@ -295,7 +296,7 @@
       "glicko": "1447 ± 80",
       "gxe": "44.98%",
       "last_set": "Chaos",
-      "last_date": "9-13-25"
+      "last_date": "9-18-25"
     },
     {
       "rank": "28",
@@ -322,13 +323,13 @@
     {
       "rank": "30",
       "name": "Stephen",
-      "win_percentage": "32.50%",
-      "wins_losses": "13-27",
-      "total_drafts": "21",
-      "glicko": "1387 ± 74",
-      "gxe": "39.44%",
-      "last_set": "Chaos",
-      "last_date": "9-13-25"
+      "win_percentage": "34.09%",
+      "wins_losses": "15-29",
+      "total_drafts": "23",
+      "glicko": "1408 ± 72",
+      "gxe": "41.36%",
+      "last_set": "FUNNY RACE CAR SET",
+      "last_date": "9-25-25"
     },
     {
       "rank": "31",
@@ -339,7 +340,7 @@
       "glicko": "1360 ± 71",
       "gxe": "36.98%",
       "last_set": "Chaos",
-      "last_date": "9-13-25"
+      "last_date": "9-18-25"
     },
     {
       "rank": "32",
