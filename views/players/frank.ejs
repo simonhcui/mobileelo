@@ -7,46 +7,29 @@
       style="width: 350px; height: 350px; border-radius: 50%; object-fit: cover"
     />
 
-    <h1>Walski</h1>
-    <h2 style="color: gold;"">
-      🥈🤑🤑💸<br />
-      Season X Money Champion
-      Season XI Money Champion
-    </h2>
-    <h2 style="color: silver;"">
-      Season IX Winrate Runnerup
-    </h2>
-    <h2 style="color: #CE8946;"">
-      Season VII Money Third Place
-    </h2>
-    <h2>
-      Lifetime Winrate: 58.46% 159-113 out of 130 drafts
-    </h2>
+    <h1>Frank</h1>
+    <h2>Lifetime Winrate: 51.06% 48-46 out of 44 drafts</h2>
 
     <br />
 
-    <h2>Planeswalker Level VI: Guildmage</h2>
+    <h2>Planeswalker Level I: Prodigy</h2>
     <img
       src="<%= planeswalkerPath %>"
       alt="Planeswalker Image"
       style="width: 250px; height: 250px; border-radius: 50%; object-fit: cover"
     />
     <div class="progress-container">
-        <div class="progress-text">
-            162/240
-        </div>
-        <div id="my-progress-bar" class="progress-bar"></div>
+      <div class="progress-text">28/60</div>
+      <div id="my-progress-bar" class="progress-bar"></div>
     </div>
-      
-      
+
     <script>
-        function updateProgress(percent) {
-          const progressBar = document.getElementById("my-progress-bar");
-          progressBar.style.width = percent + "%";
-        }
-      
-        
-        updateProgress(162/240*100);
+      function updateProgress(percent) {
+        const progressBar = document.getElementById("my-progress-bar");
+        progressBar.style.width = percent + "%";
+      }
+
+      updateProgress((28 / 60) * 100);
     </script>
   </div>
 
@@ -137,8 +120,8 @@
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <div class="chart-container">
-  <h2>Winrate History (Post 20 Draft Calibration)</h2>
-  <canvas id="line-chart"></canvas>
+    <h2>Winrate History (Post 20 Draft Calibration)</h2>
+    <canvas id="line-chart"></canvas>
   </div>
 
   <script>
@@ -204,7 +187,7 @@
       const minValue = Math.min(...allValues);
       const maxValue = Math.max(...allValues);
 
-      const yAxisMin = Math.max(0, Math.floor((minValue - 0.05) * 10) / 10); 
+      const yAxisMin = Math.max(0, Math.floor((minValue - 0.05) * 10) / 10);
       const yAxisMax = Math.min(1, Math.ceil((maxValue + 0.01) * 20) / 20);
 
       new Chart(ctx, {
