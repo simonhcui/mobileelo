@@ -38,6 +38,9 @@ const jsonDataMh3 = require("../data/formats/mh3/mh3data.json");
 const jsonDataMh3Color = require("../data/formats/mh3/mh3colordata.json");
 const jsonDataMh3Archetype = require("../data/formats/mh3/mh3archetypedata.json");
 
+const jsonDataTsr = require("../data/formats/tsr/tsrdata.json");
+const jsonDataTsrColor = require("../data/formats/tsr/tsrcolordata.json");
+
 router.get("/2x2", (req, res) => {
   res.render("formats/2x2", {
     title: "2X2",
@@ -132,6 +135,15 @@ router.get("/mh3", (req, res) => {
     tableData: jsonDataMh3.tableData,
     colorData: jsonDataMh3Color.tableData,
     archetypeData: jsonDataMh3Archetype.tableData,
+  });
+});
+
+router.get("/tsr", (req, res) => {
+  res.render("formats/tsr", {
+    title: "TSR",
+    id: req.params.id,
+    tableData: jsonDataTsr.tableData,
+    colorData: jsonDataTsrColor.tableData
   });
 });
 
