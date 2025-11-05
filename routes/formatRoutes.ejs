@@ -41,6 +41,10 @@ const jsonDataMh3Archetype = require("../data/formats/mh3/mh3archetypedata.json"
 const jsonDataTsr = require("../data/formats/tsr/tsrdata.json");
 const jsonDataTsrColor = require("../data/formats/tsr/tsrcolordata.json");
 
+const jsonDataFin = require("../data/formats/fin/findata.json");
+const jsonDataFinColor = require("../data/formats/fin/fincolordata.json");
+const jsonDataFinArchetype = require("../data/formats/fin/finarchetypedata.json");
+
 router.get("/2x2", (req, res) => {
   res.render("formats/2x2", {
     title: "2X2",
@@ -144,6 +148,16 @@ router.get("/tsr", (req, res) => {
     id: req.params.id,
     tableData: jsonDataTsr.tableData,
     colorData: jsonDataTsrColor.tableData
+  });
+});
+
+router.get("/fin", (req, res) => {
+  res.render("formats/fin", {
+    title: "FIN",
+    id: req.params.id,
+    tableData: jsonDataFin.tableData,
+    colorData: jsonDataFinColor.tableData,
+    archetypeData: jsonDataFinArchetype.tableData,
   });
 });
 
