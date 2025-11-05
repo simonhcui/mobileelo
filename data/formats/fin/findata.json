@@ -14,8 +14,8 @@
     {
       "rank": "2",
       "name": "Charles",
-      "win_percentage": "5-1%",
-      "wins_losses": "83.33%",
+      "win_percentage": "83.33%",
+      "wins_losses": "5-1",
       "total_drafts": "3",
       "glicko": "1826 ± 194",
       "gxe": "76.14%",
@@ -25,8 +25,8 @@
     {
       "rank": "3",
       "name": "Tony",
-      "win_percentage": "5-1%",
-      "wins_losses": "83.33%",
+      "win_percentage": "83.33%",
+      "wins_losses": "5-1",
       "total_drafts": "3",
       "glicko": "1738 ± 180",
       "gxe": "70.22%",
