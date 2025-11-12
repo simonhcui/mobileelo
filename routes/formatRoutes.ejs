@@ -45,6 +45,9 @@ const jsonDataFin = require("../data/formats/fin/findata.json");
 const jsonDataFinColor = require("../data/formats/fin/fincolordata.json");
 const jsonDataFinArchetype = require("../data/formats/fin/finarchetypedata.json");
 
+const jsonDataVanguard = require("../data/formats/vanguard/vanguarddata.json");
+const jsonDataInactiveVanguard = require("../data/formats/vanguard/inactivevanguarddata.json");
+
 router.get("/2x2", (req, res) => {
   res.render("formats/2x2", {
     title: "2X2",
@@ -158,6 +161,15 @@ router.get("/fin", (req, res) => {
     tableData: jsonDataFin.tableData,
     colorData: jsonDataFinColor.tableData,
     archetypeData: jsonDataFinArchetype.tableData,
+  });
+});
+
+router.get("/vanguard", (req, res) => {
+  res.render("formats/vanguard", {
+    title: "Vanguard",
+    id: req.params.id,
+    tableData: jsonDataVanguard.tableData,
+    colorData: jsonDataInactiveVanguard.tableData,
   });
 });
 
