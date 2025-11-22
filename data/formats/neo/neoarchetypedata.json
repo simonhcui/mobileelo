@@ -1,0 +1,40 @@
+{
+  "tableData": [
+    {
+      "rank": "1",
+      "archetype": "Selesnya",
+      "winrate": "65.22%",
+      "num_drafts": "13"
+    },
+    {
+      "rank": "2",
+      "archetype": "Rakdos",
+      "winrate": "58.62%",
+      "num_drafts": "15"
+    },
+    {
+      "rank": "3",
+      "archetype": "Dimir",
+      "winrate": "54.55%",
+      "num_drafts": "10"
+    },
+    {
+      "rank": "4",
+      "archetype": "Orzhov",
+      "winrate": "45.45%",
+      "num_drafts": "6"
+    },
+    {
+      "rank": "5",
+      "archetype": "Azorius",
+      "winrate": "38.10%",
+      "num_drafts": "10"
+    },
+    {
+      "rank": "6",
+      "archetype": "Sultai",
+      "winrate": "36.36%",
+      "num_drafts": "6"
+    }
+  ]
+}

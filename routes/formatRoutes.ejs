@@ -45,6 +45,10 @@ const jsonDataFin = require("../data/formats/fin/findata.json");
 const jsonDataFinColor = require("../data/formats/fin/fincolordata.json");
 const jsonDataFinArchetype = require("../data/formats/fin/finarchetypedata.json");
 
+const jsonDataNeo = require("../data/formats/neo/neodata.json");
+const jsonDataNeoColor = require("../data/formats/neo/neocolordata.json");
+const jsonDataNeoArchetype = require("../data/formats/neo/neoarchetypedata.json");
+
 const jsonDataVanguard = require("../data/formats/vanguard/vanguarddata.json");
 const jsonDataInactiveVanguard = require("../data/formats/vanguard/inactivevanguarddata.json");
 
@@ -161,6 +165,16 @@ router.get("/fin", (req, res) => {
     tableData: jsonDataFin.tableData,
     colorData: jsonDataFinColor.tableData,
     archetypeData: jsonDataFinArchetype.tableData,
+  });
+});
+
+router.get("/neo", (req, res) => {
+  res.render("formats/neo", {
+    title: "NEO",
+    id: req.params.id,
+    tableData: jsonDataNeo.tableData,
+    colorData: jsonDataNeoColor.tableData,
+    archetypeData: jsonDataNeoArchetype.tableData,
   });
 });
 
