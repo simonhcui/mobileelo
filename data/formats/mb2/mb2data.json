@@ -3,42 +3,46 @@
     {
       "rank": "1",
       "name": "Collin",
-      "win_percentage": "77.78%",
-      "wins_losses": "28-8",
-      "total_drafts": "18",
-      "glicko": "1762 ± 80",
-      "gxe": "72.99%",
-      "last_date": "9-13-25"
+      "win_percentage": "73.91%",
+      "wins_losses": "34-12",
+      "total_drafts": "23",
+      "glicko": "1739 ± 73",
+      "gxe": "71.30%",
+      "last_date": "12-4-25",
+      "most_drafted_archetype": "Orzhov (4)"
     },
     {
       "rank": "2",
       "name": "Eric K",
-      "win_percentage": "71.43%",
-      "wins_losses": "35-14",
-      "total_drafts": "25",
-      "glicko": "1687 ± 74",
-      "gxe": "67.08%",
-      "last_date": "9-13-25"
+      "win_percentage": "72.88%",
+      "wins_losses": "43-16",
+      "total_drafts": "30",
+      "glicko": "1745 ± 69",
+      "gxe": "71.80%",
+      "last_date": "12-4-25",
+      "most_drafted_archetype": "Boros (8)"
     },
     {
       "rank": "3",
-      "name": "Noah",
-      "win_percentage": "69.44%",
-      "wins_losses": "25-11",
-      "total_drafts": "18",
-      "glicko": "1697 ± 81",
-      "gxe": "67.84%",
-      "last_date": "7-24-25"
-    },
-    {
-      "rank": "4",
       "name": "Alan",
       "win_percentage": "68.00%",
       "wins_losses": "17-8",
       "total_drafts": "13",
       "glicko": "1677 ± 90",
       "gxe": "66.15%",
-      "last_date": "7-3-25"
+      "last_date": "7-3-25",
+      "most_drafted_archetype": "Izzet (4)"
+    },
+    {
+      "rank": "4",
+      "name": "Noah",
+      "win_percentage": "67.50%",
+      "wins_losses": "27-13",
+      "total_drafts": "20",
+      "glicko": "1676 ± 78",
+      "gxe": "66.12%",
+      "last_date": "12-4-25",
+      "most_drafted_archetype": "Golgari (4)"
     },
     {
       "rank": "5",
@@ -48,37 +52,41 @@
       "total_drafts": "20",
       "glicko": "1690 ± 79",
       "gxe": "67.32%",
-      "last_date": "7-3-25"
+      "last_date": "7-3-25",
+      "most_drafted_archetype": "Naya/Rakdos (3)"
     },
     {
       "rank": "6",
-      "name": "Tony",
-      "win_percentage": "60.87%",
-      "wins_losses": "14-9",
-      "total_drafts": "12",
-      "glicko": "1676 ± 94",
-      "gxe": "66.04%",
-      "last_date": "7-31-25"
-    },
-    {
-      "rank": "7",
       "name": "Andrew D",
       "win_percentage": "60.00%",
       "wins_losses": "12-8",
       "total_drafts": "10",
       "glicko": "1620 ± 93",
       "gxe": "61.15%",
-      "last_date": "5-22-25"
+      "last_date": "5-22-25",
+      "most_drafted_archetype": "Orzhov (3)"
+    },
+    {
+      "rank": "7",
+      "name": "Nick D",
+      "win_percentage": "57.89%",
+      "wins_losses": "22-16",
+      "total_drafts": "19",
+      "glicko": "1641 ± 74",
+      "gxe": "63.09%",
+      "last_date": "11-8-25",
+      "most_drafted_archetype": "Azorius (4)"
     },
     {
       "rank": "8",
-      "name": "Nick D",
-      "win_percentage": "56.67%",
-      "wins_losses": "17-13",
-      "total_drafts": "15",
-      "glicko": "1614 ± 82",
-      "gxe": "60.66%",
-      "last_date": "9-13-25"
+      "name": "Tony",
+      "win_percentage": "56.00%",
+      "wins_losses": "14-11",
+      "total_drafts": "13",
+      "glicko": "1631 ± 89",
+      "gxe": "62.12%",
+      "last_date": "12-4-25",
+      "most_drafted_archetype": "Boros (3)"
     },
     {
       "rank": "9",
@@ -88,77 +96,85 @@
       "total_drafts": "10",
       "glicko": "1566 ± 96",
       "gxe": "56.20%",
-      "last_date": "7-31-25"
+      "last_date": "7-31-25",
+      "most_drafted_archetype": "Bant (3)"
     },
     {
       "rank": "10",
+      "name": "Adam",
+      "win_percentage": "52.17%",
+      "wins_losses": "12-11",
+      "total_drafts": "12",
+      "glicko": "1595 ± 90",
+      "gxe": "58.85%",
+      "last_date": "12-4-25",
+      "most_drafted_archetype": "Rakdos (4)"
+    },
+    {
+      "rank": "11",
       "name": "Todd",
       "win_percentage": "50.00%",
       "wins_losses": "9-9",
       "total_drafts": "9",
       "glicko": "1439 ± 105",
       "gxe": "44.27%",
-      "last_date": "7-19-25"
-    },
-    {
-      "rank": "11",
-      "name": "Adam",
-      "win_percentage": "47.62%",
-      "wins_losses": "10-11",
-      "total_drafts": "11",
-      "glicko": "1550 ± 94",
-      "gxe": "54.73%",
-      "last_date": "8-16-25"
+      "last_date": "7-19-25",
+      "most_drafted_archetype": "Naya (3)"
     },
     {
       "rank": "12",
+      "name": "Clayton",
+      "win_percentage": "50.00%",
+      "wins_losses": "4-4",
+      "total_drafts": "4",
+      "glicko": "1582 ± 132",
+      "gxe": "57.58%",
+      "last_date": "12-4-25",
+      "most_drafted_archetype": "Esper/Gruul (2)"
+    },
+    {
+      "rank": "13",
+      "name": "Thana",
+      "win_percentage": "47.73%",
+      "wins_losses": "21-23",
+      "total_drafts": "22",
+      "glicko": "1545 ± 72",
+      "gxe": "54.23%",
+      "last_date": "12-4-25",
+      "most_drafted_archetype": "Golgari (4)"
+    },
+    {
+      "rank": "14",
       "name": "Simon",
       "win_percentage": "47.62%",
       "wins_losses": "10-11",
       "total_drafts": "11",
       "glicko": "1510 ± 97",
       "gxe": "50.93%",
-      "last_date": "8-16-25"
+      "last_date": "8-16-25",
+      "most_drafted_archetype": "5c/Golgari/Orzhov (2)"
     },
     {
-      "rank": "13",
+      "rank": "15",
       "name": "John K",
       "win_percentage": "47.37%",
       "wins_losses": "9-10",
       "total_drafts": "10",
       "glicko": "1534 ± 93",
       "gxe": "53.20%",
-      "last_date": "4-24-25"
+      "last_date": "4-24-25",
+      "most_drafted_archetype": "Gruul/Orzhov (2)"
     },
     {
-      "rank": "14",
-      "name": "Thana",
-      "win_percentage": "47.06%",
-      "wins_losses": "16-18",
-      "total_drafts": "17",
-      "glicko": "1578 ± 78",
-      "gxe": "57.39%",
-      "last_date": "9-13-25"
-    },
-    {
-      "rank": "15",
+      "rank": "16",
       "name": "Zane",
       "win_percentage": "47.06%",
       "wins_losses": "8-9",
       "total_drafts": "9",
       "glicko": "1542 ± 107",
       "gxe": "53.96%",
-      "last_date": "4-24-25"
-    },
-    {
-      "rank": "16",
-      "name": "Chris A",
-      "win_percentage": "45.71%",
-      "wins_losses": "16-19",
-      "total_drafts": "18",
-      "glicko": "1517 ± 79",
-      "gxe": "51.60%",
-      "last_date": "9-13-25"
+      "last_date": "4-24-25",
+      "most_drafted_archetype": "4c no black/Gruul/Rakdos (2)"
     },
     {
       "rank": "17",
@@ -168,127 +184,151 @@
       "total_drafts": "10",
       "glicko": "1483 ± 95",
       "gxe": "48.43%",
-      "last_date": "7-24-25"
+      "last_date": "7-24-25",
+      "most_drafted_archetype": "Gruul (3)"
     },
     {
       "rank": "18",
       "name": "Stephen",
-      "win_percentage": "44.00%",
-      "wins_losses": "11-14",
-      "total_drafts": "13",
-      "glicko": "1545 ± 88",
-      "gxe": "54.29%",
-      "last_date": "7-31-25"
+      "win_percentage": "44.83%",
+      "wins_losses": "13-16",
+      "total_drafts": "15",
+      "glicko": "1548 ± 82",
+      "gxe": "54.54%",
+      "last_date": "11-8-25",
+      "most_drafted_archetype": "4c no white/Golgari (3)"
     },
     {
       "rank": "19",
+      "name": "Walski",
+      "win_percentage": "42.86%",
+      "wins_losses": "6-8",
+      "total_drafts": "7",
+      "glicko": "1473 ± 113",
+      "gxe": "47.52%",
+      "last_date": "11-8-25",
+      "most_drafted_archetype": "Golgari (2)"
+    },
+    {
+      "rank": "20",
+      "name": "Chris A",
+      "win_percentage": "41.86%",
+      "wins_losses": "18-25",
+      "total_drafts": "22",
+      "glicko": "1488 ± 74",
+      "gxe": "48.82%",
+      "last_date": "12-4-25",
+      "most_drafted_archetype": "Boros (5)"
+    },
+    {
+      "rank": "21",
       "name": "Harrison",
       "win_percentage": "41.18%",
       "wins_losses": "7-10",
       "total_drafts": "8",
       "glicko": "1535 ± 107",
       "gxe": "53.26%",
-      "last_date": "12-12-24"
+      "last_date": "12-12-24",
+      "most_drafted_archetype": "Abzan (3)"
     },
     {
-      "rank": "20",
+      "rank": "22",
       "name": "Jacob",
       "win_percentage": "40.00%",
       "wins_losses": "4-6",
       "total_drafts": "6",
       "glicko": "1452 ± 126",
       "gxe": "45.56%",
-      "last_date": "4-24-25"
+      "last_date": "4-24-25",
+      "most_drafted_archetype": "Golgari/Izzet (2)"
     },
     {
-      "rank": "21",
+      "rank": "23",
       "name": "Kian",
       "win_percentage": "37.50%",
       "wins_losses": "3-5",
       "total_drafts": "4",
       "glicko": "1463 ± 145",
       "gxe": "46.57%",
-      "last_date": "7-19-25"
-    },
-    {
-      "rank": "22",
-      "name": "Luke",
-      "win_percentage": "30.77%",
-      "wins_losses": "8-18",
-      "total_drafts": "13",
-      "glicko": "1406 ± 87",
-      "gxe": "41.22%",
-      "last_date": "8-16-25"
-    },
-    {
-      "rank": "23",
-      "name": "Walski",
-      "win_percentage": "30.00%",
-      "wins_losses": "3-7",
-      "total_drafts": "5",
-      "glicko": "1388 ± 134",
-      "gxe": "39.78%",
-      "last_date": "4-24-25"
+      "last_date": "7-19-25",
+      "most_drafted_archetype": "Izzet (3)"
     },
     {
       "rank": "24",
+      "name": "Nick C",
+      "win_percentage": "33.33%",
+      "wins_losses": "4-8",
+      "total_drafts": "6",
+      "glicko": "1467 ± 113",
+      "gxe": "46.90%",
+      "last_date": "10-4-25",
+      "most_drafted_archetype": "Boros/Simic (2)"
+    },
+    {
+      "rank": "25",
+      "name": "Luke",
+      "win_percentage": "30.00%",
+      "wins_losses": "9-21",
+      "total_drafts": "15",
+      "glicko": "1390 ± 82",
+      "gxe": "39.68%",
+      "last_date": "12-4-25",
+      "most_drafted_archetype": "Azorius/Golgari (3)"
+    },
+    {
+      "rank": "26",
       "name": "Luca",
       "win_percentage": "28.57%",
       "wins_losses": "2-5",
       "total_drafts": "4",
       "glicko": "1422 ± 158",
       "gxe": "42.92%",
-      "last_date": "10-29-24"
+      "last_date": "10-29-24",
+      "most_drafted_archetype": "Rakdos (2)"
     },
     {
-      "rank": "25",
-      "name": "Nick C",
-      "win_percentage": "25.00%",
-      "wins_losses": "2-6",
-      "total_drafts": "4",
-      "glicko": "1439 ± 133",
-      "gxe": "44.36%",
-      "last_date": "8-16-25"
-    },
-    {
-      "rank": "26",
-      "name": "Kevin",
+      "rank": "27",
+      "name": "Kevin S",
       "win_percentage": "25.00%",
       "wins_losses": "2-6",
       "total_drafts": "4",
       "glicko": "1248 ± 152",
       "gxe": "28.46%",
-      "last_date": "1-30-25"
-    },
-    {
-      "rank": "27",
-      "name": "Travis",
-      "win_percentage": "23.81%",
-      "wins_losses": "5-16",
-      "total_drafts": "10",
-      "glicko": "1236 ± 100",
-      "gxe": "26.97%",
-      "last_date": "7-19-25"
+      "last_date": "1-30-25",
+      "most_drafted_archetype": "Naya (2)"
     },
     {
       "rank": "28",
+      "name": "Travis",
+      "win_percentage": "24.00%",
+      "wins_losses": "6-19",
+      "total_drafts": "12",
+      "glicko": "1246 ± 94",
+      "gxe": "27.70%",
+      "last_date": "11-8-25",
+      "most_drafted_archetype": "Naya (3)"
+    },
+    {
+      "rank": "29",
       "name": "Marco",
       "win_percentage": "7.14%",
       "wins_losses": "1-13",
       "total_drafts": "7",
       "glicko": "1150 ± 129",
       "gxe": "21.41%",
-      "last_date": "7-31-25"
+      "last_date": "7-31-25",
+      "most_drafted_archetype": "Esper/Gruul (2)"
     },
     {
-      "rank": "29",
+      "rank": "30",
       "name": "Jesse Lee",
       "win_percentage": "0.00%",
       "wins_losses": "0-8",
       "total_drafts": "4",
       "glicko": "1107 ± 181",
       "gxe": "19.58%",
-      "last_date": "7-19-25"
+      "last_date": "7-19-25",
+      "most_drafted_archetype": "Jeskai (2)"
     }
   ]
 }
