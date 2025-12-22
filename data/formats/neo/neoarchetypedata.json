@@ -3,14 +3,14 @@
     {
       "rank": "1",
       "archetype": "Selesnya",
-      "winrate": "65.22%",
-      "num_drafts": "13"
+      "winrate": "64.00%",
+      "num_drafts": "14"
     },
     {
       "rank": "2",
       "archetype": "Rakdos",
-      "winrate": "58.62%",
-      "num_drafts": "15"
+      "winrate": "58.06%",
+      "num_drafts": "16"
     },
     {
       "rank": "3",
@@ -21,8 +21,8 @@
     {
       "rank": "4",
       "archetype": "Orzhov",
-      "winrate": "45.45%",
-      "num_drafts": "6"
+      "winrate": "53.85%",
+      "num_drafts": "7"
     },
     {
       "rank": "5",
@@ -33,8 +33,14 @@
     {
       "rank": "6",
       "archetype": "Sultai",
-      "winrate": "36.36%",
-      "num_drafts": "6"
+      "winrate": "30.77%",
+      "num_drafts": "7"
+    },
+    {
+      "rank": "7",
+      "archetype": "Boros",
+      "winrate": "30.00%",
+      "num_drafts": "5"
     }
   ]
 }
