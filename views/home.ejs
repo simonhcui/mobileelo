@@ -43,19 +43,31 @@
           </tr>
         </thead>
         <tbody>
-          <% tableData.forEach(function(row) { let rowClass = ''; // Bold rows
-          with >= 16 drafts if (row.total_drafts >= 16) { rowClass += '
-          bold-row'; } // Highlight specific players if (row.name === 'Eric K')
-          { rowClass += ' gold-row'; } else if (row.name === 'Clayton') {
-          rowClass += ' silver-row'; } else if (row.name === 'Walski') {
-          rowClass += ' bronze-row'; } %>
-          <tr class="<%= rowClass.trim() %>">
-            <% Object.values(row).forEach(function(value) { %>
-            <td><%= value %></td>
-            <% }); %>
-          </tr>
-          <% }); %>
-        </tbody>
+  <% tableData.forEach(function(row) { 
+       let rowClass = '';
+
+       // Bold rows with >= 16 drafts
+       if (row.total_drafts >= 16) {
+         rowClass += ' bold-row';
+       }
+
+       // Highlight specific players
+       if (row.name === 'Eric K') {
+         rowClass += ' gold-row';
+       } else if (row.name === 'Clayton') {
+         rowClass += ' silver-row';
+       } else if (row.name === 'Walski') {
+         rowClass += ' bronze-row';
+       }
+  %>
+    <tr class="<%= rowClass.trim() %>">
+      <% Object.values(row).forEach(function(value) { %>
+        <td><%= value %></td>
+      <% }); %>
+    </tr>
+  <% }); %>
+</tbody>
+
       </table>
     </div>
   </div>
