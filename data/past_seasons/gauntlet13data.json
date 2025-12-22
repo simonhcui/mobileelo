@@ -1,0 +1,64 @@
+{
+  "tableData": [
+    {
+      "rank": "1",
+      "name": "Eric K",
+      "gauntlet_percentage": "93.75%",
+      "gauntlet_record": "30-2",
+      "retail/chaos_record": "24-0",
+      "retail/chaos_drafts": "12",
+      "cube_record": "6-2",
+      "cube_drafts": "4"
+    },
+    {
+      "rank": "2",
+      "name": "Clayton",
+      "gauntlet_percentage": "90.63%",
+      "gauntlet_record": "29-3",
+      "retail/chaos_record": "24-0",
+      "retail/chaos_drafts": "12",
+      "cube_record": "5-3",
+      "cube_drafts": "4"
+    },
+    {
+      "rank": "3",
+      "name": "Collin",
+      "gauntlet_percentage": "75.00%",
+      "gauntlet_record": "24-8",
+      "retail/chaos_record": "18-6",
+      "retail/chaos_drafts": "12",
+      "cube_record": "6-2",
+      "cube_drafts": "4"
+    },
+    {
+      "rank": "4",
+      "name": "Noah",
+      "gauntlet_percentage": "70.97%",
+      "gauntlet_record": "22-9",
+      "retail/chaos_record": "18-5",
+      "retail/chaos_drafts": "12",
+      "cube_record": "4-4",
+      "cube_drafts": "4"
+    },
+    {
+      "rank": "5",
+      "name": "Adam",
+      "gauntlet_percentage": "67.86%",
+      "gauntlet_record": "19-9",
+      "retail/chaos_record": "17-7",
+      "retail/chaos_drafts": "12",
+      "cube_record": "2-2",
+      "cube_drafts": "2"
+    },
+    {
+      "rank": "6",
+      "name": "Thana",
+      "gauntlet_percentage": "57.14%",
+      "gauntlet_record": "16-12",
+      "retail/chaos_record": "15-9",
+      "retail/chaos_drafts": "12",
+      "cube_record": "1-3",
+      "cube_drafts": "2"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+<%- include('../partials/header') %>
+<main>
+  <h1>Season 13 Stats</h1>
+  <div class="content"></div>
+  <p>
+    (10/2/25 - 12/18/25) 71 drafts, Winrate Champion and Gauntlet Champion Erik
+    Cearns
+  </p>
+  <div class="data-table-container">
+    <div class="data-table">
+      <h2></h2>
+      <div class="data-table"></div>
+      <table>
+        <thead>
+          <tr>
+            <% if(tableData.length > 0) { %> <%
+            Object.keys(tableData[0]).forEach(function(key) { %>
+            <th><%= key %></th>
+            <% }); %> <% } %>
+          </tr>
+        </thead>
+        <tbody>
+          <% tableData.forEach(function(row) { %>
+          <tr>
+            <% Object.values(row).forEach(function(value) { %>
+            <td><%= value %></td>
+            <% }); %>
+          </tr>
+          <% }); %>
+        </tbody>
+      </table>
+      <div class="data-table"></div>
+    </div>
+  </div>
+
+  <div class="data-table-container">
+    <div class="data-table">
+      <h2>Gauntlet Rankings</h2>
+      <table>
+        <thead>
+          <tr>
+            <% if(gauntletData.length > 0) { %> <%
+            Object.keys(gauntletData[0]).forEach(function(key) { %>
+            <th><%= key %></th>
+            <% }); %> <% } %>
+          </tr>
+        </thead>
+        <tbody>
+          <% gauntletData.forEach(function(row) { %>
+          <tr>
+            <% Object.values(row).forEach(function(value) { %>
+            <td><%= value %></td>
+            <% }); %>
+          </tr>
+          <% }); %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</main>
+
+<%- include('../partials/footer') %>

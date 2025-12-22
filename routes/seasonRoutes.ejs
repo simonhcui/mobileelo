@@ -15,6 +15,8 @@ const jsonData11 = require("../data/past_seasons/season11data.json");
 const gauntletData11 = require("../data/past_seasons/gauntlet11data.json");
 const jsonData12 = require("../data/past_seasons/season12data.json");
 const gauntletData12 = require("../data/past_seasons/gauntlet12data.json");
+const jsonData13 = require("../data/past_seasons/season13data.json");
+const gauntletData13 = require("../data/past_seasons/gauntlet13data.json");
 
 router.get("/1", (req, res) => {
   res.render("seasons/seasonone", {
@@ -111,6 +113,15 @@ router.get("/12", (req, res) => {
     id: req.params.id,
     tableData: jsonData12.tableData,
     gauntletData: gauntletData12.tableData,
+  });
+});
+
+router.get("/13", (req, res) => {
+  res.render("seasons/seasonthirteen", {
+    title: "Season Thirteen",
+    id: req.params.id,
+    tableData: jsonData13.tableData,
+    gauntletData: gauntletData13.tableData,
   });
 });
 
