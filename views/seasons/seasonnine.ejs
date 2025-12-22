@@ -18,7 +18,7 @@
         </thead>
         <tbody>
           <% tableData.forEach(function(row) { %>
-          <tr>
+          <tr style="<%= row.total_drafts >= 15 ? 'font-weight:bold;' : '' %>">
             <% Object.values(row).forEach(function(value) { %>
             <td><%= value %></td>
             <% }); %>
