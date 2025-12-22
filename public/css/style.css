@@ -223,3 +223,19 @@ th {
   width: 80%;
   margin: 20px auto;
 }
+
+.bold-row {
+  font-weight: bold;
+}
+
+.gold-row {
+  background-color: #ffd700; /* gold */
+}
+
+.silver-row {
+  background-color: #c0c0c0; /* silver */
+}
+
+.bronze-row {
+  background-color: #cd7f32; /* bronze */
+}
