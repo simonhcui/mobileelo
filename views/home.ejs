@@ -17,18 +17,18 @@
   </form>
 
   <div class="content">
-    <h2>Season XIII (10/2/25 - 12/18/25)</h2>
+    <h2>Season XIV (12/23/25 - 3/26/26)</h2>
   </div>
   <div class="data-table-container">
     <div class="data-table">
       <p>
-        71 Drafts in, last updated 12/18/25
-        <br />
+        23 Drafts in, last updated 1/10/26
+        <!-- <br />
 
         Congrats to our Winrate and Gauntlet Champion Erik Cearns!!
         <br />
         Season XIV will last from 12/28/25 to 3/26/26. Stats will be updated
-        once there is enough data (probably after the 1/10 drafts)
+        once there is enough data (probably after the 1/10 drafts) -->
       </p>
       <table id="sortableTable">
         <thead>
@@ -43,31 +43,14 @@
           </tr>
         </thead>
         <tbody>
-  <% tableData.forEach(function(row) { 
-       let rowClass = '';
-
-       // Bold rows with >= 16 drafts
-       if (row.total_drafts >= 16) {
-         rowClass += ' bold-row';
-       }
-
-       // Highlight specific players
-       if (row.name === 'Eric K') {
-         rowClass += ' gold-row';
-       } else if (row.name === 'Clayton') {
-         rowClass += ' silver-row';
-       } else if (row.name === 'Walski') {
-         rowClass += ' bronze-row';
-       }
-  %>
-    <tr class="<%= rowClass.trim() %>">
-      <% Object.values(row).forEach(function(value) { %>
-        <td><%= value %></td>
-      <% }); %>
-    </tr>
-  <% }); %>
-</tbody>
-
+          <% tableData.forEach(function(row) { %>
+          <tr style="<%= row.total_drafts >= 15 ? 'font-weight:bold;' : '' %>">
+            <% Object.values(row).forEach(function(value) { %>
+            <td><%= value %></td>
+            <% }); %>
+          </tr>
+          <% }); %>
+        </tbody>
       </table>
     </div>
   </div>
