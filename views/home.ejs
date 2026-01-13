@@ -54,41 +54,6 @@
       </table>
     </div>
   </div>
-
-  <div class="data-table-container">
-    <div class="data-table">
-      <h2>Gauntlet Rankings</h2>
-      <table>
-        <thead>
-          <tr>
-            <% if(gauntletData.length > 0) { %> <%
-            Object.keys(gauntletData[0]).forEach(function(key) { %>
-            <th><%= key %></th>
-            <% }); %> <% } %>
-          </tr>
-        </thead>
-        <tbody>
-          <% const keys = Object.keys(gauntletData[0]); const cubeDraftsIndex =
-          keys.indexOf("cube_drafts"); const retailDraftsIndex =
-          keys.indexOf("retail/chaos_drafts");
-          gauntletData.forEach(function(row) { const values =
-          Object.values(row); %>
-          <tr>
-            <% values.forEach(function(value, i) { %>
-            <td>
-              <% if (i === cubeDraftsIndex && value === '4') { %>
-              <strong><%= value %></strong>
-              <% } else if (i === retailDraftsIndex && value === '12') { %>
-              <strong><%= value %></strong>
-              <% } else { %> <%= value %> <% } %>
-            </td>
-            <% }); %>
-          </tr>
-          <% }); %>
-        </tbody>
-      </table>
-    </div>
-  </div>
 </main>
 
 <%- include('partials/footer') %>
