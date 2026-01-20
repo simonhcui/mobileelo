@@ -30,13 +30,27 @@
     },
     {
       "rank": "5",
+      "name": "Xantcha",
+      "win_percentage": "66.67%",
+      "wins_losses": "6-3",
+      "total_drafts": "4"
+    },
+    {
+      "rank": "6",
+      "name": "Squee",
+      "win_percentage": "52.94%",
+      "wins_losses": "9-8",
+      "total_drafts": "8"
+    },
+    {
+      "rank": "7",
       "name": "Lyna",
       "win_percentage": "50.00%",
       "wins_losses": "1-1",
       "total_drafts": "1"
     },
     {
-      "rank": "6",
+      "rank": "8",
       "name": "Gerrard",
       "win_percentage": "0.00%",
       "wins_losses": "0-4",
@@ -45,6 +59,27 @@
     {
       "rank": "🐐",
       "name": "Multani",
+      "win_percentage": "0.00%",
+      "wins_losses": "0-0",
+      "total_drafts": "0"
+    },
+    {
+      "rank": "🐐",
+      "name": "Orim",
+      "win_percentage": "0.00%",
+      "wins_losses": "0-0",
+      "total_drafts": "0"
+    },
+    {
+      "rank": "🐐",
+      "name": "Sidar Kondo",
+      "win_percentage": "0.00%",
+      "wins_losses": "0-0",
+      "total_drafts": "0"
+    },
+    {
+      "rank": "🐐",
+      "name": "Sliver Queen, Brood Mother",
       "win_percentage": "0.00%",
       "wins_losses": "0-0",
       "total_drafts": "0"
