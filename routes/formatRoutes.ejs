@@ -9,6 +9,10 @@ const jsonDataAdam = require("../data/formats/adamcube/adamdata.json");
 const jsonDataAdamColor = require("../data/formats/adamcube/adamcolordata.json");
 const jsonDataAdamArchetype = require("../data/formats/adamcube/adamarchetypedata.json");
 
+const jsonDataCollin = require("../data/formats/collincube/collindata.json");
+const jsonDataCollinColor = require("../data/formats/collincube/collincolordata.json");
+const jsonDataCollinArchetype = require("../data/formats/collincube/collinarchetypedata.json");
+
 const jsonDataJohn = require("../data/formats/johncube/johndata.json");
 const jsonDataJohnColor = require("../data/formats/johncube/johncolordata.json");
 const jsonDataJohnArchetype = require("../data/formats/johncube/johnarchetypedata.json");
@@ -69,6 +73,15 @@ router.get("/adamcube", (req, res) => {
     tableData: jsonDataAdam.tableData,
     colorData: jsonDataAdamColor.tableData,
     archetypeData: jsonDataAdamArchetype.tableData,
+  });
+});
+
+  res.render("formats/collincube", {
+    title: "Collin Cube",
+    id: req.params.id,
+    tableData: jsonDataCollin.tableData,
+    colorData: jsonDataCollinColor.tableData,
+    archetypeData: jsonDataCollinArchetype.tableData,
   });
 });
 
