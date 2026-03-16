@@ -17,6 +17,10 @@ const jsonDataJohn = require("../data/formats/johncube/johndata.json");
 const jsonDataJohnColor = require("../data/formats/johncube/johncolordata.json");
 const jsonDataJohnArchetype = require("../data/formats/johncube/johnarchetypedata.json");
 
+const jsonDataNoah = require("../data/formats/noahcube/noahdata.json");
+const jsonDataNoahColor = require("../data/formats/noahcube/noahcolordata.json");
+const jsonDataNoahArchetype = require("../data/formats/noahcube/noaharchetypedata.json");
+
 const jsonDataChaos = require("../data/formats/chaos/chaosdata.json");
 
 const jsonDataDmr = require("../data/formats/dmr/dmrdata.json");
@@ -93,6 +97,16 @@ router.get("/johncube", (req, res) => {
     tableData: jsonDataJohn.tableData,
     colorData: jsonDataJohnColor.tableData,
     archetypeData: jsonDataJohnArchetype.tableData,
+  });
+});
+
+router.get("/noahcube", (req, res) => {
+  res.render("formats/noahcube", {
+    title: "Noah Cube",
+    id: req.params.id,
+    tableData: jsonDataNoah.tableData,
+    colorData: jsonDataNoahColor.tableData,
+    archetypeData: jsonDataNoahArchetype.tableData,
   });
 });
 
