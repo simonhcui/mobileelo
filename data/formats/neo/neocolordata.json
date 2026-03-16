@@ -3,7 +3,7 @@
     {
       "rank": "1",
       "color": "Black",
-      "win_percentage": "51.85%"
+      "win_percentage": "53.95%"
     },
     {
       "rank": "2",
@@ -13,17 +13,17 @@
     {
       "rank": "3",
       "color": "White",
-      "win_percentage": "49.48%"
+      "win_percentage": "49.62%"
     },
     {
       "rank": "4",
-      "color": "Red",
-      "win_percentage": "47.76%"
+      "color": "Blue",
+      "win_percentage": "46.15%"
     },
     {
       "rank": "5",
-      "color": "Blue",
-      "win_percentage": "42.69%"
+      "color": "Red",
+      "win_percentage": "41.76%"
     }
   ]
 }
