@@ -3,44 +3,74 @@
     {
       "rank": "1",
       "archetype": "Rakdos",
-      "winrate": "77.27%",
-      "num_drafts": "10"
+      "winrate": "78.57%",
+      "num_drafts": "13"
     },
     {
       "rank": "2",
-      "archetype": "Selesnya",
-      "winrate": "53.85%",
-      "num_drafts": "6"
+      "archetype": "4c no red",
+      "winrate": "72.73%",
+      "num_drafts": "5"
     },
     {
       "rank": "3",
-      "archetype": "Dimir",
-      "winrate": "48.15%",
-      "num_drafts": "11"
+      "archetype": "Izzet",
+      "winrate": "66.67%",
+      "num_drafts": "7"
     },
     {
       "rank": "4",
+      "archetype": "Selesnya",
+      "winrate": "53.33%",
+      "num_drafts": "7"
+    },
+    {
+      "rank": "5",
+      "archetype": "Temur",
+      "winrate": "50.00%",
+      "num_drafts": "5"
+    },
+    {
+      "rank": "6",
+      "archetype": "Dimir",
+      "winrate": "45.45%",
+      "num_drafts": "14"
+    },
+    {
+      "rank": "7",
       "archetype": "Boros",
       "winrate": "42.31%",
       "num_drafts": "10"
     },
     {
-      "rank": "5",
+      "rank": "8",
       "archetype": "Simic",
-      "winrate": "27.27%",
-      "num_drafts": "6"
+      "winrate": "38.46%",
+      "num_drafts": "7"
     },
     {
-      "rank": "6",
-      "archetype": "Bant",
-      "winrate": "23.08%",
-      "num_drafts": "6"
+      "rank": "9",
+      "archetype": "Golgari",
+      "winrate": "36.84%",
+      "num_drafts": "8"
     },
     {
-      "rank": "7",
-      "archetype": "Gruul",
-      "winrate": "20.00%",
+      "rank": "10",
+      "archetype": "Orzhov",
+      "winrate": "36.36%",
       "num_drafts": "5"
+    },
+    {
+      "rank": "11",
+      "archetype": "Bant",
+      "winrate": "33.33%",
+      "num_drafts": "10"
+    },
+    {
+      "rank": "12",
+      "archetype": "Gruul",
+      "winrate": "25.00%",
+      "num_drafts": "6"
     }
   ]
 }
