@@ -1,0 +1,36 @@
+<%- include('../partials/header') %>
+<main>
+  <h1>Season 14 Stats</h1>
+  <div class="content"></div>
+  <p>
+    (12/23/25 - 3/20/26) 80 (+5 Vanguard) drafts, Winrate Champion Luis and Most Wins Champion Clayton
+  </p>
+  <div class="data-table-container">
+    <div class="data-table">
+      <h2></h2>
+      <div class="data-table"></div>
+      <table>
+        <thead>
+          <tr>
+            <% if(tableData.length > 0) { %> <%
+            Object.keys(tableData[0]).forEach(function(key) { %>
+            <th><%= key %></th>
+            <% }); %> <% } %>
+          </tr>
+        </thead>
+        <tbody>
+          <% tableData.forEach(function(row) { %>
+          <tr style="<%= row.total_drafts >= 15 ? 'font-weight:bold;' : '' %>">
+            <% Object.values(row).forEach(function(value) { %>
+            <td><%= value %></td>
+            <% }); %>
+          </tr>
+          <% }); %>
+        </tbody>
+      </table>
+      <div class="data-table"></div>
+    </div>
+  </div>
+</main>
+
+<%- include('../partials/footer') %>

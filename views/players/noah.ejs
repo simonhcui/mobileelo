@@ -16,12 +16,12 @@
       Season XI Winrate Runnerup
     </h2>
     <h2>
-      Lifetime Winrate: 56.03% 130-102 out of 115 drafts
+      Lifetime Winrate: 57.41% 182-135 out of 156 drafts
     </h2>
 
     <br />
 
-    <h2>Planeswalker Level V: Spellshaper</h2>
+    <h2>Planeswalker Level VI: Guildmage</h2>
     <img
       src="<%= planeswalkerPath %>"
       alt="Planeswalker Image"
@@ -29,7 +29,7 @@
     />
     <div class="progress-container">
         <div class="progress-text">
-            115/180
+            132/250
         </div>
         <div id="my-progress-bar" class="progress-bar"></div>
     </div>
@@ -42,9 +42,8 @@
         }
       
         
-        updateProgress(115/180*100);
+        updateProgress(132/250*100);
     </script>
-
   </div>
 
   <div class="data-table-container">
@@ -118,11 +117,9 @@
             <% Object.values(row).forEach(function(value, index) { %> <%
             if(index === 0) { %>
             <td>
-              <% if (profiles.includes(value)) { %>
-              <a href="<%= value.toString().replace(/\s+/g, '') %>">
-                <%= value %>
-              </a>
-              <% } else { %> <%= value %> <% } %>
+              <a href="<%= value.toString().replace(/\s+/g, '') %>"
+                ><%= value %></a
+              >
             </td>
             <% } else { %>
             <td><%= value %></td>
@@ -133,7 +130,5 @@
       </table>
     </div>
   </div>
-
-  
 </main>
 <%- include('../partials/footer') %>

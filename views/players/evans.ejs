@@ -45,7 +45,6 @@
         
         updateProgress(46/180*100);
     </script>
-
   </div>
 
   <div class="data-table-container">
@@ -119,11 +118,9 @@
             <% Object.values(row).forEach(function(value, index) { %> <%
             if(index === 0) { %>
             <td>
-              <% if (profiles.includes(value)) { %>
-              <a href="<%= value.toString().replace(/\s+/g, '') %>">
-                <%= value %>
-              </a>
-              <% } else { %> <%= value %> <% } %>
+              <a href="<%= value.toString().replace(/\s+/g, '') %>"
+                ><%= value %></a
+              >
             </td>
             <% } else { %>
             <td><%= value %></td>
@@ -134,7 +131,5 @@
       </table>
     </div>
   </div>
-
-  
 </main>
 <%- include('../partials/footer') %>

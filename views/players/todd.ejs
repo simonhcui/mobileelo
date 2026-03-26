@@ -104,11 +104,9 @@
             <% Object.values(row).forEach(function(value, index) { %> <%
             if(index === 0) { %>
             <td>
-              <% if (profiles.includes(value)) { %>
-              <a href="<%= value.toString().replace(/\s+/g, '') %>">
-                <%= value %>
-              </a>
-              <% } else { %> <%= value %> <% } %>
+              <a href="<%= value.toString().replace(/\s+/g, '') %>"
+                ><%= value %></a
+              >
             </td>
             <% } else { %>
             <td><%= value %></td>

@@ -19,7 +19,7 @@
       Season I Winrate Third Place
     </h2>
     <h2>
-      Lifetime Winrate: 52.16% 145-133 out of 122 drafts
+      Lifetime Winrate: 51.92% 149-138 out of 126 drafts
     </h2>
 
     <br />
@@ -32,7 +32,7 @@
     />
     <div class="progress-container">
         <div class="progress-text">
-            12/250
+            28/250
         </div>
         <div id="my-progress-bar" class="progress-bar"></div>
     </div>
@@ -45,9 +45,8 @@
         }
       
         
-        updateProgress(12/250*100);
+        updateProgress(28/250*100);
     </script>
-
   </div>
 
   <div class="data-table-container">
@@ -121,11 +120,9 @@
             <% Object.values(row).forEach(function(value, index) { %> <%
             if(index === 0) { %>
             <td>
-              <% if (profiles.includes(value)) { %>
-              <a href="<%= value.toString().replace(/\s+/g, '') %>">
-                <%= value %>
-              </a>
-              <% } else { %> <%= value %> <% } %>
+              <a href="<%= value.toString().replace(/\s+/g, '') %>"
+                ><%= value %></a
+              >
             </td>
             <% } else { %>
             <td><%= value %></td>
@@ -136,7 +133,5 @@
       </table>
     </div>
   </div>
-
- 
 </main>
 <%- include('../partials/footer') %>

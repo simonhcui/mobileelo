@@ -9,27 +9,29 @@
 
     <h1>Clayton</h1>
     <h2 style="color: gold;"">
-      🥈🥈🥈🥉🎖️🎖️🎖️<br />
+      🥈🥈🥈🥉🥉🎖️🎖️🎖️🎖️<br />
       Season IV Trophies Champion<br />
       Season VIII Points Champion<br />
-      Season XII Gauntlet Champion
+      Season XII Gauntlet Champion<br />
+      Season XIV Most Wins
     </h2>
     <h2 style="color: silver;"">
       Season IV Winrate Runnerup<br />
       Season VIII Winrate Runnerup<br />
       Season XIII Winrate Runnerup
     </h2>
-    <h2 style="color: FF5733;"">
-      Season XII Winrate 3rd Piece<br />
+    <h2 style="color: #CE8946;"">
+      Season XII Winrate 3rd Place<br />
+      Season XIV Winrate 3rd Place
     </h2>
-    <h2 style="color: gold;"">
-      Lifetime Winrate: 70.23% 177-75 out of 122 drafts<br />
-      First All Time (Min 40 drafts)
+    <h2 style="color: silver;"">
+      Lifetime Winrate: 67.60% 242-116 out of 171 drafts<br />
+      Second All Time (Min 40 drafts)
     </h2>
 
     <br />
 
-    <h2>Planeswalker Level VII: Invoker</h2>
+    <h2>Planeswalker Level VIII: Sorcerer</h2>
     <img
       src="<%= planeswalkerPath %>"
       alt="Planeswalker Image"
@@ -37,7 +39,7 @@
     />
     <div class="progress-container">
         <div class="progress-text">
-            158/310
+            217/440
         </div>
         <div id="my-progress-bar" class="progress-bar"></div>
     </div>
@@ -50,9 +52,8 @@
         }
       
         
-        updateProgress(158/310*100);
+        updateProgress(217/440*100);
     </script>
-
   </div>
 
   <div class="data-table-container">
@@ -126,11 +127,9 @@
             <% Object.values(row).forEach(function(value, index) { %> <%
             if(index === 0) { %>
             <td>
-              <% if (profiles.includes(value)) { %>
-              <a href="<%= value.toString().replace(/\s+/g, '') %>">
-                <%= value %>
-              </a>
-              <% } else { %> <%= value %> <% } %>
+              <a href="<%= value.toString().replace(/\s+/g, '') %>"
+                ><%= value %></a
+              >
             </td>
             <% } else { %>
             <td><%= value %></td>
@@ -141,7 +140,5 @@
       </table>
     </div>
   </div>
-
-  
 </main>
 <%- include('../partials/footer') %>

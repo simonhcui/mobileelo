@@ -19,11 +19,11 @@
       Season X Money Runner Up
     </h2>
     <h2 style="color: #CE8946;"">
-      Season X Money 3rd Place
+      Season X Money 3rd Place<br />
       Season XIII Money 3rd Place
     </h2>
     <h2>
-      Lifetime Winrate: 29.05% 95-232 out of 161 drafts
+      Lifetime Winrate: 29.38% 104-250 out of 175 drafts
     </h2>
 
     <br />
@@ -36,7 +36,7 @@
     />
     <div class="progress-container">
         <div class="progress-text">
-            26/250
+            67/250
         </div>
         <div id="my-progress-bar" class="progress-bar"></div>
     </div>
@@ -49,9 +49,8 @@
         }
       
         
-        updateProgress(26/250*100);
+        updateProgress(67/250*100);
     </script>
-
   </div>
 
   <div class="data-table-container">
@@ -125,11 +124,9 @@
             <% Object.values(row).forEach(function(value, index) { %> <%
             if(index === 0) { %>
             <td>
-              <% if (profiles.includes(value)) { %>
-              <a href="<%= value.toString().replace(/\s+/g, '') %>">
-                <%= value %>
-              </a>
-              <% } else { %> <%= value %> <% } %>
+              <a href="<%= value.toString().replace(/\s+/g, '') %>"
+                ><%= value %></a
+              >
             </td>
             <% } else { %>
             <td><%= value %></td>
@@ -140,7 +137,5 @@
       </table>
     </div>
   </div>
-
- 
 </main>
 <%- include('../partials/footer') %>
