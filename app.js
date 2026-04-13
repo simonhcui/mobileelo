@@ -21,27 +21,32 @@ app.use("/player", playerRoutes);
 
 // Read JSON file
 const rawDataLifetime = fs.readFileSync(
-  path.join(__dirname, "data/lifetimedata.json")
+  path.join(__dirname, "data/lifetimedata.json"),
 );
 const jsonDataLifetime = JSON.parse(rawDataLifetime);
 
 const rawDataLifetime20 = fs.readFileSync(
-  path.join(__dirname, "data/lifetimedata20.json")
+  path.join(__dirname, "data/lifetimedata20.json"),
 );
 const jsonDataLifetime20 = JSON.parse(rawDataLifetime20);
 
 const rawDataLifetime40 = fs.readFileSync(
-  path.join(__dirname, "data/lifetimedata40.json")
+  path.join(__dirname, "data/lifetimedata40.json"),
 );
 const jsonDataLifetime40 = JSON.parse(rawDataLifetime40);
 
 const rawDataLifetimeChamps = fs.readFileSync(
-  path.join(__dirname, "data/lifetimechamps.json")
+  path.join(__dirname, "data/lifetimechamps.json"),
 );
 const jsonDataLifetimeChamps = JSON.parse(rawDataLifetimeChamps);
 
 const rawData = fs.readFileSync(path.join(__dirname, "data/data.json"));
 const jsonData = JSON.parse(rawData);
+
+const rawDataWeekend = fs.readFileSync(
+  path.join(__dirname, "data/dataweekend.json"),
+);
+const jsonDataWeekend = JSON.parse(rawDataWeekend);
 
 const rawGauntlet = fs.readFileSync(path.join(__dirname, "data/gauntlet.json"));
 const jsonGauntlet = JSON.parse(rawGauntlet);
@@ -54,6 +59,7 @@ app.get("/", (req, res) => {
   res.render("home", {
     title: "Home",
     tableData: jsonData.tableData,
+    weekendData: jsonDataWeekend.tableData,
     gauntletData: jsonGauntlet.tableData,
   });
 });

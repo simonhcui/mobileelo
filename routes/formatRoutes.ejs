@@ -48,6 +48,7 @@ const jsonDataMh3Archetype = require("../data/formats/mh3/mh3archetypedata.json"
 
 const jsonDataTsr = require("../data/formats/tsr/tsrdata.json");
 const jsonDataTsrColor = require("../data/formats/tsr/tsrcolordata.json");
+const jsonDataTsrArchetype = require("../data/formats/tsr/tsrarchetypedata.json");
 
 const jsonDataFin = require("../data/formats/fin/findata.json");
 const jsonDataFinColor = require("../data/formats/fin/fincolordata.json");
@@ -182,7 +183,8 @@ router.get("/tsr", (req, res) => {
     title: "TSR",
     id: req.params.id,
     tableData: jsonDataTsr.tableData,
-    colorData: jsonDataTsrColor.tableData
+    colorData: jsonDataTsrColor.tableData,
+    archetypeData: jsonDataTsrArchetype.tableData,
   });
 });
 
