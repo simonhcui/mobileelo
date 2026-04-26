@@ -3,8 +3,8 @@
     {
       "rank": "1",
       "archetype": "Azorius",
-      "winrate": "67.74%",
-      "num_drafts": "12"
+      "winrate": "68.57%",
+      "num_drafts": "14"
     },
     {
       "rank": "2",
@@ -51,14 +51,14 @@
     {
       "rank": "9",
       "archetype": "Rakdos",
-      "winrate": "46.15%",
-      "num_drafts": "17"
+      "winrate": "46.34%",
+      "num_drafts": "18"
     },
     {
       "rank": "10",
       "archetype": "Naya",
-      "winrate": "40.00%",
-      "num_drafts": "8"
+      "winrate": "41.67%",
+      "num_drafts": "10"
     },
     {
       "rank": "11",
@@ -68,21 +68,27 @@
     },
     {
       "rank": "12",
-      "archetype": "Golgari",
-      "winrate": "36.00%",
-      "num_drafts": "10"
-    },
-    {
-      "rank": "13",
       "archetype": "Gruul",
       "winrate": "35.71%",
       "num_drafts": "5"
     },
     {
-      "rank": "14",
+      "rank": "13",
       "archetype": "Orzhov",
-      "winrate": "26.67%",
-      "num_drafts": "6"
+      "winrate": "35.29%",
+      "num_drafts": "7"
+    },
+    {
+      "rank": "14",
+      "archetype": "Golgari",
+      "winrate": "33.33%",
+      "num_drafts": "11"
+    },
+    {
+      "rank": "15",
+      "archetype": "Grixis",
+      "winrate": "30.77%",
+      "num_drafts": "5"
     }
   ]
 }
