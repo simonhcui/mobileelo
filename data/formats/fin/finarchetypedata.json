@@ -3,20 +3,20 @@
     {
       "rank": "1",
       "archetype": "Orzhov",
-      "winrate": "72.97%",
-      "num_drafts": "18"
+      "winrate": "71.79%",
+      "num_drafts": "19"
     },
     {
       "rank": "2",
       "archetype": "Selesnya",
-      "winrate": "68.18%",
-      "num_drafts": "11"
+      "winrate": "65.22%",
+      "num_drafts": "12"
     },
     {
       "rank": "3",
       "archetype": "Golgari",
-      "winrate": "58.33%",
-      "num_drafts": "17"
+      "winrate": "60.53%",
+      "num_drafts": "18"
     },
     {
       "rank": "4",
@@ -26,9 +26,9 @@
     },
     {
       "rank": "5",
-      "archetype": "Grixis",
-      "winrate": "55.00%",
-      "num_drafts": "10"
+      "archetype": "Dimir",
+      "winrate": "56.00%",
+      "num_drafts": "13"
     },
     {
       "rank": "6",
@@ -39,13 +39,13 @@
     {
       "rank": "7",
       "archetype": "Boros",
-      "winrate": "52.83%",
-      "num_drafts": "25"
+      "winrate": "50.88%",
+      "num_drafts": "27"
     },
     {
       "rank": "8",
-      "archetype": "Dimir",
-      "winrate": "52.38%",
+      "archetype": "Grixis",
+      "winrate": "50.00%",
       "num_drafts": "11"
     },
     {
@@ -56,54 +56,60 @@
     },
     {
       "rank": "10",
-      "archetype": "Azorius",
-      "winrate": "47.92%",
-      "num_drafts": "23"
+      "archetype": "Abzan",
+      "winrate": "50.00%",
+      "num_drafts": "5"
     },
     {
       "rank": "11",
-      "archetype": "Temur",
-      "winrate": "46.15%",
-      "num_drafts": "6"
+      "archetype": "Azorius",
+      "winrate": "48.08%",
+      "num_drafts": "25"
     },
     {
       "rank": "12",
+      "archetype": "Temur",
+      "winrate": "46.67%",
+      "num_drafts": "7"
+    },
+    {
+      "rank": "13",
       "archetype": "Simic",
       "winrate": "45.45%",
       "num_drafts": "5"
     },
     {
-      "rank": "13",
+      "rank": "14",
       "archetype": "Izzet",
-      "winrate": "44.23%",
-      "num_drafts": "24"
+      "winrate": "43.64%",
+      "num_drafts": "26"
     },
     {
-      "rank": "14",
+      "rank": "15",
       "archetype": "Gruul",
       "winrate": "42.86%",
       "num_drafts": "7"
     },
     {
-      "rank": "15",
+      "rank": "16",
       "archetype": "Sultai",
-      "winrate": "41.67%",
+      "winrate": "42.50%",
+      "num_drafts": "19"
+    },
+    {
+      "rank": "17",
+      "archetype": "Rakdos",
+      "winrate": "40.62%",
       "num_drafts": "17"
     },
     {
-      "rank": "16",
+      "rank": "18",
       "archetype": "Naya",
       "winrate": "35.71%",
       "num_drafts": "7"
     },
     {
-      "rank": "17",
-      "archetype": "Rakdos",
-      "winrate": "35.71%",
-      "num_drafts": "15"
-    },
-    {
-      "rank": "18",
+      "rank": "19",
       "archetype": "Jund",
       "winrate": "18.18%",
       "num_drafts": "5"
