@@ -64,6 +64,9 @@ const marcoDataMatchup = require("../data/players/matchups/marco_matchups.json")
 const mattData = require("../data/players/matt/matt.json");
 const mattDataFormat = require("../data/players/formats/matty_format.json");
 const mattDataMatchup = require("../data/players/matchups/matty_matchups.json");
+const mikeData = require("../data/players/mike/mike.json");
+const mikeDataFormat = require("../data/players/formats/mike_format.json");
+const mikeDataMatchup = require("../data/players/matchups/mike_matchups.json");
 const nickdData = require("../data/players/nickd/nickd.json");
 const nickdDataFormat = require("../data/players/formats/nickd_format.json");
 const nickdDataMatchup = require("../data/players/matchups/nickd_matchups.json");
@@ -103,6 +106,7 @@ const profileNames = [
     "Alan",
     "Alberto",
     "Andrew D",
+    "Aaron",
     "Chris A",
     "Clayton",
     "Collin",
@@ -119,6 +123,7 @@ const profileNames = [
     "Luis",
     "Marco",
     "Matt Y",
+    "Mike",
     "Noah",
     "Nick D",
     "Simon",
@@ -548,6 +553,18 @@ router.get("/aaron", (req, res) => {
   });
 });
 
+router.get("/mike", (req, res) => {
+  res.render("players/mike", {
+    title: "Mike",
+    id: req.params.id,
+    imagePath: "/images/profile/mikeprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/novice.jpg",
+    tableData: mikeData.tableData,
+    formatData: mikeDataFormat.formatData,
+    matchups: mikeDataMatchup.matchups,
+    profiles: profileNames,
+  });
+});
 
 router.get("/invalidplayer", (req, res) => {
   res.render("players/invalidplayer", {
