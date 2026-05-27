@@ -2,6 +2,12 @@
   "tableData": [
     {
       "rank": "1",
+      "archetype": "Boros",
+      "winrate": "60.00%",
+      "num_drafts": "5"
+    },
+    {
+      "rank": "1",
       "archetype": "Mardu",
       "winrate": "60.00%",
       "num_drafts": "5"
@@ -9,12 +15,24 @@
     {
       "rank": "2",
       "archetype": "Sultai",
-      "winrate": "42.86%",
-      "num_drafts": "7"
+      "winrate": "50.00%",
+      "num_drafts": "9"
+    },
+    {
+      "rank": "3",
+      "archetype": "Esper",
+      "winrate": "40.00%",
+      "num_drafts": "5"
     },
     {
       "rank": "3",
       "archetype": "Golgari",
+      "winrate": "40.00%",
+      "num_drafts": "5"
+    },
+    {
+      "rank": "3",
+      "archetype": "Jeskai",
       "winrate": "40.00%",
       "num_drafts": "5"
     },

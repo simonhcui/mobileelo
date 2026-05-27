@@ -58,6 +58,10 @@ const jsonDataNeo = require("../data/formats/neo/neodata.json");
 const jsonDataNeoColor = require("../data/formats/neo/neocolordata.json");
 const jsonDataNeoArchetype = require("../data/formats/neo/neoarchetypedata.json");
 
+const jsonDataRna = require("../data/formats/rna/rnadata.json");
+const jsonDataRnaColor = require("../data/formats/rna/rnacolordata.json");
+const jsonDataRnaArchetype = require("../data/formats/rna/rnaarchetypedata.json");
+
 const jsonDataVanguard = require("../data/formats/vanguard/vanguarddata.json");
 const jsonDataInactiveVanguard = require("../data/formats/vanguard/inactivevanguarddata.json");
 
@@ -205,6 +209,16 @@ router.get("/neo", (req, res) => {
     tableData: jsonDataNeo.tableData,
     colorData: jsonDataNeoColor.tableData,
     archetypeData: jsonDataNeoArchetype.tableData,
+  });
+});
+
+router.get("/rna", (req, res) => {
+  res.render("formats/rna", {
+    title: "RNA",
+    id: req.params.id,
+    tableData: jsonDataRna.tableData,
+    colorData: jsonDataRnaColor.tableData,
+    archetypeData: jsonDataRnaArchetype.tableData,
   });
 });
 
