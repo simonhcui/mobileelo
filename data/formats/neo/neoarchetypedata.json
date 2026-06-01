@@ -2,27 +2,27 @@
   "tableData": [
     {
       "rank": "1",
+      "archetype": "Esper",
+      "winrate": "66.67%",
+      "num_drafts": "6"
+    },
+    {
+      "rank": "2",
       "archetype": "Abzan",
       "winrate": "62.50%",
       "num_drafts": "8"
     },
     {
-      "rank": "2",
-      "archetype": "Selesnya",
-      "winrate": "58.06%",
-      "num_drafts": "17"
-    },
-    {
       "rank": "3",
       "archetype": "Dimir",
-      "winrate": "57.89%",
-      "num_drafts": "18"
+      "winrate": "59.09%",
+      "num_drafts": "21"
     },
     {
       "rank": "4",
-      "archetype": "Orzhov",
-      "winrate": "57.89%",
-      "num_drafts": "10"
+      "archetype": "Selesnya",
+      "winrate": "57.14%",
+      "num_drafts": "19"
     },
     {
       "rank": "5",
@@ -33,26 +33,38 @@
     {
       "rank": "6",
       "archetype": "Rakdos",
-      "winrate": "51.11%",
-      "num_drafts": "23"
+      "winrate": "53.06%",
+      "num_drafts": "25"
     },
     {
       "rank": "7",
+      "archetype": "Orzhov",
+      "winrate": "52.17%",
+      "num_drafts": "12"
+    },
+    {
+      "rank": "8",
+      "archetype": "Sultai",
+      "winrate": "40.00%",
+      "num_drafts": "8"
+    },
+    {
+      "rank": "9",
       "archetype": "Azorius",
       "winrate": "39.13%",
       "num_drafts": "11"
     },
     {
-      "rank": "8",
+      "rank": "10",
       "archetype": "Boros",
-      "winrate": "35.71%",
-      "num_drafts": "7"
+      "winrate": "37.50%",
+      "num_drafts": "8"
     },
     {
-      "rank": "9",
-      "archetype": "Sultai",
-      "winrate": "30.77%",
-      "num_drafts": "7"
+      "rank": "11",
+      "archetype": "Naya",
+      "winrate": "20.00%",
+      "num_drafts": "5"
     }
   ]
 }

@@ -36,13 +36,13 @@
     {
       "rank": "4",
       "name": "Clayton",
-      "win_percentage": "73.33%",
-      "wins_losses": "44-16",
-      "total_drafts": "30",
-      "glicko": "1725 ± 71",
-      "gxe": "70.23%",
-      "last_set": "NEO",
-      "last_date": "5-28-2026"
+      "win_percentage": "75.00%",
+      "wins_losses": "48-16",
+      "total_drafts": "32",
+      "glicko": "1751 ± 70",
+      "gxe": "72.20%",
+      "last_set": "MH1",
+      "last_date": "5-29-2026"
     },
     {
       "rank": "5",
@@ -146,13 +146,13 @@
     {
       "rank": "14",
       "name": "Nathan",
-      "win_percentage": "56.14%",
-      "wins_losses": "32-25",
-      "total_drafts": "28",
-      "glicko": "1639 ± 69",
-      "gxe": "62.97%",
-      "last_set": "NEO",
-      "last_date": "5-28-2026"
+      "win_percentage": "57.38%",
+      "wins_losses": "35-26",
+      "total_drafts": "30",
+      "glicko": "1653 ± 68",
+      "gxe": "64.17%",
+      "last_set": "MH1",
+      "last_date": "5-29-2026"
     },
     {
       "rank": "15",
@@ -167,6 +167,17 @@
     },
     {
       "rank": "16",
+      "name": "Nick D",
+      "win_percentage": "50.00%",
+      "wins_losses": "8-8",
+      "total_drafts": "8",
+      "glicko": "1493 ± 99",
+      "gxe": "49.31%",
+      "last_set": "MH1",
+      "last_date": "5-29-2026"
+    },
+    {
+      "rank": "17",
       "name": "Adam",
       "win_percentage": "50.00%",
       "wins_losses": "8-8",
@@ -177,7 +188,7 @@
       "last_date": "5-28-2026"
     },
     {
-      "rank": "17",
+      "rank": "18",
       "name": "Walski",
       "win_percentage": "50.00%",
       "wins_losses": "6-6",
@@ -188,7 +199,7 @@
       "last_date": "4-23-2026"
     },
     {
-      "rank": "18",
+      "rank": "19",
       "name": "Maxime",
       "win_percentage": "50.00%",
       "wins_losses": "4-4",
@@ -197,17 +208,6 @@
       "gxe": "53.11%",
       "last_set": "DSK",
       "last_date": "4-10-2026"
-    },
-    {
-      "rank": "19",
-      "name": "Matt Y",
-      "win_percentage": "50.00%",
-      "wins_losses": "4-4",
-      "total_drafts": "4",
-      "glicko": "1602 ± 129",
-      "gxe": "59.35%",
-      "last_set": "AKH/HOU",
-      "last_date": "5-28-2026"
     },
     {
       "rank": "20",
@@ -222,28 +222,17 @@
     },
     {
       "rank": "21",
-      "name": "Thana",
-      "win_percentage": "44.23%",
-      "wins_losses": "23-29",
-      "total_drafts": "26",
-      "glicko": "1516 ± 72",
-      "gxe": "51.48%",
-      "last_set": "NEO",
-      "last_date": "5-28-2026"
+      "name": "Simon",
+      "win_percentage": "44.44%",
+      "wins_losses": "16-20",
+      "total_drafts": "18",
+      "glicko": "1469 ± 78",
+      "gxe": "47.06%",
+      "last_set": "MH1",
+      "last_date": "5-29-2026"
     },
     {
       "rank": "22",
-      "name": "Simon",
-      "win_percentage": "44.12%",
-      "wins_losses": "15-19",
-      "total_drafts": "17",
-      "glicko": "1472 ± 79",
-      "gxe": "47.31%",
-      "last_set": "Chaos",
-      "last_date": "5-28-2026"
-    },
-    {
-      "rank": "23",
       "name": "Tony",
       "win_percentage": "43.48%",
       "wins_losses": "10-13",
@@ -254,15 +243,26 @@
       "last_date": "5-28-2026"
     },
     {
+      "rank": "23",
+      "name": "Matt Y",
+      "win_percentage": "41.67%",
+      "wins_losses": "5-7",
+      "total_drafts": "6",
+      "glicko": "1477 ± 113",
+      "gxe": "47.86%",
+      "last_set": "MH1",
+      "last_date": "5-29-2026"
+    },
+    {
       "rank": "24",
-      "name": "Nick D",
-      "win_percentage": "42.86%",
-      "wins_losses": "6-8",
-      "total_drafts": "7",
-      "glicko": "1422 ± 105",
-      "gxe": "42.74%",
-      "last_set": "MB2",
-      "last_date": "5-22-2026"
+      "name": "Thana",
+      "win_percentage": "41.07%",
+      "wins_losses": "23-33",
+      "total_drafts": "28",
+      "glicko": "1478 ± 70",
+      "gxe": "47.89%",
+      "last_set": "MH1",
+      "last_date": "5-29-2026"
     },
     {
       "rank": "25",
@@ -355,13 +355,13 @@
     {
       "rank": "33",
       "name": "David K",
-      "win_percentage": "23.53%",
-      "wins_losses": "12-39",
-      "total_drafts": "26",
-      "glicko": "1237 ± 82",
-      "gxe": "26.96%",
-      "last_set": "Chaos",
-      "last_date": "5-28-2026"
+      "win_percentage": "23.64%",
+      "wins_losses": "13-42",
+      "total_drafts": "28",
+      "glicko": "1250 ± 81",
+      "gxe": "27.89%",
+      "last_set": "MH1",
+      "last_date": "5-29-2026"
     },
     {
       "rank": "34",
