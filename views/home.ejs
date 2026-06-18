@@ -46,9 +46,29 @@
         <tbody>
           <% tableData.forEach(function(row) { %>
           <tr style="<%= row.total_drafts > 15 ? 'font-weight:bold;' : '' %>">
-            <% Object.values(row).forEach(function(value) { %>
-            <td><%= value %></td>
-            <% }); %>
+            <% Object.keys(row).forEach(function(key, index) { %> <% if (key ===
+            "name") { %>
+            <td>
+              <a href="player/<%= row[key].toString().replace(/\s+/g, '') %>">
+                <%= row[key] %>
+              </a>
+            </td>
+            <% } else if (key === "rank") { %>
+            <td>
+              <img
+                src="<%= row[key] %>"
+                alt="avatar"
+                style="
+                  width: 40px;
+                  height: 40px;
+                  border-radius: 50%;
+                  object-fit: cover;
+                "
+              />
+            </td>
+            <% } else { %>
+            <td><%= row[key] %></td>
+            <% } %> <% }); %>
           </tr>
           <% }); %>
         </tbody>
