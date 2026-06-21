@@ -5,210 +5,196 @@
       "Title": "Winrate",
       "Player": "Nick D",
       "Num Drafts": "35",
-      "Glicko": "N/A",
       "Winrate": "67.74%"
     },
     {
       "Season": "I",
       "Title": "Trophies",
       "Player": "Nick D",
-      "Num Drafts": "35",
-      "Glicko": "N/A"
+      "Num Drafts": "35"
     },
     {
       "Season": "II",
       "Title": "Winrate",
       "Player": "Nick D",
       "Num Drafts": "14",
-      "Glicko": "N/A",
       "Winrate": "70.27%"
     },
     {
       "Season": "II",
       "Title": "Trophies",
       "Player": "Juwan",
-      "Num Drafts": "19",
-      "Glicko": "N/A"
+      "Num Drafts": "19"
     },
     {
       "Season": "III",
       "Title": "Winrate",
       "Player": "Matt Y",
       "Num Drafts": "12",
-      "Glicko": "N/A",
       "Winrate": "70.97%"
     },
     {
       "Season": "III",
       "Title": "Trophies",
       "Player": "Evan S",
-      "Num Drafts": "23",
-      "Glicko": "N/A"
+      "Num Drafts": "23"
     },
     {
       "Season": "IV",
       "Title": "Winrate",
       "Player": "Tony",
       "Num Drafts": "16",
-      "Glicko": "1768 ± 85",
       "Winrate": "72.73%"
     },
     {
       "Season": "IV",
       "Title": "Trophies",
       "Player": "Clayton",
-      "Num Drafts": "18",
-      "Glicko": "1731 ± 79"
+      "Num Drafts": "18"
     },
     {
       "Season": "V",
       "Title": "Winrate",
       "Player": "Chris A",
       "Num Drafts": "22",
-      "Glicko": "1669 ± 74",
       "Winrate": "71.74%"
     },
     {
       "Season": "V",
       "Title": "Trophies",
       "Player": "Chris A",
-      "Num Drafts": "22",
-      "Glicko": "1669 ± 74"
+      "Num Drafts": "22"
     },
     {
       "Season": "VI",
       "Title": "Winrate",
       "Player": "Alberto",
       "Num Drafts": "22",
-      "Glicko": "1629 ± 74",
       "Winrate": "63.83%"
     },
     {
       "Season": "VI",
       "Title": "Winstreak",
       "Player": "Alberto",
-      "Num Drafts": "22",
-      "Glicko": "1629 ± 74"
+      "Num Drafts": "22"
     },
     {
       "Season": "VII",
       "Title": "Winrate",
       "Player": "Matt Y",
       "Num Drafts": "16",
-      "Glicko": "1753 ± 84",
       "Winrate": "71.88%"
     },
     {
       "Season": "VII",
       "Title": "Winstreak",
       "Player": "Matt Y",
-      "Num Drafts": "16",
-      "Glicko": "1753 ± 84"
+      "Num Drafts": "16"
     },
     {
       "Season": "VIII",
       "Title": "Winrate",
       "Player": "Nick D",
       "Num Drafts": "10",
-      "Glicko": "1845 ± 108",
       "Winrate": "77.78%"
     },
     {
       "Season": "VIII",
       "Title": "Points",
       "Player": "Clayton",
-      "Num Drafts": "23",
-      "Glicko": "1748 ± 72"
+      "Num Drafts": "23"
     },
     {
       "Season": "IX",
       "Title": "Winrate",
       "Player": "Alan",
       "Num Drafts": "19",
-      "Glicko": "1809 ± 77",
       "Winrate": "75.68%"
     },
     {
       "Season": "IX",
       "Title": "Gauntlet",
       "Player": "Alan",
-      "Num Drafts": "19",
-      "Glicko": "1809 ± 77"
+      "Num Drafts": "19"
     },
     {
       "Season": "X",
       "Title": "Winrate",
       "Player": "Alan",
       "Num Drafts": "14",
-      "Glicko": "1753 ± 93",
       "Winrate": "75.00%"
     },
     {
       "Season": "X",
       "Title": "Gauntlet",
       "Player": "Noah",
-      "Num Drafts": "17",
-      "Glicko": "1554 ± 83"
+      "Num Drafts": "17"
     },
     {
       "Season": "XI",
       "Title": "Winrate",
       "Player": "Tony",
       "Num Drafts": "18",
-      "Glicko": "1627 ± 85",
       "Winrate": "70.59%"
     },
     {
       "Season": "XI",
       "Title": "Gauntlet",
       "Player": "Eric K",
-      "Num Drafts": "30",
-      "Glicko": "1628 ± 68"
+      "Num Drafts": "30"
     },
     {
       "Season": "XII",
       "Title": "Winrate",
       "Player": "Tony",
       "Num Drafts": "19",
-      "Glicko": "1780 ± 89",
       "Winrate": "80.00%"
     },
     {
       "Season": "XII",
       "Title": "Gauntlet",
       "Player": "Clayton",
-      "Num Drafts": "26",
-      "Glicko": "1628 ± 68"
+      "Num Drafts": "26"
     },
     {
       "Season": "XIII",
       "Title": "Winrate",
       "Player": "Eric K",
       "Num Drafts": "36",
-      "Glicko": "1663 ± 65",
       "Winrate": "65.10%"
     },
     {
       "Season": "XIII",
       "Title": "Gauntlet",
       "Player": "Eric K",
-      "Num Drafts": "36",
-      "Glicko": "1663 ± 65"
+      "Num Drafts": "36"
     },
     {
       "Season": "XIV",
       "Title": "Winrate",
       "Player": "Luis",
       "Num Drafts": "16",
-      "Glicko": "1759 ± 80",
       "Winrate": "75.76%"
     },
     {
       "Season": "XIV",
       "Title": "Most Wins",
       "Player": "Clayton",
-      "Num Drafts": "49",
-      "Glicko": "1559 ± 63"
+      "Num Drafts": "49"
+    },
+    {
+      "Season": "XV",
+      "Title": "Weekday",
+      "Player": "Clayton",
+      "Num Drafts": "44",
+      "Winrate": "73.86%"
+    },
+    {
+      "Season": "XV",
+      "Title": "Weekend",
+      "Player": "Nick D",
+      "Num Drafts": "8",
+      "Winrate": "75.00%"
     }
   ],
   "moneyData": [
@@ -342,21 +328,21 @@
       "Season": "XII",
       "Rank": "1",
       "Player": "Kevin S",
-      "Best Pull": "Neonblack Traveling Chocobo",
+      "Best Pull": "Traveling Chocobo (Borderless) (Neon Ink Black)",
       "Value": "$6,200"
     },
     {
       "Season": "XII",
       "Rank": "2",
       "Player": "Kevin S",
-      "Best Pull": "Neonblue Traveling Chocobo",
+      "Best Pull": "Traveling Chocobo (Borderless) (Neon Ink Blue)",
       "Value": "$2,800"
     },
     {
       "Season": "XII",
       "Rank": "3",
       "Player": "Sonny",
-      "Best Pull": "Neonpink Traveling Chocobo",
+      "Best Pull": "Traveling Chocobo (Borderless) (Neon Ink Pink)",
       "Value": "$2,500"
     },
     {
@@ -384,7 +370,7 @@
       "Season": "XIV",
       "Rank": "1",
       "Player": "Marco",
-      "Best Pull": "Neonblack Traveling Chocobo",
+      "Best Pull": "Traveling Chocobo (Borderless) (Neon Ink Black)",
       "Value": "$6,950"
     },
     {
@@ -400,11 +386,42 @@
       "Player": "Marco",
       "Best Pull": "Y'shtola, Night's Blessed Borderless Surgefoil (215)",
       "Value": "$476"
+    },
+    {
+      "Season": "XV",
+      "Rank": "1",
+      "Player": "Kevin",
+      "Best Pull": "Emeritus of Ideation (Retro Frame) (Serial Numbered) (Double Rainbow Foil) #169/500",
+      "Value": "$10,169"
+    },
+    {
+      "Season": "XV",
+      "Rank": "2",
+      "Player": "Marco",
+      "Best Pull": "Traveling Chocobo (Borderless) (Neon Ink Green)",
+      "Value": "$1,865"
+    },
+    {
+      "Season": "XV",
+      "Rank": "3",
+      "Player": "Marco",
+      "Best Pull": "Flusterstorm (JP Alternate Art) (Silver Scroll Foil)",
+      "Value": "$850"
     }
   ],
   "top_10_money": [
     {
       "Rank": "1",
+      "Card": {
+        "text": "Emeritus of Ideation (Retro Frame) (Serial Numbered) (Double Rainbow Foil) #169/500",
+        "url": "https://www.tcgplayer.com/product/689798?Printing=Foil&page=1&irclickid=VeF28VSYGxyKWCA21R0GuUq8UkuTfDQpUVSCVc0&sharedid=&irpid=4931599&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Scryfall,+LLC&Language=English"
+      },
+      "Value": "$10,169",
+      "Player": "Kevin",
+      "Season": "XV"
+    },
+    {
+      "Rank": "2",
       "Card": {
         "text": "Avatar Aang (Raised Foil)",
         "url": "https://www.tcgplayer.com/product/648742?Printing=Foil&page=1&irclickid=VeF28VSYGxyKWCA21R0GuUq8UkpQ:y2tUVSCVc0&sharedid=&irpid=4931599&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Scryfall,+LLC&Language=English"
@@ -414,9 +431,9 @@
       "Season": "XIII"
     },
     {
-      "Rank": "2",
+      "Rank": "3",
       "Card": {
-        "text": "Neonblack Traveling Chocobo",
+        "text": "Traveling Chocobo (Borderless) (Neon Ink Black)",
         "url": "https://www.tcgplayer.com/product/630951?Printing=Foil&page=1&irclickid=VeF28VSYGxyKWCA21R0GuUq8Ukp1fAUpUVSCVc0&sharedid=&irpid=4931599&irgwc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Scryfall,+LLC&Language=English"
       },
       "Value": "$6,950",
@@ -424,9 +441,9 @@
       "Season": "XIV"
     },
     {
-      "Rank": "3",
+      "Rank": "4",
       "Card": {
-        "text": "Neonblack Traveling Chocobo",
+        "text": "Traveling Chocobo (Borderless) (Neon Ink Black)",
         "url": "https://www.tcgplayer.com/product/630951?Printing=Foil&page=1&irclickid=VeF28VSYGxyKWCA21R0GuUq8Ukp1fAUpUVSCVc0&sharedid=&irpid=4931599&irgwc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Scryfall,+LLC&Language=English"
       },
       "Value": "$6,200",
@@ -434,7 +451,7 @@
       "Season": "XII"
     },
     {
-      "Rank": "4",
+      "Rank": "5",
       "Card": {
         "text": "Serialized 211/250 Ulamog, the Defiler",
         "url": "https://www.tcgplayer.com/product/555059?Printing=Foil&page=1&irclickid=VeF28VSYGxyKWCA21R0GuUq8Ukp1fASNUVSCVc0&sharedid=&irpid=4931599&irgwc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Scryfall,+LLC&Language=English"
@@ -444,9 +461,9 @@
       "Season": "VII"
     },
     {
-      "Rank": "5",
+      "Rank": "6",
       "Card": {
-        "text": "Neonblue Traveling Chocobo",
+        "text": "Traveling Chocobo (Borderless) (Neon Ink Blue)",
         "url": "https://www.tcgplayer.com/product/630948?Printing=Foil&page=1&irclickid=VeF28VSYGxyKWCA21R0GuUq8Ukp1fFVVUVSCVc0&sharedid=&irpid=4931599&irgwc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Scryfall%2C%20LLC"
       },
       "Value": "$2,800",
@@ -454,9 +471,9 @@
       "Season": "XII"
     },
     {
-      "Rank": "6",
+      "Rank": "7",
       "Card": {
-        "text": "Neonpink Traveling Chocobo",
+        "text": "Traveling Chocobo (Borderless) (Neon Ink Pink)",
         "url": "https://www.tcgplayer.com/product/630947?Printing=Foil&page=1&irclickid=VeF28VSYGxyKWCA21R0GuUq8Ukp1fHxpUVSCVc0&sharedid=&irpid=4931599&irgwc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Scryfall,+LLC&Language=English"
       },
       "Value": "$2,500",
@@ -464,7 +481,27 @@
       "Season": "XII"
     },
     {
-      "Rank": "7",
+      "Rank": "8",
+      "Card": {
+        "text": "Traveling Chocobo (Borderless) (Neon Ink Green)",
+        "url": "https://www.tcgplayer.com/product/630949?Printing=Foil&page=1&irclickid=VeF28VSYGxyKWCA21R0GuUq8UkuTfAzhUVSCVc0&sharedid=&irpid=4931599&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Scryfall,+LLC&Language=English"
+      },
+      "Value": "$1,865",
+      "Player": "Marco",
+      "Season": "XV"
+    },
+    {
+      "Rank": "9",
+      "Card": {
+        "text": "Flusterstorm (JP Alternate Art) (Silver Scroll Foil)",
+        "url": "https://www.https://www.tcgplayer.com/product/690171?Printing=Foil&page=1&irclickid=VeF28VSYGxyKWCA21R0GuUq8UkuTfAWxUVSCVc0&sharedid=&irpid=4931599&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Scryfall,+LLC&Language=English"
+      },
+      "Value": "$850",
+      "Player": "Marco",
+      "Season": "XV"
+    },
+    {
+      "Rank": "10",
       "Card": {
         "text": "Foil Stay with Me (FIN Rhystic Study)",
         "url": "https://www.tcgplayer.com/product/632052?Printing=Foil&page=1&irclickid=VeF28VSYGxyKWCA21R0GuUq8Ukp1fH3JUVSCVc0&sharedid=&irpid=4931599&irgwc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Scryfall,+LLC&Language=English"
@@ -472,54 +509,24 @@
       "Value": "$580",
       "Player": "Walski",
       "Season": "XI"
-    },
-    {
-      "Rank": "8",
-      "Card": {
-        "text": "Sylveon ex - 156/131 - SV: Prismatic Evolutions",
-        "url": "https://www.tcgplayer.com/product/610511/Pokemon-SV%20Prismatic%20Evolutions-Sylveon%20ex%20156%20131?xid=af1ec3bef-6792-46b1-b60d-4ff231ef13fd&Language=English"
-      },
-      "Value": "$561",
-      "Player": "Chris A",
-      "Season": "XI"
-    },
-    {
-      "Rank": "9",
-      "Card": {
-        "text": "Cloud, Ex-SOLDIER (Borderless) (Surge Foil)",
-        "url": "https://www.tcgplayer.com/product/631062?Printing=Foil&page=1&irclickid=VeF28VSYGxyKWCA21R0GuUq8UkpQ:yUVUVSCVc0&sharedid=&irpid=4931599&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Scryfall,+LLC&Language=English"
-      },
-      "Value": "$522",
-      "Player": "Marco",
-      "Season": "XIII"
-    },
-    {
-      "Rank": "10",
-      "Card": {
-        "text": "The One Ring Scroll Foil",
-        "url": "https://www.tcgplayer.com/product/517987?Printing=Foil&page=1&irclickid=VeF28VSYGxyKWCA21R0GuUq8UkuwN6WtUVSCVc0&sharedid=&irpid=4931599&irgwc=1&afsrc=1&utm_source=impact&utm_medium=affiliate&utm_campaign=Scryfall%2C%20LLC"
-      },
-      "Value": "$502",
-      "Player": "Luis",
-      "Season": "XIV"
     }
   ],
   "most_drafts": [
     { "Rank": "1", "Player": "Clayton", "Num Drafts": "49", "Season": "XIV" },
     { "Rank": "2", "Player": "Eric K", "Num Drafts": "44", "Season": "XIV" },
-    { "Rank": "3", "Player": "Noah", "Num Drafts": "41", "Season": "XIV" },
-    { "Rank": "4", "Player": "Thana", "Num Drafts": "38", "Season": "XIV" },
-    { "Rank": "5", "Player": "Clayton", "Num Drafts": "37", "Season": "XIII" },
-    { "Rank": "5", "Player": "Collin", "Num Drafts": "37", "Season": "XIII" },
-    { "Rank": "6", "Player": "Eric K", "Num Drafts": "36", "Season": "XIII" },
-    { "Rank": "7", "Player": "Noah", "Num Drafts": "33", "Season": "XIII" },
-    { "Rank": "7", "Player": "Thana", "Num Drafts": "33", "Season": "XIII" },
-    { "Rank": "8", "Player": "Chris A", "Num Drafts": "32", "Season": "IX" },
-    { "Rank": "8", "Player": "Chris A", "Num Drafts": "32", "Season": "XIII" },
-    { "Rank": "9", "Player": "Collin", "Num Drafts": "31", "Season": "XII" },
-    { "Rank": "10", "Player": "Eric K", "Num Drafts": "30", "Season": "XI" },
-    { "Rank": "10", "Player": "Eric K", "Num Drafts": "30", "Season": "XII" },
-    { "Rank": "10", "Player": "Luke", "Num Drafts": "30", "Season": "XIII" },
-    { "Rank": "10", "Player": "Stephen", "Num Drafts": "30", "Season": "XIII" }
+    { "Rank": "2", "Player": "Clayton", "Num Drafts": "44", "Season": "XV" },
+    { "Rank": "3", "Player": "Noah", "Num Drafts": "42", "Season": "XV" },
+    { "Rank": "4", "Player": "Noah", "Num Drafts": "41", "Season": "XIV" },
+    { "Rank": "5", "Player": "Thana", "Num Drafts": "38", "Season": "XIV" },
+    { "Rank": "6", "Player": "Clayton", "Num Drafts": "37", "Season": "XIII" },
+    { "Rank": "6", "Player": "Collin", "Num Drafts": "37", "Season": "XIII" },
+    { "Rank": "7", "Player": "Eric K", "Num Drafts": "36", "Season": "XIII" },
+    { "Rank": "7", "Player": "Eric K", "Num Drafts": "36", "Season": "XV" },
+    { "Rank": "7", "Player": "Thana", "Num Drafts": "36", "Season": "XV" },
+    { "Rank": "8", "Player": "David K", "Num Drafts": "34", "Season": "XV" },
+    { "Rank": "9", "Player": "Noah", "Num Drafts": "33", "Season": "XIII" },
+    { "Rank": "9", "Player": "Thana", "Num Drafts": "33", "Season": "XIII" },
+    { "Rank": "10", "Player": "Chris A", "Num Drafts": "32", "Season": "IX" },
+    { "Rank": "10", "Player": "Chris A", "Num Drafts": "32", "Season": "XIII" }
   ]
 }
