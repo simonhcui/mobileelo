@@ -5,32 +5,35 @@
       "Ranking": "12",
       "Win %": "36.67%",
       "Record": "11-19",
-      "Drafts": "15",
-      "Glicko": "1419 ± 83"
+      "Drafts": "15"
     },
     {
       "Season": "12",
       "Ranking": "6",
       "Win %": "55.10%",
       "Record": "27-22",
-      "Drafts": "24",
-      "Glicko": "1564 ± 68"
+      "Drafts": "24"
     },
     {
       "Season": "13",
       "Ranking": "13",
       "Win %": "35.29%",
       "Record": "24-44",
-      "Drafts": "33",
-      "Glicko": "1335 ± 67"
+      "Drafts": "33"
     },
     {
       "Season": "14",
       "Ranking": "13",
       "Win %": "48.15%",
       "Record": "39-42",
-      "Drafts": "38",
-      "Glicko": "1481 ± 64"
+      "Drafts": "38"
+    },
+    {
+      "Season": "15 Weekday",
+      "Ranking": "8",
+      "Win %": "41.67%",
+      "Record": "30-42",
+      "Drafts": "36"
     }
   ]
 }

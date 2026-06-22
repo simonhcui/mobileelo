@@ -8,9 +8,9 @@
     },
     {
       "Player": "Adam",
-      "Record": "8-3",
-      "Win %": "72.73%",
-      "Total Matches": 11
+      "Record": "9-3",
+      "Win %": "75.00%",
+      "Total Matches": 12
     },
     {
       "Player": "Alan",
@@ -32,39 +32,45 @@
     },
     {
       "Player": "Brian H",
-      "Record": "0-1",
+      "Record": "0-2",
       "Win %": "0.00%",
-      "Total Matches": 1
+      "Total Matches": 2
     },
     {
       "Player": "Chris A",
-      "Record": "6-5",
-      "Win %": "54.55%",
-      "Total Matches": 11
-    },
-    {
-      "Player": "Clayton",
-      "Record": "14-20",
-      "Win %": "41.18%",
-      "Total Matches": 34
-    },
-    {
-      "Player": "Collin",
-      "Record": "7-9",
-      "Win %": "43.75%",
-      "Total Matches": 16
-    },
-    {
-      "Player": "David O",
-      "Record": "5-9",
-      "Win %": "35.71%",
+      "Record": "8-6",
+      "Win %": "57.14%",
       "Total Matches": 14
     },
     {
+      "Player": "Clayton",
+      "Record": "17-24",
+      "Win %": "41.46%",
+      "Total Matches": 41
+    },
+    {
+      "Player": "Collin",
+      "Record": "8-12",
+      "Win %": "40.00%",
+      "Total Matches": 20
+    },
+    {
+      "Player": "David K",
+      "Record": "4-0",
+      "Win %": "100.00%",
+      "Total Matches": 4
+    },
+    {
+      "Player": "David O",
+      "Record": "6-9",
+      "Win %": "40.00%",
+      "Total Matches": 15
+    },
+    {
       "Player": "Eric K",
-      "Record": "14-17",
-      "Win %": "45.16%",
-      "Total Matches": 31
+      "Record": "24-23",
+      "Win %": "51.06%",
+      "Total Matches": 47
     },
     {
       "Player": "Evan S",
@@ -74,15 +80,15 @@
     },
     {
       "Player": "Felix",
-      "Record": "4-1",
-      "Win %": "80.00%",
-      "Total Matches": 5
+      "Record": "7-1",
+      "Win %": "87.50%",
+      "Total Matches": 8
     },
     {
       "Player": "Grant",
-      "Record": "1-0",
+      "Record": "2-0",
       "Win %": "100.00%",
-      "Total Matches": 1
+      "Total Matches": 2
     },
     {
       "Player": "Harrison",
@@ -92,9 +98,15 @@
     },
     {
       "Player": "Jacob",
-      "Record": "4-1",
-      "Win %": "80.00%",
-      "Total Matches": 5
+      "Record": "5-1",
+      "Win %": "83.33%",
+      "Total Matches": 6
+    },
+    {
+      "Player": "John C",
+      "Record": "1-1",
+      "Win %": "50.00%",
+      "Total Matches": 2
     },
     {
       "Player": "John K",
@@ -122,9 +134,9 @@
     },
     {
       "Player": "Luke",
-      "Record": "3-2",
-      "Win %": "60.00%",
-      "Total Matches": 5
+      "Record": "6-2",
+      "Win %": "75.00%",
+      "Total Matches": 8
     },
     {
       "Player": "Marco",
@@ -152,9 +164,9 @@
     },
     {
       "Player": "Nathan",
-      "Record": "5-3",
-      "Win %": "62.50%",
-      "Total Matches": 8
+      "Record": "15-13",
+      "Win %": "53.57%",
+      "Total Matches": 28
     },
     {
       "Player": "Nick C",
@@ -164,21 +176,21 @@
     },
     {
       "Player": "Nick D",
-      "Record": "3-1",
-      "Win %": "75.00%",
-      "Total Matches": 4
+      "Record": "4-1",
+      "Win %": "80.00%",
+      "Total Matches": 5
     },
     {
       "Player": "Patrick H",
-      "Record": "1-1",
-      "Win %": "50.00%",
-      "Total Matches": 2
+      "Record": "2-1",
+      "Win %": "66.67%",
+      "Total Matches": 3
     },
     {
       "Player": "Simon",
-      "Record": "6-3",
-      "Win %": "66.67%",
-      "Total Matches": 9
+      "Record": "9-4",
+      "Win %": "69.23%",
+      "Total Matches": 13
     },
     {
       "Player": "Sonny",
@@ -188,15 +200,15 @@
     },
     {
       "Player": "Stephen",
-      "Record": "8-4",
-      "Win %": "66.67%",
-      "Total Matches": 12
+      "Record": "9-4",
+      "Win %": "69.23%",
+      "Total Matches": 13
     },
     {
       "Player": "Thana",
-      "Record": "4-7",
-      "Win %": "36.36%",
-      "Total Matches": 11
+      "Record": "8-11",
+      "Win %": "42.11%",
+      "Total Matches": 19
     },
     {
       "Player": "Todd",
@@ -206,15 +218,15 @@
     },
     {
       "Player": "Tony",
-      "Record": "6-3",
-      "Win %": "66.67%",
-      "Total Matches": 9
+      "Record": "9-3",
+      "Win %": "75.00%",
+      "Total Matches": 12
     },
     {
       "Player": "Travis",
-      "Record": "1-2",
-      "Win %": "33.33%",
-      "Total Matches": 3
+      "Record": "3-3",
+      "Win %": "50.00%",
+      "Total Matches": 6
     },
     {
       "Player": "Walski",

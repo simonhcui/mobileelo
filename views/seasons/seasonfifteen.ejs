@@ -1,0 +1,86 @@
+<%- include('../partials/header') %>
+<main>
+  <h1>Season 15 Stats</h1>
+  <div class="content"></div>
+  <p>
+    (3/26/26 - 6/19/26) 101 Drafts, Weekday Champion Clayton
+  </p>
+  <div class="data-table-container">
+    <div class="data-table">
+      <h2>Weekday Standings</h2>
+      <div class="data-table"></div>
+      <table>
+        <thead>
+          <tr>
+            <% if(tableData.length > 0) { %> <%
+            Object.keys(tableData[0]).forEach(function(key) { %>
+            <th><%= key %></th>
+            <% }); %> <% } %>
+          </tr>
+        </thead>
+        <tbody>
+          <% tableData.forEach(function(row) { %>
+          <tr style="<%= row.total_drafts >= 15 ? 'font-weight:bold;' : '' %>">
+            <% Object.keys(row).forEach(function(key, index) { %> <% if (key ===
+            "name") { %>
+            <td>
+              <a href="player/<%= row[key].toString().replace(/\s+/g, '') %>">
+                <%= row[key] %>
+              </a>
+            </td>
+            <% } else if (key === "rank") { %>
+            <td>
+              <img
+                src="<%= row[key] %>"
+                alt="avatar"
+                style="
+                  width: 40px;
+                  height: 40px;
+                  border-radius: 50%;
+                  object-fit: cover;
+                "
+              />
+            </td>
+            <% } else { %>
+            <td><%= row[key] %></td>
+            <% } %> <% }); %>
+          </tr>
+          <% }); %>
+        </tbody>
+      </table>
+      <div class="data-table"></div>
+    </div>
+  </div>
+
+  <p>
+    Weekend Champion Nick D
+  </p>
+  <div class="data-table-container">
+    <div class="data-table">
+      <h2>Weekend Standings</h2>
+      <div class="data-table"></div>
+      <table>
+        <thead>
+          <tr>
+            <% if(weekenddata.length > 0) { %> <%
+            Object.keys(weekenddata[0]).forEach(function(key) { %>
+            <th><%= key %></th>
+            <% }); %> <% } %>
+          </tr>
+        </thead>
+        <tbody>
+          <% weekenddata.forEach(function(row) { %>
+          <tr style="<%= row.total_drafts >= 15 ? 'font-weight:bold;' : '' %>">
+            <% Object.values(row).forEach(function(value) { %>
+            <td><%= value %></td>
+            <% }); %>
+          </tr>
+          <% }); %>
+        </tbody>
+      </table>
+      <div class="data-table"></div>
+    </div>
+  </div>
+</main>
+
+<%- include('../partials/footer') %>

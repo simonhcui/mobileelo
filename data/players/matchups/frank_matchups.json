@@ -37,6 +37,12 @@
       "Total Matches": 1
     },
     {
+      "Player": "David K",
+      "Record": "1-0",
+      "Win %": "100.00%",
+      "Total Matches": 1
+    },
+    {
       "Player": "David O",
       "Record": "1-0",
       "Win %": "100.00%",
@@ -86,9 +92,9 @@
     },
     {
       "Player": "Luis",
-      "Record": "1-6",
-      "Win %": "14.29%",
-      "Total Matches": 7
+      "Record": "2-7",
+      "Win %": "22.22%",
+      "Total Matches": 9
     },
     {
       "Player": "Marco",
@@ -98,9 +104,9 @@
     },
     {
       "Player": "Matt H",
-      "Record": "0-1",
+      "Record": "0-2",
       "Win %": "0.00%",
-      "Total Matches": 1
+      "Total Matches": 2
     },
     {
       "Player": "Matt Y",
@@ -152,9 +158,15 @@
     },
     {
       "Player": "Walski",
-      "Record": "6-10",
-      "Win %": "37.50%",
-      "Total Matches": 16
+      "Record": "7-10",
+      "Win %": "41.18%",
+      "Total Matches": 17
+    },
+    {
+      "Player": "Will",
+      "Record": "3-0",
+      "Win %": "100.00%",
+      "Total Matches": 3
     },
     {
       "Player": "Zane",

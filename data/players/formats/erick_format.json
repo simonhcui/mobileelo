@@ -2,38 +2,45 @@
   "formatData": [
     {
       "Format": "Adam Cube",
-      "Win %": "58.82%",
-      "Record": "10-7",
-      "Drafts": "8",
-      "Glicko": "1656 ± 103"
+      "Win %": "57.14%",
+      "Record": "12-9",
+      "Drafts": "10",
+      "Glicko": "1653 ± 94"
     },
     {
       "Format": "Chaos",
-      "Win %": "51.16%",
-      "Record": "22-21",
-      "Drafts": "21",
-      "Glicko": "1631 ± 68"
+      "Win %": "53.06%",
+      "Record": "26-23",
+      "Drafts": "24",
+      "Glicko": "1651 ± 67"
     },
     {
       "Format": "Collin Cube",
-      "Win %": "46.67%",
-      "Record": "7-8",
-      "Drafts": "8",
-      "Glicko": "1443 ± 110"
+      "Win %": "47.06%",
+      "Record": "8-9",
+      "Drafts": "9",
+      "Glicko": "1448 ± 105"
     },
     {
       "Format": "FIN",
-      "Win %": "67.35%",
-      "Record": "33-16",
-      "Drafts": "23",
-      "Glicko": "1696 ± 74"
+      "Win %": "64.15%",
+      "Record": "34-19",
+      "Drafts": "25",
+      "Glicko": "1651 ± 72"
     },
     {
       "Format": "MB2",
-      "Win %": "68.92%",
-      "Record": "51-23",
-      "Drafts": "36",
-      "Glicko": "1684 ± 66"
+      "Win %": "63.83%",
+      "Record": "60-34",
+      "Drafts": "46",
+      "Glicko": "1622 ± 64"
+    },
+    {
+      "Format": "MH1",
+      "Win %": "33.33%",
+      "Record": "2-4",
+      "Drafts": "3",
+      "Glicko": "1439 ± 173"
     },
     {
       "Format": "MH2",
@@ -44,17 +51,24 @@
     },
     {
       "Format": "NEO",
-      "Win %": "71.43%",
-      "Record": "10-4",
-      "Drafts": "7",
-      "Glicko": "1803 ± 120"
+      "Win %": "68.75%",
+      "Record": "11-5",
+      "Drafts": "8",
+      "Glicko": "1791 ± 111"
     },
     {
       "Format": "Noah Cube",
-      "Win %": "47.62%",
-      "Record": "10-11",
-      "Drafts": "10",
-      "Glicko": "1438 ± 94"
+      "Win %": "53.57%",
+      "Record": "15-13",
+      "Drafts": "13",
+      "Glicko": "1487 ± 84"
+    },
+    {
+      "Format": "TSR",
+      "Win %": "66.67%",
+      "Record": "4-2",
+      "Drafts": "3",
+      "Glicko": "1727 ± 176"
     }
   ]
 }

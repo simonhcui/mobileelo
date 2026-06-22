@@ -2,17 +2,17 @@
   "formatData": [
     {
       "Format": "Adam Cube",
-      "Win %": "28.57%",
-      "Record": "2-5",
-      "Drafts": "4",
-      "Glicko": "1336 ± 159"
+      "Win %": "33.33%",
+      "Record": "3-6",
+      "Drafts": "5",
+      "Glicko": "1407 ± 144"
     },
     {
       "Format": "Chaos",
-      "Win %": "48.94%",
-      "Record": "46-48",
-      "Drafts": "46",
-      "Glicko": "1649 ± 62"
+      "Win %": "50.00%",
+      "Record": "54-54",
+      "Drafts": "53",
+      "Glicko": "1630 ± 63"
     },
     {
       "Format": "Collin Cube",
@@ -37,10 +37,10 @@
     },
     {
       "Format": "MB2",
-      "Win %": "32.35%",
-      "Record": "11-23",
-      "Drafts": "17",
-      "Glicko": "1409 ± 79"
+      "Win %": "35.42%",
+      "Record": "17-31",
+      "Drafts": "24",
+      "Glicko": "1465 ± 73"
     }
   ]
 }

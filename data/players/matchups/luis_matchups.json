@@ -8,9 +8,9 @@
     },
     {
       "Player": "Adam",
-      "Record": "3-0",
+      "Record": "4-0",
       "Win %": "100.00%",
-      "Total Matches": 3
+      "Total Matches": 4
     },
     {
       "Player": "Alan",
@@ -38,9 +38,15 @@
     },
     {
       "Player": "Collin",
-      "Record": "2-1",
-      "Win %": "66.67%",
-      "Total Matches": 3
+      "Record": "3-1",
+      "Win %": "75.00%",
+      "Total Matches": 4
+    },
+    {
+      "Player": "David K",
+      "Record": "1-0",
+      "Win %": "100.00%",
+      "Total Matches": 1
     },
     {
       "Player": "David O",
@@ -62,9 +68,9 @@
     },
     {
       "Player": "Frank",
-      "Record": "6-1",
-      "Win %": "85.71%",
-      "Total Matches": 7
+      "Record": "7-2",
+      "Win %": "77.78%",
+      "Total Matches": 9
     },
     {
       "Player": "Jacob",
@@ -86,9 +92,9 @@
     },
     {
       "Player": "Kevin S",
-      "Record": "9-3",
-      "Win %": "75.00%",
-      "Total Matches": 12
+      "Record": "12-3",
+      "Win %": "80.00%",
+      "Total Matches": 15
     },
     {
       "Player": "Luca",
@@ -104,15 +110,15 @@
     },
     {
       "Player": "Marco",
-      "Record": "2-0",
+      "Record": "3-0",
       "Win %": "100.00%",
-      "Total Matches": 2
+      "Total Matches": 3
     },
     {
       "Player": "Matt H",
-      "Record": "2-1",
-      "Win %": "66.67%",
-      "Total Matches": 3
+      "Record": "3-1",
+      "Win %": "75.00%",
+      "Total Matches": 4
     },
     {
       "Player": "Matt Y",
@@ -176,15 +182,21 @@
     },
     {
       "Player": "Walski",
-      "Record": "9-8",
-      "Win %": "52.94%",
-      "Total Matches": 17
+      "Record": "10-9",
+      "Win %": "52.63%",
+      "Total Matches": 19
+    },
+    {
+      "Player": "Will",
+      "Record": "5-2",
+      "Win %": "71.43%",
+      "Total Matches": 7
     },
     {
       "Player": "Zane",
-      "Record": "2-1",
-      "Win %": "66.67%",
-      "Total Matches": 3
+      "Record": "2-2",
+      "Win %": "50.00%",
+      "Total Matches": 4
     }
   ]
 }

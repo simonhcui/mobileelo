@@ -16,10 +16,10 @@
     },
     {
       "Format": "DMR",
-      "Win %": "42.86%",
-      "Record": "6-8",
-      "Drafts": "6",
-      "Glicko": "1438 ± 113"
+      "Win %": "37.50%",
+      "Record": "6-10",
+      "Drafts": "7",
+      "Glicko": "1401 ± 107"
     },
     {
       "Format": "FIN",
@@ -37,10 +37,10 @@
     },
     {
       "Format": "MB2",
-      "Win %": "24.00%",
-      "Record": "6-19",
-      "Drafts": "12",
-      "Glicko": "1246 ± 94"
+      "Win %": "22.22%",
+      "Record": "6-21",
+      "Drafts": "13",
+      "Glicko": "1228 ± 91"
     },
     {
       "Format": "MH2",
