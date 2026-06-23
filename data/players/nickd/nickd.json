@@ -2,108 +2,131 @@
   "tableData": [
     {
       "Season": "1",
-      "Ranking": "1",
+      "Standing": "1",
       "Win %": "67.74%",
       "Record": "63-30",
-      "Drafts": "35"
+      "Drafts": "35",
+      "Rank": "N/A"
     },
     {
       "Season": "2",
-      "Ranking": "1",
+      "Standing": "1",
       "Win %": "70.27%",
       "Record": "26-11",
-      "Drafts": "14"
+      "Drafts": "14",
+      "Rank": "N/A"
     },
     {
       "Season": "3",
-      "Ranking": "NR",
+      "Standing": "NR",
       "Win %": "50.00%",
       "Record": "9-9",
-      "Drafts": "6"
+      "Drafts": "6",
+      "Rank": "N/A"
     },
     {
       "Season": "4",
-      "Ranking": "NR",
+      "Standing": "NR",
       "Win %": "61.54%",
       "Record": "8-5",
-      "Drafts": "5"
+      "Drafts": "5",
+      "Rank": "N/A"
     },
     {
       "Season": "5",
-      "Ranking": "3",
+      "Standing": "3",
       "Win %": "64.29%",
       "Record": "18-10",
-      "Drafts": "11"
+      "Drafts": "11",
+      "Rank": "N/A"
     },
     {
       "Season": "6",
-      "Ranking": "NR",
+      "Standing": "NR",
       "Win %": "66.67%",
       "Record": "6-3",
-      "Drafts": "4"
+      "Drafts": "4",
+      "Rank": "N/A"
     },
     {
       "Season": "7",
-      "Ranking": "NR",
+      "Standing": "NR",
       "Win %": "63.16%",
       "Record": "12-7",
-      "Drafts": "9"
+      "Drafts": "9",
+      "Rank": "N/A"
     },
     {
       "Season": "8",
-      "Ranking": "1",
+      "Standing": "1",
       "Win %": "77.78%",
       "Record": "14-4",
-      "Drafts": "10"
+      "Drafts": "10",
+      "Rank": "N/A"
     },
     {
       "Season": "9",
-      "Ranking": "4",
+      "Standing": "4",
       "Win %": "68.00%",
       "Record": "17-8",
-      "Drafts": "12"
+      "Drafts": "12",
+      "Rank": "N/A"
     },
     {
       "Season": "10",
-      "Ranking": "NR",
+      "Standing": "NR",
       "Win %": "54.55%",
       "Record": "6-5",
-      "Drafts": "6"
+      "Drafts": "6",
+      "Rank": "N/A"
     },
     {
       "Season": "11",
-      "Ranking": "NR",
+      "Standing": "NR",
       "Win %": "50.00%",
       "Record": "6-6",
-      "Drafts": "6"
+      "Drafts": "6",
+      "Rank": "N/A"
     },
     {
       "Season": "12",
-      "Ranking": "NR",
+      "Standing": "NR",
       "Win %": "71.43%",
       "Record": "15-6",
-      "Drafts": "11"
+      "Drafts": "11",
+      "Rank": "N/A"
     },
     {
       "Season": "13",
-      "Ranking": "NR",
+      "Standing": "NR",
       "Win %": "73.08%",
       "Record": "19-7",
-      "Drafts": "13"
+      "Drafts": "13",
+      "Rank": "N/A"
     },
     {
       "Season": "14",
-      "Ranking": "2",
+      "Standing": "2",
       "Win %": "73.53%",
       "Record": "25-9",
-      "Drafts": "17"
+      "Drafts": "17",
+      "Rank": "N/A"
     },
     {
       "Season": "15 Weekday",
-      "Ranking": "NR",
+      "Standing": "NR",
       "Win %": "50.00%",
       "Record": "8-8",
-      "Drafts": "8"
+      "Drafts": "8",
+      "Rank": "/images/rank/bronze_3.jpg"
+    },
+    {
+      "Season": "15 Weekend",
+      "Standing": "1",
+      "Win %": "75.00%",
+      "Record": "12-4",
+      "Drafts": "8",
+      "Rank": "N/A"
     }
   ]
 }

@@ -24,7 +24,7 @@
       Season VIII Winrate Third Place
     </h2>
     <h2>
-      Lifetime Winrate: 63.59% 262-150 out of 204 drafts
+      Lifetime Winrate: 62.42% 279-168 out of 222 drafts
     </h2>
 
     <br />
@@ -37,7 +37,7 @@
     />
     <div class="progress-container">
         <div class="progress-text">
-            210/440
+            279/440
         </div>
         <div id="my-progress-bar" class="progress-bar"></div>
     </div>
@@ -50,7 +50,7 @@
         }
       
         
-        updateProgress(210/440*100);
+        updateProgress(279/440*100);
     </script>
   </div>
 
@@ -69,8 +69,23 @@
         <tbody>
           <% tableData.forEach(function(row) { %>
           <tr>
-            <% Object.values(row).forEach(function(value) { %>
-            <td><%= value %></td>
+            <% Object.keys(row).forEach(function(key, index) { %>
+              <% if (key === "Rank" && row[key] !== "N/A") { %>
+                <td>
+                  <img
+                    src="<%= row[key] %>"
+                    alt="avatar"
+                    style="
+                      width: 40px;
+                      height: 40px;
+                      border-radius: 50%;
+                      object-fit: cover;
+                    "
+                  />
+                </td>
+                <% } else { %>
+                <td><%= row[key] %></td>
+              <% } %>
             <% }); %>
           </tr>
           <% }); %>

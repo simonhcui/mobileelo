@@ -8,18 +8,18 @@
     />
 
     <h1>Luke</h1>
-    <h2>Lifetime Winrate: 38.39% 86-138 out of 111 drafts</h2>
+    <h2>Lifetime Winrate: 39.71% 108-164 out of 135 drafts</h2>
 
     <br />
 
-    <h2>Planeswalker Level III: Task Mage</h2>
+    <h2>Planeswalker Level IV: Adept</h2>
     <img
       src="<%= planeswalkerPath %>"
       alt="Planeswalker Image"
       style="width: 250px; height: 250px; border-radius: 50%; object-fit: cover"
     />
     <div class="progress-container">
-      <div class="progress-text">69/100</div>
+      <div class="progress-text">59/140</div>
       <div id="my-progress-bar" class="progress-bar"></div>
     </div>
 
@@ -29,7 +29,7 @@
         progressBar.style.width = percent + "%";
       }
 
-      updateProgress(69/100*100);
+      updateProgress(59/140*100);
     </script>
   </div>
 
@@ -48,8 +48,23 @@
         <tbody>
           <% tableData.forEach(function(row) { %>
           <tr>
-            <% Object.values(row).forEach(function(value) { %>
-            <td><%= value %></td>
+            <% Object.keys(row).forEach(function(key, index) { %>
+              <% if (key === "Rank" && row[key] !== "N/A") { %>
+                <td>
+                  <img
+                    src="<%= row[key] %>"
+                    alt="avatar"
+                    style="
+                      width: 40px;
+                      height: 40px;
+                      border-radius: 50%;
+                      object-fit: cover;
+                    "
+                  />
+                </td>
+                <% } else { %>
+                <td><%= row[key] %></td>
+              <% } %>
             <% }); %>
           </tr>
           <% }); %>

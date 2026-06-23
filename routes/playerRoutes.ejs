@@ -13,6 +13,9 @@ const alanDataMatchup = require("../data/players/matchups/alan_matchups.json");
 const albertoData = require("../data/players/alberto/alberto.json");
 const albertoDataFormat = require("../data/players/formats/alberto_format.json");
 const albertoDataMatchup = require("../data/players/matchups/alberto_matchups.json");
+const anaData = require("../data/players/ana/ana.json");
+const anaDataFormat = require("../data/players/formats/ana_format.json");
+const anaDataMatchup = require("../data/players/matchups/ana_matchups.json");
 const andrewdData = require("../data/players/andrewd/andrewd.json");
 const andrewdDataFormat = require("../data/players/formats/andrewd_format.json");
 const andrewdDataMatchup = require("../data/players/matchups/andrewd_matchups.json");
@@ -25,6 +28,9 @@ const claytonDataMatchup = require("../data/players/matchups/clayton_matchups.js
 const collinData = require("../data/players/collin/collin.json");
 const collinDataFormat = require("../data/players/formats/collin_format.json");
 const collinDataMatchup = require("../data/players/matchups/collin_matchups.json");
+const davidkData = require("../data/players/davidk/davidk.json");
+const davidkDataFormat = require("../data/players/formats/davidk_format.json");
+const davidkDataMatchup = require("../data/players/matchups/davidk_matchups.json");
 const davidoData = require("../data/players/davido/davido.json");
 const davidoDataFormat = require("../data/players/formats/davido_format.json");
 const davidoDataMatchup = require("../data/players/matchups/davido_matchups.json");
@@ -67,12 +73,21 @@ const mattDataMatchup = require("../data/players/matchups/matty_matchups.json");
 const mikeData = require("../data/players/mike/mike.json");
 const mikeDataFormat = require("../data/players/formats/mike_format.json");
 const mikeDataMatchup = require("../data/players/matchups/mike_matchups.json");
+const nathanData = require("../data/players/nathan/nathan.json");
+const nathanDataFormat = require("../data/players/formats/nathan_format.json");
+const nathanDataMatchup = require("../data/players/matchups/nathan_matchups.json");
+const nickcData = require("../data/players/nickc/nickc.json");
+const nickcDataFormat = require("../data/players/formats/nickc_format.json");
+const nickcDataMatchup = require("../data/players/matchups/nickc_matchups.json");
 const nickdData = require("../data/players/nickd/nickd.json");
 const nickdDataFormat = require("../data/players/formats/nickd_format.json");
 const nickdDataMatchup = require("../data/players/matchups/nickd_matchups.json");
 const noahData = require("../data/players/noah/noah.json");
 const noahDataFormat = require("../data/players/formats/noah_format.json");
 const noahDataMatchup = require("../data/players/matchups/noah_matchups.json");
+const patrickhData = require("../data/players/patrickh/patrickh.json");
+const patrickhDataFormat = require("../data/players/formats/patrickh_format.json");
+const patrickhDataMatchup = require("../data/players/matchups/patrickh_matchups.json");
 const simonData = require("../data/players/simon/simon.json");
 const simonDataFormat = require("../data/players/formats/simon_format.json");
 const simonDataMatchup = require("../data/players/matchups/simon_matchups.json");
@@ -105,11 +120,13 @@ const profileNames = [
     "Adam",
     "Alan",
     "Alberto",
+    "Ana",
     "Andrew D",
     "Aaron",
     "Chris A",
     "Clayton",
     "Collin",
+    "David K",
     "David O",
     "Eric K",
     "Evan S",
@@ -124,8 +141,11 @@ const profileNames = [
     "Marco",
     "Matt Y",
     "Mike",
+    "Nathan",
     "Noah",
+    "Nick C",
     "Nick D",
+    "Patrick H",
     "Simon",
     "Sonny",
     "Stephen",
@@ -142,7 +162,7 @@ router.get("/adam", (req, res) => {
     title: "Adam",
     id: req.params.id,
     imagePath: "/images/profile/adamprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/invoker.jpg",
+    planeswalkerPath: "/images/planeswalker/Invoker.jpg",
     tableData: adamData.tableData,
     formatData: adamDataFormat.formatData,
     matchups: adamDataMatchup.matchups,
@@ -155,7 +175,7 @@ router.get("/alan", (req, res) => {
     title: "Alan",
     id: req.params.id,
     imagePath: "/images/profile/alanprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/guildmage.jpg",
+    planeswalkerPath: "/images/planeswalker/Guildmage.jpg",
     tableData: alanData.tableData,
     formatData: alanDataFormat.formatData,
     matchups: alanDataMatchup.matchups,
@@ -168,10 +188,35 @@ router.get("/alberto", (req, res) => {
     title: "Alberto",
     id: req.params.id,
     imagePath: "/images/profile/albertoprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/spellshaper.jpg",
+    planeswalkerPath: "/images/planeswalker/Spellshaper.jpg",
     tableData: albertoData.tableData,
     formatData: albertoDataFormat.formatData,
     matchups: albertoDataMatchup.matchups,
+    profiles: profileNames,
+  });
+});
+
+router.get("/ana", (req, res) => {
+
+ const profileImages = [
+    "/images/profile/anaprofile1.jpg",
+    "/images/profile/anaprofile2.jpg",
+    "/images/profile/anaprofile3.jpg",
+    "/images/profile/anaprofile4.jpg",
+    "/images/profile/anaprofile5.jpg"
+  ];
+
+  const randomImage =
+    profileImages[Math.floor(Math.random() * profileImages.length)];
+
+  res.render("players/ana", {
+    title: "Ana",
+    id: req.params.id,
+    imagePath: randomImage,
+    planeswalkerPath: "/images/planeswalker/Taskmage.jpg",
+    tableData: anaData.tableData,
+    formatData: anaDataFormat.formatData,
+    matchups: anaDataMatchup.matchups,
     profiles: profileNames,
   });
 });
@@ -181,7 +226,7 @@ router.get("/andrewd", (req, res) => {
     title: "Andrew D",
     id: req.params.id,
     imagePath: "/images/profile/andrewdprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/taskmage.jpg",
+    planeswalkerPath: "/images/planeswalker/Taskmage.jpg",
     tableData: andrewdData.tableData,
     formatData: andrewdDataFormat.formatData,
     matchups: andrewdDataMatchup.matchups,
@@ -194,7 +239,7 @@ router.get("/chrisa", (req, res) => {
     title: "Chris A",
     id: req.params.id,
     imagePath: "/images/profile/chrisaprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/battlemage.jpg",
+    planeswalkerPath: "/images/planeswalker/Battlemage.jpg",
     tableData: chrisaData.tableData,
     formatData: chrisaDataFormat.formatData,
     matchups: chrisaDataMatchup.matchups,
@@ -207,7 +252,7 @@ router.get("/clayton", (req, res) => {
     title: "Clayton",
     id: req.params.id,
     imagePath: "/images/profile/claytonprofile3.jpg",
-    planeswalkerPath: "/images/planeswalker/sorcerer.jpg",
+    planeswalkerPath: "/images/planeswalker/Battlemage.jpg",
     tableData: claytonData.tableData,
     formatData: claytonDataFormat.formatData,
     matchups: claytonDataMatchup.matchups,
@@ -220,7 +265,7 @@ router.get("/evans", (req, res) => {
     title: "Evan S",
     id: req.params.id,
     imagePath: "/images/profile/evansprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/adept.jpg",
+    planeswalkerPath: "/images/planeswalker/Adept.jpg",
     tableData: evansData.tableData,
     formatData: evansDataFormat.formatData,
     matchups: evansDataMatchup.matchups,
@@ -233,7 +278,7 @@ router.get("/jacob", (req, res) => {
     title: "Jacob",
     id: req.params.id,
     imagePath: "/images/profile/jacobprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/guildmage.jpg",
+    planeswalkerPath: "/images/planeswalker/Guildmage.jpg",
     tableData: jacobData.tableData,
     formatData: jacobDataFormat.formatData,
     matchups: jacobDataMatchup.matchups,
@@ -246,7 +291,7 @@ router.get("/johnk", (req, res) => {
     title: "John K",
     id: req.params.id,
     imagePath: "/images/profile/johnkprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/spellshaper.jpg",
+    planeswalkerPath: "/images/planeswalker/Spellshaper.jpg",
     tableData: johnData.tableData,
     formatData: johnDataFormat.formatData,
     matchups: johnDataMatchup.matchups,
@@ -259,7 +304,7 @@ router.get("/juwan", (req, res) => {
     title: "Juwan",
     id: req.params.id,
     imagePath: "/images/profile/juwanprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/guildmage.jpg",
+    planeswalkerPath: "/images/planeswalker/Guildmage.jpg",
     tableData: juwanData.tableData,
     formatData: juwanDataFormat.formatData,
     matchups: juwanDataMatchup.matchups,
@@ -272,7 +317,7 @@ router.get("/luca", (req, res) => {
     title: "Luca",
     id: req.params.id,
     imagePath: "/images/profile/lucaprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/prodigy.jpg",
+    planeswalkerPath: "/images/planeswalker/Prodigy.jpg",
     tableData: lucaData.tableData,
     formatData: lucaDataFormat.formatData,
     matchups: lucaDataMatchup.matchups,
@@ -285,7 +330,7 @@ router.get("/matty", (req, res) => {
     title: "Matt Y",
     id: req.params.id,
     imagePath: "/images/profile/mattprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/sorcerer.jpg",
+    planeswalkerPath: "/images/planeswalker/Sorcerer.jpg",
     tableData: mattData.tableData,
     formatData: mattDataFormat.formatData,
     matchups: mattDataMatchup.matchups,
@@ -298,7 +343,7 @@ router.get("/nickd", (req, res) => {
     title: "Nick D",
     id: req.params.id,
     imagePath: "/images/profile/nickdprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/invoker.jpg",
+    planeswalkerPath: "/images/planeswalker/Sorcerer.jpg",
     tableData: nickdData.tableData,
     formatData: nickdDataFormat.formatData,
     matchups: nickdDataMatchup.matchups,
@@ -311,7 +356,7 @@ router.get("/simon", (req, res) => {
     title: "Gremlin",
     id: req.params.id,
     imagePath: "/images/profile/simonprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/invoker.jpg",
+    planeswalkerPath: "/images/planeswalker/Invoker.jpg",
     tableData: simonData.tableData,
     formatData: simonDataFormat.formatData,
     matchups: simonDataMatchup.matchups,
@@ -324,7 +369,7 @@ router.get("/sonny", (req, res) => {
     title: "Sonny",
     id: req.params.id,
     imagePath: "/images/profile/sonnyprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/guildmage.jpg",
+    planeswalkerPath: "/images/planeswalker/Guildmage.jpg",
     tableData: sonnyData.tableData,
     formatData: sonnyDataFormat.formatData,
     matchups: sonnyDataMatchup.matchups,
@@ -337,7 +382,7 @@ router.get("/stephen", (req, res) => {
     title: "Stephen",
     id: req.params.id,
     imagePath: "/images/profile/stephenprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/spellshaper.jpg",
+    planeswalkerPath: "/images/planeswalker/Spellshaper.jpg",
     tableData: stephenData.tableData,
     formatData: stephenDataFormat.formatData,
     matchups: stephenDataMatchup.matchups,
@@ -350,7 +395,7 @@ router.get("/todd", (req, res) => {
     title: "Todd",
     id: req.params.id,
     imagePath: "/images/profile/toddprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/taskmage.jpg",
+    planeswalkerPath: "/images/planeswalker/Taskmage.jpg",
     tableData: toddData.tableData,
     formatData: toddDataFormat.formatData,
     matchups: toddDataMatchup.matchups,
@@ -363,7 +408,7 @@ router.get("/tony", (req, res) => {
     title: "Tony",
     id: req.params.id,
     imagePath: "/images/profile/tonyprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/sorcerer.jpg",
+    planeswalkerPath: "/images/planeswalker/Sorcerer.jpg",
     tableData: tonyData.tableData,
     formatData: tonyDataFormat.formatData,
     matchups: tonyDataMatchup.matchups,
@@ -376,7 +421,7 @@ router.get("/walski", (req, res) => {
     title: "Walski",
     id: req.params.id,
     imagePath: "/images/profile/walskiprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/invoker.jpg",
+    planeswalkerPath: "/images/planeswalker/Sorcerer.jpg",
     tableData: walskiData.tableData,
     formatData: walskiDataFormat.formatData,
     matchups: walskiDataMatchup.matchups,
@@ -389,7 +434,7 @@ router.get("/zane", (req, res) => {
     title: "Zane",
     id: req.params.id,
     imagePath: "/images/profile/zaneprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/adept.jpg",
+    planeswalkerPath: "/images/planeswalker/Adept.jpg",
     tableData: zaneData.tableData,
     formatData: zaneDataFormat.formatData,
     matchups: zaneDataMatchup.matchups,
@@ -402,7 +447,7 @@ router.get("/davido", (req, res) => {
     title: "David O",
     id: req.params.id,
     imagePath: "/images/profile/davidprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/adept.jpg",
+    planeswalkerPath: "/images/planeswalker/Adept.jpg",
     tableData: davidoData.tableData,
     formatData: davidoDataFormat.formatData,
     matchups: davidoDataMatchup.matchups,
@@ -415,7 +460,7 @@ router.get("/erick", (req, res) => {
     title: "Eric K",
     id: req.params.id,
     imagePath: "/images/profile/ericprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/invoker.jpg",
+    planeswalkerPath: "/images/planeswalker/Sorcerer.jpg",
     tableData: ericData.tableData,
     formatData: ericDataFormat.formatData,
     matchups: ericDataMatchup.matchups,
@@ -428,7 +473,7 @@ router.get("/kevins", (req, res) => {
     title: "Kevin S",
     id: req.params.id,
     imagePath: "/images/profile/kevinprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/spellshaper.jpg",
+    planeswalkerPath: "/images/planeswalker/Guildmage.jpg",
     tableData: kevinData.tableData,
     formatData: kevinDataFormat.formatData,
     matchups: kevinDataMatchup.matchups,
@@ -441,7 +486,7 @@ router.get("/noah", (req, res) => {
     title: "Noah",
     id: req.params.id,
     imagePath: "/images/profile/noahprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/guildmage.jpg",
+    planeswalkerPath: "/images/planeswalker/Sorcerer.jpg",
     tableData: noahData.tableData,
     formatData: noahDataFormat.formatData,
     matchups: noahDataMatchup.matchups,
@@ -454,7 +499,7 @@ router.get("/travis", (req, res) => {
     title: "Travis",
     id: req.params.id,
     imagePath: "/images/profile/travisprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/apprentice.jpg",
+    planeswalkerPath: "/images/planeswalker/Apprentice.jpg",
     tableData: travisData.tableData,
     formatData: travisDataFormat.formatData,
     matchups: travisDataMatchup.matchups,
@@ -467,7 +512,7 @@ router.get("/luis", (req, res) => {
     title: "Luis",
     id: req.params.id,
     imagePath: "/images/profile/luisprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/spellshaper.jpg",
+    planeswalkerPath: "/images/planeswalker/Guildmage.jpg",
     tableData: luisData.tableData,
     formatData: luisDataFormat.formatData,
     matchups: luisDataMatchup.matchups,
@@ -480,7 +525,7 @@ router.get("/marco", (req, res) => {
     title: "Marco",
     id: req.params.id,
     imagePath: "/images/profile/marcoprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/taskmage.jpg",
+    planeswalkerPath: "/images/planeswalker/Adept.jpg",
     tableData: marcoData.tableData,
     formatData: marcoDataFormat.formatData,
     matchups: marcoDataMatchup.matchups,
@@ -493,7 +538,7 @@ router.get("/collin", (req, res) => {
     title: "Collin",
     id: req.params.id,
     imagePath: "/images/profile/collinprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/spellshaper.jpg",
+    planeswalkerPath: "/images/planeswalker/Guildmage.jpg",
     tableData: collinData.tableData,
     formatData: collinDataFormat.formatData,
     matchups: collinDataMatchup.matchups,
@@ -506,7 +551,7 @@ router.get("/luke", (req, res) => {
     title: "Luke",
     id: req.params.id,
     imagePath: "/images/profile/lukeprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/taskmage.jpg",
+    planeswalkerPath: "/images/planeswalker/Adept.jpg",
     tableData: lukeData.tableData,
     formatData: lukeDataFormat.formatData,
     matchups: lukeDataMatchup.matchups,
@@ -519,7 +564,7 @@ router.get("/frank", (req, res) => {
     title: "Frank",
     id: req.params.id,
     imagePath: "/images/profile/frankprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/apprentice.jpg",
+    planeswalkerPath: "/images/planeswalker/Apprentice.jpg",
     tableData: frankData.tableData,
     formatData: frankDataFormat.formatData,
     matchups: frankDataMatchup.matchups,
@@ -532,7 +577,7 @@ router.get("/thana", (req, res) => {
     title: "Thana",
     id: req.params.id,
     imagePath: "/images/profile/thanaprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/adept.jpg",
+    planeswalkerPath: "/images/planeswalker/Spellshaper.jpg",
     tableData: thanaData.tableData,
     formatData: thanaDataFormat.formatData,
     matchups: thanaDataMatchup.matchups,
@@ -545,7 +590,7 @@ router.get("/aaron", (req, res) => {
     title: "Aaron",
     id: req.params.id,
     imagePath: "/images/profile/aaronprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/apprentice.jpg",
+    planeswalkerPath: "/images/planeswalker/Apprentice.jpg",
     tableData: aaronData.tableData,
     formatData: aaronDataFormat.formatData,
     matchups: aaronDataMatchup.matchups,
@@ -558,10 +603,62 @@ router.get("/mike", (req, res) => {
     title: "Mike",
     id: req.params.id,
     imagePath: "/images/profile/mikeprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/novice.jpg",
+    planeswalkerPath: "/images/planeswalker/Novice.jpg",
     tableData: mikeData.tableData,
     formatData: mikeDataFormat.formatData,
     matchups: mikeDataMatchup.matchups,
+    profiles: profileNames,
+  });
+});
+
+router.get("/davidk", (req, res) => {
+  res.render("players/davidk", {
+    title: "David K",
+    id: req.params.id,
+    imagePath: "/images/profile/davidkprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/Novice.jpg",
+    tableData: davidkData.tableData,
+    formatData: davidkDataFormat.formatData,
+    matchups: davidkDataMatchup.matchups,
+    profiles: profileNames,
+  });
+});
+
+router.get("/nickc", (req, res) => {
+  res.render("players/nickc", {
+    title: "Nick C",
+    id: req.params.id,
+    imagePath: "/images/profile/nickcprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/Novice.jpg",
+    tableData: nickcData.tableData,
+    formatData: nickcDataFormat.formatData,
+    matchups: nickcDataMatchup.matchups,
+    profiles: profileNames,
+  });
+});
+
+router.get("/patrickh", (req, res) => {
+  res.render("players/patrickh", {
+    title: "Patrick H",
+    id: req.params.id,
+    imagePath: "/images/profile/patrickhprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/Apprentice.jpg",
+    tableData: patrickhData.tableData,
+    formatData: patrickhDataFormat.formatData,
+    matchups: patrickhDataMatchup.matchups,
+    profiles: profileNames,
+  });
+});
+
+router.get("/nathan", (req, res) => {
+  res.render("players/nathan", {
+    title: "Nathan",
+    id: req.params.id,
+    imagePath: "/images/profile/nathanprofile.jpg",
+    planeswalkerPath: "/images/planeswalker/Adept.jpg",
+    tableData: nathanData.tableData,
+    formatData: nathanDataFormat.formatData,
+    matchups: nathanDataMatchup.matchups,
     profiles: profileNames,
   });
 });

@@ -1,0 +1,52 @@
+{
+  "tableData": [
+    {
+      "Season": "1",
+      "Standing": "NR",
+      "Win %": "43.75%",
+      "Record": "7-9",
+      "Drafts": "6",
+      "Rank": "N/A"
+    },
+    {
+      "Season": "2",
+      "Standing": "NR",
+      "Win %": "47.37%",
+      "Record": "9-10",
+      "Drafts": "7",
+      "Rank": "N/A"
+    },
+    {
+      "Season": "5",
+      "Standing": "NR",
+      "Win %": "33.33%",
+      "Record": "3-6",
+      "Drafts": "4",
+      "Rank": "N/A"
+    },
+    {
+      "Season": "9",
+      "Standing": "NR",
+      "Win %": "12.50%",
+      "Record": "1-7",
+      "Drafts": "4",
+      "Rank": "N/A"
+    },
+    {
+      "Season": "10",
+      "Standing": "NR",
+      "Win %": "50.00%",
+      "Record": "4-4",
+      "Drafts": "4",
+      "Rank": "N/A"
+    },
+    {
+      "Season": "13",
+      "Standing": "NR",
+      "Win %": "33.33%",
+      "Record": "2-4",
+      "Drafts": "3",
+      "Rank": "N/A"
+    }
+  ]
+}

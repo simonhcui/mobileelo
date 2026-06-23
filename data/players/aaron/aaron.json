@@ -2,7 +2,7 @@
   "tableData": [
     {
       "Season": "9",
-      "Ranking": "NR",
+      "Standing": "NR",
       "Win %": "77.78%",
       "Record": "8-2",
       "Drafts": "5",
@@ -10,7 +10,7 @@
     },
     {
       "Season": "11",
-      "Ranking": "NR",
+      "Standing": "NR",
       "Win %": "54.17%",
       "Record": "13-11",
       "Drafts": "12",
@@ -18,7 +18,7 @@
     },
     {
       "Season": "12",
-      "Ranking": "NR",
+      "Standing": "NR",
       "Win %": "46.15%",
       "Record": "6-7",
       "Drafts": "7",
@@ -26,7 +26,7 @@
     },
     {
       "Season": "13",
-      "Ranking": "NR",
+      "Standing": "NR",
       "Win %": "66.67%",
       "Record": "12-6",
       "Drafts": "9",
@@ -34,7 +34,7 @@
     },
     {
       "Season": "14",
-      "Ranking": "NR",
+      "Standing": "NR",
       "Win %": "46.67%",
       "Record": "7-8",
       "Drafts": "8",
@@ -42,7 +42,7 @@
     },
     {
       "Season": "15 Weekday",
-      "Ranking": "NR",
+      "Standing": "NR",
       "Win %": "40.00%",
       "Record": "4-6",
       "Drafts": "5",

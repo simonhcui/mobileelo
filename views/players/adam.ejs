@@ -18,7 +18,7 @@
       Season X Winrate 3rd Place
     </h2>
     <h2>
-      Lifetime Winrate: 54.72% 261-216 out of 221 drafts
+      Lifetime Winrate: 54.20% 271-229 out of 233 drafts
     </h2>
 
     <br />
@@ -31,7 +31,7 @@
     />
     <div class="progress-container">
         <div class="progress-text">
-            109/310
+            151/310
         </div>
         <div id="my-progress-bar" class="progress-bar"></div>
     </div>
@@ -44,7 +44,7 @@
         }
       
         
-        updateProgress(109/310*100);
+        updateProgress(151/310*100);
     </script>
   </div>
 
@@ -63,8 +63,23 @@
         <tbody>
           <% tableData.forEach(function(row) { %>
           <tr>
-            <% Object.values(row).forEach(function(value) { %>
-            <td><%= value %></td>
+            <% Object.keys(row).forEach(function(key, index) { %>
+              <% if (key === "Rank" && row[key] !== "N/A") { %>
+                <td>
+                  <img
+                    src="<%= row[key] %>"
+                    alt="avatar"
+                    style="
+                      width: 40px;
+                      height: 40px;
+                      border-radius: 50%;
+                      object-fit: cover;
+                    "
+                  />
+                </td>
+                <% } else { %>
+                <td><%= row[key] %></td>
+              <% } %>
             <% }); %>
           </tr>
           <% }); %>

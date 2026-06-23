@@ -2,73 +2,91 @@
   "tableData": [
     {
       "Season": "1",
-      "Ranking": "NR",
+      "Standing": "NR",
       "Win %": "60.00%",
       "Record": "6-4",
-      "Drafts": "4"
+      "Drafts": "4",
+      "Rank": "N/A"
     },
     {
       "Season": "2",
-      "Ranking": "NR",
+      "Standing": "NR",
       "Win %": "50.00%",
       "Record": "5-5",
-      "Drafts": "4"
+      "Drafts": "4",
+      "Rank": "N/A"
     },
     {
       "Season": "4",
-      "Ranking": "2",
+      "Standing": "2",
       "Win %": "70.73%",
       "Record": "29-12",
-      "Drafts": "18"
+      "Drafts": "18",
+      "Rank": "N/A"
     },
     {
       "Season": "6",
-      "Ranking": "NR",
+      "Standing": "NR",
       "Win %": "87.50%",
       "Record": "7-1",
-      "Drafts": "4"
+      "Drafts": "4",
+      "Rank": "N/A"
     },
     {
       "Season": "8",
-      "Ranking": "2",
+      "Standing": "2",
       "Win %": "71.74%",
       "Record": "33-13",
-      "Drafts": "23"
+      "Drafts": "23",
+      "Rank": "N/A"
     },
     {
       "Season": "9",
-      "Ranking": "NR",
+      "Standing": "NR",
       "Win %": "80.00%",
       "Record": "8-2",
-      "Drafts": "5"
+      "Drafts": "5",
+      "Rank": "N/A"
     },
     {
       "Season": "12",
-      "Ranking": "3",
+      "Standing": "3",
       "Win %": "71.70%",
       "Record": "38-15",
-      "Drafts": "26"
+      "Drafts": "26",
+      "Rank": "N/A"
     },
     {
       "Season": "13",
-      "Ranking": "2",
+      "Standing": "2",
       "Win %": "62.34%",
       "Record": "48-29",
-      "Drafts": "37"
+      "Drafts": "37",
+      "Rank": "N/A"
     },
     {
       "Season": "14",
-      "Ranking": "3",
+      "Standing": "3",
       "Win %": "61.32%",
       "Record": "65-41",
-      "Drafts": "49"
+      "Drafts": "49",
+      "Rank": "N/A"
     },
     {
       "Season": "15 Weekday",
-      "Ranking": "1",
+      "Standing": "1",
       "Win %": "73.86%",
       "Record": "65-23",
-      "Drafts": "44"
+      "Drafts": "44",
+      "Rank": "/images/rank/mythic.jpg"
+    },
+    {
+      "Season": "15 Weekend",
+      "Standing": "2",
+      "Win %": "74.19%",
+      "Record": "23-8",
+      "Drafts": "14",
+      "Rank": "N/A"
     }
   ]
 }

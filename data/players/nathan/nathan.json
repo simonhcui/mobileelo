@@ -1,0 +1,28 @@
+{
+  "tableData": [
+    {
+      "Season": "14",
+      "Standing": "10",
+      "Win %": "52.63%",
+      "Record": "30-27",
+      "Drafts": "26",
+      "Rank": "N/A"
+    },
+    {
+      "Season": "15 Weekday",
+      "Standing": "4",
+      "Win %": "60.71%",
+      "Record": "51-33",
+      "Drafts": "42",
+      "Rank": "/images/rank/diamond_1.jpg"
+    },
+    {
+      "Season": "15 Weekend",
+      "Standing": "9",
+      "Win %": "51.61%",
+      "Record": "16-15",
+      "Drafts": "14",
+      "Rank": "N/A"
+    }
+  ]
+}
