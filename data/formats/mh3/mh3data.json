@@ -8,19 +8,17 @@
       "total_drafts": "11",
       "glicko": "1787 ± 95",
       "gxe": "74.75%",
-      "last_date": "12-14-24",
-      "trophies": ""
+      "last_date": "12-14-2024"
     },
     {
       "rank": "2",
       "name": "Noah",
-      "win_percentage": "75.00%",
-      "wins_losses": "6-2",
-      "total_drafts": "4",
-      "glicko": "1767 ± 148",
-      "gxe": "72.75%",
-      "last_date": "11-26-25",
-      "trophies": ""
+      "win_percentage": "70.00%",
+      "wins_losses": "7-3",
+      "total_drafts": "5",
+      "glicko": "1740 ± 139",
+      "gxe": "70.80%",
+      "last_date": "6-25-2026"
     },
     {
       "rank": "3",
@@ -30,8 +28,7 @@
       "total_drafts": "15",
       "glicko": "1627 ± 89",
       "gxe": "61.75%",
-      "last_date": "2-27-25",
-      "trophies": ""
+      "last_date": "2-27-2025"
     },
     {
       "rank": "4",
@@ -41,8 +38,7 @@
       "total_drafts": "6",
       "glicko": "1720 ± 121",
       "gxe": "69.47%",
-      "last_date": "8-29-24",
-      "trophies": "🏆"
+      "last_date": "8-29-2024"
     },
     {
       "rank": "5",
@@ -52,8 +48,7 @@
       "total_drafts": "8",
       "glicko": "1514 ± 122",
       "gxe": "51.35%",
-      "last_date": "11-26-25",
-      "trophies": "🏆"
+      "last_date": "11-26-2025"
     },
     {
       "rank": "6",
@@ -63,30 +58,27 @@
       "total_drafts": "10",
       "glicko": "1655 ± 94",
       "gxe": "64.27%",
-      "last_date": "12-14-24",
-      "trophies": "🏆"
+      "last_date": "12-14-2024"
     },
     {
       "rank": "7",
-      "name": "Clayton",
-      "win_percentage": "57.14%",
-      "wins_losses": "4-3",
-      "total_drafts": "4",
-      "glicko": "1566 ± 145",
-      "gxe": "56.08%",
-      "last_date": "11-26-25",
-      "trophies": ""
-    },
-    {
-      "rank": "8",
       "name": "Tony",
       "win_percentage": "56.25%",
       "wins_losses": "9-7",
       "total_drafts": "7",
       "glicko": "1517 ± 113",
       "gxe": "51.62%",
-      "last_date": "8-15-24",
-      "trophies": ""
+      "last_date": "8-15-2024"
+    },
+    {
+      "rank": "8",
+      "name": "Clayton",
+      "win_percentage": "55.56%",
+      "wins_losses": "5-4",
+      "total_drafts": "5",
+      "glicko": "1548 ± 135",
+      "gxe": "54.44%",
+      "last_date": "6-25-2026"
     },
     {
       "rank": "9",
@@ -96,8 +88,7 @@
       "total_drafts": "4",
       "glicko": "1580 ± 142",
       "gxe": "57.36%",
-      "last_date": "10-5-24",
-      "trophies": "🏆"
+      "last_date": "10-5-2024"
     },
     {
       "rank": "10",
@@ -107,8 +98,7 @@
       "total_drafts": "7",
       "glicko": "1557 ± 122",
       "gxe": "55.30%",
-      "last_date": "2-27-25",
-      "trophies": ""
+      "last_date": "2-27-2025"
     },
     {
       "rank": "11",
@@ -118,8 +108,7 @@
       "total_drafts": "12",
       "glicko": "1474 ± 90",
       "gxe": "47.57%",
-      "last_date": "2-27-25",
-      "trophies": "🏆"
+      "last_date": "2-27-2025"
     },
     {
       "rank": "12",
@@ -129,8 +118,7 @@
       "total_drafts": "12",
       "glicko": "1520 ± 94",
       "gxe": "51.89%",
-      "last_date": "9-26-24",
-      "trophies": ""
+      "last_date": "9-26-2024"
     },
     {
       "rank": "13",
@@ -140,41 +128,57 @@
       "total_drafts": "5",
       "glicko": "1570 ± 133",
       "gxe": "56.44%",
-      "last_date": "11-16-24",
-      "trophies": ""
+      "last_date": "11-16-2024"
     },
     {
       "rank": "14",
+      "name": "Ana",
+      "win_percentage": "42.86%",
+      "wins_losses": "3-4",
+      "total_drafts": "3",
+      "glicko": "1453 ± 151",
+      "gxe": "45.67%",
+      "last_date": "12-14-2024"
+    },
+    {
+      "rank": "15",
+      "name": "Adam",
+      "win_percentage": "40.00%",
+      "wins_losses": "2-3",
+      "total_drafts": "3",
+      "glicko": "1526 ± 162",
+      "gxe": "52.41%",
+      "last_date": "2-27-2025"
+    },
+    {
+      "rank": "16",
       "name": "John K",
       "win_percentage": "31.25%",
       "wins_losses": "5-11",
       "total_drafts": "9",
       "glicko": "1320 ± 110",
       "gxe": "33.73%",
-      "last_date": "8-29-24",
-      "trophies": ""
+      "last_date": "8-29-2024"
     },
     {
-      "rank": "15",
+      "rank": "17",
       "name": "Travis",
       "win_percentage": "25.00%",
       "wins_losses": "2-6",
       "total_drafts": "4",
       "glicko": "1333 ± 160",
       "gxe": "35.26%",
-      "last_date": "2-1-25",
-      "trophies": ""
+      "last_date": "2-1-2025"
     },
     {
-      "rank": "16",
+      "rank": "18",
       "name": "Jacob",
       "win_percentage": "14.81%",
       "wins_losses": "4-23",
       "total_drafts": "13",
       "glicko": "1272 ± 118",
       "gxe": "29.87%",
-      "last_date": "12-14-24",
-      "trophies": ""
+      "last_date": "12-14-2024"
     }
   ]
 }
