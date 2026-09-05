@@ -119,7 +119,7 @@ app.get("/search", (req, res) => {
     "jacob",
     "johnk",
     "juwan",
-    "kevin",
+    "kevins",
     "luca",
     "luke",
     "luis",
