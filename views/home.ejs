@@ -18,7 +18,7 @@
 
   <div class="content">
     <h2>Season XVI (6/26/26 - 9/25/26)</h2>
-    <h3>55 Drafts in, last updated 9/4/26</h3>
+    <h3>63 Drafts in, last updated 9/5/26</h3>
   </div>
   <div class="data-table-container">
     <div class="data-table">
@@ -142,7 +142,7 @@
         </thead>
         <tbody>
           <% weekendData.forEach(function(row) { %>
-          <tr style="<%= row.total_drafts > 15 ? 'font-weight:bold;' : '' %>">
+          <tr style="<%= row.total_drafts > 5 ? 'font-weight:bold;' : '' %>">
             <%
             const linkedPlayers = [
               "adam",
