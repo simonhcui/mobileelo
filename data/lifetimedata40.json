@@ -134,7 +134,7 @@
     },
     {
       "standing": "12",
-      "level": "/images/planeswalker/Battlemage.jpg",
+      "level": "/images/planeswalker/Archmage.jpg",
       "rank": "/images/rank/mythic.jpg",
       "name": "Chris A",
       "win_percentage": "58.56%",
@@ -266,7 +266,7 @@
     },
     {
       "standing": "23",
-      "level": "/images/planeswalker/TaskMage.jpg",
+      "level": "/images/planeswalker/Taskmage.jpg",
       "rank": "/images/rank/bronze_2.jpg",
       "name": "Todd",
       "win_percentage": "47.16%",
@@ -314,7 +314,7 @@
     },
     {
       "standing": "27",
-      "level": "/images/planeswalker/TaskMage.jpg",
+      "level": "/images/planeswalker/Taskmage.jpg",
       "rank": "/images/rank/bronze_2.jpg",
       "name": "Andrew D",
       "win_percentage": "46.04%",
