@@ -1,123 +1,129 @@
 const express = require("express");
 const router = express.Router();
 
-const aaronData = require("../data/players/aaron/aaron.json");
+const aaronData = require("../data/players/seasons/aaron.json");
 const aaronDataFormat = require("../data/players/formats/aaron_format.json");
 const aaronDataMatchup = require("../data/players/matchups/aaron_matchups.json");
-const adamData = require("../data/players/adam/adam.json");
+const adamData = require("../data/players/seasons/adam.json");
 const adamDataFormat = require("../data/players/formats/adam_format.json");
-const adamDataMatchup = require("../data/players/matchups/adam_matchups.json");
-const alanData = require("../data/players/alan/alan.json");
+const adamDataMatchup = require("../data/players/matchups/adams_matchups.json");
+const alanData = require("../data/players/seasons/alan.json");
 const alanDataFormat = require("../data/players/formats/alan_format.json");
 const alanDataMatchup = require("../data/players/matchups/alan_matchups.json");
-const albertoData = require("../data/players/alberto/alberto.json");
+const albertoData = require("../data/players/seasons/alberto.json");
 const albertoDataFormat = require("../data/players/formats/alberto_format.json");
 const albertoDataMatchup = require("../data/players/matchups/alberto_matchups.json");
-const anaData = require("../data/players/ana/ana.json");
+const anaData = require("../data/players/seasons/ana.json");
 const anaDataFormat = require("../data/players/formats/ana_format.json");
 const anaDataMatchup = require("../data/players/matchups/ana_matchups.json");
-const andrewdData = require("../data/players/andrewd/andrewd.json");
+const andrewdData = require("../data/players/seasons/andrewd.json");
 const andrewdDataFormat = require("../data/players/formats/andrewd_format.json");
 const andrewdDataMatchup = require("../data/players/matchups/andrewd_matchups.json");
-const chrisaData = require("../data/players/chrisa/chrisa.json");
+const chrisaData = require("../data/players/seasons/chrisa.json");
 const chrisaDataFormat = require("../data/players/formats/chrisa_format.json");
 const chrisaDataMatchup = require("../data/players/matchups/chrisa_matchups.json");
-const claytonData = require("../data/players/clayton/clayton.json");
+const claytonData = require("../data/players/seasons/clayton.json");
 const claytonDataFormat = require("../data/players/formats/clayton_format.json");
 const claytonDataMatchup = require("../data/players/matchups/clayton_matchups.json");
-const collinData = require("../data/players/collin/collin.json");
+const collinData = require("../data/players/seasons/collin.json");
 const collinDataFormat = require("../data/players/formats/collin_format.json");
 const collinDataMatchup = require("../data/players/matchups/collin_matchups.json");
-const davidkData = require("../data/players/davidk/davidk.json");
+const davidkData = require("../data/players/seasons/davidk.json");
 const davidkDataFormat = require("../data/players/formats/davidk_format.json");
 const davidkDataMatchup = require("../data/players/matchups/davidk_matchups.json");
-const davidoData = require("../data/players/davido/davido.json");
+const davidoData = require("../data/players/seasons/davido.json");
 const davidoDataFormat = require("../data/players/formats/davido_format.json");
 const davidoDataMatchup = require("../data/players/matchups/davido_matchups.json");
-const ericData = require("../data/players/erick/erick.json");
+const ericData = require("../data/players/seasons/erick.json");
 const ericDataFormat = require("../data/players/formats/erick_format.json");
 const ericDataMatchup = require("../data/players/matchups/erick_matchups.json");
-const evansData = require("../data/players/evans/evans.json");
+const evansData = require("../data/players/seasons/evans.json");
 const evansDataFormat = require("../data/players/formats/evans_format.json");
 const evansDataMatchup = require("../data/players/matchups/evans_matchups.json");
-const frankData = require("../data/players/frank/frank.json");
+const felixData = require("../data/players/seasons/felix.json");
+const felixDataFormat = require("../data/players/formats/felix_format.json");
+const felixDataMatchup = require("../data/players/matchups/felix_matchups.json");
+const frankData = require("../data/players/seasons/frank.json");
 const frankDataFormat = require("../data/players/formats/frank_format.json");
 const frankDataMatchup = require("../data/players/matchups/frank_matchups.json");
-const jacobData = require("../data/players/jacob/jacob.json");
+const grantData = require("../data/players/seasons/grant.json");
+const grantDataFormat = require("../data/players/formats/grant_format.json");
+const grantDataMatchup = require("../data/players/matchups/grant_matchups.json");
+const jacobData = require("../data/players/seasons/jacob.json");
 const jacobDataFormat = require("../data/players/formats/jacob_format.json");
 const jacobDataMatchup = require("../data/players/matchups/jacob_matchups.json");
-const johnData = require("../data/players/johnk/johnk.json");
+const johnData = require("../data/players/seasons/johnk.json");
 const johnDataFormat = require("../data/players/formats/johnk_format.json");
 const johnDataMatchup = require("../data/players/matchups/johnk_matchups.json");
-const juwanData = require("../data/players/juwan/juwan.json");
+const juwanData = require("../data/players/seasons/juwan.json");
 const juwanDataFormat = require("../data/players/formats/juwan_format.json");
 const juwanDataMatchup = require("../data/players/matchups/juwan_matchups.json");
-const lucaData = require("../data/players/luca/luca.json");
+const lucaData = require("../data/players/seasons/luca.json");
 const lucaDataFormat = require("../data/players/formats/luca_format.json");
 const lucaDataMatchup = require("../data/players/matchups/luca_matchups.json");
-const kevinData = require("../data/players/kevins/kevins.json");
+const kevinData = require("../data/players/seasons/kevins.json");
 const kevinDataFormat = require("../data/players/formats/kevins_format.json");
 const kevinDataMatchup = require("../data/players/matchups/kevins_matchups.json");
-const luisData = require("../data/players/luis/luis.json");
+const luisData = require("../data/players/seasons/luis.json");
 const luisDataFormat = require("../data/players/formats/luis_format.json");
 const luisDataMatchup = require("../data/players/matchups/luis_matchups.json");
-const lukeData = require("../data/players/luke/luke.json");
+const lukeData = require("../data/players/seasons/luke.json");
 const lukeDataFormat = require("../data/players/formats/luke_format.json");
 const lukeDataMatchup = require("../data/players/matchups/luke_matchups.json");
-const marcoData = require("../data/players/marco/marco.json");
+const marcoData = require("../data/players/seasons/marco.json");
 const marcoDataFormat = require("../data/players/formats/marco_format.json");
 const marcoDataMatchup = require("../data/players/matchups/marco_matchups.json");
-const mattData = require("../data/players/matt/matt.json");
+const mattData = require("../data/players/seasons/matt.json");
 const mattDataFormat = require("../data/players/formats/matty_format.json");
 const mattDataMatchup = require("../data/players/matchups/matty_matchups.json");
-const mikeData = require("../data/players/mike/mike.json");
+const mikeData = require("../data/players/seasons/mike.json");
 const mikeDataFormat = require("../data/players/formats/mike_format.json");
 const mikeDataMatchup = require("../data/players/matchups/mike_matchups.json");
-const nathanData = require("../data/players/nathan/nathan.json");
+const nathanData = require("../data/players/seasons/nathan.json");
 const nathanDataFormat = require("../data/players/formats/nathan_format.json");
 const nathanDataMatchup = require("../data/players/matchups/nathan_matchups.json");
-const nickcData = require("../data/players/nickc/nickc.json");
+const nickcData = require("../data/players/seasons/nickc.json");
 const nickcDataFormat = require("../data/players/formats/nickc_format.json");
 const nickcDataMatchup = require("../data/players/matchups/nickc_matchups.json");
-const nickdData = require("../data/players/nickd/nickd.json");
+const nickdData = require("../data/players/seasons/nickd.json");
 const nickdDataFormat = require("../data/players/formats/nickd_format.json");
 const nickdDataMatchup = require("../data/players/matchups/nickd_matchups.json");
-const noahData = require("../data/players/noah/noah.json");
+const noahData = require("../data/players/seasons/noah.json");
 const noahDataFormat = require("../data/players/formats/noah_format.json");
 const noahDataMatchup = require("../data/players/matchups/noah_matchups.json");
-const patrickhData = require("../data/players/patrickh/patrickh.json");
+const patrickhData = require("../data/players/seasons/patrickh.json");
 const patrickhDataFormat = require("../data/players/formats/patrickh_format.json");
 const patrickhDataMatchup = require("../data/players/matchups/patrickh_matchups.json");
-const simonData = require("../data/players/simon/simon.json");
+const simonData = require("../data/players/seasons/simon.json");
 const simonDataFormat = require("../data/players/formats/simon_format.json");
 const simonDataMatchup = require("../data/players/matchups/simon_matchups.json");
-const sonnyData = require("../data/players/sonny/sonny.json");
+const sonnyData = require("../data/players/seasons/sonny.json");
 const sonnyDataFormat = require("../data/players/formats/sonny_format.json");
 const sonnyDataMatchup = require("../data/players/matchups/sonny_matchups.json");
-const stephenData = require("../data/players/stephen/stephen.json");
+const stephenData = require("../data/players/seasons/stephen.json");
 const stephenDataFormat = require("../data/players/formats/stephen_format.json");
 const stephenDataMatchup = require("../data/players/matchups/stephen_matchups.json");
-const thanaData = require("../data/players/thana/thana.json");
+const thanaData = require("../data/players/seasons/thana.json");
 const thanaDataFormat = require("../data/players/formats/thana_format.json");
 const thanaDataMatchup = require("../data/players/matchups/thana_matchups.json");
-const toddData = require("../data/players/todd/todd.json");
+const toddData = require("../data/players/seasons/todd.json");
 const toddDataFormat = require("../data/players/formats/todd_format.json");
 const toddDataMatchup = require("../data/players/matchups/todd_matchups.json");
-const tonyData = require("../data/players/tony/tony.json");
+const tonyData = require("../data/players/seasons/tony.json");
 const tonyDataFormat = require("../data/players/formats/tony_format.json");
 const tonyDataMatchup = require("../data/players/matchups/tony_matchups.json");
-const travisData = require("../data/players/travis/travis.json");
+const travisData = require("../data/players/seasons/travis.json");
 const travisDataFormat = require("../data/players/formats/travis_format.json");
 const travisDataMatchup = require("../data/players/matchups/travis_matchups.json");
-const walskiData = require("../data/players/walski/walski.json");
+const walskiData = require("../data/players/seasons/walski.json");
 const walskiDataFormat = require("../data/players/formats/walski_format.json");
 const walskiDataMatchup = require("../data/players/matchups/walski_matchups.json");
-const zaneData = require("../data/players/zane/zane.json");
+const zaneData = require("../data/players/seasons/zane.json");
 const zaneDataFormat = require("../data/players/formats/zane_format.json");
 const zaneDataMatchup = require("../data/players/matchups/zane_matchups.json");
 const profileNames = [
     "Aaron",
-    "Adam",
+    "Adam S",
     "Alan",
     "Alberto",
     "Ana",
@@ -157,9 +163,9 @@ const profileNames = [
     "Zane",
   ]
 
-router.get("/adam", (req, res) => {
-  res.render("players/adam", {
-    title: "Adam",
+router.get("/adams", (req, res) => {
+  res.render("players/adams", {
+    title: "Adam S",
     id: req.params.id,
     imagePath: "/images/profile/adamprofile.jpg",
     planeswalkerPath: "/images/planeswalker/Invoker.jpg",
@@ -239,7 +245,7 @@ router.get("/chrisa", (req, res) => {
     title: "Chris A",
     id: req.params.id,
     imagePath: "/images/profile/chrisaprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/Battlemage.jpg",
+    planeswalkerPath: "/images/planeswalker/Archmage.jpg",
     tableData: chrisaData.tableData,
     formatData: chrisaDataFormat.formatData,
     matchups: chrisaDataMatchup.matchups,
@@ -382,7 +388,7 @@ router.get("/stephen", (req, res) => {
     title: "Stephen",
     id: req.params.id,
     imagePath: "/images/profile/stephenprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/Spellshaper.jpg",
+    planeswalkerPath: "/images/planeswalker/Guildmage.jpg",
     tableData: stephenData.tableData,
     formatData: stephenDataFormat.formatData,
     matchups: stephenDataMatchup.matchups,
@@ -408,7 +414,7 @@ router.get("/tony", (req, res) => {
     title: "Tony",
     id: req.params.id,
     imagePath: "/images/profile/tonyprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/Sorcerer.jpg",
+    planeswalkerPath: "/images/planeswalker/Battlemage.jpg",
     tableData: tonyData.tableData,
     formatData: tonyDataFormat.formatData,
     matchups: tonyDataMatchup.matchups,
@@ -447,7 +453,7 @@ router.get("/davido", (req, res) => {
     title: "David O",
     id: req.params.id,
     imagePath: "/images/profile/davidprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/Adept.jpg",
+    planeswalkerPath: "/images/planeswalker/Spellshaper.jpg",
     tableData: davidoData.tableData,
     formatData: davidoDataFormat.formatData,
     matchups: davidoDataMatchup.matchups,
@@ -525,7 +531,7 @@ router.get("/marco", (req, res) => {
     title: "Marco",
     id: req.params.id,
     imagePath: "/images/profile/marcoprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/Adept.jpg",
+    planeswalkerPath: "/images/planeswalker/Spellshaper.jpg",
     tableData: marcoData.tableData,
     formatData: marcoDataFormat.formatData,
     matchups: marcoDataMatchup.matchups,
@@ -538,7 +544,7 @@ router.get("/collin", (req, res) => {
     title: "Collin",
     id: req.params.id,
     imagePath: "/images/profile/collinprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/Guildmage.jpg",
+    planeswalkerPath: "/images/planeswalker/Invoker.jpg",
     tableData: collinData.tableData,
     formatData: collinDataFormat.formatData,
     matchups: collinDataMatchup.matchups,
@@ -551,7 +557,7 @@ router.get("/luke", (req, res) => {
     title: "Luke",
     id: req.params.id,
     imagePath: "/images/profile/lukeprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/Adept.jpg",
+    planeswalkerPath: "/images/planeswalker/Spellshaper.jpg",
     tableData: lukeData.tableData,
     formatData: lukeDataFormat.formatData,
     matchups: lukeDataMatchup.matchups,
@@ -577,7 +583,7 @@ router.get("/thana", (req, res) => {
     title: "Thana",
     id: req.params.id,
     imagePath: "/images/profile/thanaprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/Spellshaper.jpg",
+    planeswalkerPath: "/images/planeswalker/Guildmage.jpg",
     tableData: thanaData.tableData,
     formatData: thanaDataFormat.formatData,
     matchups: thanaDataMatchup.matchups,
@@ -603,7 +609,7 @@ router.get("/mike", (req, res) => {
     title: "Mike",
     id: req.params.id,
     imagePath: "/images/profile/mikeprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/Novice.jpg",
+    planeswalkerPath: "/images/planeswalker/Prodigy.jpg",
     tableData: mikeData.tableData,
     formatData: mikeDataFormat.formatData,
     matchups: mikeDataMatchup.matchups,
@@ -616,7 +622,7 @@ router.get("/davidk", (req, res) => {
     title: "David K",
     id: req.params.id,
     imagePath: "/images/profile/davidkprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/Novice.jpg",
+    planeswalkerPath: "/images/planeswalker/Apprentice.jpg",
     tableData: davidkData.tableData,
     formatData: davidkDataFormat.formatData,
     matchups: davidkDataMatchup.matchups,
@@ -642,7 +648,7 @@ router.get("/patrickh", (req, res) => {
     title: "Patrick H",
     id: req.params.id,
     imagePath: "/images/profile/patrickhprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/Apprentice.jpg",
+    planeswalkerPath: "/images/planeswalker/Prodigy.jpg",
     tableData: patrickhData.tableData,
     formatData: patrickhDataFormat.formatData,
     matchups: patrickhDataMatchup.matchups,
@@ -655,10 +661,64 @@ router.get("/nathan", (req, res) => {
     title: "Nathan",
     id: req.params.id,
     imagePath: "/images/profile/nathanprofile.jpg",
-    planeswalkerPath: "/images/planeswalker/Adept.jpg",
+    planeswalkerPath: "/images/planeswalker/Guildmage.jpg",
     tableData: nathanData.tableData,
     formatData: nathanDataFormat.formatData,
     matchups: nathanDataMatchup.matchups,
+    profiles: profileNames,
+  });
+});
+
+router.get("/grant", (req, res) => {
+  const profileImages = [
+    "/images/profile/grant/lurrus.jpg",
+    "/images/profile/grant/jegantha.jpg",
+    "/images/profile/grant/kaheera.jpg",
+    "/images/profile/grant/keruga.jpg",
+    "/images/profile/grant/lurrus.jpg",
+    "/images/profile/grant/lutri.jpg",
+    "/images/profile/grant/obosh.jpg",
+    "/images/profile/grant/umori.jpg",
+    "/images/profile/grant/yorion.jpg",
+    "/images/profile/grant/zirda.jpg"
+  ];
+
+  const randomImage =
+    profileImages[Math.floor(Math.random() * profileImages.length)];
+
+  res.render("players/grant", {
+    title: "Grant",
+    id: req.params.id,
+    imagePath: randomImage,
+    planeswalkerPath: "/images/planeswalker/Novice.jpg",
+    tableData: grantData.tableData,
+    formatData: grantDataFormat.formatData,
+    matchups: grantDataMatchup.matchups,
+    profiles: profileNames,
+  });
+});
+
+router.get("/felix", (req, res) => {
+  const profileImages = [
+    "/images/profile/felix/1.jpg",
+    "/images/profile/felix/2.jpg",
+    "/images/profile/felix/3.jpg",
+    "/images/profile/felix/4.jpg",
+    "/images/profile/felix/5.jpg",
+    "/images/profile/felix/6.jpg"
+  ];
+
+  const randomImage =
+    profileImages[Math.floor(Math.random() * profileImages.length)];
+
+  res.render("players/felix", {
+    title: "Felix",
+    id: req.params.id,
+    imagePath: randomImage,
+    planeswalkerPath: "/images/planeswalker/Novice.jpg",
+    tableData: felixData.tableData,
+    formatData: felixDataFormat.formatData,
+    matchups: felixDataMatchup.matchups,
     profiles: profileNames,
   });
 });

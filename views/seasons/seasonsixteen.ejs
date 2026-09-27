@@ -1,0 +1,203 @@
+<%- include('../partials/header') %>
+<main>
+  <h1>Season 16 Stats</h1>
+  <div class="content"></div>
+  <p>
+    (6/26/26 - 9/24/26) 80 Drafts, Weekday Champion Chris A
+  </p>
+  <div class="data-table-container">
+    <div class="data-table">
+      <h2>Weekday Standings</h2>
+      <div class="data-table"></div>
+      <table>
+        <thead>
+          <tr>
+            <% if(tableData.length > 0) { %> <%
+            Object.keys(tableData[0]).forEach(function(key) { %>
+            <th><%= key %></th>
+            <% }); %> <% } %>
+          </tr>
+        </thead>
+<tbody>
+          <% tableData.forEach(function(row) { %>
+          <tr style="<%= row.total_drafts > 15 ? 'font-weight:bold;' : '' %>">
+            <%
+            const linkedPlayers = [
+              "adam",
+              "alan",
+              "alberto",
+              "ana",
+              "andrew d",
+              "aaron",
+              "chris a",
+              "clayton",
+              "collin",
+              "david k",
+              "david o",
+              "eric k",
+              "evan s",
+              "frank",
+              "jacob",
+              "john k",
+              "juwan",
+              "kevin s",
+              "luca",
+              "luke",
+              "luis",
+              "marco",
+              "matt y",
+              "mike",
+              "nathan",
+              "noah",
+              "nick c",
+              "nick d",
+              "patrick h",
+              "simon",
+              "sonny",
+              "stephen",
+              "thana",
+              "todd",
+              "tony",
+              "travis",
+              "walski",
+              "zane",
+            ];
+            %>
+
+            <% Object.keys(row).forEach(function(key, index) { %> <% if (key ===
+            "name") { %>
+            <td>
+                  <% if (linkedPlayers.includes(row[key].toLowerCase())) { %>
+                    <a href="../player/<%= row[key].toString().replace(/\s+/g, '') %>">
+                      <%= row[key] %>
+                    </a>
+                  <% } else { %>
+                    <%= row[key] %>
+                  <% } %>
+                </td>
+            <% } else if (key === "rank") { %>
+            <td>
+              <img
+                src="<%= row[key] %>"
+                alt="avatar"
+                style="
+                  width: 40px;
+                  height: 40px;
+                  border-radius: 50%;
+                  object-fit: cover;
+                "
+              />
+            </td>
+            <% } else { %>
+            <td><%= row[key] %></td>
+            <% } %> <% }); %>
+          </tr>
+          <% }); %>
+        </tbody>
+      </table>
+      <div class="data-table"></div>
+    </div>
+  </div>
+
+  <p>
+    Weekend Champion Eric K
+  </p>
+  <div class="data-table-container">
+    <div class="data-table">
+      <p>
+        Weekend Drafts (Min 6 Drafts to Qualify) 
+      </p>
+      <table id="sortableTable">
+        <thead>
+          <tr>
+            <% if(weekendData.length > 0) { %> <%
+            Object.keys(weekendData[0]).forEach(function(key) { %>
+            <th class="sortable" data-key="<%= key %>">
+              <%= key %>
+              <span class="sort-indicator"></span>
+            </th>
+            <% }); %> <% } %>
+          </tr>
+        </thead>
+        <tbody>
+          <% weekendData.forEach(function(row) { %>
+          <tr style="<%= row.total_drafts > 5 ? 'font-weight:bold;' : '' %>">
+            <%
+            const linkedPlayers = [
+              "adam s",
+              "alan",
+              "alberto",
+              "ana",
+              "andrew d",
+              "aaron",
+              "chris a",
+              "clayton",
+              "collin",
+              "david k",
+              "david o",
+              "eric k",
+              "evan s",
+              "frank",
+              "jacob",
+              "john k",
+              "juwan",
+              "kevin s",
+              "luca",
+              "luke",
+              "luis",
+              "marco",
+              "matt y",
+              "mike",
+              "nathan",
+              "noah",
+              "nick c",
+              "nick d",
+              "patrick h",
+              "simon",
+              "sonny",
+              "stephen",
+              "thana",
+              "todd",
+              "tony",
+              "travis",
+              "walski",
+              "zane",
+            ];
+            %>
+
+            <% Object.keys(row).forEach(function(key, index) { %> <% if (key ===
+            "name") { %>
+            <td>
+                  <% if (linkedPlayers.includes(row[key].toLowerCase())) { %>
+                    <a href="player/<%= row[key].toString().replace(/\s+/g, '') %>">
+                      <%= row[key] %>
+                    </a>
+                  <% } else { %>
+                    <%= row[key] %>
+                  <% } %>
+                </td>
+            <% } else if (key === "rank") { %>
+            <td>
+              <img
+                src="<%= row[key] %>"
+                alt="avatar"
+                style="
+                  width: 40px;
+                  height: 40px;
+                  border-radius: 50%;
+                  object-fit: cover;
+                "
+              />
+            </td>
+            <% } else { %>
+            <td><%= row[key] %></td>
+            <% } %> <% }); %>
+          </tr>
+          <% }); %>
+        </tbody>
+      </table>
+      </div>
+  </div>
+</main>
+
+<%- include('../partials/footer') %>

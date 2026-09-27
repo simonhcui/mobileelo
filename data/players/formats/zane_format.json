@@ -10,9 +10,9 @@
     {
       "Format": "Chaos",
       "Win %": "50.00%",
-      "Record": "40-40",
-      "Drafts": "37",
-      "Glicko": "1645 ± 64"
+      "Record": "42-42",
+      "Drafts": "39",
+      "Glicko": "1633 ± 64"
     },
     {
       "Format": "DMR",
@@ -23,10 +23,10 @@
     },
     {
       "Format": "MB2",
-      "Win %": "42.86%",
-      "Record": "9-12",
-      "Drafts": "11",
-      "Glicko": "1495 ± 95"
+      "Win %": "41.94%",
+      "Record": "13-18",
+      "Drafts": "16",
+      "Glicko": "1490 ± 81"
     },
     {
       "Format": "MH1",

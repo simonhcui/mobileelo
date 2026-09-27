@@ -140,6 +140,8 @@ app.get("/search", (req, res) => {
     "travis",
     "walski",
     "zane",
+    "grant",
+    "felix",
   ];
 
   if (searchQuery) {

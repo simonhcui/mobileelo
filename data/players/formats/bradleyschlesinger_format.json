@@ -2,10 +2,17 @@
   "formatData": [
     {
       "Format": "Chaos",
-      "Win %": "64.29%",
-      "Record": "9-5",
-      "Drafts": "7",
-      "Glicko": "1720 ± 110"
+      "Win %": "59.09%",
+      "Record": "13-9",
+      "Drafts": "11",
+      "Glicko": "1708 ± 87"
+    },
+    {
+      "Format": "MB2",
+      "Win %": "50.00%",
+      "Record": "3-3",
+      "Drafts": "3",
+      "Glicko": "1581 ± 148"
     }
   ]
 }

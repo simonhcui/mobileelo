@@ -1,0 +1,44 @@
+{
+  "tableData": [
+    {
+      "Season": "14",
+      "Standing": "NR",
+      "Win %": "12.00%",
+      "Record": "3-22",
+      "Drafts": "12",
+      "Rank": "N/A"
+    },
+    {
+      "Season": "15 Weekday",
+      "Standing": "10",
+      "Win %": "22.39%",
+      "Record": "15-52",
+      "Drafts": "34",
+      "Rank": "/images/rank/bronze_4.jpg"
+    },
+    {
+      "Season": "15 Weekend",
+      "Standing": "NR",
+      "Win %": "7.69%",
+      "Record": "1-12",
+      "Drafts": "7",
+      "Rank": "N/A"
+    },
+    {
+      "Season": "16 Weekday",
+      "Standing": "9",
+      "Win %": "23.88%",
+      "Record": "16-51",
+      "Drafts": "33",
+      "Rank": "/images/rank/bronze_4.jpg"
+    },
+    {
+      "Season": "16 Weekend",
+      "Standing": "NR",
+      "Win %": "12.50%",
+      "Record": "1-7",
+      "Drafts": "4",
+      "Rank": "/images/rank/bronze_4.jpg"
+    }
+  ]
+}

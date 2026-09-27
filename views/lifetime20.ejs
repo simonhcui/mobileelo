@@ -7,8 +7,8 @@
   <div class="data-table-container">
     <div class="data-table">
       <h2>
-        ELO and Winrates (Min 20 drafts). Last Updated 6/19/26 (End of Season
-        XV). Updated at end of season.
+        ELO and Winrates (Min 20 drafts). Last Updated 9/24/26 (End of Season
+        XVI). Updated at end of season.
       </h2>
       <div class="data-table"></div>
       <table id="sortableTable">
@@ -28,7 +28,7 @@
           <tr>
             <%
             const linkedPlayers = [
-              "adam",
+              "adam s",
               "alan",
               "alberto",
               "ana",
@@ -66,37 +66,38 @@
               "travis",
               "walski",
               "zane",
+              "felix",
+              "grant"
             ];
             %>
 
-            <% Object.keys(row).forEach(function(key, index) { %>
-              <% if (key === "name") { %>
-                <td>
-                  <% if (linkedPlayers.includes(row[key].toLowerCase())) { %>
+            <% Object.keys(row).forEach(function(key, index) { %> <% if (key ===
+            "name") { %>
+            <td>
+              <% if (linkedPlayers.includes(row[key].toLowerCase())) { %>
                     <a href="player/<%= row[key].toString().replace(/\s+/g, '') %>">
                       <%= row[key] %>
                     </a>
                   <% } else { %>
                     <%= row[key] %>
                   <% } %>
-                </td>
-                <% } else if (key === "rank") { %>
-                <td>
-                  <img
-                    src="<%= row[key] %>"
-                    alt="avatar"
-                    style="
-                      width: 40px;
-                      height: 40px;
-                      border-radius: 50%;
-                      object-fit: cover;
-                    "
-                  />
-                </td>
-                <% } else { %>
-                <td><%= row[key] %></td>
-              <% } %>
-            <% }) %>
+            </td>
+            <% } else if (key === "level" || key === "rank") { %>
+            <td>
+              <img
+                src="<%= row[key] %>"
+                alt="avatar"
+                style="
+                  width: 40px;
+                  height: 40px;
+                  border-radius: 50%;
+                  object-fit: cover;
+                "
+              />
+            </td>
+            <% } else { %>
+            <td><%= row[key] %></td>
+            <% } %> <% }); %>
           </tr>
           <% }); %>
         </tbody>

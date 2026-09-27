@@ -30,17 +30,17 @@
     },
     {
       "Format": "MH1",
-      "Win %": "56.86%",
-      "Record": "29-22",
-      "Drafts": "25",
-      "Glicko": "1506 ± 78"
+      "Win %": "56.14%",
+      "Record": "32-25",
+      "Drafts": "28",
+      "Glicko": "1497 ± 74"
     },
     {
       "Format": "MH2",
-      "Win %": "68.49%",
-      "Record": "50-23",
-      "Drafts": "34",
-      "Glicko": "1665 ± 72"
+      "Win %": "68.00%",
+      "Record": "51-24",
+      "Drafts": "35",
+      "Glicko": "1660 ± 71"
     },
     {
       "Format": "MH3",
@@ -58,10 +58,10 @@
     },
     {
       "Format": "RNA",
-      "Win %": "88.89%",
-      "Record": "8-1",
-      "Drafts": "6",
-      "Glicko": "1853 ± 169"
+      "Win %": "72.73%",
+      "Record": "8-3",
+      "Drafts": "7",
+      "Glicko": "1675 ± 159"
     },
     {
       "Format": "TSR",

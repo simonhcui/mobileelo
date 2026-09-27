@@ -16,10 +16,10 @@
     },
     {
       "Format": "Chaos",
-      "Win %": "70.59%",
-      "Record": "120-50",
-      "Drafts": "87",
-      "Glicko": "1772 ± 64"
+      "Win %": "70.37%",
+      "Record": "133-56",
+      "Drafts": "97",
+      "Glicko": "1762 ± 65"
     },
     {
       "Format": "Collin Cube",
@@ -90,6 +90,13 @@
       "Record": "4-2",
       "Drafts": "4",
       "Glicko": "1667 ± 156"
+    },
+    {
+      "Format": "RNA",
+      "Win %": "60.00%",
+      "Record": "3-2",
+      "Drafts": "3",
+      "Glicko": "1633 ± 182"
     },
     {
       "Format": "TSR",

@@ -9,10 +9,10 @@
     },
     {
       "Format": "Chaos",
-      "Win %": "43.52%",
-      "Record": "84-109",
-      "Drafts": "99",
-      "Glicko": "1579 ± 63"
+      "Win %": "43.32%",
+      "Record": "94-123",
+      "Drafts": "111",
+      "Glicko": "1557 ± 62"
     },
     {
       "Format": "FIN",
@@ -37,10 +37,10 @@
     },
     {
       "Format": "MB2",
-      "Win %": "48.39%",
-      "Record": "15-16",
-      "Drafts": "16",
-      "Glicko": "1591 ± 80"
+      "Win %": "48.48%",
+      "Record": "16-17",
+      "Drafts": "17",
+      "Glicko": "1594 ± 78"
     },
     {
       "Format": "MH1",

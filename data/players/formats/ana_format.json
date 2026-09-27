@@ -34,6 +34,13 @@
       "Record": "15-11",
       "Drafts": "12",
       "Glicko": "1583 ± 88"
+    },
+    {
+      "Format": "MH3",
+      "Win %": "42.86%",
+      "Record": "3-4",
+      "Drafts": "3",
+      "Glicko": "1453 ± 151"
     }
   ]
 }

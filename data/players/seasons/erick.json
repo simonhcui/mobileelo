@@ -1,0 +1,92 @@
+{
+  "tableData": [
+    {
+      "Season": "8",
+      "Standing": "NR",
+      "Win %": "75.00%",
+      "Record": "9-3",
+      "Drafts": "6",
+      "Rank": "N/A"
+    },
+    {
+      "Season": "9",
+      "Standing": "5",
+      "Win %": "64.10%",
+      "Record": "25-14",
+      "Drafts": "19",
+      "Rank": "N/A"
+    },
+    {
+      "Season": "10",
+      "Standing": "8",
+      "Win %": "55.26%",
+      "Record": "21-17",
+      "Drafts": "20",
+      "Rank": "N/A"
+    },
+    {
+      "Season": "11",
+      "Standing": "3",
+      "Win %": "61.29%",
+      "Record": "38-24",
+      "Drafts": "30",
+      "Rank": "N/A"
+    },
+    {
+      "Season": "12",
+      "Standing": "4",
+      "Win %": "56.45%",
+      "Record": "35-27",
+      "Drafts": "30",
+      "Rank": "N/A"
+    },
+    {
+      "Season": "13",
+      "Standing": "1",
+      "Win %": "65.33%",
+      "Record": "49-26",
+      "Drafts": "36",
+      "Rank": "N/A"
+    },
+    {
+      "Season": "14",
+      "Standing": "6",
+      "Win %": "55.32%",
+      "Record": "52-42",
+      "Drafts": "44",
+      "Rank": "N/A"
+    },
+    {
+      "Season": "15 Weekday",
+      "Standing": "5",
+      "Win %": "54.17%",
+      "Record": "39-33",
+      "Drafts": "36",
+      "Rank": "/images/rank/gold_3.jpg"
+    },
+    {
+      "Season": "15 Weekend",
+      "Standing": "8",
+      "Win %": "51.72%",
+      "Record": "15-14",
+      "Drafts": "13",
+      "Rank": "N/A"
+    },
+    {
+      "Season": "16 Weekday",
+      "Standing": "7",
+      "Win %": "50.00%",
+      "Record": "23-23",
+      "Drafts": "23",
+      "Rank": "/images/rank/silver_4.jpg"
+    },
+    {
+      "Season": "16 Weekend",
+      "Standing": "1",
+      "Win %": "75.00%",
+      "Record": "9-3",
+      "Drafts": "6",
+      "Rank": "/images/rank/mythic.jpg"
+    }
+  ]
+}

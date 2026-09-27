@@ -195,6 +195,20 @@
       "Player": "Nick D",
       "Num Drafts": "8",
       "Winrate": "75.00%"
+    },
+    {
+      "Season": "XVI",
+      "Title": "Weekday",
+      "Player": "Chris A",
+      "Num Drafts": "20",
+      "Winrate": "72.50%"
+    },
+    {
+      "Season": "XVI",
+      "Title": "Weekend",
+      "Player": "Eric K",
+      "Num Drafts": "6",
+      "Winrate": "75.00%"
     }
   ],
   "moneyData": [
@@ -407,6 +421,27 @@
       "Player": "Marco",
       "Best Pull": "Flusterstorm (JP Alternate Art) (Silver Scroll Foil)",
       "Value": "$850"
+    },
+    {
+      "Season": "XVI",
+      "Rank": "1",
+      "Player": "Chris A",
+      "Best Pull": "The One Ring (Borderless) (Surge Foil)",
+      "Value": "$517"
+    },
+    {
+      "Season": "XVI",
+      "Rank": "2",
+      "Player": "Marco",
+      "Best Pull": "Cloud, Ex-SOLDIER (Borderless) (Surge Foil)",
+      "Value": "$450"
+    },
+    {
+      "Season": "XVI",
+      "Rank": "3",
+      "Player": "David K",
+      "Best Pull": "Natural Brilliance, Satono Diamond (SP) - Umamusume",
+      "Value": "$300"
     }
   ],
   "top_10_money": [
@@ -517,16 +552,16 @@
     { "Rank": "2", "Player": "Clayton", "Num Drafts": "44", "Season": "XV" },
     { "Rank": "3", "Player": "Noah", "Num Drafts": "42", "Season": "XV" },
     { "Rank": "4", "Player": "Noah", "Num Drafts": "41", "Season": "XIV" },
-    { "Rank": "5", "Player": "Thana", "Num Drafts": "38", "Season": "XIV" },
-    { "Rank": "6", "Player": "Clayton", "Num Drafts": "37", "Season": "XIII" },
-    { "Rank": "6", "Player": "Collin", "Num Drafts": "37", "Season": "XIII" },
-    { "Rank": "7", "Player": "Eric K", "Num Drafts": "36", "Season": "XIII" },
-    { "Rank": "7", "Player": "Eric K", "Num Drafts": "36", "Season": "XV" },
-    { "Rank": "7", "Player": "Thana", "Num Drafts": "36", "Season": "XV" },
-    { "Rank": "8", "Player": "David K", "Num Drafts": "34", "Season": "XV" },
-    { "Rank": "9", "Player": "Noah", "Num Drafts": "33", "Season": "XIII" },
-    { "Rank": "9", "Player": "Thana", "Num Drafts": "33", "Season": "XIII" },
-    { "Rank": "10", "Player": "Chris A", "Num Drafts": "32", "Season": "IX" },
-    { "Rank": "10", "Player": "Chris A", "Num Drafts": "32", "Season": "XIII" }
+    { "Rank": "5", "Player": "Nathan", "Num Drafts": "39", "Season": "XVI" },
+    { "Rank": "6", "Player": "Thana", "Num Drafts": "38", "Season": "XIV" },
+    { "Rank": "7", "Player": "Clayton", "Num Drafts": "37", "Season": "XIII" },
+    { "Rank": "7", "Player": "Collin", "Num Drafts": "37", "Season": "XIII" },
+    { "Rank": "8", "Player": "Eric K", "Num Drafts": "36", "Season": "XIII" },
+    { "Rank": "8", "Player": "Eric K", "Num Drafts": "36", "Season": "XV" },
+    { "Rank": "8", "Player": "Thana", "Num Drafts": "36", "Season": "XV" },
+    { "Rank": "9", "Player": "David K", "Num Drafts": "34", "Season": "XV" },
+    { "Rank": "10", "Player": "Noah", "Num Drafts": "33", "Season": "XIII" },
+    { "Rank": "10", "Player": "Thana", "Num Drafts": "33", "Season": "XIII" },
+    { "Rank": "10", "Player": "David K", "Num Drafts": "33", "Season": "XVI" }
   ]
 }
