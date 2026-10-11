@@ -17,19 +17,19 @@
   </form>
 
   <div class="content">
-    <h2>Season XVI (6/26/26 - 9/24/26)</h2>
-    <h3>80 Drafts in, last updated 9/24/26</h3>
+    <h2>Season XVI (9/25/26 - 12/29/26)</h2>
+    <h3>22 Drafts in, last updated 10/11/26</h3>
   </div>
   <div class="data-table-container">
     <div class="data-table">
       <p>
-        Weekday Drafts (Min 16 Drafts to Qualify)
-        <br />
+        Classic (Regular Retail Sets) Stats (Min 10 Drafts to Qualify)
+        <!-- <br />
 
         Congrats to our Weekday Champion Chris A and Weekend Champion Eric K!!
         <br />
         Season XVII will last from 9/25/26 to 12/29/26. Stats will be updated
-        once there is enough data, probably midway through October
+        once there is enough data, probably midway through October -->
       </p>
       <table id="sortableTable">
         <thead>
@@ -45,7 +45,7 @@
         </thead>
         <tbody>
           <% tableData.forEach(function(row) { %>
-          <tr style="<%= row.total_drafts > 15 ? 'font-weight:bold;' : '' %>">
+          <tr style="<%= row.total_drafts > 9 ? 'font-weight:bold;' : '' %>">
             <%
             const linkedPlayers = [
               "adam",
@@ -128,7 +128,7 @@
   <div class="data-table-container">
     <div class="data-table">
       <p>
-        Weekend Drafts (Min 6 Drafts to Qualify) 
+        Wildcard (Cube, Chaos, MB2) Drafts (Min 10 Drafts to Qualify) 
       </p>
       <table id="sortableTable">
         <thead>
@@ -144,7 +144,7 @@
         </thead>
         <tbody>
           <% weekendData.forEach(function(row) { %>
-          <tr style="<%= row.total_drafts > 5 ? 'font-weight:bold;' : '' %>">
+          <tr style="<%= row.total_drafts > 9 ? 'font-weight:bold;' : '' %>">
             <%
             const linkedPlayers = [
               "adam s",
