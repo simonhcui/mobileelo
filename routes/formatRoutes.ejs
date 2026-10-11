@@ -62,6 +62,10 @@ const jsonDataRna = require("../data/formats/rna/RNA.json");
 const jsonDataRnaColor = require("../data/formats/rna/rnacolordata.json");
 const jsonDataRnaArchetype = require("../data/formats/rna/rnaarchetypedata.json");
 
+const jsonDataSos = require("../data/formats/sos/SOS.json");
+const jsonDataSosColor = require("../data/formats/sos/soscolordata.json");
+const jsonDataSosArchetype = require("../data/formats/sos/sosarchetypedata.json");
+
 const jsonDataVanguard = require("../data/formats/vanguard/vanguarddata.json");
 const jsonDataInactiveVanguard = require("../data/formats/vanguard/inactivevanguarddata.json");
 
@@ -219,6 +223,16 @@ router.get("/rna", (req, res) => {
     tableData: jsonDataRna.tableData,
     colorData: jsonDataRnaColor.tableData,
     archetypeData: jsonDataRnaArchetype.tableData,
+  });
+});
+
+router.get("/sos", (req, res) => {
+  res.render("formats/sos", {
+    title: "SOS",
+    id: req.params.id,
+    tableData: jsonDataSos.tableData,
+    colorData: jsonDataSosColor.tableData,
+    archetypeData: jsonDataSosArchetype.tableData,
   });
 });
 
