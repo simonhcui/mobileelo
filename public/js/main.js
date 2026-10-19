@@ -88,47 +88,62 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  const table = document.getElementById("sortableTable");
-  const headers = table.querySelectorAll("th.sortable");
-  const tableBody = table.querySelector("tbody");
-  const rows = tableBody.querySelectorAll("tr");
+  // Find all sortable tables on the page
+  const tables = document.querySelectorAll(".sortable-table");
 
-  const rowsArray = Array.from(rows);
+  tables.forEach((table) => {
+    const headers = table.querySelectorAll("th.sortable");
+    const tableBody = table.querySelector("tbody");
 
-  headers.forEach((header) => {
-    header.addEventListener("click", () => {
-      const key = header.getAttribute("data-key");
-      const isAscending = header.classList.contains("asc");
+    if (!tableBody) return;
 
-      // Sort the rows
-      rowsArray.sort((rowA, rowB) => {
-        const cellA = rowA
-          .querySelector(
-            `td:nth-child(${Array.from(headers).indexOf(header) + 1})`
-          )
-          .textContent.trim();
-        const cellB = rowB
-          .querySelector(
-            `td:nth-child(${Array.from(headers).indexOf(header) + 1})`
-          )
-          .textContent.trim();
+    headers.forEach((header, columnIndex) => {
+      header.addEventListener("click", () => {
+        const isAscending = header.classList.contains("asc");
 
-        if (!isNaN(cellA) && !isNaN(cellB)) {
-          return isAscending ? cellB - cellA : cellA - cellB;
-        } else {
-          return isAscending
-            ? cellB.localeCompare(cellA)
-            : cellA.localeCompare(cellB);
-        }
+        // Get the current rows each time, so sorting always
+        // works with the latest order of the rows
+        const rowsArray = Array.from(tableBody.querySelectorAll("tr"));
+
+        // Sort the rows
+        rowsArray.sort((rowA, rowB) => {
+          const cellA = rowA.cells[columnIndex]?.textContent.trim() ?? "";
+          const cellB = rowB.cells[columnIndex]?.textContent.trim() ?? "";
+
+          // Compare numeric values numerically
+          const numA = Number(cellA.replace(/[%,$]/g, ""));
+          const numB = Number(cellB.replace(/[%,$]/g, ""));
+
+          let comparison;
+
+          if (
+            cellA !== "" &&
+            cellB !== "" &&
+            !Number.isNaN(numA) &&
+            !Number.isNaN(numB)
+          ) {
+            comparison = numA - numB;
+          } else {
+            // Compare text alphabetically
+            comparison = cellA.localeCompare(cellB, undefined, {
+              numeric: true,
+              sensitivity: "base",
+            });
+          }
+
+          // First click: ascending; next click: descending
+          return isAscending ? -comparison : comparison;
+        });
+
+        // Update sort indicators for this table only
+        headers.forEach((h) => h.classList.remove("asc", "desc"));
+
+        header.classList.toggle("asc", !isAscending);
+        header.classList.toggle("desc", isAscending);
+
+        // Reorder rows in this table only
+        rowsArray.forEach((row) => tableBody.appendChild(row));
       });
-
-      // Update sort state
-      headers.forEach((h) => h.classList.remove("asc", "desc"));
-      header.classList.toggle("desc", isAscending);
-      header.classList.toggle("asc", !isAscending);
-
-      // Reorder the rows in the table
-      rowsArray.forEach((row) => tableBody.appendChild(row));
     });
   });
 });
