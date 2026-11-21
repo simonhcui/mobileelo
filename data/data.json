@@ -2,7 +2,7 @@
   "tableData": [
     {
       "standing": "1",
-      "rank": "/images/rank/gold_2.jpg",
+      "rank": "/images/rank/plat_2.jpg",
       "name": "Noah",
       "win_percentage": "65.62%",
       "wins_losses": "21-11",
@@ -13,7 +13,7 @@
     },
     {
       "standing": "2",
-      "rank": "/images/rank/gold_1.jpg",
+      "rank": "/images/rank/plat_1.jpg",
       "name": "Eric K",
       "win_percentage": "63.16%",
       "wins_losses": "24-14",
@@ -24,7 +24,7 @@
     },
     {
       "standing": "3",
-      "rank": "/images/rank/silver_4.jpg",
+      "rank": "/images/rank/silver_2.jpg",
       "name": "Jackson",
       "win_percentage": "62.50%",
       "wins_losses": "10-6",
@@ -35,7 +35,7 @@
     },
     {
       "standing": "4",
-      "rank": "/images/rank/bronze_2.jpg",
+      "rank": "/images/rank/bronze_1.jpg",
       "name": "Adam S",
       "win_percentage": "58.33%",
       "wins_losses": "7-5",
@@ -46,7 +46,7 @@
     },
     {
       "standing": "5",
-      "rank": "/images/rank/gold_3.jpg",
+      "rank": "/images/rank/plat_4.jpg",
       "name": "Thana",
       "win_percentage": "56.41%",
       "wins_losses": "22-17",
@@ -57,7 +57,7 @@
     },
     {
       "standing": "6",
-      "rank": "/images/rank/bronze_1.jpg",
+      "rank": "/images/rank/silver_4.jpg",
       "name": "Matt Y",
       "win_percentage": "53.85%",
       "wins_losses": "7-6",
@@ -68,7 +68,7 @@
     },
     {
       "standing": "7",
-      "rank": "/images/rank/bronze_1.jpg",
+      "rank": "/images/rank/silver_4.jpg",
       "name": "Jim",
       "win_percentage": "52.63%",
       "wins_losses": "10-9",
@@ -79,7 +79,7 @@
     },
     {
       "standing": "8",
-      "rank": "/images/rank/silver_2.jpg",
+      "rank": "/images/rank/gold_3.jpg",
       "name": "Nathan",
       "win_percentage": "52.50%",
       "wins_losses": "21-19",
@@ -101,7 +101,7 @@
     },
     {
       "standing": "10",
-      "rank": "/images/rank/bronze_2.jpg",
+      "rank": "/images/rank/bronze_1.jpg",
       "name": "Simon",
       "win_percentage": "46.67%",
       "wins_losses": "7-8",
@@ -112,7 +112,7 @@
     },
     {
       "standing": "11",
-      "rank": "/images/rank/bronze_2.jpg",
+      "rank": "/images/rank/bronze_1.jpg",
       "name": "An",
       "win_percentage": "42.42%",
       "wins_losses": "14-19",
@@ -123,7 +123,7 @@
     },
     {
       "standing": "12",
-      "rank": "/images/rank/bronze_2.jpg",
+      "rank": "/images/rank/bronze_1.jpg",
       "name": "Kent",
       "win_percentage": "40.00%",
       "wins_losses": "4-6",
@@ -134,7 +134,7 @@
     },
     {
       "standing": "13",
-      "rank": "/images/rank/bronze_3.jpg",
+      "rank": "/images/rank/bronze_2.jpg",
       "name": "Stephen",
       "win_percentage": "38.89%",
       "wins_losses": "7-11",
