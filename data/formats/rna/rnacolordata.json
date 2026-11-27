@@ -3,27 +3,27 @@
     {
       "rank": "1",
       "color": "White",
-      "win_percentage": "51.11%"
+      "win_percentage": "49.00%"
     },
     {
       "rank": "2",
-      "color": "Black",
-      "win_percentage": "48.68%"
+      "color": "Green",
+      "win_percentage": "48.72%"
     },
     {
       "rank": "3",
-      "color": "Blue",
-      "win_percentage": "47.62%"
+      "color": "Black",
+      "win_percentage": "47.67%"
     },
     {
       "rank": "4",
-      "color": "Green",
-      "win_percentage": "47.30%"
+      "color": "Blue",
+      "win_percentage": "45.65%"
     },
     {
       "rank": "5",
       "color": "Red",
-      "win_percentage": "41.79%"
+      "win_percentage": "45.33%"
     }
   ]
 }

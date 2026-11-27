@@ -2,21 +2,21 @@
   "tableData": [
     {
       "rank": "1",
-      "archetype": "Esper",
-      "winrate": "70.59%",
-      "num_drafts": "8"
+      "archetype": "Temur",
+      "winrate": "64.71%",
+      "num_drafts": "9"
     },
     {
       "rank": "2",
-      "archetype": "Temur",
-      "winrate": "66.67%",
-      "num_drafts": "8"
+      "archetype": "Esper",
+      "winrate": "63.16%",
+      "num_drafts": "9"
     },
     {
       "rank": "3",
       "archetype": "Rakdos",
-      "winrate": "58.33%",
-      "num_drafts": "5"
+      "winrate": "57.14%",
+      "num_drafts": "6"
     },
     {
       "rank": "4",
@@ -25,46 +25,52 @@
       "num_drafts": "6"
     },
     {
-      "rank": "4",
+      "rank": "5",
       "archetype": "Boros",
       "winrate": "53.85%",
       "num_drafts": "6"
     },
     {
-      "rank": "5",
+      "rank": "6",
       "archetype": "Azorius",
-      "winrate": "50.00%",
-      "num_drafts": "13"
+      "winrate": "53.33%",
+      "num_drafts": "14"
     },
     {
-      "rank": "5",
+      "rank": "7",
+      "archetype": "5c",
+      "winrate": "50.00%",
+      "num_drafts": "11"
+    },
+    {
+      "rank": "8",
       "archetype": "Dimir",
       "winrate": "50.00%",
       "num_drafts": "8"
     },
     {
-      "rank": "6",
+      "rank": "9",
       "archetype": "Izzet",
       "winrate": "45.45%",
       "num_drafts": "6"
     },
     {
-      "rank": "7",
-      "archetype": "5c",
-      "winrate": "44.44%",
-      "num_drafts": "9"
-    },
-    {
-      "rank": "8",
+      "rank": "10",
       "archetype": "Grixis",
       "winrate": "35.71%",
       "num_drafts": "13"
     },
     {
-      "rank": "9",
+      "rank": "11",
       "archetype": "Sultai",
       "winrate": "33.33%",
       "num_drafts": "7"
+    },
+    {
+      "rank": "12",
+      "archetype": "Jeskai",
+      "winrate": "33.33%",
+      "num_drafts": "6"
     }
   ]
 }
